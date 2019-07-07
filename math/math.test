@@ -1,0 +1,126 @@
+@lienprogramme:https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/16/8/spe632_annexe_1063168.pdf
+@titreniveau:Mathématiques Première générale
+@datewims:Dernière mise à jour le 06/07/2019 (Euler Versailles)
+@dateprogramme:BO spécial n°1 du 22 janvier 2019
+@level:
+@ressources:https://euler.ac-versailles.fr/rubrique177.html
+@intro:
+<div id ="intro" class="accordion">
+	<h3>Préambule</h3>
+	<div id="preambule">
+		<h4>Intentions majeures</h4>
+		<p>
+			La  classe  de première générale est  conçue  pourpréparer  au  baccalauréat  général,  et  au-delà à une poursuite d’études réussie et à l’insertion professionnelle.L’enseignement de  spécialité de  mathématiques  de  la  classe  de première  générale est conçu à partir des intentions suivantes:
+			<ul>
+				<li>
+					permettre à chaque élève de consolider les acquis de la seconde, de développer son goût des mathématiques, d’en apprécier les démarches et les objets afin qu’il puisse faire  l’expérience  personnelle  de  l’efficacité  des  concepts  mathématiques  et  de  la simplification et la généralisation que permet la maîtrise de l’abstraction;
+				</li>
+				<li>
+					développer des interactions avec d’autres enseignements de spécialité;
+				</li>
+				<li>
+					préparer au choix des enseignements de la classe de terminale:notamment choix de l’enseignement  despécialité de mathématiques,  éventuellement  accompagné  de l’enseignementoptionnel  de  mathématiques  expertes, ou choix de  l’enseignement optionnel de mathématiques complémentaires.
+				</li>
+			</ul>
+			Le   programme   de   mathématiques   définit   un   ensemble   de   connaissances   et   de compétences,  réaliste  et  ambitieux,  qui  s’appuie  sur  le  programme  de secondedans  un souci  de  cohérence,  en  réactivant  les  notions  déjà  étudiées  et  y  ajoutant  un  nombre raisonnable de nouvelles notions, à étudier de manière suffisamment approfondie.
+		</p>
+		<p>
+			<ul>
+				<li>
+					Compétences mathématiques
+					<ul>Dans le prolongement des cycles précédents, on travaille les six grandes compétence :
+						<li>chercher, expérimenter, en particulier à l’aide d’outils logiciels;
+						</li>
+						<li>modéliser, faire une simulation, valider ou invalider un modèle;
+						</li>
+						<li>représenter,  choisir  un  cadre  (numérique,  algébrique,  géométrique...),  changer  de registre;
+						</li>
+						<li>raisonner, démontrer, trouver des résultats partiels et les mettre en perspective;
+						</li>
+						<li>calculer, appliquer des techniques et mettre en œuvre des algorithmes;
+						</li>
+						<li>communiquerun résultat par oral ou par écrit, expliquer une démarche.
+						</li>
+					</ul>
+					La  résolution  de  problèmes  est  un  cadre  privilégié  pour  développer,  mobiliser  et  combiner plusieurs de ces compétences. Cependant, pour prendre des initiatives, imaginer des pistes de  solution  et  s’y  engager  sans  s’égarer,  l’élève  doit  disposer  d’automatismes.Ceux-ci facilitent en  effet le  travail  intellectuel  en  libérant  l’esprit  des  soucis  de  mise  en  œuvre technique  et  élargissent  le  champ  des  démarches  susceptibles  d’être  engagées. L’installation  de  ces  réflexes est  favorisée  par  la  mise  en  place  d’activités  rituelles, notamment   de   calcul   (mental   ou   réfléchi,   numérique   ou   littéral).Elle   est   menée conjointement  avec  la  résolution  de  problèmes  motivants  et  substantiels,  afin  de  stabiliser connaissances, méthodes et stratégies
+				</li>
+				<li>Diversité de l’activité de l’élève
+				</li>
+			</ul>
+		</p>
+
+		<h4>Quelques lignes directrices pour l'enseignement</h4>
+		<h4>Organisation du programme</h4>
+	</div>
+</div>
+@theme:Algèbre
+@objectif:En classe de première...
+@histoire:Bien avant de faire l’objet d'une étude formalisée, les suites apparaissent dans deux types
+de situations
+@titre:Suites numériques, modèles discrets
+@contenu:Exemples de modes de génération d’une suite
+@capacite:Dans le cadre de l’étude d’une suite, utiliser
+@commentaire:Démo,stration ou algorithme ou approfondissement
+@wims:fnwims:H2/algebra....
+@titre:Suites numériques, modèles discrets
+@contenu:Exemples de modes de génération d’une suite
+@capacite:Dans le cadre de l’étude d’une suite, utiliser
+@commentaire:Démo,stration ou algorithme ou approfondissement
+@wims:fnwims:H2/algebra....
+@theme:Analyse
+@objectif:En classe de première...
+@histoire:Bien avant de faire l’objet d'une étude formalisée, les suites apparaissent dans deux types
+de situations
+@titre:Suites numériques, modèles discrets
+@contenu:Exemples de modes de génération d’une suite
+@commentaire:Dans le cadre de l’étude d’une suite, utiliser
+@extension:Démo,stration ou algorithme ou approfondissement
+@wims:fnwims:H2/algebra....
+@titre:Suites numériques, modèles discrets
+@contenu:Exemples de modes de génération d’une suite
+@capacite:Dans le cadre de l’étude d’une suite, utiliser
+@commentaire:Démo,stration ou algorithme ou approfondissement
+@wims:fnwims:H2/algebra....
+@theme:Géométrie
+@objectif:En classe de première...
+@histoire:Bien avant de faire l’objet d'une étude formalisée, les suites apparaissent dans deux types
+de situations
+@titre:Suites numériques, modèles discrets
+@contenu:Exemples de modes de génération d’une suite
+@capacite:Dans le cadre de l’étude d’une suite, utiliser
+@commentaire:Démo,stration ou algorithme ou approfondissement
+@wims:fnwims:H2/algebra....
+@titre:Suites numériques, modèles discrets
+@contenu:Exemples de modes de génération d’une suite
+@capacite:Dans le cadre de l’étude d’une suite, utiliser
+@commentaire:Démo,stration ou algorithme ou approfondissement
+@wims:fnwims:H2/algebra....
+@theme:Probabilité et statistiques
+@objectif:En classe de première...
+@histoire:Bien avant de faire l’objet d'une étude formalisée, les suites apparaissent dans deux types
+de situations
+@titre:Suites numériques, modèles discrets
+@contenu:Exemples de modes de génération d’une suite
+@capacite:Dans le cadre de l’étude d’une suite, utiliser
+@commentaire:Démo,stration ou algorithme ou approfondissement
+@wims:fnwims:H2/algebra....
+@titre:Suites numériques, modèles discrets
+@contenu:Exemples de modes de génération d’une suite
+@capacite:Dans le cadre de l’étude d’une suite, utiliser
+@commentaire:Démo,stration ou algorithme ou approfondissement
+@wims:fnwims:H2/algebra....
+@theme:Algorithme et programmation
+@objectif:En classe de première...
+@histoire:Bien avant de faire l’objet d'une étude formalisée, les suites apparaissent dans deux types
+de situations
+@titre:Suites numériques, modèles discrets
+@contenu:Exemples de modes de génération d’une suite
+@capacite:Dans le cadre de l’étude d’une suite, utiliser
+@commentaire:Démo,stration ou algorithme ou approfondissement
+@wims:fnwims:H2/algebra....
+@titre:Suites numériques, modèles discrets
+@contenu:Exemples de modes de génération d’une suite
+@capacite:Dans le cadre de l’étude d’une suite, utiliser
+@commentaire:Démo,stration ou algorithme ou approfondissement
+@wims:fnwims:H2/algebra....
+@end:
