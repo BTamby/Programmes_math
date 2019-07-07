@@ -54,7 +54,13 @@
 	</div>
 </div>
 @theme:Algèbre
-@objectif:En classe de première...
+@objectif:En classe de première, les suites sont présentées d’un point de vue principalement algébrique. L’objectif est que l’élève soit confronté à des systèmes discrets pour lesquels les suites numériques apparaissent comme modélisation adaptée. C’est aussi l’occasion d’aborder le concept de définition par récurrence.<br/>
+L’élève rencontre différents modes de génération de suites :
+			<ul>
+				<li>par une formule explicite \(u_n = f(n)\) ;</li>
+				<li>par une relation de récurrence \(u_{n+1}=f\left(u_n\right)\) ;</li>
+				<li>par des motifs géométriques ou combinatoires, par exemple suite de nombres figurés, suite décrivant le nombre d’éléments dans une configuration dépendant d’un entier naturel.</li>
+			</ul>
 @histoire:Bien avant de faire l’objet d'une étude formalisée, les suites apparaissent dans deux types
 de situations
 @titre:Suites numériques, modèles discrets
