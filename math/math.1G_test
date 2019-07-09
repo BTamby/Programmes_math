@@ -1,0 +1,97 @@
+@lienprogramme:https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/16/8/spe632_annexe_1063168.pdf
+@titreniveau:Mathématiques Première générale
+@datewims:Dernière mise à jour le 06/07/2019 (Euler Versailles)
+@dateprogramme:BO spécial n°1 du 22 janvier 2019
+@level:Première générale
+@ressources:https://euler.ac-versailles.fr/rubrique177.html
+@intro:
+<h4>Intentions majeures</h4>
+La classe de première générale est conçue pour préparer au baccalauréat général, et au-delà à une poursuite d’études réussie et à l’insertion professionnelle.
+L’enseignement de spécialité de mathématiques de la classe de première générale est conçu à partir des intentions suivantes :
+<ul>
+<li>permettre à chaque élève de consolider les acquis de la seconde, de développer son goût des mathématiques, d’en apprécier les démarches et les objets afin qu’il puisse faire l’expérience personnelle de l’efficacité des concepts mathématiques et de la simplification et la généralisation que permet la maîtrise de l’abstraction ;</li>
+<li>développer des interactions avec d’autres enseignements de spécialité ;</li>
+<li>préparer au choix des enseignements de la classe de terminale : notamment choix de l’enseignement de spécialité de mathématiques, éventuellement accompagné de l’enseignement optionnel de mathématiques expertes, ou choix de l’enseignement optionnel de mathématiques complémentaires.</li> 
+</ul>
+Le programme de mathématiques définit un ensemble de connaissances et de compétences, réaliste et ambitieux, qui s’appuie sur le programme de seconde dans un souci de cohérence, en réactivant les notions déjà étudiées et y ajoutant un nombre raisonnable de nouvelles notions, à étudier de manière suffisamment approfondie.
+<h4>Compétences mathématiques</h4>
+Dans le prolongement des cycles précédents, on travaille les six grandes compétences :
+@theme:Algèbre
+@objectif:Objectif du thème Algèbre.
+Blabla...
+@histoire:Bien avant de faire l’objet d'une étude formalisée, les suites apparaissent dans deux types de situations :
+<ul>
+<li>approximation de nombres réels (encadrement de \(pi\) par Archimède, calcul de la racine carrée chez Héron d'Alexandrie) ;</li>
+<li>problèmes de comptage (les lapins de Fibonacci…).</li>
+</ul>
+@titre:Suites numériques, modèles discrets
+@contenu:<ul>Exemples de modes de génération d’une suite : explicite un = ƒ(n), par une relation
+de récurrence un+1 = ƒ(un), par un algorithme, par des motifs géométriques.
+Notations : u(n), un, (u(n)), (un).
+<li>Suites arithmétiques : exemples, définition, calcul du terme général. Lien avec l’étude
+d’évolutions successives à accroissements constants. Lien avec les fonctions affines.
+Calcul de 1 + 2 + … + n.</li>
+<li>Suites géométriques : exemples, définition, calcul du terme général. Lien avec l’étude
+d’évolutions successives à taux constant. Lien avec la fonction exponentielle. Calcul
+de 1 + q + … + qn.</li>
+<li>Sens de variation d’une suite</li>
+<li>Sur des exemples, introduction intuitive de la notion de limite, finie ou infinie, d’une
+suite</li>
+</ul>
+@capacite:Capacité1 du thème algèbre
+@commentaire:Démo,stration ou algorithme ou approfondissement
+@wims:
+fnwims:H2/algebra..
+@titre:Équations, fonctions polynômes du second degré
+@contenu:<ul>
+<li>Fonction polynôme du second degré donnée sous forme factorisée. Racines, signe,
+expression de la somme et du produit des racines.</li>
+<li>Forme canonique d’une fonction polynôme du second degré. Discriminant.
+Factorisation éventuelle. Résolution d’une équation du second degré. Signe.</li>
+</ul>
+@capacite:Capacité2 du thème algèbre
+@commentaire:Démo,stration ou algorithme ou approfondissement
+@wims:
+fnwims:H2/algebra..
+@theme:Analyse
+@objectif:Deux points fondamentaux du programme de première sont ici étudiés : le concept de
+dérivée, avec ses applications à l’étude des fonctions, et la fonction exponentielle.
+L’étude de la dérivation distingue le point de vue local (nombre dérivé) et le point de vue
+global (fonction dérivée). Les fonctions étudiées sont toutes régulières et le nombre dérivé
+est introduit à partir de la perception intuitive de la limite du taux de variation. On n’en donne
+pas de définition formelle, mais on s’appuie sur :
+@histoire:Le calcul différentiel s’est imposé par sa capacité à donner des solutions simples à des
+problèmes nombreux d’origines variées (cinématique, mécanique, géométrie, optimisation).
+Le développement d’un calcul des variations chez Leibniz et Newton se fonde sur
+l’hypothèse que les phénomènes naturels évoluent linéairement quand on leur applique des
+petites variations. Leurs approches partent de notions intuitives mais floues d’infiniment petit.
+Ce n’est que très progressivement que les notions de limites et de différentielles, qui en
+fondent l’exposé actuel, ont été clarifiées au XIXe siècle.
+@titre:Dérivation
+@contenu:Contenu du titre1 du thème analyse
+@capacite:Capacité du tire 1 du thème analyse
+@commentaire:Démo1,stration ou algorithme ou approfondissement
+@wims:Les exercices du titre 1
+fnwims:H2/analyse.
+@titre:Variations et courbes représentatives des fonctions
+@contenu:Contenu du titre 2 du thème analyse
+@capacite:Capacité du titre 2 du thème analyse
+@commentaire:Démo2,stration ou algorithme ou approfondissement
+@wims:Les exercices du titre 2
+fnwims:H2/analyse..
+@theme:Géométrie
+@objectif:Objectif géométrie
+@histoire:Histoire géométrie
+@titre:Calcul vectoriel et produit scalaire
+@contenu:Contenu du titre1 du thème géométrie
+@capacite:Capacité du tire 1 du thème géométrie
+@commentaire:Démo1,stration ou algorithme ou approfondissement
+@wims:Les exercices du titre 1
+fnwims:H2/algebra..
+@titre:Géométrie repérée
+@contenu:Contenu du titre 2 du thème géométrie
+@capacite:Capacité du titre 2 du thème géométrie
+@commentaire:Démo2,stration ou algorithme ou approfondissement
+@wims:Les exercices du titre 2
+fnwims:H2/géométrie..
+@end:
