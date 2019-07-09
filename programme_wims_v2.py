@@ -62,6 +62,64 @@ dico['datewims']+'\n\
 	f.close()
 	return txt+'\n</div><!-- Fin accordion -->\n</div><!-- Fin du préambule-->\n'
 
+def creer_les_titres():
+
+	for them in dico_all :
+		flux = open(path_fichier_txt)
+		les_titres =[]
+		tag ='@theme'
+		continuer = True
+		#Avancer au prochain tag @theme
+		while continuer :
+			lign = flux.readline()
+			test_tag = lign.split(':')[0]
+			if test_tag == tag and lign[len(tag)+1:-1] == them:
+				continuer = False
+		continuer = True
+		#theme = lign[len(tag)+1:-1]
+		while continuer :
+			lign = flux.readline()
+			test_tag = lign.split(':')[0]
+			if test_tag == tag or lign =='':
+				continuer = False
+			else :
+				if test_tag == '@titre':
+					les_titres.append(lign[len('@titre')+1:-1])
+		dico_all[them]['titres']=les_titres
+		#print("Les titres :",les_titres)
+		flux.close()
+def creer_les_contenus():
+	for them in dico_all :
+		flux = open(path_fichier_txt)
+		les_contenus = []
+		tag ='@theme'
+		continuer = True
+		#Avancer au prochain tag @theme
+		while continuer :
+			lign = flux.readline()
+			test_tag = lign.split(':')[0]
+			if test_tag == tag and lign[len(tag)+1:-1] == them:
+				continuer = False
+		continuer = True
+		#theme = lign[len(tag)+1:-1]
+		while continuer :
+			lign = flux.readline()
+			test_tag = lign.split(':')[0]
+			if test_tag == tag or lign =='':
+				continuer = False
+			else :
+				if test_tag == '@contenu':
+					txt = lign[len('@contenu')+1:-1]
+					lign = flux.readline()
+					while lign[0] != '@':
+						txt=txt+lign
+						lign = flux.readline()
+
+					les_contenus.append(txt)
+		dico_all[them]['contenu']=les_contenus
+		#print("Les titres :",les_titres)
+		flux.close()
+
 def creer_les_themes():
 	flux = open(path_fichier_txt)
 	tag_test = '@theme'
@@ -75,32 +133,31 @@ def creer_les_themes():
 			nom =lign[len(tag)+1:-1]
 			themes.append(nom)
 			dico_all[nom]={}
+			#Ajouter objectif et histoire dans le dictionnaire
 			creer_presentation(flux,nom)
 		if tag == tag_fin :
 			continuer = False
 	flux.close()
-	#return themes
-
-def creer_presentation(f,them):
+def creer_presentation(flux,them):
 	txt_objectif = ''
-	lign = f.readline()
+	lign = flux.readline()
 	texte = lign[len('@objectif')+1:-1]
 	txt_objectif = txt_objectif+texte
 	test_tag = '@histoire'
-	lign = f.readline()
+	lign = flux.readline()
 	while lign.split(':')[0] != test_tag :
 		txt_objectif = txt_objectif + lign
-		lign = f.readline()
+		lign = flux.readline()
 	dico_all[them]['objectif']=txt_objectif
 	txt_histoire = lign[len(test_tag)+1:-1]
-	#print("Test = ",txt_histoire)
-	lign = f.readline()
+	lign = flux.readline()
 	end_realine = '@titre'
 	while lign.split(':')[0] != end_realine :
 		txt_histoire = txt_histoire +lign
-		lign =f.readline()
-	#print("Test = ",txt_histoire)
+		lign =flux.readline()
+	#print("Dernière ligne de présentation : ",lign)
 	dico_all[them]['histoire']=txt_histoire
+
 
 ####################################
 work_directory = os.getcwd()
@@ -113,18 +170,71 @@ out_phtml =open(program_adress+fichier_txt+'.phtml','w',encoding='Windows 1252')
 txt_html = begin_html()
 allhtml = allhtml + txt_html
 dico_all = {}
-les_themes = creer_les_themes()
-print("Les thèmes : ", les_themes)
-print(dico_all)
+#Creer le contenu de chaque thème
+creer_les_themes()
+creer_les_titres()
+creer_les_contenus()
+#print("Les thèmes : ", les_themes)
+for them in dico_all :
+	print(them,' : ',dico_all[them])
+#Insérer le menu dans  le fichier .phtml
+allhtml=allhtml+'<div id="widget_'+fichier_txt.replace('.','')+'"><!-- Début de id = widget_'+fichier_txt.replace('.','')+'-->'
+allhtml = allhtml+'\n\t<ul class="wims_summary"><!-- Début du menu -->\n'
+i = 0
+for cle,val in dico_all.items() :
+	allhtml = allhtml +'\t\t<li><a href="#c_'+str(i)+'">'+cle+'</a></li>\n'
+	i += 1
+allhtml = allhtml+'\t</ul><!-- Fin du menu -->\n'
+# Insérer le contenu de chaque thème :
+# D'abord les les objectifs et les histoires
+i = 0
+for cle,val in dico_all.items():
+	begin_div = '\t<div id="c_'+str(i)+'"><!--Begin thème '+cle+'-->\n\t\
+	<h3 class="program_theme">'+cle+'</h3>\n'
+	allhtml = allhtml+begin_div
+	#objectif = creer_objectif(them)
+	begin_div_objectif = '\t\t<div class="accordion">\n\t\t\t<h4>Objectifs</h4>\n\t\t\t<div>\n'
+	allhtml = allhtml+begin_div_objectif
+	allhtml = allhtml+val['objectif']
+	end_div_objectif = '\t\t\t</div>\n\t\t</div><!--Fin objectifs-->\n'
+	allhtml = allhtml + end_div_objectif
+
+	begin_div_histoire = '\t\t<div class="accordion">\n\t\t\t<h4>Histoire des mathématiques</h4>\n\t\t\t<div>\n'
+	allhtml = allhtml+begin_div_histoire
+	allhtml = allhtml+val['histoire']
+	end_div_histoire = '\t\t\t</div>\n\t\t</div><!--Fin histoire des maths-->\n'
+	allhtml = allhtml + end_div_histoire
+	
+	
+	allhtml = allhtml +'\t<h4>Sommaire du thème '+cle+'</h4><!-- Sommaire-->\n'
+	allhtml = allhtml+'<ul class="program_submenu">\n\t'
+	for num,t in enumerate(dico_all[cle]['titres']):
+		allhtml = allhtml+'<li><a href="#t_'+str(i)+str(num)+'">'+t+'</a></li>\n\t'
+	allhtml = allhtml+'\n</ul>\n'
+	#Contenus, capacités, commentaires
+	for num,val in enumerate(dico_all[cle]['contenu']):
+		begin_div_bloc = '<div id = "t_'+str(i)+str(num)+'">\n'
+		allhtml = allhtml +begin_div_bloc+'<h4 class="program_titre">'+dico_all[cle]['titres'][num]+'</h4>\n'
+		allhtml = allhtml +'<div class = "small-4">\n'
+		allhtml = allhtml +val
+		allhtml = allhtml + '</div><!-- Fin class small-->\n'
+		end_div_bloc ='</div><!-- Fin du bloc -->\n'
+		allhtml = allhtml + end_div_bloc
+	#Fin du thème
+	end_div='\t</div><!--End thème '+cle+'-->\n'
+	allhtml = allhtml + end_div
+	i += 1
+#Créer le sommaire
+
+# Fin du fichier phtml
+allhtml = allhtml+'</div><!-- id = widget_'+fichier_txt.replace('.','')+'-->'
 # Création du nom du fichier à mettre dans var proc
 nom_du_prog=fichier_txt.replace('.','')
 allhtml = allhtml+'\n'+inserer_codejs(nom_du_prog)
-
-
-
 #Ecriture du contenu dans le fichier de sorite .phtml
 out_phtml.write(allhtml)
 out_phtml.close()
+
 # Ouvrir le fichier de sortie phtml en écriture
 #creer_un_programme(fichier_txt)
 
