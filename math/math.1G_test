@@ -25,9 +25,9 @@ Blabla...
 <li>problèmes de comptage (les lapins de Fibonacci…).</li>
 </ul>
 @titre:Suites numériques, modèles discrets
-@contenu:<ul>Exemples de modes de génération d’une suite : explicite un = ƒ(n), par une relation
-de récurrence un+1 = ƒ(un), par un algorithme, par des motifs géométriques.
-Notations : u(n), un, (u(n)), (un).
+@contenu:<ul>
+<li>Exemples de modes de génération d’une suite &nbsp;:<br/>explicite un = ƒ(n), par une relation de récurrence un+1 = ƒ(un), par un algorithme, par des motifs géométriques.
+Notations : u(n), un, (u(n)), (un).</li>
 <li>Suites arithmétiques : exemples, définition, calcul du terme général. Lien avec l’étude
 d’évolutions successives à accroissements constants. Lien avec les fonctions affines.
 Calcul de 1 + 2 + … + n.</li>
@@ -38,8 +38,33 @@ de 1 + q + … + qn.</li>
 <li>Sur des exemples, introduction intuitive de la notion de limite, finie ou infinie, d’une
 suite</li>
 </ul>
-@capacite:Capacité1 du thème algèbre
-@commentaire:Démo,stration ou algorithme ou approfondissement
+@capacite:<ul>
+<li>Dans le cadre de l’étude d’une suite, utiliser le registre de la langue naturelle, le registre algébrique, le registre graphique, et passer de l’un à l’autre.</li>
+<li>Proposer, modéliser une situation permettant de générer une suite de nombres. Déterminer une relation explicite ou une relation de récurrence pour une suite définie par un motif géométrique, par une question de dénombrement.</li>
+<li>Calculer des termes d’une suite définie explicitement, par récurrence ou par un algorithme.</li>
+<li>Pour une suite arithmétique ou géométrique, calculer le terme général, la somme de termes consécutifs, déterminer le sens de variation.</li>
+<li>Modéliser un phénomène discret à croissance linéaire par une suite arithmétique, un phénomène discret à croissance exponentielle par une suite géométrique.</li>
+<li>Conjecturer, dans des cas simples, la limite éventuelle d’une suite.</li>
+</ul>
+@commentaire:<h4>Démonstrations</h4>
+<ul>
+<li>Calcul du terme général d’une suite arithmétique, d’une suite géométrique.</li>
+<li>Calcul de 1 + 2 + … + n.</li>
+<li<Calcul de 1 + q + … + qn.</li>
+</ul>
+<h4>Exemples d’algorithme</h4>
+<ul>
+<li>Calcul de termes d’une suite, de sommes de termes, de seuil.</li>
+<li>Calcul de factorielle.</li>
+<li>Liste des premiers termes d’une suite : suites de Syracuse, suite de Fibonacci.</li>
+</ul>
+<h4>Approfondissements possibles</h4>
+<ul>
+<li>Tour de Hanoï.</li>
+<li>Somme des n premiers carrés, des n premiers cubes.</li>
+<li>Remboursement d’un emprunt par annuités constantes.</li>
+</li>
+</ul>
 @wims:
 fnwims:H2/algebra..
 @titre:Équations, fonctions polynômes du second degré
@@ -68,30 +93,121 @@ petites variations. Leurs approches partent de notions intuitives mais floues d�
 Ce n’est que très progressivement que les notions de limites et de différentielles, qui en
 fondent l’exposé actuel, ont été clarifiées au XIXe siècle.
 @titre:Dérivation
-@contenu:Contenu du titre1 du thème analyse
-@capacite:Capacité du tire 1 du thème analyse
-@commentaire:Démo1,stration ou algorithme ou approfondissement
+@contenu:Point de vue local
+<ul>
+<li>Taux de variation. Sécantes à la courbe représentative d’une fonction en un point
+donné.</li>
+<li>Nombre dérivé d’une fonction en un point, comme limite du taux de variation.</li>
+Notation \(f'(a)\).
+<li>Tangente à la courbe représentative d’une fonction en un point, comme « limite des
+sécantes ». Pente. Équation : la tangente à la courbe représentative de \(f\) au point
+d’abscisse \(a\) est la droite d’équation \(y = f(a) + f'(a)(x - a)\).</li>
+</ul>
+@capacite:<ul>
+<li>Calculer un taux de variation, la pente d’une sécante.</li>
+<li>Interpréter le nombre dérivé en contexte : pente d’une tangente, vitesse instantanée,
+coût marginal…</li>
+<li>Déterminer graphiquement un nombre dérivé par la pente de la tangente. Construire
+la tangente en un point à une courbe représentative connaissant le nombre dérivé.</li>
+<li>Déterminer l’équation de la tangente en un point à la courbe représentative d’une
+fonction.</li>
+<li>À partir de la définition, calculer le nombre dérivé en un point ou la fonction dérivée
+de la fonction carré, de la fonction inverse.</li>
+<li>Dans des cas simples, calculer une fonction dérivée en utilisant les propriétés des
+opérations sur les fonctions dérivables.</li>
+</ul>
+@commentaire:Démonstration ou algorithme ou approfondissement
 @wims:Les exercices du titre 1
 fnwims:H2/analyse.
 @titre:Variations et courbes représentatives des fonctions
-@contenu:Contenu du titre 2 du thème analyse
-@capacite:Capacité du titre 2 du thème analyse
-@commentaire:Démo2,stration ou algorithme ou approfondissement
+@contenu:<ul>
+<li>Lien entre le sens de variation d’une fonction dérivable sur un intervalle et signe de
+sa fonction dérivée ; caractérisation des fonctions constantes.</li>
+<li>Nombre dérivé en un extremum, tangente à la courbe représentative</li>
+</ul>
+@capacite:<ul>
+<li>Étudier les variations d’une fonction. Déterminer les extremums.</li>
+<li>Résoudre un problème d’optimisation.</li>
+</ul>
+@commentaire:Démonstration ou algorithme ou approfondissement
 @wims:Les exercices du titre 2
 fnwims:H2/analyse..
+@titre:Fonction exponentielle
+@contenu:Définition de la fonction exponentielle, comme unique fonction dérivable sur \(\mathbb{R}\) vérifiant \(f'= f\) et \(f(0) = 1\). L’existence et l’unicité sont admises. Notation \(\mathrm{exp}(x)\).
+@capacite:
+<ul>
+<li>Transformer une expression en utilisant les propriétés algébriques de la fonction
+exponentielle.</li>
+<li>Pour une valeur numérique strictement positive de \(k\), représenter graphiquement les
+fonctions \(t\longmapsto \mathrm{e}^{-kt}\) et \(t \longmapsto \mathrm{e}^{kt}\).</li>
+<li>Modéliser une situation par une croissance, une décroissance exponentielle (par
+exemple évolution d’un capital à taux fixe, décroissance radioactive).</li>
+</ul>
+@commentaire:Démonstration ou algorithme ou approfondissement
+@wims:Les exercices du titre 3
+fnwims:H2/analyse..
 @theme:Géométrie
-@objectif:Objectif géométrie
-@histoire:Histoire géométrie
+@objectif:L’étude de la géométrie plane menée au collège et en seconde a familiarisé les élèves à la
+géométrie de configuration, au calcul vectoriel et à la géométrie repérée.
+En première, on poursuit l’étude de la géométrie plane en introduisant de nouveaux outils.
+L’enseignement est organisé autour des objectifs suivants :
+<ul>
+<li>donner de nouveaux outils efficaces en vue de la résolution de problèmes
+géométriques, du point de vue métrique (produit scalaire) ;</li>
+<li>enrichir la géométrie repérée de manière à pouvoir traiter des problèmes faisant
+intervenir l’orthogonalité.</li>
+</ul>
+Les élèves doivent conserver une pratique du calcul vectoriel en géométrie non repérée.
+@histoire:La notion de vecteur était implicite en mécanique depuis Galilée mais a mis longtemps à
+prendre sa forme actuelle. On observe un lien entre analyse et géométrie en étudiant la
+façon dont la notion de vecteur apparait chez Leibniz au cours de ses recherches sur
+l’élaboration d’un calcul des variations. Le XIXe siècle voit l’élaboration conjointe de ce qui
+deviendra le produit scalaire et de la notion de travail en physique.
+Le calcul vectoriel et le produit scalaire permettent une approche de la géométrie différente
+de celle des Anciens, sans doute puissante, avec l’avantage de combiner vision géométrique
+et calcul.<br/>
+Les cercles font partie des plus vieux objets mathématiques. La caractérisation du cercle de
+diamètre AB comme ensemble des points M tels que le triangle AMB soit rectangle en M
+semble remonter à Thalès. Mais ce n'est qu'au XVIIe siècle que Descartes élabore la
+méthode des coordonnées et écrit l'équation d’un cercle en repère orthonormé.
 @titre:Calcul vectoriel et produit scalaire
-@contenu:Contenu du titre1 du thème géométrie
-@capacite:Capacité du tire 1 du thème géométrie
-@commentaire:Démo1,stration ou algorithme ou approfondissement
+@contenu:<ul>
+<li>Produit scalaire à partir de la projection orthogonale et de la formule avec le cosinus.
+Caractérisation de l’orthogonalité.</li>
+<li>Bilinéarité, symétrie. En base orthonormée, expression du produit scalaire et de la
+norme, critère d’orthogonalité.</li>
+<li>Développement de \(\left\Vert\overrightarrow{u}+\overrightarrow{v}\right\Vert^2\). Formule d’Al-Kashi.
+<li>Transformation de l’expression \(\overrightarrow{MA}\cdot\overrightarrow{MB}\).
+</ul>
+@capacite:<ul>
+<li>Utiliser le produit scalaire pour démontrer une orthogonalité, pour calculer un angle,
+une longueur dans le plan ou dans l’espace.</li>
+<li>En vue de la résolution d’un problème, calculer le produit scalaire de deux vecteurs
+en choisissant une méthode adaptée (en utilisant la projection orthogonale, à l’aide
+des coordonnées, à l’aide des normes et d’un angle, à l’aide de normes).</li>
+<li>Utiliser le produit scalaire pour résoudre un problème géométrique.</li>
+</ul>
+@commentaire:Démonstration ou algorithme ou approfondissement
 @wims:Les exercices du titre 1
-fnwims:H2/algebra..
-@titre:Géométrie repérée
-@contenu:Contenu du titre 2 du thème géométrie
-@capacite:Capacité du titre 2 du thème géométrie
-@commentaire:Démo2,stration ou algorithme ou approfondissement
+fnwims:H2/analyse.
+@titre:Géométrie repérée (<em>Dans un repère orthonormé</em>)
+@contenu:<ul>
+<li>Vecteur normal à une droite. Le vecteur de coordonnées (a,b) est normal à la droite
+d’équation ax + by + c =0. Le vecteur (-b,a) en est un vecteur directeur.</li>
+<li>Équation de cercle.</li>
+<li>Parabole représentative d’une fonction polynôme du second degré. Axe de symétrie,
+sommet.</li>
+</ul>
+@capacite:<ul>
+<li>Déterminer une équation cartésienne d’une droite connaissant un point et un vecteur
+normal.</li>
+<li>Déterminer les coordonnées du projeté orthogonal d’un point sur une droite.</li>
+<li>Déterminer et utiliser l’équation d’un cercle donné par son centre et son rayon.</li>
+<li>Reconnaître une équation de cercle, déterminer centre et rayon.</li>
+<li>Déterminer l’axe de symétrie et le sommet d’une parabole d’équation y = ax2 + bx + c.</li>
+<li>Utiliser un repère pour étudier une configuration.</li>
+</ul>
+@commentaire:Démonstration ou algorithme ou approfondissement
 @wims:Les exercices du titre 2
-fnwims:H2/géométrie..
+fnwims:H2/analyse..
 @end:
