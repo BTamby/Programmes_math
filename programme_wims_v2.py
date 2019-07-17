@@ -290,25 +290,25 @@ for cle,val in dico_all.items():
 	<h3 class="program_theme">'+cle+'</h3>\n'
 	allhtml = allhtml+begin_div
 	#objectif = creer_objectif(them)
-	begin_div_objectif = '\t\t<div class="accordion">\n\t\t\t<h4>Objectifs</h4>\n\t\t\t<div>\n'
+	begin_div_objectif = '\t\t<div class="accordion">\n\t\t\t<h4 class="program_h4">Objectifs</h4>\n\t\t\t<div>\n'
 	allhtml = allhtml+begin_div_objectif
 	allhtml = allhtml+val['objectif']
 	end_div_objectif = '\n\t\t\t</div><!--Fin objectifs-->\n\t\t</div><!--Fin accordion-->\n'
 	allhtml = allhtml + end_div_objectif
 
-	begin_div_histoire = '\t\t<div class="accordion">\n\t\t\t<h4>Histoire des mathématiques</h4>\n\t\t\t<div>\n'
+	begin_div_histoire = '\t\t<div class="accordion">\n\t\t\t<h4 class="program_h4">Histoire des mathématiques</h4>\n\t\t\t<div>\n'
 	allhtml = allhtml+begin_div_histoire
 	allhtml = allhtml+val['histoire']
 	end_div_histoire = '\n\t\t\t</div><!--Fin histoire des maths-->\n\t\t</div><!--Fin accordion-->\n'
 	allhtml = allhtml + end_div_histoire
-	allhtml = allhtml +'\t<h4>Sommaire du thème '+cle+'</h4><!-- Sommaire-->\n'
+	allhtml = allhtml +'\t<h4 class="program_h4">Sommaire</h4><!-- Sommaire-->\n'
 	allhtml = allhtml+'<ul class="program_submenu">\n\t'
 	for num,t in enumerate(dico_all[cle]['titres']):
 		allhtml = allhtml+'<li><a href="#t_'+str(i)+str(num)+'">'+t+'</a></li>\n\t'
 	allhtml = allhtml+'\n</ul>\n'
 	#Contenus, capacités, commentaires
 	for num,val in enumerate(dico_all[cle]['contenu']):
-		allhtml = allhtml+'<h4 class="program_titre">'+dico_all[cle]['titres'][num]+'</h4>\n'
+		allhtml = allhtml+'<h4 class="program_h4">'+dico_all[cle]['titres'][num]+'</h4>\n'
 		begin_div_bloc = '<div id = "t_'+str(i)+str(num)+'" class="grid-x grid-margin-x small-margin-collapse"><!-- Début bloc -->\n'
 		allhtml = allhtml +begin_div_bloc
 		#Colonne des contenus

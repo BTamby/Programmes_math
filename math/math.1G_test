@@ -14,7 +14,7 @@ L’enseignement de spécialité de mathématiques de la classe de première gé
 <li>préparer au choix des enseignements de la classe de terminale : notamment choix de l’enseignement de spécialité de mathématiques, éventuellement accompagné de l’enseignement optionnel de mathématiques expertes, ou choix de l’enseignement optionnel de mathématiques complémentaires.</li> 
 </ul>
 Le programme de mathématiques définit un ensemble de connaissances et de compétences, réaliste et ambitieux, qui s’appuie sur le programme de seconde dans un souci de cohérence, en réactivant les notions déjà étudiées et y ajoutant un nombre raisonnable de nouvelles notions, à étudier de manière suffisamment approfondie.
-<ul class="bullets">
+<ul class="tirets">
 <li>Compétences mathématiques</li>
 Dans le prolongement des cycles précédents, on travaille les six grandes compétences :
 <ul class="tirets">
@@ -159,10 +159,11 @@ historique, épistémologique ou culturel. L’histoire peut aussi être envisag
 source féconde de problèmes clarifiant le sens de certaines notions. Les items « Histoire des
 mathématiques » identifient quelques possibilités en ce sens. Pour les étayer, le professeur
 pourra, s’il le désire, s’appuyer sur l’étude de textes historiques.</p>
+<h3>Programme</h3>
 @theme:Algèbre
 @objectif:En classe de première, les suites sont présentées d’un point de vue principalement algébrique. L’objectif est que l’élève soit confronté à des systèmes discrets pour lesquels les suites numériques apparaissent comme modélisation adaptée. C’est aussi l’occasion d’aborder le concept de définition par récurrence.
 L’élève rencontre différents modes de génération de suites :
-<ul>
+<ul class="tirets">
 <li>par une formule explicite \(u_n = f(n)\) ;</li>
 <li>par une relation de récurrence \(u_{n+1} = f(u_n)\) ;</li>
 <li>par des motifs géométriques ou combinatoires, par exemple suite de nombres figurés, suite décrivant le nombre d’éléments dans une configuration dépendant d’un entier naturel.</li>
@@ -176,12 +177,12 @@ On illustre avec les fonctions polynômes du second degré des notions général
 Les élèves doivent savoir qu’une fonction polynôme du second degré admet une forme canonique, et être capables de la déterminer dans des cas simples à l’aide de l’identité \(x^2 + 2 a x = (x + a)^2 - a^2\) (méthode de complétion du carré). Le calcul effectif de la forme canonique dans le cas général n’est pas un attendu du programme.
 Les élèves sont entraînés à reconnaître et pratiquer la factorisation directe dans les cas qui s’y prêtent : racines apparentes, coefficient de \(x\) nul, racines entières détectées par calcul mental à partir de leur somme et de leur produit.
 @histoire:Bien avant de faire l’objet d'une étude formalisée, les suites apparaissent dans deux types de situations :
-<ul>
+<ul class="tirets">
 <li>approximation de nombres réels (encadrement de \(pi\) par Archimède, calcul de la racine carrée chez Héron d'Alexandrie) ;</li>
 <li>problèmes de comptage (les lapins de Fibonacci…).</li>
 </ul>
 @titre:Suites numériques, modèles discrets
-@contenu:<ul>
+@contenu:<ul class="tirets">
 <li>Exemples de modes de génération d’une suite :<br/>explicite \(u_n = f(n)\), par une relation de récurrence \(u_{n+1} = f(u_n)\), par un algorithme, par des motifs géométriques.
 Notations : \(u(n)\), \(u_n\), \((u(n))\), \((u_n)\).</li>
 <li>Suites arithmétiques : exemples, définition, calcul du terme général. Lien avec l’étude
@@ -194,7 +195,7 @@ de \(1 + q +...+ q^n\).</li>
 <li>Sur des exemples, introduction intuitive de la notion de limite, finie ou infinie, d’une
 suite</li>
 </ul>
-@capacite:<ul>
+@capacite:<ul class="tirets">
 <li>Dans le cadre de l’étude d’une suite, utiliser le registre de la langue naturelle, le registre algébrique, le registre graphique, et passer de l’un à l’autre.</li>
 <li>Proposer, modéliser une situation permettant de générer une suite de nombres. Déterminer une relation explicite ou une relation de récurrence pour une suite définie par un motif géométrique, par une question de dénombrement.</li>
 <li>Calculer des termes d’une suite définie explicitement, par récurrence ou par un algorithme.</li>
@@ -203,19 +204,19 @@ suite</li>
 <li>Conjecturer, dans des cas simples, la limite éventuelle d’une suite.</li>
 </ul>
 @commentaire:<h5>Démonstrations</h5>
-<ul>
+<ul class="tirets">
 <li>Calcul du terme général d’une suite arithmétique, d’une suite géométrique.</li>
 <li>Calcul de \(1 + 2 +...+ n\).</li>
-<li<Calcul de \(1 + q +...+ q^n\).</li>
+<li>Calcul de \(1 + q +...+ q^n\).</li>
 </ul>
 <h5>Exemples d’algorithme</h5>
-<ul>
+<ul class="tirets">
 <li>Calcul de termes d’une suite, de sommes de termes, de seuil.</li>
 <li>Calcul de factorielle.</li>
 <li>Liste des premiers termes d’une suite : suites de Syracuse, suite de Fibonacci.</li>
 </ul>
 <h5>Approfondissements possibles</h5>
-<ul>
+<ul class="tirets">
 <li>Tour de Hanoï.</li>
 <li>Somme des n premiers carrés, des n premiers cubes.</li>
 <li>Remboursement d’un emprunt par annuités constantes.</li>
@@ -225,41 +226,119 @@ suite</li>
 H4/algebra/oefsuites1S.fr,calcultermeA,Calcul des termes d'une suite,,,Le tooltip
 H2/algebra/oefrationnel.fr,n2s1e06,Ranger des fractions,,quizz,Comparer 5 nombres rationnels donnés
 @titre:Équations, fonctions polynômes du second degré
-@contenu:<ul>
+@contenu:<ul class="tirets">
 <li>Fonction polynôme du second degré donnée sous forme factorisée. Racines, signe,
 expression de la somme et du produit des racines.</li>
 <li>Forme canonique d’une fonction polynôme du second degré. Discriminant.
 Factorisation éventuelle. Résolution d’une équation du second degré. Signe.</li>
 </ul>
-@capacite:Capacité2 du thème algèbre
-@commentaire:Démo,stration ou algorithme ou approfondissement
+@capacite:<ul class="tirets"
+<li>Étudier le signe d’une fonction polynôme du second degré donnée sous forme
+factorisée.</li>
+<li>Déterminer les fonctions polynômes du second degré s’annulant en deux nombres
+réels distincts.</li>
+<li>Factoriser une fonction polynôme du second degré, en diversifiant les stratégies :
+racine évidente, détection des racines par leur somme et leur produit, identité
+remarquable, application des formules générales.</li>
+<li>Choisir une forme adaptée (développée réduite, canonique, factorisée) d’une fonction
+polynôme du second degré dans le cadre de la résolution d’un problème (équation,
+inéquation, optimisation, variations).</li>
+</ul>
+@commentaire:<h5>Démonstration</h5>
+<ul class ="tirets"
+<li>Résolution de l’équation du second degré.</li>
+</ul>
+<h5>Approfondissements possibles</h5>
+<ul class="tirets">
+<li>Factorisation d’un polynôme du troisième degré admettant une racine et résolution de
+l’équation associée.</li>
+<li>Factorisation de \(x^n-1\) par \(x-1\); de \(x^n-a^n\) par \(x-a\).</li>
+<li>Déterminer deux nombres réels connaissant leur somme \(s\) et leur produit \(p\) comme
+racines de la fonction polynôme \(x\longmapsto x^2-sx+p\).
+</li>
+</ul>
 @wims:
+H4/algebra/oefsuites1S.fr,calcultermeA,Calcul des termes d'une suite,,,Le tooltip
+H2/algebra/oefrationnel.fr,n2s1e06,Ranger des fractions,,quizz,Comparer 5 nombres rationnels donnés
 @theme:Analyse
-@objectif:Deux points fondamentaux du programme de première sont ici étudiés : le concept de
+@objectif:<p>
+Deux points fondamentaux du programme de première sont ici étudiés : le concept de
 dérivée, avec ses applications à l’étude des fonctions, et la fonction exponentielle.
 L’étude de la dérivation distingue le point de vue local (nombre dérivé) et le point de vue
 global (fonction dérivée). Les fonctions étudiées sont toutes régulières et le nombre dérivé
 est introduit à partir de la perception intuitive de la limite du taux de variation. On n’en donne
 pas de définition formelle, mais on s’appuie sur :
-@histoire:Le calcul différentiel s’est imposé par sa capacité à donner des solutions simples à des
+<ul class="tirets">
+<li>des représentations graphiques fournies par les outils logiciels (calculatrice, tableur,
+logiciel de géométrie dynamique) ;</li>
+<li>le calcul algébrique du taux de variation dans des cas qui s’y prêtent : fonctions du
+second degré, fonction inverse ;</li>
+<li>le calcul numérique d’expressions \(f(a + h) - f(a)\), où \(h\) prend des valeurs proches de
+\(0\), faisant apparaître une approximation linéaire, par exemple avec \(a = 1\) et \(f\) étant
+une des fonctions carré, inverse, racine carrée.</li>
+</ul>
+</p>
+<p>
+Il est intéressant d’exploiter ces divers registres dans l’étude d’un même nombre dérivé.
+Taux de variation et nombre dérivé gagnent à être illustrés dans des contextes variés :
+<ul class ="tirets">
+<li>en géométrie, ils représentent la pente d’une sécante et la pente d’une tangente ;</li>
+<li>en cinématique, on peut interpréter un taux de variation comme une vitesse moyenne
+et un nombre dérivé comme une vitesse instantanée ;</li>
+<li>dans un cadre économique, le nombre dérivé est relié au coût marginal.</li>
+</ul>
+</p>
+<p>
+Compte tenu de son importance en mathématiques et dans de nombreux champs
+disciplinaires, et de ses interactions avec le concept de dérivée, le programme prévoit
+l’étude de la fonction exponentielle. On donnera des exemples d’utilisation dans les autres
+disciplines (calculs d’intérêts, dilution d’une solution, décroissance radioactive). En liaison
+avec les suites géométriques, c’est aussi l’occasion de proposer des modélisations discrètes
+ou continues de phénomènes d’évolution.
+Les fonctions trigonométriques font l’objet d’une première approche, d’un point de vue
+principalement graphique, en lien avec les autres disciplines scientifiques. C’est aussi
+l’occasion de rencontrer la notion de fonction périodique, également utile dans les sciences
+sociales (variations saisonnières).
+En liaison avec les autres disciplines, on peut signaler et utiliser la notation \(\frac{\Delta y}{\Delta x}\) pour un taux de variation et \(\frac{dy}{dx}\) pour une dérivée ; si \(y = f(x)\), on peut ainsi écrire \(\frac{dy}{dx}=f'(x)\) en adaptant selon le contexte : \(x = f(t)\), \(q = f(t)\)...
+</p>
+@histoire:<p>Le calcul différentiel s’est imposé par sa capacité à donner des solutions simples à des
 problèmes nombreux d’origines variées (cinématique, mécanique, géométrie, optimisation).
 Le développement d’un calcul des variations chez Leibniz et Newton se fonde sur
 l’hypothèse que les phénomènes naturels évoluent linéairement quand on leur applique des
 petites variations. Leurs approches partent de notions intuitives mais floues d’infiniment petit.
 Ce n’est que très progressivement que les notions de limites et de différentielles, qui en
 fondent l’exposé actuel, ont été clarifiées au XIXe siècle.
+</p>
+<p>
+La notation exponentielle et les fonctions exponentielles apparaissent vers la fin du XVIIe
+siècle, procédant d’une volonté de traiter des phénomènes de croissance comparables à ceux des intérêts composés. La modélisation de ces situations fait naturellement apparaître
+la caractérisation de la fonction exponentielle comme seule fonction vérifiant l'équation
+différentielle \(y'= y\) et la condition initiale \(y(0) = 1\).
+La trigonométrie a été utilisée chez les Anciens dans des problèmes de natures diverses
+(géométrie, géographie, astronomie). Elle est à l'époque fondée sur la fonction corde, d'un
+maniement bien moins facile que les fonctions sinus et cosinus de la présentation actuelle.
+</p>
 @titre:Dérivation
-@contenu:Point de vue local
-<ul>
+@contenu:<em>Point de vue local</em>
+<ul class="tirets">
 <li>Taux de variation. Sécantes à la courbe représentative d’une fonction en un point
 donné.</li>
-<li>Nombre dérivé d’une fonction en un point, comme limite du taux de variation.</li>
-Notation \(f'(a)\).
+<li>Nombre dérivé d’une fonction en un point, comme limite du taux de variation.
+Notation ƒ’(a).</li>
 <li>Tangente à la courbe représentative d’une fonction en un point, comme « limite des
-sécantes ». Pente. Équation : la tangente à la courbe représentative de \(f\) au point
+sécantes ». Pente. Équation : la tangente à la courbe représentative de ƒ au point
 d’abscisse \(a\) est la droite d’équation \(y = f(a) + f'(a)(x - a)\).</li>
 </ul>
-@capacite:<ul>
+<em>Point de vue global</em>
+<ul class="tirets">
+<li>Fonction dérivable sur un intervalle. Fonction dérivée.</li>
+<li>Fonction dérivée des fonctions carré, cube, inverse, racine carrée.</li>
+<li>Opérations sur les fonctions dérivables : somme, produit, inverse, quotient, fonction
+dérivée de \(x \longmapsto g(ax + b)\)</li>
+<li>Pour \(n\) dans \(\mathbb{Z}\), fonction dérivée de la fonction \(x\longmapsto x^n\).</li>
+<li>Fonction valeur absolue : courbe représentative, étude de la dérivabilité en \(0\).
+</ul>
+@capacite:<ul class="tirets">
 <li>Calculer un taux de variation, la pente d’une sécante.</li>
 <li>Interpréter le nombre dérivé en contexte : pente d’une tangente, vitesse instantanée,
 coût marginal…</li>
@@ -272,24 +351,36 @@ de la fonction carré, de la fonction inverse.</li>
 <li>Dans des cas simples, calculer une fonction dérivée en utilisant les propriétés des
 opérations sur les fonctions dérivables.</li>
 </ul>
-@commentaire:Démonstration ou algorithme ou approfondissement
+@commentaire:<h5>Démonstrations</h5>
+<ul class="tirets">
+<li>Équation de la tangente en un point à une courbe représentative.</li>
+<li>La fonction racine carrée n’est pas dérivable en \(0\).</li>
+<li>Fonction dérivée de la fonction carrée, de la fonction inverse.</li>
+<li>Fonction dérivée d’un produit.
+</ul>
+<h5>Exemple d’algorithme</h5>
+<ul class ="tirets">
+<li>Écrire la liste des coefficients directeurs des sécantes pour un pas donné.</li>
+</ul>
 @wims:
+niveau/domaine/oef.fr,exo,Titre explicite,,,Le tooltip
 @titre:Variations et courbes représentatives des fonctions
-@contenu:<ul>
+@contenu:<ul class="tirets">
 <li>Lien entre le sens de variation d’une fonction dérivable sur un intervalle et signe de
 sa fonction dérivée ; caractérisation des fonctions constantes.</li>
 <li>Nombre dérivé en un extremum, tangente à la courbe représentative</li>
 </ul>
-@capacite:<ul>
+@capacite:<ul class="tirets">
 <li>Étudier les variations d’une fonction. Déterminer les extremums.</li>
 <li>Résoudre un problème d’optimisation.</li>
 </ul>
 @commentaire:Démonstration ou algorithme ou approfondissement
 @wims:
+niveau/domaine/oef.fr,exo,Titre explicite,,,Le tooltip
 @titre:Fonction exponentielle
 @contenu:Définition de la fonction exponentielle, comme unique fonction dérivable sur \(\mathbb{R}\) vérifiant \(f'= f\) et \(f(0) = 1\). L’existence et l’unicité sont admises. Notation \(\mathrm{exp}(x)\).
 @capacite:
-<ul>
+<ul class="tirets">
 <li>Transformer une expression en utilisant les propriétés algébriques de la fonction
 exponentielle.</li>
 <li>Pour une valeur numérique strictement positive de \(k\), représenter graphiquement les
@@ -299,12 +390,13 @@ exemple évolution d’un capital à taux fixe, décroissance radioactive).</li>
 </ul>
 @commentaire:Démonstration ou algorithme ou approfondissement
 @wims:
+niveau/domaine/oef.fr,exo,Titre explicite,,,Le tooltip
 @theme:Géométrie
 @objectif:L’étude de la géométrie plane menée au collège et en seconde a familiarisé les élèves à la
 géométrie de configuration, au calcul vectoriel et à la géométrie repérée.
 En première, on poursuit l’étude de la géométrie plane en introduisant de nouveaux outils.
 L’enseignement est organisé autour des objectifs suivants :
-<ul>
+<ul class="tirets">
 <li>donner de nouveaux outils efficaces en vue de la résolution de problèmes
 géométriques, du point de vue métrique (produit scalaire) ;</li>
 <li>enrichir la géométrie repérée de manière à pouvoir traiter des problèmes faisant
@@ -324,7 +416,7 @@ diamètre AB comme ensemble des points M tels que le triangle AMB soit rectangle
 semble remonter à Thalès. Mais ce n'est qu'au XVIIe siècle que Descartes élabore la
 méthode des coordonnées et écrit l'équation d’un cercle en repère orthonormé.
 @titre:Calcul vectoriel et produit scalaire
-@contenu:<ul>
+@contenu:<ul class="tirets">
 <li>Produit scalaire à partir de la projection orthogonale et de la formule avec le cosinus.
 Caractérisation de l’orthogonalité.</li>
 <li>Bilinéarité, symétrie. En base orthonormée, expression du produit scalaire et de la
@@ -332,7 +424,7 @@ norme, critère d’orthogonalité.</li>
 <li>Développement de \(\left\Vert\overrightarrow{u}+\overrightarrow{v}\right\Vert^2\). Formule d’Al-Kashi.
 <li>Transformation de l’expression \(\overrightarrow{MA}\cdot\overrightarrow{MB}\).
 </ul>
-@capacite:<ul>
+@capacite:<ul class="tirets">
 <li>Utiliser le produit scalaire pour démontrer une orthogonalité, pour calculer un angle,
 une longueur dans le plan ou dans l’espace.</li>
 <li>En vue de la résolution d’un problème, calculer le produit scalaire de deux vecteurs
@@ -342,15 +434,16 @@ des coordonnées, à l’aide des normes et d’un angle, à l’aide de normes)
 </ul>
 @commentaire:Démonstration ou algorithme ou approfondissement
 @wims:
+niveau/domaine/oef.fr,exo,Titre explicite,,,Le tooltip
 @titre:Géométrie repérée (<em>Dans un repère orthonormé</em>)
-@contenu:<ul>
+@contenu:<ul class="tirets">
 <li>Vecteur normal à une droite. Le vecteur de coordonnées (a,b) est normal à la droite
 d’équation ax + by + c =0. Le vecteur (-b,a) en est un vecteur directeur.</li>
 <li>Équation de cercle.</li>
 <li>Parabole représentative d’une fonction polynôme du second degré. Axe de symétrie,
 sommet.</li>
 </ul>
-@capacite:<ul>
+@capacite:<ul class="tirets">
 <li>Déterminer une équation cartésienne d’une droite connaissant un point et un vecteur
 normal.</li>
 <li>Déterminer les coordonnées du projeté orthogonal d’un point sur une droite.</li>
@@ -361,4 +454,5 @@ normal.</li>
 </ul>
 @commentaire:Démonstration ou algorithme ou approfondissement
 @wims:
+niveau/domaine/oef.fr,exo,Titre explicite,,,Le tooltip
 @end:
