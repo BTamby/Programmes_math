@@ -281,7 +281,7 @@ allhtml = allhtml+'\t</ul><!-- Fin du menu -->\n'
 # Insérer le contenu de chaque thème :
 # D'abord les les objectifs et les histoires
 i = 0
-nom_fichier = {'Algèbre':'algebre.phtml','Analyse':'analyse.phtml','Géométrie':'geometrie.phtml'}
+nom_fichier = {'Algèbre':'algebre.phtml','Analyse':'analyse.phtml','Géométrie':'geometrie.phtml','Probabilités et statistiques':'proba_stat.phtml','Algorithmique et programmation':'algo_prog.phtml'}
 for cle,val in dico_all.items():
 	f_phtml_them = open(nom_fichier[cle],'w',encoding='Windows 1252')
 	f_phtml_them.write('Exercices du thème '+cle+'\n')
