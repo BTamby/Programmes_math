@@ -1,24 +1,180 @@
 @lienprogramme:https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/16/8/spe632_annexe_1063168.pdf
 @titreniveau:Mathématiques Première générale
-@datewims:Dernière mise à jour le 06/07/2019 (Euler Versailles)
+@datewims:Dernière mise à jour le 17/07/2019 (Euler Versailles)
 @dateprogramme:BO spécial n°1 du 22 janvier 2019
 @level:Première générale
 @ressources:https://euler.ac-versailles.fr/rubrique177.html
 @intro:
-<h4>Intentions majeures</h4>
+<h4 class="program_h4">Intentions majeures</h4>
 La classe de première générale est conçue pour préparer au baccalauréat général, et au-delà à une poursuite d’études réussie et à l’insertion professionnelle.
 L’enseignement de spécialité de mathématiques de la classe de première générale est conçu à partir des intentions suivantes :
-<ul>
+<ul class="tirets">
 <li>permettre à chaque élève de consolider les acquis de la seconde, de développer son goût des mathématiques, d’en apprécier les démarches et les objets afin qu’il puisse faire l’expérience personnelle de l’efficacité des concepts mathématiques et de la simplification et la généralisation que permet la maîtrise de l’abstraction ;</li>
 <li>développer des interactions avec d’autres enseignements de spécialité ;</li>
 <li>préparer au choix des enseignements de la classe de terminale : notamment choix de l’enseignement de spécialité de mathématiques, éventuellement accompagné de l’enseignement optionnel de mathématiques expertes, ou choix de l’enseignement optionnel de mathématiques complémentaires.</li> 
 </ul>
 Le programme de mathématiques définit un ensemble de connaissances et de compétences, réaliste et ambitieux, qui s’appuie sur le programme de seconde dans un souci de cohérence, en réactivant les notions déjà étudiées et y ajoutant un nombre raisonnable de nouvelles notions, à étudier de manière suffisamment approfondie.
-<h4>Compétences mathématiques</h4>
+<ul class="bullets">
+<li>Compétences mathématiques</li>
 Dans le prolongement des cycles précédents, on travaille les six grandes compétences :
+<ul class="tirets">
+<li>chercher, expérimenter, en particulier à l’aide d’outils logiciels ;</li>
+<li>modéliser, faire une simulation, valider ou invalider un modèle ;</li>
+<li>représenter, choisir un cadre (numérique, algébrique, géométrique…), changer de
+registre ;</li>
+<li>raisonner, démontrer, trouver des résultats partiels et les mettre en perspective ;</li>
+<li>calculer, appliquer des techniques et mettre en œuvre des algorithmes ;</li>
+<li>communiquer un résultat par oral ou par écrit, expliquer une démarche.</li>
+</ul>
+<p>La résolution de problèmes est un cadre privilégié pour développer, mobiliser et combiner
+plusieurs de ces compétences. Cependant, pour prendre des initiatives, imaginer des pistes
+de solution et s’y engager sans s’égarer, l’élève doit disposer d’automatismes. Ceux-ci
+facilitent en effet le travail intellectuel en libérant l’esprit des soucis de mise en œuvre
+technique et élargissent le champ des démarches susceptibles d’être engagées.
+L’installation de ces réflexes est favorisée par la mise en place d’activités rituelles,
+notamment de calcul (mental ou réfléchi, numérique ou littéral). Elle est menée
+conjointement avec la résolution de problèmes motivants et substantiels, afin de stabiliser
+connaissances, méthodes et stratégies.</p>
+<li>Diversité de l’activité de l’élève</li>
+<p>
+La diversité des activités mathématiques proposées doit permettre aux élèves de prendre
+conscience de la richesse et de la variété de la démarche mathématique et de la situer au
+sein de l’activité scientifique. Cette prise de conscience est un élément essentiel dans la
+définition de leur orientation.
+Il importe donc que cette diversité se retrouve dans les travaux proposés à la classe. Parmi
+ceux-ci, les travaux écrits faits hors du temps scolaire permettent, à travers l’autonomie
+laissée à chacun, le développement des qualités d’initiative, tout en assurant la stabilisation 
+des connaissances et des compétences. Ils doivent être conçus de façon à prendre en
+compte la diversité et l’hétérogénéité des élèves.
+Le calcul est un outil essentiel pour la résolution de problèmes. Il importe de poursuivre
+l’entraînement des élèves dans ce domaine par la pratique régulière du calcul numérique et
+du calcul littéral, sous ses diverses formes : mentale, écrite, instrumentée.
+</p>
+<li>Utilisation de logiciels</li>
+<p>L’utilisation de logiciels (calculatrice ou ordinateur), d’outils de visualisation et de
+représentation, de calcul (numérique ou formel), de simulation, de programmation développe
+la possibilité d’expérimenter, favorise l’interaction entre l’observation et la démonstration et
+change profondément la nature de l’enseignement.
+L’utilisation régulière de ces outils peut intervenir selon trois modalités :
+<ul class="tirets">
+<li>par le professeur, en classe, avec un dispositif de visualisation collective adapté ;</li>
+<li>par les élèves, sous forme de travaux pratiques de mathématiques en classe, à
+l’occasion de la résolution d’exercices ou de problèmes ;
+<li>dans le cadre du travail personnel des élèves hors du temps de classe (par exemple
+au CDI ou à un autre point d’accès au réseau local).</li>
+</ul>
+</p>
+<li>Évaluation des élèves</li>
+<p>Les élèves sont évalués en fonction des capacités attendues et selon des modes variés :
+devoirs surveillés avec ou sans calculatrice, devoirs en temps libre, rédaction de travaux de
+recherche individuels ou collectifs, travaux pratiques pouvant s’appuyer sur des logiciels,
+exposé oral d’une solution.</p>
+<li>Place de l’oral</li>
+<p>
+Les étapes de verbalisation et de reformulation jouent un rôle majeur dans l’appropriation
+des notions mathématiques et la résolution des problèmes. Comme toutes les disciplines, les
+mathématiques contribuent au développement des compétences orales à travers notamment
+la pratique de l’argumentation. Celle-ci conduit à préciser sa pensée et à expliciter son
+raisonnement de manière à convaincre. Elle permet à chacun de faire évoluer sa pensée,
+jusqu’à la remettre en cause si nécessaire, pour accéder progressivement à la vérité par la
+preuve. Des situations variées se prêtent à la pratique de l’oral en mathématiques : la
+reformulation par l’élève d’un énoncé ou d’une démarche, les échanges interactifs lors de la
+construction du cours, les mises en commun après un temps de recherche, les corrections
+d’exercices, les travaux de groupe, les exposés individuels ou à plusieurs… L’oral
+mathématique mobilise à la fois le langage naturel et le langage symbolique dans ses
+différents registres (graphiques, formules, calcul).
+Si ces considérations sont valables pour tous les élèves, elles prennent un relief particulier
+pour ceux qui choisiront les mathématiques comme enseignement de spécialité en terminale
+et qui ont à préparer l’épreuve orale terminale du baccalauréat. Il convient que les travaux
+proposés aux élèves y contribuent dès la classe de première.
+</p>
+<li>Trace écrite</li>
+<p>
+Disposer d’une trace de cours claire, explicite et structurée est une aide essentielle à
+l’apprentissage des mathématiques. Faisant suite aux étapes importantes de recherche,
+d’appropriation individuelle ou collective, de présentation commentée, la trace écrite
+récapitule de façon organisée les connaissances, les méthodes et les stratégies étudiées en
+classe. Explicitant les liens entre les différentes notions ainsi que leurs objectifs,
+éventuellement enrichie par des exemples ou des schémas, elle constitue pour l’élève une
+véritable référence vers laquelle il peut se tourner autant que de besoin, tout au long du
+cycle terminal. Sa consultation régulière (notamment au moment de la recherche d’exercices et de problèmes, sous la conduite du professeur ou en autonomie) favorise à la fois la
+mémorisation et le développement de compétences. Le professeur doit avoir le souci de la
+bonne qualité (mathématique et rédactionnelle) des traces écrites figurant au tableau et dans
+les cahiers d’élèves. En particulier, il est essentiel de bien distinguer le statut des énoncés
+(conjecture, définition, propriété - admise ou démontrée -, démonstration, théorème).
+</p>
+<li>Travail personnel des élèves</li>
+<p>
+Si la classe est le lieu privilégié pour la mise en activité mathématique des élèves, les
+travaux hors du temps scolaire sont indispensables pour consolider les apprentissages.
+Fréquents, de longueur raisonnable et de nature variée, ces travaux sont essentiels à la
+formation des élèves. Individuels ou en groupe, évalués à l’écrit ou à l’oral, ces travaux sont
+conçus de façon à prendre en compte la diversité des élèves et permettent le
+développement des qualités d’initiative tout en assurant la stabilisation des connaissances et
+des compétences
+</p>
+</ul>
+<h4 class="program_h4">Quelques lignes directrices pour l’enseignement</h4>
+<p>
+Le professeur veille à créer dans la classe de mathématiques une atmosphère de travail
+favorable aux apprentissages, combinant bienveillance et exigence. Il faut développer chez
+chaque élève des attitudes positives à l’égard des mathématiques et sa capacité à résoudre
+des problèmes stimulants.
+L’élève doit être incité à s’engager dans une recherche mathématique, individuellement ou
+en équipe, et à développer sa confiance en lui. Il cherche, essaie des pistes, prend le risque
+de se tromper. Il ne doit pas craindre l’erreur, car il sait qu’il peut en tirer profit grâce au
+professeur, qui l’aide à l’identifier, à l’analyser et la comprendre. Ce travail sur l’erreur
+participe à la construction de ses apprentissages.
+Les problèmes proposés aux élèves peuvent être internes aux mathématiques, provenir de
+l’histoire des mathématiques, être issus des autres disciplines ou du monde réel, en prenant
+garde que la simple inclusion de références au monde réel ne suffit pas toujours à
+transformer un exercice de routine en un bon problème. Dans tous les cas, ils doivent être
+bien conçus et motivants, afin de développer les connaissances et compétences
+mathématiques du programme.
+Le professeur doit veiller à établir un équilibre entre divers temps d’apprentissage :
+<ul class="tirets">
+<li>les temps de recherche, d’activité, de manipulation ;</li>
+<li>lles temps de dialogue et d’échange, de verbalisation ;</li>
+<li>les temps de cours, où le professeur expose avec précision, présente certaines
+démonstrations et permet aux élèves d’accéder à l’abstraction ;</li>
+<li>lles temps où sont présentés et discutés des exemples, pour vérifier la bonne
+compréhension de tous les élèves ;</li>
+<li>lles exercices et problèmes, allant progressivement de l’application la plus directe au
+thème d’étude ;</li>
+<li>lles rituels, afin de consolider les connaissances et les méthodes.</li>
+</ul>
+</p>
+<h4 class="program_h4">Organisation du programme</h4>
+<p>Le programme s’organise en cinq grandes parties : « Algèbre », « Analyse », « Géométrie »,
+« Probabilités et statistiques » et « Algorithmique et programmation ». Ce découpage n’est
+pas un plan de cours et il est essentiel d’exploiter les possibilités d’interaction entre ces
+parties.</p>
+<p>Démontrer est une composante fondamentale de l’activité mathématique. Le programme
+propose quelques démonstrations exemplaires, que les élèves découvrent selon des modalités variées : présentation par le professeur, élaboration par les élèves sous la
+direction du professeur, devoir à la maison...</p>
+<p>Le programme propose un certain nombre d’approfondissements possibles, mais en aucun
+cas obligatoires. Ils permettent une différentiation pédagogique.</p>
+<p>Il peut être judicieux d’éclairer le cours par des éléments de contextualisation d’ordre
+historique, épistémologique ou culturel. L’histoire peut aussi être envisagée comme une
+source féconde de problèmes clarifiant le sens de certaines notions. Les items « Histoire des
+mathématiques » identifient quelques possibilités en ce sens. Pour les étayer, le professeur
+pourra, s’il le désire, s’appuyer sur l’étude de textes historiques.</p>
 @theme:Algèbre
-@objectif:Objectif du thème Algèbre.
-Blabla...
+@objectif:En classe de première, les suites sont présentées d’un point de vue principalement algébrique. L’objectif est que l’élève soit confronté à des systèmes discrets pour lesquels les suites numériques apparaissent comme modélisation adaptée. C’est aussi l’occasion d’aborder le concept de définition par récurrence.
+L’élève rencontre différents modes de génération de suites :
+<ul>
+<li>par une formule explicite \(u_n = f(n)\) ;</li>
+<li>par une relation de récurrence \(u_{n+1} = f(u_n)\) ;</li>
+<li>par des motifs géométriques ou combinatoires, par exemple suite de nombres figurés, suite décrivant le nombre d’éléments dans une configuration dépendant d’un entier naturel.</li>
+</ul>
+Les suites arithmétiques et géométriques sont formalisées. D’autres types simples peuvent être abordés, mais aucune connaissance spécifique à leur sujet n’est au programme.
+Dans tous les cas, on peut s’intéresser au passage d’un mode de génération à un autre, et notamment à la recherche d’une formule explicite pour une suite définie d’une autre façon.
+Les suites interviennent comme modélisations d’évolutions à temps discret rencontrées dans les autres disciplines : évolution ou actualisation d’un capital, évolution d’une population, décroissance radioactive. C’est l’occasion de réactiver le travail sur l’information chiffrée fait en classe de seconde, notamment sur le taux d’évolution. L’élève doit automatiser le fait qu’une évolution à taux fixe est modélisée par une suite géométrique et percevoir l’intérêt de considérer le rapport de deux termes consécutifs. Lors de l’étude ultérieure de la fonction exponentielle, on réactive le travail sur les suites géométriques en mettant en parallèle évolution géométrique à temps discret et évolution exponentielle à temps continu.
+L’étude des suites est l’occasion d’une sensibilisation à l’idée de limite. Toute formalisation est exclue, mais sur des exemples, on s’attachera à en développer une intuition en s'appuyant sur des calculs numériques, des algorithmes de recherche de seuil.
+L’étude des fonctions polynômes du second degré réactive les connaissances acquises en seconde (fonction carré, identités remarquables) qu’elle permet de consolider. Il est important de diversifier les registres (algébrique, graphique) et de mettre en valeur les interactions avec l’ensemble du programme : problèmes variés, notamment d’origine géométrique, se ramenant à une équation du second degré ou à l’étude d’une fonction polynôme du second degré (optimisation, variations).
+On illustre avec les fonctions polynômes du second degré des notions générales sur les fonctions (taux de variation, calcul de la fonction dérivée, position du graphe de \(x\longmapsto f(x - m)\) et on fait le lien avec la variance en probabilités et statistique.
+Les élèves doivent savoir qu’une fonction polynôme du second degré admet une forme canonique, et être capables de la déterminer dans des cas simples à l’aide de l’identité \(x^2 + 2 a x = (x + a)^2 - a^2\) (méthode de complétion du carré). Le calcul effectif de la forme canonique dans le cas général n’est pas un attendu du programme.
+Les élèves sont entraînés à reconnaître et pratiquer la factorisation directe dans les cas qui s’y prêtent : racines apparentes, coefficient de \(x\) nul, racines entières détectées par calcul mental à partir de leur somme et de leur produit.
 @histoire:Bien avant de faire l’objet d'une étude formalisée, les suites apparaissent dans deux types de situations :
 <ul>
 <li>approximation de nombres réels (encadrement de \(pi\) par Archimède, calcul de la racine carrée chez Héron d'Alexandrie) ;</li>
@@ -26,14 +182,14 @@ Blabla...
 </ul>
 @titre:Suites numériques, modèles discrets
 @contenu:<ul>
-<li>Exemples de modes de génération d’une suite &nbsp;:<br/>explicite un = ƒ(n), par une relation de récurrence un+1 = ƒ(un), par un algorithme, par des motifs géométriques.
-Notations : u(n), un, (u(n)), (un).</li>
+<li>Exemples de modes de génération d’une suite :<br/>explicite \(u_n = f(n)\), par une relation de récurrence \(u_{n+1} = f(u_n)\), par un algorithme, par des motifs géométriques.
+Notations : \(u(n)\), \(u_n\), \((u(n))\), \((u_n)\).</li>
 <li>Suites arithmétiques : exemples, définition, calcul du terme général. Lien avec l’étude
 d’évolutions successives à accroissements constants. Lien avec les fonctions affines.
-Calcul de 1 + 2 + … + n.</li>
+Calcul de \(1 + 2 +...+ n\).</li>
 <li>Suites géométriques : exemples, définition, calcul du terme général. Lien avec l’étude
 d’évolutions successives à taux constant. Lien avec la fonction exponentielle. Calcul
-de 1 + q + … + qn.</li>
+de \(1 + q +...+ q^n\).</li>
 <li>Sens de variation d’une suite</li>
 <li>Sur des exemples, introduction intuitive de la notion de limite, finie ou infinie, d’une
 suite</li>
@@ -46,19 +202,19 @@ suite</li>
 <li>Modéliser un phénomène discret à croissance linéaire par une suite arithmétique, un phénomène discret à croissance exponentielle par une suite géométrique.</li>
 <li>Conjecturer, dans des cas simples, la limite éventuelle d’une suite.</li>
 </ul>
-@commentaire:<h4>Démonstrations</h4>
+@commentaire:<h5>Démonstrations</h5>
 <ul>
 <li>Calcul du terme général d’une suite arithmétique, d’une suite géométrique.</li>
-<li>Calcul de 1 + 2 + … + n.</li>
-<li<Calcul de 1 + q + … + qn.</li>
+<li>Calcul de \(1 + 2 +...+ n\).</li>
+<li<Calcul de \(1 + q +...+ q^n\).</li>
 </ul>
-<h4>Exemples d’algorithme</h4>
+<h5>Exemples d’algorithme</h5>
 <ul>
 <li>Calcul de termes d’une suite, de sommes de termes, de seuil.</li>
 <li>Calcul de factorielle.</li>
 <li>Liste des premiers termes d’une suite : suites de Syracuse, suite de Fibonacci.</li>
 </ul>
-<h4>Approfondissements possibles</h4>
+<h5>Approfondissements possibles</h5>
 <ul>
 <li>Tour de Hanoï.</li>
 <li>Somme des n premiers carrés, des n premiers cubes.</li>
@@ -66,7 +222,8 @@ suite</li>
 </li>
 </ul>
 @wims:
-fnwims:H2/algebra..
+H4/algebra/oefsuites1S.fr,calcultermeA,Calcul des termes d'une suite,,,Le tooltip
+H2/algebra/oefrationnel.fr,n2s1e06,Ranger des fractions,,quizz,Comparer 5 nombres rationnels donnés
 @titre:Équations, fonctions polynômes du second degré
 @contenu:<ul>
 <li>Fonction polynôme du second degré donnée sous forme factorisée. Racines, signe,
@@ -77,7 +234,6 @@ Factorisation éventuelle. Résolution d’une équation du second degré. Signe
 @capacite:Capacité2 du thème algèbre
 @commentaire:Démo,stration ou algorithme ou approfondissement
 @wims:
-fnwims:H2/algebra..
 @theme:Analyse
 @objectif:Deux points fondamentaux du programme de première sont ici étudiés : le concept de
 dérivée, avec ses applications à l’étude des fonctions, et la fonction exponentielle.
@@ -108,7 +264,7 @@ d’abscisse \(a\) est la droite d’équation \(y = f(a) + f'(a)(x - a)\).</li>
 <li>Interpréter le nombre dérivé en contexte : pente d’une tangente, vitesse instantanée,
 coût marginal…</li>
 <li>Déterminer graphiquement un nombre dérivé par la pente de la tangente. Construire
-la tangente en un point à une courbe représentative connaissant le nombre dérivé.</li>
+la tangente en un point à une courbe représentative connaissant le nombre dérivé.</li>	
 <li>Déterminer l’équation de la tangente en un point à la courbe représentative d’une
 fonction.</li>
 <li>À partir de la définition, calculer le nombre dérivé en un point ou la fonction dérivée
@@ -117,8 +273,7 @@ de la fonction carré, de la fonction inverse.</li>
 opérations sur les fonctions dérivables.</li>
 </ul>
 @commentaire:Démonstration ou algorithme ou approfondissement
-@wims:Les exercices du titre 1
-fnwims:H2/analyse.
+@wims:
 @titre:Variations et courbes représentatives des fonctions
 @contenu:<ul>
 <li>Lien entre le sens de variation d’une fonction dérivable sur un intervalle et signe de
@@ -130,8 +285,7 @@ sa fonction dérivée ; caractérisation des fonctions constantes.</li>
 <li>Résoudre un problème d’optimisation.</li>
 </ul>
 @commentaire:Démonstration ou algorithme ou approfondissement
-@wims:Les exercices du titre 2
-fnwims:H2/analyse..
+@wims:
 @titre:Fonction exponentielle
 @contenu:Définition de la fonction exponentielle, comme unique fonction dérivable sur \(\mathbb{R}\) vérifiant \(f'= f\) et \(f(0) = 1\). L’existence et l’unicité sont admises. Notation \(\mathrm{exp}(x)\).
 @capacite:
@@ -144,8 +298,7 @@ fonctions \(t\longmapsto \mathrm{e}^{-kt}\) et \(t \longmapsto \mathrm{e}^{kt}\)
 exemple évolution d’un capital à taux fixe, décroissance radioactive).</li>
 </ul>
 @commentaire:Démonstration ou algorithme ou approfondissement
-@wims:Les exercices du titre 3
-fnwims:H2/analyse..
+@wims:
 @theme:Géométrie
 @objectif:L’étude de la géométrie plane menée au collège et en seconde a familiarisé les élèves à la
 géométrie de configuration, au calcul vectoriel et à la géométrie repérée.
@@ -188,8 +341,7 @@ des coordonnées, à l’aide des normes et d’un angle, à l’aide de normes)
 <li>Utiliser le produit scalaire pour résoudre un problème géométrique.</li>
 </ul>
 @commentaire:Démonstration ou algorithme ou approfondissement
-@wims:Les exercices du titre 1
-fnwims:H2/analyse.
+@wims:
 @titre:Géométrie repérée (<em>Dans un repère orthonormé</em>)
 @contenu:<ul>
 <li>Vecteur normal à une droite. Le vecteur de coordonnées (a,b) est normal à la droite
@@ -208,6 +360,5 @@ normal.</li>
 <li>Utiliser un repère pour étudier une configuration.</li>
 </ul>
 @commentaire:Démonstration ou algorithme ou approfondissement
-@wims:Les exercices du titre 2
-fnwims:H2/analyse..
+@wims:
 @end:
