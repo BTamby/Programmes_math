@@ -1,6 +1,6 @@
 @lienprogramme:https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/16/8/spe632_annexe_1063168.pdf
 @titreniveau:Mathématiques Première générale
-@datewims:Dernière mise à jour le 18/07/2019 (Euler Versailles)
+@datewims:Dernière mise à jour le 18/07/2019 à 22:13 (Euler Versailles)
 @dateprogramme:BO spécial n°1 du 22 janvier 2019
 @level:Première générale
 @ressources:https://euler.ac-versailles.fr/rubrique177.html
@@ -182,6 +182,7 @@ Les élèves sont entraînés à reconnaître et pratiquer la factorisation dire
 <li>problèmes de comptage (les lapins de Fibonacci…).</li>
 </ul>
 @titre:Suites numériques, modèles discrets
+@presentation:
 @contenu:<ul class="tirets">
 <li>Exemples de modes de génération d’une suite :<br/>explicite \(u_n = f(n)\), par une relation de récurrence \(u_{n+1} = f(u_n)\), par un algorithme, par des motifs géométriques.
 Notations : \(u(n)\), \(u_n\), \((u(n))\), \((u_n)\).</li>
@@ -226,6 +227,7 @@ suite</li>
 H4/algebra/oefsuites1S.fr,calcultermeA,Calcul des termes d'une suite,,,Le tooltip
 H2/algebra/oefrationnel.fr,n2s1e06,Ranger des fractions,,quizz,Comparer 5 nombres rationnels donnés
 @titre:Équations, fonctions polynômes du second degré
+@presentation:
 @contenu:<ul class="tirets">
 <li>Fonction polynôme du second degré donnée sous forme factorisée. Racines, signe,
 expression de la somme et du produit des racines.</li>
@@ -319,6 +321,7 @@ La trigonométrie a été utilisée chez les Anciens dans des problèmes de natu
 maniement bien moins facile que les fonctions sinus et cosinus de la présentation actuelle.
 </p>
 @titre:Dérivation
+@presentation:
 @contenu:<em>Point de vue local</em>
 <ul class="tirets">
 <li>Taux de variation. Sécantes à la courbe représentative d’une fonction en un point
@@ -365,6 +368,7 @@ opérations sur les fonctions dérivables.</li>
 @wims:
 niveau/domaine/oef.fr,exo,Titre explicite,,,Le tooltip
 @titre:Variations et courbes représentatives des fonctions
+@presentation:
 @contenu:<ul class="tirets">
 <li>Lien entre le sens de variation d’une fonction dérivable sur un intervalle et signe de
 sa fonction dérivée ; caractérisation des fonctions constantes.</li>
@@ -385,6 +389,7 @@ variations, extremum, allure selon le signe du coefficient de \(x^2\).</li>
 @wims:
 niveau/domaine/oef.fr,exo,Titre explicite,,,Le tooltip
 @titre:Fonction exponentielle
+@presentation:
 @contenu:<ul class="tirets">
 <li>Définition de la fonction exponentielle, comme unique fonction dérivable sur \(\mathbb{R}\) vérifiant \(f'= f\) et \(f(0) = 1\). L’existence et l’unicité sont admises. Notation \(\mathrm{exp}(x)\).</li>
 <li>Pour tous réels \(x\) et \(y\), \(\mathrm{exp}(x + y) = \mathrm{exp}(x) \mathrm{exp}(y)\) et \(\mathrm{exp}(x) \mathrm{exp}(-x) = 1\). Nombre \(\mathrm{e}\). Notation \(\mathrm{e}^x\).</li>
@@ -414,6 +419,7 @@ approchée de \(\mathrm{e}\) à l’aide de la suite \(\left(\left(1+\frac{1}{n}
 @wims:
 niveau/domaine/oef.fr,exo,Titre explicite,,,Le tooltip
 @titre:Fonctions trigonométriques
+@presentation:
 @contenu:<ul class="tirets">
 <li>Cercle trigonométrique. Longueur d’arc. Radian.</li>
 <li>Enroulement de la droite sur le cercle trigonométrique. Image d’un nombre réel.</li>
@@ -465,6 +471,7 @@ diamètre AB comme ensemble des points M tels que le triangle AMB soit rectangle
 semble remonter à Thalès. Mais ce n'est qu'au XVIIe siècle que Descartes élabore la
 méthode des coordonnées et écrit l'équation d’un cercle en repère orthonormé.</p>
 @titre:Calcul vectoriel et produit scalaire
+@presentation:
 @contenu:<ul class="tirets">
 <li>Produit scalaire à partir de la projection orthogonale et de la formule avec le cosinus.
 Caractérisation de l’orthogonalité.</li>
@@ -494,7 +501,8 @@ des coordonnées, à l’aide des normes et d’un angle, à l’aide de normes)
 </ul>
 @wims:
 niveau/domaine/oef.fr,exo,Titre explicite,,,Le tooltip
-@titre:Géométrie repérée (<em>Dans un repère orthonormé</em>)
+@titre:Géométrie repérée
+@presentation:<em>Dans un repère orthonormé</em>
 @contenu:<ul class="tirets">
 <li>Vecteur normal à une droite. Le vecteur de coordonnées \((a,b)\) est normal à la droite
 d’équation \(a x + b y + c =0\). Le vecteur \((-b,a)\) en est un vecteur directeur.</li>
@@ -544,6 +552,7 @@ conditionnements ;</li>
 La notion de variable aléatoire, présente sans définition précise depuis l'origine de la discipline, apparaît alors comme une fonction définie sur l'univers.
 </p>
 @titre:Probabilités conditionnelles et indépendance
+@presentation:
 @contenu:<ul class="tirets">
 <li>Probabilité conditionnelle d’un événement B sachant un événement A de probabilité non nulle. Notation \(P_A(B)\). Indépendance de deux événements.</li>
 <li>Arbres pondérés et calcul de probabilités : règle du produit, de la somme.</li>
@@ -560,7 +569,7 @@ La notion de variable aléatoire, présente sans définition précise depuis l'o
 </ul>
 @commentaire:<h5>Exemple d’algorithme</h5>
 <ul class="tirets">
-<li>Méthode de Monte-Carlo : estimation de l’aire sous la parabole, estimation du nombre \(\pi\).</li>
+<li>Méthode de Monte-Carlo : estimation de l’aire sous la parabole, estimation du nombre \({\pi}\).</li>
 </ul>
 <h5>Approfondissements possibles</h5>
 <ul class="tirets">
@@ -568,7 +577,12 @@ La notion de variable aléatoire, présente sans définition précise depuis l'o
 <li>Exemples de marches aléatoires.</li>
 </ul>
 @wims:
-@titre:Variables aléatoires réelles (Il y a une remarque à insérer !)
+@titre:Variables aléatoires réelles
+@presentation:<p>Le programme ne considère que des univers finis et des variables aléatoires réelles.
+L’objectif est simultanément de développer une intuition autour de l’idée de nombre
+dépendant du hasard et de formaliser la notion mathématique de variable aléatoire comme
+fonction numérique définie sur un univers, permettant d’affecter des probabilités aux valeurs
+possibles de la variable.</p>
 @contenu:<ul class="tirets">
 <li>Variable aléatoire réelle : modélisation du résultat numérique d’une expérience aléatoire ; formalisation comme fonction définie sur l’univers et à valeurs réelles.</li>
 <li>Loi d’une variable aléatoire.</li>
@@ -593,9 +607,7 @@ La notion de variable aléatoire, présente sans définition précise depuis l'o
 </ul>
 <h5>Expérimentations</h5>
 <p>Le travail expérimental de simulation d’échantillons prolonge celui entrepris en seconde.
-L’objectif est de faire percevoir le principe de l’estimation de l’espérance d’une variable
-aléatoire, ou de la moyenne d’une variable statistique dans une population, par une
-moyenne observée sur un échantillon.</p>
+L’objectif est de faire percevoir le principe de l’estimation de l’espérance d’une variable aléatoire, ou de la moyenne d’une variable statistique dans une population, par une moyenne observée sur un échantillon.</p>
 <ul class="tirets">
 <li>Simuler une variable aléatoire avec Python.</li>
 <li>Lire, comprendre et écrire une fonction Python renvoyant la moyenne d’un échantillon
@@ -608,10 +620,7 @@ proportion des cas où l’écart entre \(m\) et \({\mu}\) est inférieur ou ég
 </ul>
 @wims:
 @theme:Algorithmique et programmation
-@objectif:<p>La démarche algorithmique est, depuis les origines, une composante essentielle de l’activité
-mathématique. Au collège, en mathématiques et en technologie, les élèves ont appris à
-écrire, mettre au point et exécuter un programme simple. La classe de seconde a permis de
-consolider les acquis du cycle 4 autour de deux idées essentielles :
+@objectif:<p>La démarche algorithmique est, depuis les origines, une composante essentielle de l’activité mathématique. Au collège, en mathématiques et en technologie, les élèves ont appris à écrire, mettre au point et exécuter un programme simple. La classe de seconde a permis de consolider les acquis du cycle 4 autour de deux idées essentielles :
 <ul class="tirets">
 <li>la notion de fonction ;</li>
 <li>la programmation comme production d’un texte dans un langage informatique.</li>
@@ -636,7 +645,11 @@ Lorsqu’un texte historique a une visée algorithmique, transformer les méthod
 présente en un algorithme, voire en un programme, ou inversement, est l’occasion de
 travailler des changements de registre qui donnent du sens au formalisme mathématique.
 </p>
-@titre:Notion de liste (Il y a une remarque à insérer)
+@titre:Notion de liste
+@presentation:<p>La génération des listes en compréhension et en extension est mise en lien avec la notion
+d’ensemble. Les conditions apparaissant dans les listes définies en compréhension
+permettent de travailler la logique. Afin d’éviter des confusions, on se limite aux listes sans
+présenter d’autres types de collections.</p>
 @contenu:
 @capacite:<ul class="tirets">
 <li>Générer une liste (en extension, par ajouts successifs ou en compréhension).</li>
@@ -650,6 +663,21 @@ travailler des changements de registre qui donnent du sens au formalisme mathém
 @objectif:
 @histoire:
 @titre:
+@presentation:<p>L’apprentissage des notations mathématiques et de la logique est transversal à tous les chapitres du programme. Aussi, il importe d’y travailler d’abord dans des contextes où ils se présentent naturellement, puis de prévoir des temps où les concepts et types de raisonnement sont étudiés, après avoir été rencontrés plusieurs fois en situation.</p>
+<p>Les élèves doivent connaître les notions d’élément d’un ensemble, de sous-ensemble, d’appartenance et d’inclusion, de réunion, d’intersection et de complémentaire et savoir utiliser les symboles de base correspondants : \({\in}\), \({\subset}\), \({\cap}\), \({\cup}\) ainsi que la notation des ensembles de nombres et des intervalles. Ils rencontrent également la notion de couple et celle de produit cartésien de deux ensembles.</p>
+Pour le complémentaire d’un sous-ensemble A de E, on utilise la notation \(\overline{A}\) des probabilités, ou la notation \(\mathrm{E}\backslash \mathrm{A}\).</p>
+Les élèves apprennent en situation à :
+<ul class ="tirets">
+<li>lire et écrire des propositions contenant les connecteurs logiques « et », « ou » ;</li>
+<li>mobiliser un contre-exemple pour montrer qu’une proposition est fausse ;</li>
+<li>formuler une implication, une équivalence logique, et à les mobiliser dans un raisonnement simple ;</li>
+<li>formuler la réciproque d'une implication ;</li>
+<li>employer les expressions « condition nécessaire », « condition suffisante » ;</li>
+<li>identifier le statut des égalités (identité, équation) et celui des lettres utilisées (variable, inconnue, paramètre) ;</li>
+<li>utiliser les quantificateurs (les symboles \({\forall}\) et \({\exists}\) ne sont pas exigibles) et repérer les quantifications implicites dans certaines propositions, particulièrement dans les propositions conditionnelles ;</li>
+<li>formuler la négation de propositions quantifiées.</li>
+</ul>
+<p>Par ailleurs, les élèves produisent des raisonnements par disjonction des cas, par l'absurde, par contraposée, et en découvrent la structure.</p>
 @contenu:
 @capacite:
 @commentaire:

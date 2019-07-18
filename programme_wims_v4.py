@@ -134,41 +134,10 @@ def creer_elements(elt):
 					txt = lign[len(tag_elt)+1:-1]
 					lign = flux.readline()
 					while lign[0] != '@':
-
 						txt=txt+lign
-
 						lign = flux.readline()
 					les_elts.append(txt)
-		#if tag_elt == '@wims':
-			#print("Thème : ",them," et exercices : ",les_elts)
 		dico_all[them][elt]=les_elts
-		#print("Les exercices du thème  ",them, " :",les_elts)
-		flux.close()
-def creer_les_titres():
-
-	for them in dico_all :
-		flux = open(path_fichier_txt)
-		les_titres =[]
-		tag ='@theme'
-		continuer = True
-		#Avancer au prochain tag @theme
-		while continuer :
-			lign = flux.readline()
-			test_tag = lign.split(':')[0]
-			if test_tag == tag and lign[len(tag)+1:-1] == them:
-				continuer = False
-		continuer = True
-		#theme = lign[len(tag)+1:-1]
-		while continuer :
-			lign = flux.readline()
-			test_tag = lign.split(':')[0]
-			if test_tag == tag or lign =='':
-				continuer = False
-			else :
-				if test_tag == '@titre':
-					les_titres.append(lign[len('@titre')+1:-1])
-		dico_all[them]['titres']=les_titres
-		#print("Les titres :",les_titres)
 		flux.close()
 
 def creer_les_themes():
@@ -184,32 +153,13 @@ def creer_les_themes():
 			nom =lign[len(tag)+1:-1]
 			themes.append(nom)
 			dico_all[nom]={}
-			creer_presentation(flux,nom)
 		if tag == tag_fin :
 			continuer = False
 	flux.close()
-def creer_presentation(flux,them):
-	txt_objectif = ''
-	lign = flux.readline()
-	texte = lign[len('@objectif')+1:-1]
-	txt_objectif = txt_objectif+texte
-	test_tag = '@histoire'
-	lign = flux.readline()
-	while lign.split(':')[0] != test_tag :
-		txt_objectif = txt_objectif + lign
-		lign = flux.readline()
-	dico_all[them]['objectif']=txt_objectif
-	txt_histoire = lign[len(test_tag)+1:-1]
-	lign = flux.readline()
-	end_readline = '@titre'
-	while lign.split(':')[0] != end_readline :
-		txt_histoire = txt_histoire +lign
-		lign =flux.readline()
-	dico_all[them]['histoire']=txt_histoire
+
 def creer_lien_exo(ex):
 	lien = ''
 	split_ex = ex.split(',')
-	#print("split_ex = ",split_ex)
 	if len(split_ex) > 1:
 		mod=split_ex[0]
 		exo=split_ex[1]
@@ -226,26 +176,16 @@ def creer_lien_exo(ex):
 		desc=split_ex[5]
 		if desc != '':
 			desc = "\n!set wims_ref_title="+desc
-
-		"""print("Module = ",mod)
-		print("Nom de l'exercice = ",exo)
-		print("Titre modifié de l'exercice = ",titre_mod)
-		print("Extra url = ",extra0)
-		print("Picto = ",picto)
-		print("Description visible en tooltip = ",desc)"""
 		lien = "<li>"+picto+desc+"\n!href target=wims_exo module="+mod+"&exo="+exo+extra+" "+titre_mod+"\n</li>"
-		#print("Le lien :\n",lien)
 	else :
 		print("Pas d'exercices")
 	return lien
 
 def creer_liste_exo(them,pt_de_prog,ex):
-	#print("Thème : ",them,"\nPoint de programme : ",pt_de_prog,"\nListe exercices : ",ex)
 	l_exo = ex.split('\n')
 	fichier_phtml = nom_fichier[them]
 	flux = open(fichier_phtml,'a',encoding='Windows 1252')
 	flux.write('Point de programme : '+pt_de_prog+'\n')
-	#print("Taille de l_exo : ", len(l_exo))
 	les_liens = []
 	for e in l_exo :
 		lien = creer_lien_exo(e)
@@ -258,22 +198,15 @@ work_directory = os.getcwd()
 dossier_matiere = work_directory+'/math/'
 fichier_txt ='math.1G'
 path_fichier_txt = dossier_matiere+fichier_txt
-#allhtml = ''
 program_adress ='/home/wims/public_html/modules/help/teacher/program.fr/fr/'
 out_phtml =open(program_adress+fichier_txt+'.phtml','w',encoding='Windows 1252')
-#txt_html = begin_html()
-#allhtml = allhtml + txt_html
 allhtml = begin_html()
 dico_all = {}
+ens_tag = ['objectif','histoire','titre','contenu','capacite','commentaire','presentation','wims']
 #Creer le contenu de chaque thème
 creer_les_themes()
-creer_les_titres()
-creer_elements('contenu')
-creer_elements('capacite')
-creer_elements('commentaire')
-creer_elements('wims')
-#print("Test exercice =  ", dico_all['Algèbre'])
-#Insérer le menu dans  le fichier .phtml
+for tag_cur in ens_tag :
+	creer_elements(tag_cur)
 allhtml=allhtml+'<div id="widget_'+fichier_txt.replace('.','')+'"><!-- Début de id = widget_'+fichier_txt.replace('.','')+'-->'
 allhtml = allhtml+'\n\t<ul class="wims_summary"><!-- Début du menu -->\n'
 i = 0
@@ -298,23 +231,23 @@ for cle,val in dico_all.items():
 	<h3 class="program_theme">'+cle+'</h3>\n'
 	allhtml = allhtml+begin_div
 	#objectif = creer_objectif(them)
-	if val['objectif'] != '':
+	if val['objectif'] != ['']:
 		begin_div_objectif = '\t\t<div class="accordion">\n\t\t\t<h4 class="program_h4">Objectifs</h4>\n\t\t\t<div>\n'
 		allhtml = allhtml+begin_div_objectif
-		allhtml = allhtml+val['objectif']
+		allhtml = allhtml+val['objectif'][0]
 		end_div_objectif = '\n\t\t\t</div><!--Fin objectifs-->\n\t\t</div><!--Fin accordion-->\n'
 		allhtml = allhtml + end_div_objectif
-	if val['histoire'] != '':
+	if val['histoire'] != ['']:
 		begin_div_histoire = '\t\t<div class="accordion">\n\t\t\t<h4 class="program_h4">Histoire des mathématiques</h4>\n\t\t\t<div>\n'
 		allhtml = allhtml+begin_div_histoire
-		allhtml = allhtml+val['histoire']
+		allhtml = allhtml+val['histoire'][0]
 		end_div_histoire = '\n\t\t\t</div><!--Fin histoire des maths-->\n\t\t</div><!--Fin accordion-->\n'
 		allhtml = allhtml + end_div_histoire
-	print("dico_all[cle]['titres'] = ",dico_all[cle]['titres'],"\n")
-	if dico_all[cle]['titres'] != ['']:
+	print("dico_all[cle]['titre'] = ",dico_all[cle]['titre'],"\n")
+	if dico_all[cle]['titre'] != ['']:
 		allhtml = allhtml +'\t<h4 class="program_h4">Sommaire</h4><!-- Sommaire-->\n'
 		allhtml = allhtml+'<ul class="program_submenu">\n\t'
-		for num,t in enumerate(dico_all[cle]['titres']):
+		for num,t in enumerate(dico_all[cle]['titre']):
 			if t != '':
 				allhtml = allhtml+'<li><a href="#t_'+str(i)+str(num)+'">'+t+'</a></li>\n\t'
 		allhtml = allhtml+'\n</ul>\n'
@@ -325,13 +258,15 @@ for cle,val in dico_all.items():
 
 	for num,valeur in enumerate(dico_all[cle]['contenu']):
 		# Titre du point de programme
-		allhtml = allhtml+'<h4 class="program_h4">'+dico_all[cle]['titres'][num]+'</h4>\n'
+		allhtml = allhtml+'<h4 class="program_h4">'+dico_all[cle]['titre'][num]+'</h4>\n'
+		#Des compléments pour certains points de programme
+		if dico_all[cle]['presentation'][num] != '' :
+			allhtml = allhtml+dico_all[cle]['presentation'][num]
 		# Début du bloc formé par les colonnes (3, 2 ou 1 ?)
 		begin_div_bloc = '<div id = "t_'+str(i)+str(num)+'" class="grid-x grid-margin-x small-margin-collapse"><!-- Début bloc -->\n'
 		allhtml = allhtml +begin_div_bloc
 		#Création du bloc de colonnes
 		#Il y a trois colonnes
-		#if valeur == '' and dico_all[cle]['capacite'][num] == '' and dico_all[cle]['commentaire'][num] == '':
 		if dico_all[cle]['contenu'] != [''] and dico_all[cle]['capacite'] != [''] and dico_all[cle]['commentaire'] != ['']:
 			#print("Les trois colonnes du titre ",dico_all[cle]['titres'][num]," du thmème ",cle," sont vides !\n")
 			class_col = '"box_content2 small-4 medium-4 large-4 cell program_colonne"'
@@ -349,10 +284,9 @@ for cle,val in dico_all.items():
 		# Insertion des exercices
 		exercices = dico_all[cle]['wims'][num]
 		if len(exercices) != 0 :
-			liste_de_lien = creer_liste_exo(cle,dico_all[cle]['titres'][num],exercices)
-		#print("Thème : ",cle," Titre : ",dico_all[cle]['titres'][num],"\nExercices n° ",num ," : \n",dico_all[cle]['wims'][num])
+			liste_de_lien = creer_liste_exo(cle,dico_all[cle]['titre'][num],exercices)
 		allhtml = allhtml +'<div class="box_content2 small-12 cell program_colonne"><!-- Les exercices -->\
-		\nInsérer ici les exercices du paragraphe '+ dico_all[cle]['titres'][num]+'\n<ul class=program_list>\n'
+		\nInsérer ici les exercices du paragraphe '+ dico_all[cle]['titre'][num]+'\n<ul class=program_list>\n'
 		for e in liste_de_lien :
 			allhtml = allhtml+e+'\n'
 		allhtml = allhtml+'</ul>\n</div><!-- Fin exercices -->\n'
