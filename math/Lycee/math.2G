@@ -1,6 +1,6 @@
 @lienprogramme:https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/95/7/spe631_annexe_1062957.pdf
 @titreniveau:Mathématiques Seconde générale et technologique
-@datewims:Dernière mise à jour le 19/07/2019 à 21h16 (Euler Versailles)
+@datewims:Dernière mise à jour le 21/07/2019 à 22h03 (Euler Versailles)
 @dateprogramme:BO spécial N°1 du 22 janvier 2019
 @level:Seconde
 @ressources:https://euler.ac-versailles.fr/rubrique176.html
@@ -159,14 +159,14 @@ de nombre pair, de nombre impair, de nombre premier.</li>
 </ul>
 @commentaire:<h5>Démonstrations</h5>
 <ul class="tirets">
-<li>Pour une valeur numérique de a, la somme de deux multiples de a est multiple de a.</li>
+<li>Pour une valeur numérique de \(a\), la somme de deux multiples de \(a\) est multiple de \(a\).</li>
 <li>Le carré d‘un nombre impair est impair.</li>
 </ul>
 <h5>Exemples d’algorithme</h5>
 <ul class="tirets">
-<li>Déterminer si un entier naturel a est multiple d‘un entier naturel b.</li>
-<li>Pour des entiers a et b donnés, déterminer le plus grand multiple de a inférieur ou
-égal à b.</li>
+<li>Déterminer si un entier naturel \(a\) est multiple d‘un entier naturel \(b\).</li>
+<li>Pour des entiers \(a\) et \(b\) donnés, déterminer le plus grand multiple de \(a\) inférieur ou
+égal à \(b\).</li>
 <li>Déterminer si un entier naturel est premier.</li>
 </ul>
 @wims:
@@ -245,7 +245,306 @@ Chasles.</li>
 <li>Déterminant de deux vecteurs dans une base orthonormée, critère de colinéarité.</li>
 <li>Application à l‘alignement, au parallélisme.</li>
 </ul>
-@capacite:Test
-@commentaire:Test
+@capacite:<ul class="tirets">
+<li>Représenter géométriquement des vecteurs.</li>
+<li>Construire géométriquement la somme de deux vecteurs.</li>
+<li>Représenter un vecteur dont on connaît les coordonnées. Lire les coordonnées d‘un vecteur.</li>
+<li>Calculer les coordonnées d‘une somme de vecteurs, d‘un produit d‘un vecteur par un nombre réel.</li>
+<li>Calculer la distance entre deux points. Calculer les coordonnées du milieu d‘un segment.</li>
+<li>Caractériser alignement et parallélisme par la colinéarité de vecteurs.</li>
+<li>Résoudre des problèmes en utilisant la représentation la plus adaptée des vecteurs.</li>
+</ul>
+@commentaire:<h5>Démonstration</h5>
+<ul class="tirets">
+<li>Deux vecteurs sont colinéaires si et seulement si leur déterminant est nul.</li>
+</ul>
+<h5>Approfondissement possible</h5>
+<ul class="tirets">
+<li>Définition vectorielle des homothéties.</li>
+</ul>
+@wims:
+@titre:Résoudre des problèmes de géométrie
+@presentation:
+@contenu:<ul class="tirets">
+<li>Projeté orthogonal d‘un point sur une droite.</li>
+</ul>
+@capacite:<ul class="tirets">
+<li>Résoudre des problèmes de géométrie plane sur des figures simples ou complexes (triangles, quadrilatères, cercles).</li>
+<li>Calculer des longueurs, des angles, des aires et des volumes.</li>
+<li>Traiter de problèmes d‘optimisation.</li>
+</ul>
+@commentaire:<h5>Démonstrations</h5>
+<ul class="tirets">
+<li>Le projeté orthogonal du point \(M\) sur une droite \({\Delta}\) est le point de la droite \({\Delta}\) le plus proche du point \(M\).</li>
+<li>Relation trigonométrique \(cos^2(\alpha) + sin^2(\alpha) = 1\) dans un triangle rectangle.</li>
+</ul>
+<h5>Approfondissements possibles</h5>
+<ul class="tirets">
+<li>Démontrer que les hauteurs d‘un triangle sont concourantes.</li>
+<li>Expression de l‘aire d‘un triangle : \(\frac{1}{2}a b sin C\).</li>
+<li>Formule d‘Al-Kashi.</li>
+<li>Le point de concours des médiatrices est le centre du cercle circonscrit.</li>
+</ul>
+@wims:
+@titre:Représenter et caractériser les droites du plan
+@presentation:<p>Au cycle 4, les élèves ont rencontré les équations de droite pour représenter les fonctions affines. En seconde, ils étendent l‘étude à la forme générale des équations de droite.
+</p>
+<p>Dans cette section, le plan est muni d’un repère orthonormé.</p>
+@contenu:<ul class="tirets">
+<li>Vecteur directeur d‘une droite.</li>
+<li>Equation de droite : équation cartésienne, équation réduite.</li>
+<li>Pente (ou coefficient directeur) d‘une droite non parallèle à l‘axe des ordonnées.</li>
+</ul>
+@capacite:<ul class="tirets">
+<li>Déterminer une équation de droite à partir de deux points, un point et un vecteur directeur ou un point et la pente.</li>
+<li>Déterminer la pente ou un vecteur directeur d‘une droite donnée par une équation ou une représentation graphique.</li>
+<li>Tracer une droite connaissant son équation cartésienne ou réduite.</li>
+<li>Établir que trois points sont alignés ou non.</li>
+<li>Déterminer si deux droites sont parallèles ou sécantes.</li>
+<li>Résoudre un système de deux équations linéaires à deux inconnues, déterminer le point d‘intersection de deux droites sécantes.</li>
+</ul>
+@commentaire:<h5>Démonstration</h5>
+<ul class="tirets">
+<li>En utilisent le déterminant, établir la forme générale d‘une équation de droite.</li>
+</ul>
+<h5>Exemples d’algorithme</h5>
+<ul class="tirets">
+<li>Étudier l‘alignement de trois points dans le plan.</li>
+<li>Déterminer une équation de droite passant par deux points donnés.</li>
+</ul>
+<h5>Approfondissements possibles</h5>
+<ul class="tirets">
+<li>Ensemble des points équidistants d‘un point et de l‘axe des abscisses.</li>
+<li>Représentation, sur des exemples, de parties du plan décrites par des inégalités sur les coordonnées.</li>
+</ul>
+@wims:
+@theme:Fonctions
+@objectif:<p>Au cycle 4, les élèves ont découvert progressivement la notion de fonction, manipulé différents modes de représentation: expression algébrique, tableau de valeurs, représentation graphique, programmes de calcul. Ils connaissent le vocabulaire de base:
+variable, fonction, antécédent, image et la notation \(f(x)\). Selon le mode de représentation choisi, ils déterminent une image ou des antécédents d‘un nombre par une fonction. Ils ont étudié les fonctions linéaires, les fonctions affines et leur représentation graphique.
+</p>
+<p>En seconde, les objectifs sont les suivants :
+<ul class="tirets">
+<li>consolider la notion de fonction, comme exprimant la dépendance d‘une variable par rapport à une autre ;</li>
+<li>exploiter divers registres, notamment le registre algébrique et le registre graphique ;</li>
+<li>étendre la panoplie des fonctions de référence ;</li>
+<li>étudier les notions liées aux variations et aux extremums des fonctions.</li>
+</ul>
+</p>
+<p>Les fonctions définies sur un intervalle de \(\mathbb{R}\) permettent de modéliser des phénomènes
+continus. On peut confronter les élèves à des exemples de fonctions définies sur N pour
+modéliser des phénomènes discrets. La notation \(u(n)\) est alors utilisée.</p>
+<p>La modélisation d‘une dépendance par une fonction apparaît dans des domaines très variés: géométrie dans le plan ou dans l‘espace, biologie, économie, physique, sciences sociales. La modélisation de phénomènes dépendant du temps, la variable étant alors notée test mise en évidence.
+</p>
+<p>Les outils numériques sont mis à profit :
+<ul class="tirets">
+<li>un logiciel de géométrie dynamique, pour la représentation graphique et l‘utilisation de curseurs ;</li>
+<li>Python, le tableur ou la calculatrice, pour mettre en évidence l‘aspect de programme de calcul.</li>
+</ul>
+</p>
+<p>Dans un premier temps, les élèves découvrent, manipulent et verbalisent certaines propriétés (parité, monotonie sur un intervalle...) sur les fonctions de référence. Ces propriétés se généralisent peu à peu aux fonctions quelconques. Leur maîtrise est un objectif de fin d‘année. Leur formalisation est l‘occasion d‘un travail sur les quantificateurs.
+</p>
+@histoire:<p>On peut évoquer la très lente élaboration de la notion de fonction, depuis l‘Antiquité jusqu‘à la codification actuelle par Dirichlet, en mettant en évidence quelques étapes importantes : Newton, Leibniz, Euler. On souligne alors l‘importance de la notation algébrique.</p>
+@titre:Se constituer un répertoire de fonctions de référence
+@presentation:<p>Les élèves doivent se constituer un répertoire d‘images mentales des courbes représentatives des fonctions de référence, sur lesquelles s‘appuyer lors de l‘étude des propriétés des fonctions.</p>
+@contenu:<ul class="tirets">
+<li>Fonctions carré, inverse, racine carrée, cube : définitions et courbes représentatives.</li>
+</ul>
+@capacite:<ul class="tirets">
+<li>Pour deux nombres \(a\) et \(b\) donnés et une fonction de référence \(f\), comparer \(f(a)\) et \(f(b)\) numériquement ou graphiquement.</li>
+<li>Pour les fonctions affines, carré, inverse, racine carrée et cube, résoudre graphiquement ou algébriquement une équation ou une inéquation du type \(f(x) = k\), \(f(x) < k\).</li>
+</ul>
+@commentaire:<h5>Démonstration</h5>
+<ul class="tirets">
+<li>Étudier la position relative des courbes d‘équation \(y = x\), \(y = x^2\), \(y = x^3\), pour \(x > 0\).</li>
+</ul>
+@wims:
+@titre:Représenter algébriquement et graphiquement les fonctions
+@presentation:
+@contenu:<ul class="tirets">
+<li>Fonction à valeurs réelles définie sur un intervalle ou une réunion finie d‘intervalles de \({\mathbb{R}}\).</li>
+<li>Courbe représentative: la courbe d‘équation \(y=f(x)\) est l‘ensemble des points du plan dont les coordonnées \((x,y)\) vérifient \(y = f(x)\).</li>
+<li>Fonction paire, impaire. Traduction géométrique.</li>
+</ul>
+@capacite:<ul class="tirets">
+<li>Exploiter l‘équation \(y = f(x)\) d‘une courbe : appartenance, calcul de coordonnées.</li>
+<li>Modéliser par des fonctions des situations issues des mathématiques, des autres disciplines.</li>
+<li>Résoudre une équation ou une inéquation du type \(f(x) =k\), \(f(x) <k\), en choisissant une méthode adaptée : graphique, algébrique, logicielle.</li>
+<li>Résoudre une équation, une inéquation produit ou quotient, à l‘aide d‘un tableau de signes.</li>
+<li>Résoudre, graphiquement ou à l‘aide d‘un outil numérique, une équation ou inéquation du type \(f(x)=g(x)\), \(f(x) < g(x)\).</li>
+</ul>
+@commentaire:<h5>Approfondissement possible</h5>
+<ul class="tirets">
+<li>Étudier la parité d‘une fonction dans des cas simples.</li>
+</ul>
+@wims:
+@titre:Étudier les variations et les extremums d’une fonction
+@presentation:
+@contenu:<ul class="tirets">
+<li>Croissance, décroissance, monotonie d‘une fonction définie sur un intervalle. Tableau de variations.</li>
+<li>Maximum, minimum d‘une fonction sur un intervalle.</li>
+<li>Pour une fonction affine, interprétation du coefficient directeur comme taux d‘accroissement, variations selon son signe.</li>
+<li>Variations des fonctions carré, inverse, racine carrée, cube.</li>
+</ul>
+@capacite:<ul class="tirets">
+<li>Relier représentation graphique et tableau de variations.</li>
+<li>Déterminer graphiquement les extremums d‘une fonction sur un intervalle.</li>
+<li>Exploiter un logiciel de géométrie dynamique ou de calcul formel, la calculatrice ou Python pour décrire les variations d‘une fonction donnée par une formule.</li>
+<li>Relier sens de variation, signe et droite représentative d‘une fonction affine.</li>
+</ul>
+@commentaire:<h5>Démonstration</h5>
+<ul class="tirets">
+<li>Variations des fonctions carré, inverse, racine carrée.</li>
+</ul>
+<h5>Exemples d’algorithme</h5>
+<ul class="tirets">
+<li>Pour une fonction dont le tableau de variations est donné, algorithmes d‘approximation numérique d‘un extremum (balayage, dichotomie).</li>
+<li>Algorithme de calcul approché de longueur d‘une portion de courbe représentative de fonction.</li>
+</ul>
+<h5>Approfondissement possible</h5>
+<ul class="tirets">
+<li>Relier les courbes représentatives de la fonction racine carrée et de la fonction carré sur \({\mathbb{R}}^{+}\).</li>
+</ul>
+@wims:
+@theme:Statistiques et probabilités
+@objectif:<p>En matière d‘information chiffrée, les élèves ont travaillé au cycle 4 effectifs, fréquences, proportions, pourcentages, coefficient de proportionnalité, taux d‘évolution, coefficient multiplicateur. L‘objectif est de consolider et de prolonger ce travail par l‘étude de situations multiplicatives : proportion de proportion, évolutions successives ou réciproques. Les élèves doivent distinguer si un pourcentage exprime une proportion ou une évolution.
+</p>
+<p>En statistique descriptive, les élèves ont étudié moyenne, médiane et étendue. On introduit la notion de moyenne pondérée et deux indicateurs de dispersion : écart interquartile et écart type.
+</p>
+<p>Au cycle 4, les élèves ont travaillé sur les notions élémentaires de probabilité : expérience aléatoire, issue, événement, probabilité. Ils ont construit leur intuition sur des situations concrètes fondées sur l‘équiprobabilité, puis en simulant la répétition d‘épreuves identiques et indépendantes pour observer la stabilisation des fréquences. Ils sont capables de calculer des probabilités dans des contextes faisant intervenir une ou deux épreuves.
+</p>
+<p>En classe de seconde, on formalise la notion de loi (ou distribution) de probabilité dans le cas fini en s‘appuyant sur le langage des ensembles et on précise les premiers éléments de calcul des probabilités. On insiste sur le fait qu‘une loi de probabilité (par exemple une équiprobabilité) est une hypothèse du modèle choisi et ne se démontre pas. Le choix du modèle peut résulter d‘hypothèses implicites d‘équiprobabilité (par exemple, lancers de pièces ou dés équilibrés, tirage au hasard dans une population) qu‘il est recommandable
+d‘expliciter; il peut aussi résulter d‘une application d‘une version vulgarisée de la loi des grands nombres, où un modèle est construit à partir de fréquences observées pour un phénomène réel (par exemple : lancer de punaise, sexe d‘un enfant à la naissance). Dans tous les cas, on distingue nettement le modèle probabiliste abstrait et la situation réelle.
+</p>
+@histoire:<p>L‘histoire des probabilités fournit un cadre pour dégager les éléments de Ia mathématisation du hasard. Un exemple est le problème des partis, dit aussi du chevalier de Méré, l‘échange de lettres entre Pascal et Fermat sur ce point puis les travaux de Pascal, Fermat et Huygens qui en découlent. Le problème du duc de Toscane ou les travaux de Leibniz sur le jeu de dés peuvent aussi être évoqués.
+</p>
+@titre:Utiliser l’information chiffrée et statistique descriptive
+@presentation:
+@contenu:<ul class="tirets">
+<li>Proportion, pourcentage d‘une sous-population dans une population.</li>
+<li>Ensembles de référence inclus les uns dans les autres: pourcentage de pourcentage.</li>
+<li>Evolution : variation absolue, variation relative.</li>
+<li>Évolutions successives, évolution réciproque: relation sur les coefficients multiplicateurs (produit, inverse).</li>
+<li>Indicateurs de tendance centrale d‘une série statistique : moyenne pondérée.</li>
+<li>Linéarité de la moyenne.</li>
+<li>Indicateurs de dispersion : écart interquartile, écart type.</li>
+</ul>
+@capacite:<ul class="tirets">
+<li>Exploiter la relation entre effectifs, proportions et pourcentages.</li>
+<li>Traiter des situations simples mettant en jeu des pourcentages de pourcentages.</li>
+<li>Exploiter la relation entre deux valeurs successives et leur taux d‘évolution.</li>
+<li>Calculer le taux d‘évolution global à partir des taux d‘évolution successifs. Calculer un taux d‘évolution réciproque.</li>
+<li>Décrire verbalement les différences entre deux séries statistiques, en s‘appuyant sur des indicateurs ou sur des représentations graphiques données.</li>
+<li>Pour des données réelles ou issues d‘une simulation, lire et comprendre une fonction écrite en Python renvoyant la moyenne \(m\), l‘écart type \(s\), et la proportion d‘éléments appartenant à \({\left[m-s,m+s\right]}\).</li>
+</ul>
+@commentaire:
+@wims:
+@titre:Modéliser le hasard, calculer des probabilités
+@presentation:<em>L’ensemble des issues est fini.</em>
+@contenu:<ul class="tirets">
+<li>Ensemble (univers) des issues. Événements. Réunion, intersection, complémentaire.</li>
+<li>Loi (distribution) de probabilité. Probabilité d‘un évènement : somme des probabilités des issues.</li>
+<li>Relation \(P\left(A \cup B\right)+P\left(A \cap B\right) = P(A)+P(B)\).</li>
+<li>Dénombrement à l‘aide de tableaux et d‘arbres.</li>
+</ul>
+@capacite:<ul class="tirets">
+<li>Utiliser des modèles théoriques de référence (dé, pièce équilibrée, tirage au sort avec équiprobabilité dans une population) en comprenant que les probabilités sont définies à priori.</li>
+<li>Construire un modèle à partir de fréquences observées, en distinguant nettement modèle et réalité.</li>
+<li>Calculer des probabilités dans des cas simples : expérience aléatoire à deux ou trois épreuves.</li>
+</ul>
+@commentaire:
+@wims:
+@titre:Échantillonnage
+@presentation:<p>En liaison avec la partie « Algorithmique et programmation », on définit la notion d‘échantillon. L‘objectif est de faire percevoir, sous une forme expérimentale, la loi des grands nombres, la fluctuation d‘échantillonnage et le principe de l‘estimation d‘une probabilité par une fréquence observée sur un échantillon.
+</p>
+@contenu:<ul class="tirets">
+<li>Echantillon aléatoire de taille \(n\) pour une expérience à deux issues.</li>
+<li>Version vulgarisée de la loi des grands nombres: « Lorsque \(n\) est grand, sauf exception, la fréquence observée est proche de la probabilité. »</li>
+<li>Principe de l‘estimation d‘une probabilité, ou d‘une proportion dans une population, par une fréquence observée sur un échantillon.</li>
+</ul>
+@capacite:<ul class="tirets">
+<li>Lire et comprendre une fonction Python renvoyant le nombre ou la fréquence de succès dans un échantillon de taille \(n\) pour une expérience aléatoire à deux issues.
+<li>Observer la loi des grands nombres à l‘aide d‘une simulation sur Python ou tableur.
+<li>Simuler \(N\) échantillons de taille \(n\) d‘une expérience aléatoire à deux issues. Si \(p\) est la probabilité d‘une issue et \(f\) sa fréquence observée dans un échantillon, calculer la proportion des cas où l‘écart entre \(p\) et \(f\) est inférieur ou égal à \(\frac{1}{\sqrt{n}}\).
+</ul>
+@commentaire:
+@wims:
+@theme:Algorithmique et programmation
+@objectif:<p>La démarche algorithmique est, depuis les origines, une composante essentielle de l‘activité mathématique. Au cycle 4, en mathématiques et en technologie, les élèves ont appris à écrire, mettre au point et exécuter un programme simple. Une consolidation des acquis du cycle 4 est proposée autour de deux idées essentielles :
+<ul class="tirets">
+<li>la notion de fonction ;</li>
+<li>la programmation comme production d‘un texte dans un langage informatique.</li>
+</ul>
+</p>
+<p>
+Dans le cadre de cette activité, les élèves s‘exercent à :
+<ul class="tirets">
+<li>décrire des algorithmes en langage naturel ou dans un langage de programmation ;</li>
+<li>en réaliser quelques-uns à l‘aide d‘un programme simple écrit dans un langage de programmation textuel ;</li>
+<li>interpréter, compléter ou modifier des algorithmes plus complexes.</li>
+</ul>
+</p>
+<p>Un langage de programmation simple d‘usage est nécessaire pour l‘écriture des programmes informatiques. Le langage choisi est Python, langage interprété, concis, largement répandu et pouvant fonctionner dans une diversité d‘environnements. Les élèves sont entraînés à passer du langage naturel à Python et inversement.
+</p>
+<p>
+L‘algorithmique a une place naturelle dans tous les champs des mathématiques et les problèmes ainsi traités doivent être en relation avec les autres parties du programme (fonctions, géométrie, statistiques et probabilité, logique) mais aussi avec les autres disciplines ou la vie courante.
+</p>
+<p>À l‘occasion de l‘écriture d‘algorithmes et de petits programmes, il convient de transmettre aux élèves l‘exigence d‘exactitude et de rigueur, et de les entrainer aux pratiques systématiques de vérification et de contrôle. En programmant, les élèves revisitent les notions de variables et de fonctions sous une forme différente.
+</p>
+@histoire:<p>Les textes évoqués dans la thématique « Nombres et calculs » indiquent une préoccupation algorithmique tout au long de l‘Histoire. Lorsqu‘un texte historique a une visée algorithmique, transformer les méthodes qu‘il présente en un algorithme, voire en un programme, ou inversement, est l‘occasion de travailler des changements de registre qui donnent du sens au formalisme mathématique.
+</p>
+@titre:Utiliser les variables et les instructions élémentaires
+@presentation:
+@contenu:<ul class="tirets">
+<li>ariables informatiques de type entier, booléen, flottant, chaine de caractères.</li>
+<li>Affectation (notée \( \longleftarrow \) langage naturel).</li>
+<li>Séquence d‘instructions.</li>
+<li>Instruction conditionnelle.</li>
+<li>Boucle bornée (for), boucle non bornée (while).</li>
+</ul>
+@capacite:<ul class="tirets">
+<li>Choisir ou déterminer le type d‘une variable (entier, flottant ou chaine de caractères).</li>
+<li>Concevoir et écrire une instruction d‘affectation, une séquence d‘instructions, une instruction conditionnelle.</li>
+<li>Écrire une formule permettant un calcul combinant des variables.</li>
+<li>Programmer, dans des cas simples, une boucle bornée, une boucle non bornée.</li>
+<li>Dans des cas plus complexes : lire, comprendre, modifier ou compléter un algorithme ou un programme.</li>
+</ul>
+@commentaire:
+@wims:
+@titre:Notion de fonction
+@presentation:
+@contenu:<ul class="tirets">
+<li>Fonctions à un ou plusieurs arguments.</li>
+<li>Fonction renvoyant un nombre aléatoire. Série statistique obtenue par la répétition de l‘appel d‘une telle fonction.</li>
+</ul>
+@capacite:<ul class="tirets">
+<li>Écrire des fonctions simples ; lire, comprendre, modifier, compléter des fonctions plus complexes. Appeler une fonction.</li>
+<li>Lire et comprendre une fonction renvoyant une moyenne, un écart type. Aucune connaissance sur les listes n‘est exigée.</li>
+<li>Écrire des fonctions renvoyant le résultat numérique d‘une expérience aléatoire, d‘une répétition d‘expériences aléatoires indépendantes.</li>
+</ul>
+@commentaire:
+@wims:
+@theme:Vocabulaire ensembliste et logique
+@objectif:
+@histoire:
+@titre:
+@presentation:<p>L‘apprentissage des notations mathématiques et de la logique est transversal à tous les chapitres du programme. Aussi, il importe d'y travailler d‘abord dans des contextes où ils se présentent naturellement, puis de prévoir des temps où les concepts et types de raisonnement sont étudiés, après avoir été rencontrés plusieurs fois en situation.
+</p>
+<p>
+Les élèves doivent connaître les notions d‘élément d‘un ensemble, de sous-ensemble, d‘appartenance et d‘inclusion, de réunion, d‘intersection et de complémentaire, et savoir utiliser les symboles de base correspondant: \({\in}\), \({\subset}\), \({\cap}\), \({\cup}\), ainsi que la notation des ensembles de nombres et des intervalles. Ils rencontrent également la notion de couple. Pour le complémentaire d‘un sous-ensemble \(A\) de \(E\), on utilise la notation des probabilités \(\overline{A}\), ou la notation \(\mathrm{E}\backslash \mathrm{A}\).
+</p>
+<p>
+
+Les élèves apprennent en situation à :
+<ul class="tirets">
+<li>reconnaître ce qu‘est une proposition mathématique, à utiliser des variables pour écrire des propositions mathématiques ;</li>
+<li>lire et écrire des propositions contenant les connecteurs « et », « ou » ;</li>
+<li>formuler la négation de propositions simples (sans implication ni quantificateurs) ;</li>
+<li>mobiliser un contre-exemple pour montrer qu‘une proposition est fausse ;</li>
+<li>formuler une implication, une équivalence logique, et à les mobiliser dans un raisonnement simple ;</li>
+</ul>
+</p>
+@contenu:
+@capacite:
+@commentaire:
 @wims:
 @end:

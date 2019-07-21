@@ -32,7 +32,7 @@ def begin_html():
 			test_tag = lign.split(':')[0]
 			if test_tag == tag or lign == '':
 				continuer = False
-		print('Le tag ',tag,' et la liste ',liste)
+		#print('Le tag ',tag,' et la liste ',liste)
 		index_2pt = lign.index(':')
 		info_lu = lign[index_2pt+1:-1]
 		#print("info_lu = ",info_lu)
@@ -241,7 +241,7 @@ def creer_program(prog):
 			allhtml = allhtml+val['histoire'][0]
 			end_div_histoire = '\n\t\t\t</div><!--Fin histoire des maths-->\n\t\t</div><!--Fin accordion-->\n'
 			allhtml = allhtml + end_div_histoire
-		print("dico_all[cle]['titre'] = ",dico_all[cle]['titre'],"\n")
+		#print("dico_all[cle]['titre'] = ",dico_all[cle]['titre'],"\n")
 		if dico_all[cle]['titre'] != ['']:
 			allhtml = allhtml +'\t<h4 class="program_h4">Sommaire</h4><!-- Sommaire-->\n'
 			allhtml = allhtml+'<ul class="program_submenu">\n\t'
@@ -251,7 +251,7 @@ def creer_program(prog):
 			allhtml = allhtml+'\n</ul>\n'
 		#Dans le cas où il y a 3 colonnes
 		if dico_all[cle]['contenu'] != [''] and dico_all[cle]['capacite'] != [''] and dico_all[cle]['commentaire'] != ['']:
-			print("Il y a 3 colonnes dans le thème : ",cle)
+			#print("Il y a 3 colonnes dans le thème : ",cle)
 			class_col = '"box_content2 small-4 medium-4 large-4 cell program_colonne"'
 
 		for num,valeur in enumerate(dico_all[cle]['contenu']):
@@ -264,19 +264,33 @@ def creer_program(prog):
 			begin_div_bloc = '<div id = "t_'+str(i)+str(num)+'" class="grid-x grid-margin-x small-margin-collapse"><!-- Début bloc -->\n'
 			allhtml = allhtml +begin_div_bloc
 			#Création du bloc de colonnes
-			#Il y a trois colonnes
-			if dico_all[cle]['contenu'] != [''] and dico_all[cle]['capacite'] != [''] and dico_all[cle]['commentaire'] != ['']:
-				#print("Les trois colonnes du titre ",dico_all[cle]['titres'][num]," du thmème ",cle," sont vides !\n")
+			#### TEST
+			print("Thème = ", cle)
+			print("Titre = ",dico_all[cle]['titre'][num])
+			print("Colonne contenu = ",dico_all[cle]['contenu'][num], " type = ", type(dico_all[cle]['contenu'][num]))
+			print("Colonne capacite = ",dico_all[cle]['capacite'][num]," type = ", type(dico_all[cle]['capacite'][num]))
+			print("Colonne commentaire = ",dico_all[cle]['commentaire'][num]," type = ", type(dico_all[cle]['commentaire'][num]))
+			#Il y a les trois colonnes
+			if dico_all[cle]['contenu'][num] != [''] and dico_all[cle]['capacite'][num] != [''] and dico_all[cle]['commentaire'][num]!= '':
+				print("Les trois colonnes du titre ",dico_all[cle]['titre'][num]," du thème ",cle," ne sont pas vides !\n")
 				class_col = '"box_content2 small-4 medium-4 large-4 cell program_colonne"'
 				bloc_col = '<div class='+class_col+'><!--Colonne contenu-->\n<h4 class="titre_colonne">Contenus</h4>\n'+\
 				valeur+'</div><!-- Fin colonne contenu-->\n'+'<div class='+class_col+'><!--Colonne capacités-->\n<h4 class="titre_colonne">Capacités atendues</h4>\n'+\
 				dico_all[cle]['capacite'][num]+'</div><!-- Fin colonne capacites-->\n'+'<div class='+class_col+'><!--Colonne commentaires-->\n<h4 class="titre_colonne">Démonstrations-Algorithmes-Approfondissements</h4>\n'+\
 				dico_all[cle]['commentaire'][num]+'\n</div><!-- Fin colonne commentaires-->\n'
 				allhtml = allhtml +bloc_col
-			#Il y a une seule colonne de capacités attendues
-			elif dico_all[cle]['contenu'] == [''] and dico_all[cle]['capacite'] != [''] and dico_all[cle]['commentaire'] == ['']:
+			#Il y a une seule colonne : capacités attendues
+			elif dico_all[cle]['contenu'][num] == '' and dico_all[cle]['capacite'][num] != '' and dico_all[cle]['commentaire'][num] == '':
+				print("Les colonnes contenu et commentaire du titre ",dico_all[cle]['titre'][num]," du thème ",cle," sont vides !\n")
 				class_col = '"box_content2 small-12 cell program_colonne"'
 				bloc_col = '<div class='+class_col+'><!--Colonne capacités-->\n<h4 class="titre_colonne">Capacités atendues</h4>\n'+\
+				dico_all[cle]['capacite'][num]+'</div><!-- Fin colonne capacites-->\n'
+				allhtml = allhtml +bloc_col
+			elif dico_all[cle]['contenu'][num] != '' and dico_all[cle]['capacite'][num] != '' and dico_all[cle]['commentaire'][num] == '':
+				print("La colonne commentaire est vide !")
+				class_col = '"box_content2 small-6 small-6 cell program_colonne"'
+				bloc_col = '<div class='+class_col+'><!--Colonne contenu-->\n<h4 class="titre_colonne">Contenus</h4>\n'+\
+				valeur+'</div><!-- Fin colonne contenu-->\n'+'<div class='+class_col+'><!--Colonne capacités-->\n<h4 class="titre_colonne">Capacités atendues</h4>\n'+\
 				dico_all[cle]['capacite'][num]+'</div><!-- Fin colonne capacites-->\n'
 				allhtml = allhtml +bloc_col
 			# Insertion des exercices

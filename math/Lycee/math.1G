@@ -1,6 +1,6 @@
 @lienprogramme:https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/16/8/spe632_annexe_1063168.pdf
 @titreniveau:Mathématiques Première générale
-@datewims:Dernière mise à jour le 19/07/2019 à 16:32 (Euler Versailles)
+@datewims:Dernière mise à jour le 21/07/2019 à 22h03 (Euler Versailles)
 @dateprogramme:BO spécial n°1 du 22 janvier 2019
 @level:Première générale
 @ressources:https://euler.ac-versailles.fr/rubrique177.html
@@ -643,9 +643,9 @@ présenter d’autres types de collections.</p>
 @histoire:
 @titre:
 @presentation:<p>L’apprentissage des notations mathématiques et de la logique est transversal à tous les chapitres du programme. Aussi, il importe d’y travailler d’abord dans des contextes où ils se présentent naturellement, puis de prévoir des temps où les concepts et types de raisonnement sont étudiés, après avoir été rencontrés plusieurs fois en situation.</p>
-<p>Les élèves doivent connaître les notions d’élément d’un ensemble, de sous-ensemble, d’appartenance et d’inclusion, de réunion, d’intersection et de complémentaire et savoir utiliser les symboles de base correspondants : \({\in}\), \({\subset}\), \({\cap}\), \({\cup}\) ainsi que la notation des ensembles de nombres et des intervalles. Ils rencontrent également la notion de couple et celle de produit cartésien de deux ensembles.</p>
-Pour le complémentaire d’un sous-ensemble A de E, on utilise la notation \(\overline{A}\) des probabilités, ou la notation \(\mathrm{E}\backslash \mathrm{A}\).</p>
-Les élèves apprennent en situation à :
+<p>Les élèves doivent connaître les notions d’élément d’un ensemble, de sous-ensemble, d’appartenance et d’inclusion, de réunion, d’intersection et de complémentaire et savoir utiliser les symboles de base correspondants : \({\in}\), \({\subset}\), \({\cap}\), \({\cup}\), ainsi que la notation des ensembles de nombres et des intervalles. Ils rencontrent également la notion de couple et celle de produit cartésien de deux ensembles.</p>
+<p>Pour le complémentaire d’un sous-ensemble \(A\) de \(E\), on utilise la notation \(\overline{A}\) des probabilités, ou la notation \(\mathrm{E}\backslash \mathrm{A}\).</p>
+<p>Les élèves apprennent en situation à :
 <ul class ="tirets">
 <li>lire et écrire des propositions contenant les connecteurs logiques « et », « ou » ;</li>
 <li>mobiliser un contre-exemple pour montrer qu’une proposition est fausse ;</li>
@@ -656,6 +656,7 @@ Les élèves apprennent en situation à :
 <li>utiliser les quantificateurs (les symboles \({\forall}\) et \({\exists}\) ne sont pas exigibles) et repérer les quantifications implicites dans certaines propositions, particulièrement dans les propositions conditionnelles ;</li>
 <li>formuler la négation de propositions quantifiées.</li>
 </ul>
+</p>
 <p>Par ailleurs, les élèves produisent des raisonnements par disjonction des cas, par l'absurde, par contraposée, et en découvrent la structure.</p>
 @contenu:
 @capacite:
