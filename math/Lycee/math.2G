@@ -1,6 +1,6 @@
 @lienprogramme:https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/95/7/spe631_annexe_1062957.pdf
 @titreniveau:Mathématiques Seconde générale et technologique
-@datewims:Dernière mise à jour le 21/07/2019 à 22h03 (Euler Versailles)
+@datewims:Dernière mise à jour le 23/07/2019 à 13h00 (Euler Versailles)
 @dateprogramme:BO spécial N°1 du 22 janvier 2019
 @level:Seconde
 @ressources:https://euler.ac-versailles.fr/rubrique176.html
@@ -117,10 +117,9 @@ mettre en évidence leurs aspects algorithmiques.
 </p>
 @contenu:<ul class="tirets">
 <li>Ensemble \(\mathbb{R}\) des nombres réels, droite numérique.</li>
-<li>lntewalles de \(\mathbb{R}\). Notations \(+{\infty}\) et \(-{\infty}\).</li>
+<li>lntervalles de \(\mathbb{R}\). Notations \(+{\infty}\) et \(-{\infty}\).</li>
 <li>Notation \(\vert a\vert\). Distance entre deux nombres réels.</li>
-<li>Représentation de l‘intervalle \(\left[a-r, a +r \right]\) puis caractérisation par la condition
-\(\vert x-a\vert \leqslant r\).</li>
+<li>Représentation de l‘intervalle \(\left[a-r, a +r \right]\) puis caractérisation par la condition \(\vert x-a\vert \leqslant r\).</li>
 <li>Ensemble \(\mathbb{D}\) des nombres décimaux. Encadrement décimal d‘un nombre réel à \(10^{-n}\) près.</li>
 <li>Ensemble \(\mathbb{Q}\) des nombres rationnels. Nombres irrationnels; exemples fournis par la
 géométrie, par exemple \({\sqrt{2}}\) et \({\pi}\).</li>
