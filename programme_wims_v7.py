@@ -157,10 +157,12 @@ def creer_program(prog):
 	out_phtml =open(prog,'w',encoding='Windows 1252')
 	allhtml = begin_html()
 	ens_tag = ['objectif','histoire','titre','contenu','capacite','commentaire','presentation','wims']
-	#Creer le contenu de chaque thème
+	#Construction du dictionnaire avec le contenu de chaque thème
 	creer_les_themes()
+	#Mettre les différentes parties du contenu du fichier .phtml dans le dictionnaire
 	for tag_cur in ens_tag :
 		creer_elements(tag_cur)
+	#Création du code html pour le fichier .phtml
 	allhtml=allhtml+'<div id="widget_'+fichier_txt.replace('.','')+'"><!-- Début de id = widget_'+fichier_txt.replace('.','')+'-->'
 	allhtml = allhtml+'\n\t<ul class="wims_summary"><!-- Début du menu -->\n'
 	i = 0
@@ -169,7 +171,6 @@ def creer_program(prog):
 		i += 1
 	allhtml = allhtml+'\t</ul><!-- Fin du menu -->\n'
 	# Insérer le contenu de chaque thème :
-	# D'abord les les objectifs et les histoires
 	i = 0
 	"""nom_fichier = {'Algèbre':'algebre.phtml','Analyse':'analyse.phtml','Géométrie':'geometrie.phtml',\
 	'Probabilités et statistiques':'proba_stat.phtml','Algorithmique et programmation':'algo_prog.phtml',\
@@ -177,8 +178,8 @@ def creer_program(prog):
 	#Pour chaque thème, création du bloc des colonnes (1,2 ou 3)
 	for cle,val in dico_all.items():
 		# Création d'un fichier d'exercices pour chaque thème
-		fichier_exo.write("Liste d'exercices du thème : "+cle+'\n')
-		#Début du code html du thème
+		fichier_exo.write("Thème : "+cle+'\n\n')
+		#Début du code du bloc html du thème
 		begin_div = '\t<div id="c_'+str(i)+'"><!--Begin thème '+cle+'-->\n\t\
 		<h3 class="program_theme">'+cle+'</h3>\n'
 		allhtml = allhtml+begin_div
@@ -207,10 +208,11 @@ def creer_program(prog):
 		if dico_all[cle]['contenu'] != [''] and dico_all[cle]['capacite'] != [''] and dico_all[cle]['commentaire'] != ['']:
 			#print("Il y a 3 colonnes dans le thème : ",cle)
 			class_col = '"box_content2 small-4 medium-4 large-4 cell program_colonne"'
-
 		for num,valeur in enumerate(dico_all[cle]['contenu']):
 			# Titre du point de programme
 			allhtml = allhtml+'<h4 class="program_h4">'+dico_all[cle]['titre'][num]+'</h4>\n'
+			#Ecrire le point de programme dans le fichier d'exercices
+			fichier_exo.write(dico_all[cle]['titre'][num]+'\n<ul>\n')
 			#Des compléments pour certains points de programme
 			if dico_all[cle]['presentation'][num] != '' :
 				allhtml = allhtml+dico_all[cle]['presentation'][num]
@@ -218,12 +220,13 @@ def creer_program(prog):
 			begin_div_bloc = '<div id = "t_'+str(i)+str(num)+'" class="grid-x grid-margin-x small-margin-collapse"><!-- Début bloc -->\n'
 			allhtml = allhtml +begin_div_bloc
 			#Création du bloc de colonnes
-			#### TEST
+			"""#### TEST
 			print("Thème = ", cle)
 			print("Titre = ",dico_all[cle]['titre'][num])
 			print("Colonne contenu = ",dico_all[cle]['contenu'][num], " type = ", type(dico_all[cle]['contenu'][num]))
 			print("Colonne capacite = ",dico_all[cle]['capacite'][num]," type = ", type(dico_all[cle]['capacite'][num]))
 			print("Colonne commentaire = ",dico_all[cle]['commentaire'][num]," type = ", type(dico_all[cle]['commentaire'][num]))
+			"""
 			#Il y a les trois colonnes
 			if dico_all[cle]['contenu'][num] != [''] and dico_all[cle]['capacite'][num] != [''] and dico_all[cle]['commentaire'][num]!= '':
 				print("Les trois colonnes du titre ",dico_all[cle]['titre'][num]," du thème ",cle," ne sont pas vides !\n")
@@ -240,6 +243,7 @@ def creer_program(prog):
 				bloc_col = '<div class='+class_col+'><!--Colonne capacités-->\n<h4 class="titre_colonne">Capacités atendues</h4>\n'+\
 				dico_all[cle]['capacite'][num]+'</div><!-- Fin colonne capacites-->\n'
 				allhtml = allhtml +bloc_col
+			#Pas de colonne commentaire
 			elif dico_all[cle]['contenu'][num] != '' and dico_all[cle]['capacite'][num] != '' and dico_all[cle]['commentaire'][num] == '':
 				print("La colonne commentaire est vide !")
 				class_col = '"box_content2 small-6 small-6 cell program_colonne"'
@@ -253,9 +257,30 @@ def creer_program(prog):
 			if len(exercices) != 0 :
 				liste_de_lien = creer_liste_exo(cle,dico_all[cle]['titre'][num],exercices)
 			allhtml = allhtml +'<div class="box_content2 small-12 cell program_colonne"><!-- Les exercices -->\
-			\nInsérer ici les exercices du paragraphe '+ dico_all[cle]['titre'][num]+'\n<ul class=program_list>\n'
+			\nExercices concernant le point de programme :  '+ dico_all[cle]['titre'][num]+'\n<ul class=program_list>\n'
 			for e in liste_de_lien :
-				allhtml = allhtml+e+'\n'
+				#allhtml = allhtml+e+'\n'
+				#Ajout du lien dans le fichier d'exercices
+				fichier_exo.write(e)
+			fichier_exo.write('\n</ul>\n')
+			### Test de création fenêtre modal
+			if len(liste_de_lien) != 0 :
+				les_exo = ''
+				fen_modal = ''
+				for e in liste_de_lien :
+					les_exo = les_exo+e+'\n'
+				fen_modal = """<a class="text_icon testexo float_left" data-open="Fen_Modal_Exo" ><span>Exercices</span></a>
+			<div class="large reveal" id="Fen_Modal_Exo" data-reveal> 
+            <div class="euler_actu_content_modal">
+              	<h3 class="center euler_title_modal"><span>"""+dico_all[cle]['titre'][num]+"""</span></h3>
+              	<br class="spacer">
+              	<ul class="menu vertical">"""+les_exo+"""\n</ul>
+            	<button class="close-button" data-close aria-label="Close reveal" type="button">
+              	<span aria-hidden="true">&times;</span>
+            	</button> 
+          	</div>"""
+				allhtml=allhtml+fen_modal
+			
 			allhtml = allhtml+'</ul>\n</div><!-- Fin exercices -->\n'
 			end_div_bloc ='</div><!-- Fin bloc -->\n'
 			allhtml = allhtml + end_div_bloc
@@ -267,6 +292,7 @@ def creer_program(prog):
 	allhtml = allhtml+'</div><!-- id = widget_'+fichier_txt.replace('.','')+'-->'
 	# Création du nom du fichier à mettre dans var proc
 	nom_du_prog=fichier_txt.replace('.','')
+	allhtml=allhtml+'<script>\n$$("#Fen_Modal_Exo").draggable();</script>\n'
 	allhtml = allhtml+'\n'+inserer_codejs(nom_du_prog)
 	#Ecriture du contenu dans le fichier de sorite .phtml
 	out_phtml.write(allhtml)
@@ -283,7 +309,7 @@ for fichier_txt in os.listdir(dossier_matiere):
 	program_adress ='/home/wims/public_html/modules/help/teacher/program.fr/fr/'
 	prog_niveau = program_adress+fichier_txt+'.phtml'
 	#Création d'un fchier txt pour les exercices par niveau
-	fichier_exo = open(fichier_txt.replace('.','_')+'.txt','w',encoding='Windows 1252')
+	fichier_exo = open('exo_'+fichier_txt.replace('.','_')+'.phtml','w',encoding='Windows 1252')
 	texte = ' '*50+'Liste d\'exercices du niveau '+fichier_txt.replace('.','_')+'\n'
 	fichier_exo.write(texte)
 	

@@ -1,6 +1,6 @@
 @lienprogramme:https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/95/7/spe631_annexe_1062957.pdf
 @titreniveau:Mathématiques Seconde générale et technologique
-@datewims:Dernière mise à jour le 23/07/2019 à 13h00 (Euler Versailles)
+@datewims:Dernière mise à jour le 24/07/2019 à 10h10 (Euler Versailles)
 @dateprogramme:BO spécial N°1 du 22 janvier 2019
 @level:Seconde
 @ressources:https://euler.ac-versailles.fr/rubrique176.html
@@ -145,6 +145,8 @@ géométrie, par exemple \({\sqrt{2}}\) et \({\pi}\).</li>
 <li>Observation, sur des exemples, de la périodicité du développement décimal de nombres rationnels, du fait qu‘un développement décimal périodique correspond à un rationnel.</li>
 </ul>
 @wims:
+H4/algebra/inequations.fr,ineqinterv1,Inéquation et intervalle,,,Traduction d'inégalités en intervalle
+H6/analysis/oefencad.fr,valeurabsolue1,Valeur absolue et intervalle,,,Faire le lien entre valeur absolue et intervalle
 @titre:Utiliser les notions de multiple, diviseur et de nombre premier
 @presentation:
 @contenu:<ul class="tirets">
