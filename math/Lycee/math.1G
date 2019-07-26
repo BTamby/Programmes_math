@@ -1,6 +1,6 @@
 @lienprogramme:https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/16/8/spe632_annexe_1063168.pdf
 @titreniveau:Mathématiques Première générale
-@datewims:Dernière mise à jour le 24/07/2019 à 10h10 (Euler Versailles)
+@datewims:Dernière mise à jour le 26/07/2019 à 11h30 (Euler Versailles)
 @dateprogramme:BO spécial n°1 du 22 janvier 2019
 @level:Première générale
 @ressources:https://euler.ac-versailles.fr/rubrique177.html
@@ -183,19 +183,19 @@ suite</li>
 <li>Modéliser un phénomène discret à croissance linéaire par une suite arithmétique, un phénomène discret à croissance exponentielle par une suite géométrique.</li>
 <li>Conjecturer, dans des cas simples, la limite éventuelle d’une suite.</li>
 </ul>
-@commentaire:<h5>Démonstrations</h5>
+@commentaire:<strong>Démonstrations</strong>
 <ul class="tirets">
 <li>Calcul du terme général d’une suite arithmétique, d’une suite géométrique.</li>
 <li>Calcul de \(1 + 2 +...+ n\).</li>
 <li>Calcul de \(1 + q +...+ q^n\).</li>
 </ul>
-<h5>Exemples d’algorithme</h5>
+<strong>Exemples d’algorithme</strong>
 <ul class="tirets">
 <li>Calcul de termes d’une suite, de sommes de termes, de seuil.</li>
 <li>Calcul de factorielle.</li>
 <li>Liste des premiers termes d’une suite : suites de Syracuse, suite de Fibonacci.</li>
 </ul>
-<h5>Approfondissements possibles</h5>
+<strong>Approfondissements possibles</strong>
 <ul class="tirets">
 <li>Tour de Hanoï.</li>
 <li>Somme des n premiers carrés, des n premiers cubes.</li>
@@ -225,11 +225,11 @@ remarquable, application des formules générales.</li>
 polynôme du second degré dans le cadre de la résolution d’un problème (équation,
 inéquation, optimisation, variations).</li>
 </ul>
-@commentaire:<h5>Démonstration</h5>
+@commentaire:<strong>Démonstration</strong>
 <ul class ="tirets"
 <li>Résolution de l’équation du second degré.</li>
 </ul>
-<h5>Approfondissements possibles</h5>
+<strong>Approfondissements possibles</strong>
 <ul class="tirets">
 <li>Factorisation d’un polynôme du troisième degré admettant une racine et résolution de
 l’équation associée.</li>
@@ -333,14 +333,14 @@ de la fonction carré, de la fonction inverse.</li>
 <li>Dans des cas simples, calculer une fonction dérivée en utilisant les propriétés des
 opérations sur les fonctions dérivables.</li>
 </ul>
-@commentaire:<h5>Démonstrations</h5>
+@commentaire:<strong>Démonstrations</strong>
 <ul class="tirets">
 <li>Équation de la tangente en un point à une courbe représentative.</li>
 <li>La fonction racine carrée n’est pas dérivable en \(0\).</li>
 <li>Fonction dérivée de la fonction carrée, de la fonction inverse.</li>
 <li>Fonction dérivée d’un produit.
 </ul>
-<h5>Exemple d’algorithme</h5>
+<strong>Exemple d’algorithme</strong>
 <ul class ="tirets">
 <li>Écrire la liste des coefficients directeurs des sécantes pour un pas donné.</li>
 </ul>
@@ -361,7 +361,7 @@ relative de deux courbes représentatives.</li>
 <li>Étudier, en lien avec la dérivation, une fonction polynôme du second degré :
 variations, extremum, allure selon le signe du coefficient de \(x^2\).</li>
 </ul>
-@commentaire:<h5>Exemple d'algorithme</h5>
+@commentaire:<strong>Exemple d'algorithme</strong>
 <ul class="tirets">
 <li>Méthode de Newton, en se limitant à des cas favorables.</li>
 </ul>
@@ -384,12 +384,12 @@ fonctions \(t\longmapsto \mathrm{e}^{-k t}\) et \(t \longmapsto \mathrm{e}^{k t}
 <li>Modéliser une situation par une croissance, une décroissance exponentielle (par
 exemple évolution d’un capital à taux fixe, décroissance radioactive).</li>
 </ul>
-@commentaire:<h5>Exemple d’algorithme</h5>
+@commentaire:<strong>Exemple d’algorithme</strong>
 <ul class="tirets">
 <li>Construction de l’exponentielle par la méthode d’Euler. Détermination d’une valeur
 approchée de \(\mathrm{e}\) à l’aide de la suite \(\left(\left(1+\frac{1}{n}\right)^n\right)\).</li>
 </ul>
-<h5>Approfondissements possibles</h5>
+<strong>Approfondissements possibles</strong>
 <ul class="tirets">
 <li>Unicité d’une fonction \(f\) dérivable sur \(\mathbb{R}\) telle que \(f' = f\) et \(f(0) = 1\).</li>
 <li>Pour tous réels \(x\) et \(y\), \(\mathrm{exp}(x + y) = \mathrm{exp}(x) exp(y)\).</li>
@@ -414,11 +414,11 @@ trigonométrique.</li>
 <li>Par lecture du cercle trigonométrique, déterminer, pour des valeurs remarquables
 de \(x\), les cosinus et sinus d’angles associés à \(x\).</li>
 </ul>
-@commentaire:<h5>Démonstration</h5>
+@commentaire:<strong>Démonstration</strong>
 <ul class="tirets">
 <li>Calcul de \(\mathrm{sin}\left(\frac{\pi}{4} \right)\), \(\mathrm{cos}\left(\frac{\pi}{3} \right)\), \(\mathrm{sin}\left(\frac{\pi}{3} \right)\).</li>
 </ul>
-<h5>Exemple d’algorithme</h5>
+<strong>Exemple d’algorithme</strong>
 <ul class="tirets">
 <li>Approximation de \({\pi} \) par la méthode d’Archimède.</li>
 </ul>
@@ -467,12 +467,12 @@ en choisissant une méthode adaptée (en utilisant la projection orthogonale, à
 des coordonnées, à l’aide des normes et d’un angle, à l’aide de normes).</li>
 <li>Utiliser le produit scalaire pour résoudre un problème géométrique.</li>
 </ul>
-@commentaire:<h5>Démonstrations</h5>
+@commentaire:<strong>Démonstrations</strong>
 <ul class ="tirets">
 <li>Formule d’Al-Kashi (démonstration avec le produit scalaire).</li>
 <li>Ensemble des points \(M\) tels que \(\overrightarrow{MA}\cdot\overrightarrow{MB}=0\) (démonstration avec le produit scalaire).</li>
 </ul>
-<h5>Approfondissements possibles</h5>
+<strong>Approfondissements possibles</strong>
 <ul class="tirets">
 <li>Loi des sinus.</li>
 <li>Droite d’Euler d’un triangle.</li>
@@ -498,7 +498,7 @@ normal.</li>
 <li>Déterminer l’axe de symétrie et le sommet d’une parabole d’équation \(y = a x^2 + b x + c\).</li>
 <li>Utiliser un repère pour étudier une configuration.</li>
 </ul>
-@commentaire:<h5>Approfondissements possibles</h5>
+@commentaire:<strong>Approfondissements possibles</strong>
 <ul class="tirets">
 <li>Recherche de l’ensemble des points équidistants de l’axe des abscisses et d’un point
 donné.</li>
@@ -546,11 +546,11 @@ La notion de variable aléatoire, présente sans définition précise depuis l'o
 <li>Distinguer en situation \(P_A(B)\) et \(P_B(A)\), par exemple dans des situations de type « faux positifs ».</li>
 <li>Représenter une répétition de deux épreuves indépendantes par un arbre ou un tableau.</li>
 </ul>
-@commentaire:<h5>Exemple d’algorithme</h5>
+@commentaire:<strong>Exemple d’algorithme</strong>
 <ul class="tirets">
 <li>Méthode de Monte-Carlo : estimation de l’aire sous la parabole, estimation du nombre \({\pi}\).</li>
 </ul>
-<h5>Approfondissements possibles</h5>
+<strong>Approfondissements possibles</strong>
 <ul class="tirets">
 <li>Exemples de succession de plusieurs épreuves indépendantes.</li>
 <li>Exemples de marches aléatoires.</li>
@@ -574,17 +574,17 @@ possibles de la variable.</p>
 <li>Calculer une espérance, une variance, un écart type.</li>
 <li>Utiliser la notion d’espérance dans une résolution de problème (mise pour un jeu équitable...).</li>
 </ul>
-@commentaire:<h5>Exemples d’algorithmes</h5>
+@commentaire:<strong>Exemples d’algorithmes</strong>
 <ul class="tirets">
 <li>Algorithme renvoyant l’espérance, la variance ou l‘écart type d’une variable aléatoire.</li>
 <li>Fréquence d’apparition des lettres d’un texte donné, en français, en anglais.</li>
 </ul>
-<h5>Approfondissements possibles</h5>
+<strong>Approfondissements possibles</strong>
 <ul class="tirets">
 <li>ormule de König-Huygens.</li>
 <li>Pour X variable aléatoire, étude de la fonction du second degré \(x \longmapsto \mathrm{E}\left((X - x)^2\right)\).</li>
 </ul>
-<h5>Expérimentations</h5>
+<strong>Expérimentations</strong>
 <p>Le travail expérimental de simulation d’échantillons prolonge celui entrepris en seconde.
 L’objectif est de faire percevoir le principe de l’estimation de l’espérance d’une variable aléatoire, ou de la moyenne d’une variable statistique dans une population, par une moyenne observée sur un échantillon.</p>
 <ul class="tirets">

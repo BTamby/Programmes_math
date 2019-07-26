@@ -1,0 +1,73 @@
+.program_list li{min-width:12em;}
+.program_desc { font-style : italic; text-align: center;}
+.program_titre { border-top : 1px solid;padding-top:1em; }
+.program_objectifs {text-align:left;}
+
+.wimsborder{min-width:90%;}
+
+.c { color: #c52d2d; text-align: center;}
+.d { color: #3F803F}
+.e { color: #48d1cc}
+
+td.program_contenu {text-align:left; width:50%}
+td.program_commentaires {text-align:left;}
+td.program_modalites {text-align:left;}
+td.program_wims {text-align:left}
+
+/* Pour les nouveaux programmes de math : by jlben 07/2019;*/
+
+ul.bullets >li{
+	color:blue;
+}
+ul.tirets {
+	list-style: none; /* Remove HTML bullets */
+	padding: 0;
+	margin: 0;
+}
+ul.tirets li {
+	padding-left: 1em;
+}
+ul.tirets li::before {
+	content: "\2014"; /* Insérer tiret*/
+	padding-right: 0.5em;
+	color: blue;
+}
+.titre_colonne{color: #c52d2d; text-align: center;}
+.program_h4{color : blue;}
+.program_colonne{
+    display: block;
+    background-color: #fff;
+    margin: 0;
+    padding: 0.5em;
+    clear: both;
+    border-top-color: var(--wims_ref_bgcolor);
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-right-color: rgb(187, 187, 187);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-left-color: rgb(187, 187, 187);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-bottom-color: rgb(187, 187, 187);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-radius: 1.1em 1.1em 0.3em 0.3em;
+    min-height: 6em;
+    box-sizing: border-box;
+}
+.program_colonne_exo{
+	/*border : 1px solid #eaeaea;*/
+	border-radius: 0.1em 0.1em 0.1em 0.1em;
+	box-shadow: 0 1px 2px 2px rgba(0, 0, 0, .5) ;
+}
+@media only screen and (max-width: 39.9375em) {
+	.program_colonne{
+		font-size: 1.5vw;
+	}
+  }

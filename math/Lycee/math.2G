@@ -1,6 +1,6 @@
 @lienprogramme:https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/95/7/spe631_annexe_1062957.pdf
 @titreniveau:Mathématiques Seconde générale et technologique
-@datewims:Dernière mise à jour le 24/07/2019 à 10h10 (Euler Versailles)
+@datewims:Dernière mise à jour le 26/07/2019 à 11h30 (Euler Versailles)
 @dateprogramme:BO spécial N°1 du 22 janvier 2019
 @level:Seconde
 @ressources:https://euler.ac-versailles.fr/rubrique176.html
@@ -130,16 +130,16 @@ géométrie, par exemple \({\sqrt{2}}\) et \({\pi}\).</li>
 <li>Donner un encadrement, d‘amplitude donnée, d‘un nombre réel par des décimaux.</li>
 <li>Dans le cadre de la résolution de problèmes, arrondir en donnant le nombre de chiffres significatifs adapté à la situation étudiée.</li>
 </ul>
-@commentaire:<h5>Démonstrations</h5>
+@commentaire:<strong>Démonstrations</strong>
 <ul class="tirets">
 <li>Le nombre rationnel \(\frac{1}{3} \) n‘est pas décimal.</li>
 <li>Le nombre réel \({\sqrt{2}}\) est irrationnel.</li>
 </ul>
-<h5>Exemple d’algorithme</h5>
+<strong>Exemple d’algorithme</strong>
 <ul class="tirets">
 <li>Déterminer par balayage un encadrement de \({\sqrt{2}}\) d‘amplitude inférieure ou égale à \(10^{-n}\).</li>
 </ul>
-<h5>Approfondissements possibles</h5>
+<strong>Approfondissements possibles</strong>
 <ul class="tirets">
 <li>Développement décimal illimité d‘un nombre réel.</li>
 <li>Observation, sur des exemples, de la périodicité du développement décimal de nombres rationnels, du fait qu‘un développement décimal périodique correspond à un rationnel.</li>
@@ -158,12 +158,12 @@ H6/analysis/oefencad.fr,valeurabsolue1,Valeur absolue et intervalle,,,Faire le l
 de nombre pair, de nombre impair, de nombre premier.</li>
 <li>Présenter les résultats fractionnaires sous forme irréductible.</li>
 </ul>
-@commentaire:<h5>Démonstrations</h5>
+@commentaire:<strong>Démonstrations</strong>
 <ul class="tirets">
 <li>Pour une valeur numérique de \(a\), la somme de deux multiples de \(a\) est multiple de \(a\).</li>
 <li>Le carré d‘un nombre impair est impair.</li>
 </ul>
-<h5>Exemples d’algorithme</h5>
+<strong>Exemples d’algorithme</strong>
 <ul class="tirets">
 <li>Déterminer si un entier naturel \(a\) est multiple d‘un entier naturel \(b\).</li>
 <li>Pour des entiers \(a\) et \(b\) donnés, déterminer le plus grand multiple de \(a\) inférieur ou
@@ -190,23 +190,24 @@ de nombre pair, de nombre impair, de nombre premier.</li>
 <li>Modéliser un problème par une inéquation.</li>
 <li>Résoudre une inéquation du premier degré.</li>
 </ul>
-@commentaire:<h5>Démonstrations</h5>
+@commentaire:<strong>Démonstrations</strong>
 <ul class="tirets">
 <li>Quels que soient les réels positifs \(a\) et \(b\), on a \(\sqrt{a b} = \sqrt{a}\sqrt{b}\).</li>
 <li>Si \(a\) et \(b\) sont des réels strictement positifs, \(\sqrt{a+b} < \sqrt{a}+\sqrt{b}\).</li>
 <li>Pour \(a\) et \(b\) des réels positifs, illustration géométrique de l’égalité \(\left(a+b \right)^2=a^2+2 a b+b^2\)</li>
 </ul>
-<h5>Exemple d’algorithme</h5>
+<strong>Exemple d’algorithme</strong>
 <ul class="tirets">
 <li>Déterminer la première puissance d‘un nombre positif donné supérieure ou inférieure à une valeur donnée.
 </ul>
-<h5>Approfondissements possibles</h5>
+<strong>Approfondissements possibles</strong>
 <ul class="tirets">
 <li>Développement de \(\left(a + b + c\right)^2\).
 <li>Développement de \(\left(a + b\right)^3\).
 <li>négalité entre moyennes géométrique et arithmétique de deux réels strictement positifs.
 </ul>
 @wims:
+H4/algebra/factorcom.fr,factorcom1,Factorisation,,,Factorisation par la mise en facteur commun
 @theme:Géométrie
 @objectif:
 <p>Les objectifs de cette partie sont les suivants :
@@ -255,11 +256,11 @@ Chasles.</li>
 <li>Caractériser alignement et parallélisme par la colinéarité de vecteurs.</li>
 <li>Résoudre des problèmes en utilisant la représentation la plus adaptée des vecteurs.</li>
 </ul>
-@commentaire:<h5>Démonstration</h5>
+@commentaire:<strong>Démonstration</strong>
 <ul class="tirets">
 <li>Deux vecteurs sont colinéaires si et seulement si leur déterminant est nul.</li>
 </ul>
-<h5>Approfondissement possible</h5>
+<strong>Approfondissement possible</strong>
 <ul class="tirets">
 <li>Définition vectorielle des homothéties.</li>
 </ul>
@@ -274,12 +275,12 @@ Chasles.</li>
 <li>Calculer des longueurs, des angles, des aires et des volumes.</li>
 <li>Traiter de problèmes d‘optimisation.</li>
 </ul>
-@commentaire:<h5>Démonstrations</h5>
+@commentaire:<strong>Démonstrations</strong>
 <ul class="tirets">
 <li>Le projeté orthogonal du point \(M\) sur une droite \({\Delta}\) est le point de la droite \({\Delta}\) le plus proche du point \(M\).</li>
 <li>Relation trigonométrique \(cos^2(\alpha) + sin^2(\alpha) = 1\) dans un triangle rectangle.</li>
 </ul>
-<h5>Approfondissements possibles</h5>
+<strong>Approfondissements possibles</strong>
 <ul class="tirets">
 <li>Démontrer que les hauteurs d‘un triangle sont concourantes.</li>
 <li>Expression de l‘aire d‘un triangle : \(\frac{1}{2}a b sin C\).</li>
@@ -304,16 +305,16 @@ Chasles.</li>
 <li>Déterminer si deux droites sont parallèles ou sécantes.</li>
 <li>Résoudre un système de deux équations linéaires à deux inconnues, déterminer le point d‘intersection de deux droites sécantes.</li>
 </ul>
-@commentaire:<h5>Démonstration</h5>
+@commentaire:<strong>Démonstration</strong>
 <ul class="tirets">
 <li>En utilisent le déterminant, établir la forme générale d‘une équation de droite.</li>
 </ul>
-<h5>Exemples d’algorithme</h5>
+<strong>Exemples d’algorithme</strong>
 <ul class="tirets">
 <li>Étudier l‘alignement de trois points dans le plan.</li>
 <li>Déterminer une équation de droite passant par deux points donnés.</li>
 </ul>
-<h5>Approfondissements possibles</h5>
+<strong>Approfondissements possibles</strong>
 <ul class="tirets">
 <li>Ensemble des points équidistants d‘un point et de l‘axe des abscisses.</li>
 <li>Représentation, sur des exemples, de parties du plan décrites par des inégalités sur les coordonnées.</li>
@@ -354,7 +355,7 @@ modéliser des phénomènes discrets. La notation \(u(n)\) est alors utilisée.<
 <li>Pour deux nombres \(a\) et \(b\) donnés et une fonction de référence \(f\), comparer \(f(a)\) et \(f(b)\) numériquement ou graphiquement.</li>
 <li>Pour les fonctions affines, carré, inverse, racine carrée et cube, résoudre graphiquement ou algébriquement une équation ou une inéquation du type \(f(x) = k\), \(f(x) < k\).</li>
 </ul>
-@commentaire:<h5>Démonstration</h5>
+@commentaire:<strong>Démonstration</strong>
 <ul class="tirets">
 <li>Étudier la position relative des courbes d‘équation \(y = x\), \(y = x^2\), \(y = x^3\), pour \(x > 0\).</li>
 </ul>
@@ -373,7 +374,7 @@ modéliser des phénomènes discrets. La notation \(u(n)\) est alors utilisée.<
 <li>Résoudre une équation, une inéquation produit ou quotient, à l‘aide d‘un tableau de signes.</li>
 <li>Résoudre, graphiquement ou à l‘aide d‘un outil numérique, une équation ou inéquation du type \(f(x)=g(x)\), \(f(x) < g(x)\).</li>
 </ul>
-@commentaire:<h5>Approfondissement possible</h5>
+@commentaire:<strong>Approfondissement possible</strong>
 <ul class="tirets">
 <li>Étudier la parité d‘une fonction dans des cas simples.</li>
 </ul>
@@ -392,16 +393,16 @@ modéliser des phénomènes discrets. La notation \(u(n)\) est alors utilisée.<
 <li>Exploiter un logiciel de géométrie dynamique ou de calcul formel, la calculatrice ou Python pour décrire les variations d‘une fonction donnée par une formule.</li>
 <li>Relier sens de variation, signe et droite représentative d‘une fonction affine.</li>
 </ul>
-@commentaire:<h5>Démonstration</h5>
+@commentaire:<strong>Démonstration</strong>
 <ul class="tirets">
 <li>Variations des fonctions carré, inverse, racine carrée.</li>
 </ul>
-<h5>Exemples d’algorithme</h5>
+<strong>Exemples d’algorithme</strong>
 <ul class="tirets">
 <li>Pour une fonction dont le tableau de variations est donné, algorithmes d‘approximation numérique d‘un extremum (balayage, dichotomie).</li>
 <li>Algorithme de calcul approché de longueur d‘une portion de courbe représentative de fonction.</li>
 </ul>
-<h5>Approfondissement possible</h5>
+<strong>Approfondissement possible</strong>
 <ul class="tirets">
 <li>Relier les courbes représentatives de la fonction racine carrée et de la fonction carré sur \({\mathbb{R}}^{+}\).</li>
 </ul>
@@ -534,7 +535,6 @@ L‘algorithmique a une place naturelle dans tous les champs des mathématiques 
 Les élèves doivent connaître les notions d‘élément d‘un ensemble, de sous-ensemble, d‘appartenance et d‘inclusion, de réunion, d‘intersection et de complémentaire, et savoir utiliser les symboles de base correspondant: \({\in}\), \({\subset}\), \({\cap}\), \({\cup}\), ainsi que la notation des ensembles de nombres et des intervalles. Ils rencontrent également la notion de couple. Pour le complémentaire d‘un sous-ensemble \(A\) de \(E\), on utilise la notation des probabilités \(\overline{A}\), ou la notation \(\mathrm{E}\backslash \mathrm{A}\).
 </p>
 <p>
-
 Les élèves apprennent en situation à :
 <ul class="tirets">
 <li>reconnaître ce qu‘est une proposition mathématique, à utiliser des variables pour écrire des propositions mathématiques ;</li>
