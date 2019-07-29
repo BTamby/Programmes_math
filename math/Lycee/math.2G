@@ -1,8 +1,8 @@
 @lienprogramme:https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/95/7/spe631_annexe_1062957.pdf
 @titreniveau:Mathématiques Seconde générale et technologique
-@datewims:Dernière mise à jour le 26/07/2019 à 11h30 (Euler Versailles)
+@datewims:Dernière mise à jour le 29/07/2019 à 18h53 (Euler Versailles)
 @dateprogramme:BO spécial N°1 du 22 janvier 2019
-@level:Seconde
+@level:2
 @ressources:https://euler.ac-versailles.fr/rubrique176.html
 @intro:
 <h4 class="program_h4">Intentions majeures</h4>
@@ -497,7 +497,7 @@ L‘algorithmique a une place naturelle dans tous les champs des mathématiques 
 @titre:Utiliser les variables et les instructions élémentaires
 @presentation:
 @contenu:<ul class="tirets">
-<li>ariables informatiques de type entier, booléen, flottant, chaine de caractères.</li>
+<li>Variables informatiques de type entier, booléen, flottant, chaine de caractères.</li>
 <li>Affectation (notée \( \longleftarrow \) langage naturel).</li>
 <li>Séquence d‘instructions.</li>
 <li>Instruction conditionnelle.</li>
