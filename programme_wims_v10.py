@@ -22,32 +22,30 @@ def inserer_codejs(prog_edite):
 def begin_html():
 	global allhtml, info_gen
 	# Enregistrer les infos générales dans un dictionnaire
-	info_gen={'lienprogramme':'','titreniveau':'','datewims':'','dateprogramme':'','level':'','ressources':''}
-	#info_gen={'titreniveau':'','dateprogramme':'','lienprogramme':'','datewims':'','level':'','ressources':''}
+	info_gen={'titreniveau':'','datewims':'','level':'','ressources':''}
 	for cle in info_gen:
 		tag = tag='@'+cle
-		print("Fichier texte lu : ",path_base_program)
+		print("Lecture du fichier : ",path_base_program,"...")
 		f=open(path_base_program,'r')
 		continuer = True
 		while continuer :
 			lign = f.readline()
-			print("Ligne = ",lign)
+			#print("Ligne = ",lign)
 			liste = lign.split(':')
 			test_tag = lign.split(':')[0]
 			if test_tag == tag or lign == '':
 				continuer = False
-		print('Le tag ',tag,' et la liste ',liste)
-		print("Ligne index = ",lign)
+		#print('Le tag ',tag,' et la liste ',liste)
+		#print("Ligne index = ",lign)
 		index_2pt = lign.index(':')
 		info_lu = lign[index_2pt+1:-1]
 		#print("info_lu = ",info_lu)
 		info_gen[cle]=info_lu	
 	Fichier = path_base_program.split('/')[-1]
 	Fichier = Fichier.replace('.','_')
-	txt ='!set email=$responsable_'+Fichier+'\n<h2 class="wims_title">'+info_gen['titreniveau']+'</h2>\n<h3 class="wims_title">\n\t<a href='+'"'+info_gen['lienprogramme']+'" target="wims_external">\n\t\t'+info_gen['dateprogramme']+'\n\t</a>\n</h3>\n\
-<div class="wims_msg info program_desc">\n\t'+\
-info_gen['datewims']+'\n\
-</div>\n<div id ="intro" class ="accordion">\n<h3>Préambule</h3>\n<div id="preambule">\n'
+	txt ='!set email=$responsable_'+Fichier+'\n<h2 class="wims_title">'+info_gen['titreniveau']+\
+	'</h2>\n<div class="wims_msg info program_desc">\n\t'+info_gen['datewims']+'\n\
+	</div>\n<div id ="intro" class ="accordion">\n<h3>Préambule</h3>\n<div id="preambule">\n'
 	# Construire l'ntroduction du programme créé
 	tag ='@intro'
 	continuer = True
@@ -68,8 +66,6 @@ info_gen['datewims']+'\n\
 			txt = txt + lign
 	f.close()
 	allhtml = txt+'\n</div><!-- Fin accordion -->\n</div><!-- Fin du préambule-->\n'
-
-	#return txt+'\n</div><!-- Fin accordion -->\n</div><!-- Fin du préambule-->\n'
 
 def creer_elements(elt):
 	global dico_all
@@ -156,9 +152,11 @@ def creer_program(prog):
 	print("Création du programme : ",prog)
 	global allhtml, dico_all,fichier_exo
 	dico_all = {}
+	#Fichier de sortie au format .phtml
 	out_phtml =open(prog,'w',encoding='Windows 1252')
-	#allhtml = begin_html()
+	#Contenu du dictionnaire écrit dans allhtml
 	allhtml =''
+	#Création du début de la page phtml
 	begin_html()
 	ens_tag = ['objectif','histoire','titre','contenu','capacite','commentaire','presentation','wims']
 	#Construction du dictionnaire avec le contenu de chaque thème
@@ -184,13 +182,18 @@ def creer_program(prog):
 		begin_div = '\t<div id="c_'+str(i)+'"><!--Begin thème '+cle+'-->\n\t\
 		<h3 class="program_theme">'+cle+'</h3>\n'
 		allhtml = allhtml+begin_div
-		if info_gen['level'] == '1':
+		if info_gen['level'] == '0' :
+			objectif = "Présentation"
+			titre_col1 = 'CM1'
+			titre_col2 = 'CM2'
+			titre_col3 = '6<sup>e</sup>'
+			sommaire = 'Attendus de fin de cycle'
+		elif info_gen['level'] == '1':
 			objectif = "Présentation"
 			titre_col1 = '5<sup>e</sup>'
 			titre_col2 = '4<sup>e</sup>'
 			titre_col3 = '3<sup>e</sup>'
 			sommaire = 'Attendus de fin de cycle'
-
 		else :
 			objectif = "Objectifs"
 			titre_col1 = 'Contenus'
@@ -203,9 +206,8 @@ def creer_program(prog):
 			allhtml = allhtml+val['objectif'][0]
 			end_div_objectif = '\n\t\t\t</div><!--Fin objectifs-->\n\t\t</div><!--Fin accordion-->\n'
 			allhtml = allhtml + end_div_objectif
-		print("Histoire = ",val['histoire'])
+		#print("Histoire = ",val['histoire'])
 		if val['histoire'] != ['']:
-
 			begin_div_histoire = '\t\t<div class="accordion">\n\t\t\t<h4 class="program_h4">Histoire des mathématiques</h4>\n\t\t\t<div><!--Début histoire-->\n'
 			allhtml = allhtml+begin_div_histoire
 			allhtml = allhtml+val['histoire'][0]
@@ -271,7 +273,7 @@ def creer_program(prog):
 					#Ajout du lien dans le fichier d'exercices
 					fichier_exo.write(e)
 				fichier_exo.write('\n</ul>\n')
-				### Test de création fenêtre modal
+				### Création de la fenêtre modale pour les exercices
 				if len(liste_de_lien) != 0 :
 					les_exo = ''
 					fen_modal = ''
@@ -312,11 +314,8 @@ def creer_program(prog):
 	fichier_exo.close()
 
 ####################################
-
 work_directory = os.getcwd()
 dossier_niveau = [work_directory+'/math/College/',work_directory+'/math/Lycee/']
-#niveau = work_directory+'/math/College/'
-
 #Lecture du fichier de base du programme pour extraire le contenu
 for niveau in dossier_niveau :
 	for base_programm in os.listdir(niveau):
@@ -329,7 +328,6 @@ for niveau in dossier_niveau :
 		texte = ' '*50+'Liste d\'exercices du niveau '+base_programm.replace('.','_')+'\n'
 		fichier_exo.write(texte)
 		#Création du fichier phtml pour chaque niveau
-		print("Niveau = ",prog_niveau)
 		creer_program(prog_niveau)
 	
 
