@@ -239,6 +239,7 @@ racines de la fonction polynôme \(x\longmapsto x^2-s x+p\).
 @wims:
 H4/algebra/oefsuites1S.fr,calcultermeA,Calcul des termes d'une suite,,,Le tooltip
 H2/algebra/oefrationnel.fr,n2s1e06,Ranger des fractions,,quizz,Comparer 5 nombres rationnels donnés
+@conclusion:
 @theme:Analyse
 @objectif:<p>
 Deux points fondamentaux du programme de première sont ici étudiés : le concept de
@@ -422,6 +423,7 @@ de \(x\), les cosinus et sinus d’angles associés à \(x\).</li>
 </ul>
 @wims:
 niveau/domaine/oef.fr,exo,Titre explicite,,,Le tooltip
+@conclusion:
 @theme:Géométrie
 @objectif:<p>L’étude de la géométrie plane menée au collège et en seconde a familiarisé les élèves à la
 géométrie de configuration, au calcul vectoriel et à la géométrie repérée.</p>
@@ -505,6 +507,7 @@ avec une droite parallèle à un axe.</li>
 </ul>
 @wims:
 niveau/domaine/oef.fr,exo,Titre explicite,,,Le tooltip
+@conclusion:
 @theme:Probabilités et statistiques
 @objectif:L’enseignement dispensé en classe de seconde a abordé le modèle probabiliste, dans le cas
 d’un univers fini. En première, on développe l’étude de ce modèle. L’enseignement
@@ -596,6 +599,7 @@ d’espérance \({\mu}\) et d’écart type \({\sigma}\). Si \(m\) désigne la m
 proportion des cas où l’écart entre \(m\) et \({\mu}\) est inférieur ou égal à \(\frac{2\sigma}{n}\) .</li>
 </ul>
 @wims:
+@conclusion:
 @theme:Algorithmique et programmation
 @objectif:<p>La démarche algorithmique est, depuis les origines, une composante essentielle de l’activité mathématique. Au collège, en mathématiques et en technologie, les élèves ont appris à écrire, mettre au point et exécuter un programme simple. La classe de seconde a permis de consolider les acquis du cycle 4 autour de deux idées essentielles :
 <ul class="tirets">
@@ -636,6 +640,7 @@ présenter d’autres types de collections.</p>
 </ul>
 @commentaire:
 @wims:
+@conclusion:
 @theme:Vocabulaire ensembliste et logique
 @objectif:
 @histoire:
@@ -660,4 +665,5 @@ présenter d’autres types de collections.</p>
 @capacite:
 @commentaire:
 @wims:
+@conclusion:
 @end:

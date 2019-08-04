@@ -121,22 +121,123 @@ diagrammes.</li>
     1,3
 </div>
 </div>
-@theme:Thème A - Nombres et calculs
+@theme:Nombres et calculs
 @objectif:<p><strong>Au cycle 4, les élèves consolident le sens des nombres et confortent la maîtrise des procédures de calcul, sans objectif de virtuosité technique. Ils manipulent des nombres rationnels de signe quelconque. Ils utilisent les différentes écritures d’un même nombre (fractionnaire, décimale, notation scientifique). Les puissances sont introduites pour faciliter l’évaluation d’ordres de grandeurs (notamment en relation avec d’autres disciplines) et la simplification de certaines écritures.</strong>
 </p>
 <p>Les élèves abordent les bases du calcul littéral, qu’ils mettent en œuvre pour modéliser une situation, démontrer une propriété générale et résoudre des problèmes se ramenant à des équations du premier
 degré. Les élèves sont progressivement familiarisés aux différents statuts de la lettre (indéterminée, variable, inconnue, paramètre) et du signe égal (pour fournir le résultat d’une opération, pour traduire l’égalité de deux représentations d’un même nombre, dans une équation, dans une identité). À l’occasion d’activités de recherche, ils peuvent rencontrer des nombres irrationnels, par exemple dans l’utilisation du théorème de Pythagore ou la résolution d’équations de la forme \(x^2=a\).
 </p>
 @histoire:
-@titre:Utiliser les nombres pour comparer, calculer et résoudre des problèmes
-@presentation: Présentation 1
-@contenu: Contenu 1
-@capacite: Capacité 1 
-@commentaire: Commentaire 1
+@titre:Utiliser les nombres pour comparer, calculer et résoudre des problèmes : Nombres décimaux
+@presentation:<strong>Connaissances : </strong>
+<ul class="fleche">
+<li>nombres décimaux (positifs et négatifs), notion d’opposé</li>
+</ul>
+@contenu:<p>Le travail mené au cycle 3 sur l’enchaînement des opérations, les comparaisons et le repérage sur une droite graduée de nombres décimaux positifs est poursuivi. Les nombres relatifs (d’abord entiers, puis décimaux) sont construits pour rendre possibles toutes les soustractions. La notion d’opposé est introduite, l’addition et la soustraction sont étendues aux nombres décimaux (positifs ou négatifs). Il est possible de mettre en évidence que soustraire un nombre revient à additionner son opposé, en s’appuyant sur des exemples à valeur générique du type : \(3,1 - (-2) = 3,1 + 0 - (-2) = 3,1 + 2 + (-2)-(-2)\), donc \(3,1 - (-2) = 3,1 + 2 + 0 = 3,1 + 2 = 5,1\).</p>
+@capacite:<p>Le produit et le quotient de décimaux relatifs sont abordés.</p>
+@commentaire:<p>Le travail est consolidé notamment lors des résolutions de problèmes.</p>
 @wims: Exercices 1
-@titre:Comprendre et utiliser les notions de divisibilité et de nombres premiers
+@titre:Utiliser les nombres pour comparer, calculer et résoudre des problèmes : Fractions, nombres rationnels
+@presentation:<strong>Connaissances : </strong>
+<ul class="fleche">
+<li>fractions, nombres rationnels (positifs et négatifs), notion d’inverse.</li>
+</ul>
+@contenu:<p>La conception d’une fraction en tant que nombre, déjà abordée en sixième, est consolidée.
+</p>
+@capacite:<p>Un nombre rationnel est défini comme quotient d’un entier relatif par un entier relatif non nul, ce qui renvoie à la notion de fraction.
+</p>
+<p>Le quotient de deux nombres décimaux peut ne pas être un nombre décimal.
+</p>
+<p>La notion d’inverse est introduite, les opérations entre fractions sont étendues à la multiplication et la division. Les élèves sont conduits à comparer des nombres rationnels, à en utiliser différentes représentations et à passer de l’une à l’autre.
+</p>
+<p>Une ou plusieurs démonstrations de calculs fractionnaires sont présentées. Le recours au calcul
+littéral vient compléter pour tout ou partie des élèves l’utilisation d’exemples à valeurs génériques.
+</p>
+@commentaire:<p>La notion de fraction irréductible est abordée, en lien avec celles de multiple et de diviseur qui sont travaillées tout au long du cycle.
+</p>
+@wims:Exercices
+@titre:Utiliser les nombres pour comparer, calculer et résoudre des problèmes : Racine carrée
 @presentation:<strong>Connaissances : </strong>
 <ul class="tirets">
+<li>les carrés parfaits de 1 à 144 ;</li>
+<li>définition de la racine carrée.</li>
+</ul>
+@contenu:
+@capacite:<p>La racine carrée est introduite, en lien avec des situations géométriques (théorème de Pythagore, agrandissement des aires) et à l’appui de la connaissance des carrés parfaits de 1 à 144 et de l’utilisation de la calculatrice.
+</p>
+@commentaire:<p>La racine carrée est utilisée dans le cadre de la résolution de problèmes.</p>
+<em>Aucune connaissance n’est attendue sur les propriétés algébriques des racines carrées.</em>
+</p>
+@wims:Exercices
+@titre:Utiliser les nombres pour comparer, calculer et résoudre des problèmes : Puissance
+@presentation:<strong>Connaissances : </strong>
+<ul class="fleche">
+<li>les préfixes de nano à giga.</li>
+</ul>
+@contenu:<p></p>
+@capacite:<p>Les puissances de 10 sont d’abord introduites avec des exposants positifs, puis négatifs, afin de définir les préfixes de nano à giga et la notation scientifique. Celle-ci est utilisée pour comparer des nombres et déterminer des ordres de grandeurs, en lien avec d’autres disciplines. Les puissances de base quelconque d’exposants positifs sont introduites pour simplifier l’écriture de produits.
+</p>
+<p><em>La connaissance des formules générales sur les produits ou quotients de puissances de 10 n’est pas un attendu du programme : la mise en œuvre des calculs sur les puissances découle de leur définition.
+</em></p>
+@commentaire:<p>Les puissances de base quelconque d’exposants négatifs sont introduites et utilisées pour simplifier des quotients.
+</p>
+<p><em>La connaissance des formules générales sur les produits ou quotients de puissances n’est pas un attendu du programme : la mise en œuvre des calculs sur les puissances découle de leur définition.</em></p>
+@wims:Exercices
+@titre:Utiliser les nombres pour comparer, calculer et résoudre des problèmes : Comparaison de nombres
+@presentation:<strong>Connaissances : </strong>
+<ul class="fleche">
+<li>égalité de fractions (démonstration possible à partir de la définition du quotient) ;</li>
+<li>ordre sur les nombres rationnels en écriture décimale ou fractionnaire.</li>
+</ul>
+<strong>Compétences associées : </strong>
+<ul class="fleche">
+<li>comparer, ranger, encadrer des nombres rationnels en écriture décimale, fractionnaire ou scientifique ; </li>
+<li>crepérer et placer un nombre rationnel sur une droite graduée ;</li>
+<li>cassocier à des objets des ordres de grandeur (par exemple taille d’un atome, d’une bactérie, d’une alvéole pulmonaire, longueur de l’intestin, capacité de stockage d’un disque dur, vitesses du son et de la lumière, populations française et mondiale, distance Terre-Lune, distance du Soleil à l’étoile la plus proche, etc.).</li>
+</ul>
+@contenu:<p>Les élèves sont amenés à reconnaître et à produire des fractions égales (sans privilégier de méthode en particulier), à comparer, additionner et soustraire des fractions dont les dénominateurs sont égaux ou multiples l’un de l’autre.</p>
+<p>Au moins une des propriétés suivantes est démontrée, à partir de la définition d’un quotient :
+</p>
+<ul>
+<li>\(\frac{a b}{a c}=\frac{b}{c}\)</li>
+<li>\(a\frac{b}{c}=\frac{a b}{c}\)</li>
+<li>\(\frac{a}{c}+\frac{b}{c}=\frac{a+b}{c}\)</li>
+<li>\(\frac{a}{c}-\frac{b}{c}=\frac{a-b}{c}\)</li>
+</ul>
+<p>Il est possible, à ce niveau, de se limiter à des exemples à valeur générique. Cependant, le professeur veille à spécifier que la vérification d’une propriété, même sur plusieurs exemples, n’en constitue pas une démonstration.<br/> Exemple de calcul fractionnaire permettant de démontrer que \(\frac{2}{3}=\frac{10}{15} \).<br/>
+On commence par calculer \( \frac{2}{3} \times 15\) :<br/>
+\(\frac{2}{3}\times 15 = \frac{2}{3} \times 3\times 5\).<br/>
+La définition du quotient permet , de simplifier par \(3\), puisque \(\frac{2}{3}\) est le nombre qui, multiplié par \(3\), donne \(2\).<br/>
+Donc \(\frac{2}{3} \times 15 = 2\times 5 = 10\).<br/>
+Par définition du quotient, il vient donc \(\frac{2}{3}=\frac{10}{15} \) puisque \(\frac{2}{3}\) multiplié par \(15\) donne \(10\).</p>
+@capacite:<p>La notation scientifique est utilisée pour comparer des nombres et déterminer des ordres de grandeurs, en lien avec d’autres disciplines.
+</p>
+@commentaire:<p></p>
+@wims:Exercices
+@titre:Utiliser les nombres pour comparer, calculer et résoudre des problèmes : Pratiquer le calcul exact ou approché, mental, à la main ou instrumenté
+@presentation:<strong>Connaissances :</strong>
+<ul class="fleche">
+<li>somme, différence, produit, quotient de nombres décimaux, de deux nombres rationnels ;</li>
+<li>puissance d’un nombre (exposants entiers, positifs ou négatifs) ;</li>
+<li>notation scientifique.</li>
+</ul>
+<strong>Compétences associées :</strong>
+<ul class="fleche">
+<li>calculer avec des nombres relatifs, des fractions, des nombres décimaux ;</li>
+<li>vérifier la vraisemblance d’un résultat, notamment en estimant son ordre de grandeur ;</li>
+<li>effectuer des calculs numériques simples impliquant des puissances, notamment en utilisant la notation scientifique ;</li>
+<li>utiliser la racine carrée pour résoudre des problèmes, notamment géométriques ;</li>
+<li>effectuer des calculs et des comparaisons pour traiter des problèmes.</li>
+</ul>
+<em>La mise en acte de produits et de quotients de puissances de même base résulte de l’application de la définition plutôt que de celle d’une formule.</em>
+@contenu:<p></p>
+@capacite:<p>Les puissances de base quelconque d’exposants positifs sont introduites pour simplifier l’écriture de produits.</p>
+<p><em>La connaissance des formules générales sur les produits ou quotients de puissances de 10 n’est pas un attendu du programme : la mise en œuvre des calculs sur les puissances découle de leur définition.</em></p>
+@commentaire:<p></p>
+@wims:Exercices
+@titre:Comprendre et utiliser les notions de divisibilité et de nombres premiers
+@presentation:<strong>Connaissances : </strong>
+<ul class="fleche">
 <li>multiples et diviseurs ;</li>
 <li>critères de divisibilité par 2, 3, 5, 9 ;</li>
 <li>division euclidienne (quotient, reste) ;</li>
@@ -144,7 +245,7 @@ degré. Les élèves sont progressivement familiarisés aux différents statuts 
 <li>fractions irréductibles.</li>
 </ul>
 <strong>Compétences associées : </strong>
-<ul class="tirets">
+<ul class="fleche">
 <li>déterminer si un entier est ou n’est pas multiple ou diviseur d’un autre entier ;</li>
 <li>déterminer les nombres premiers inférieurs ou égaux à 100 ;</li>
 <li>utiliser les critères de divisibilité par 2, 3, 5, 9, 10 ;</li>
@@ -167,11 +268,11 @@ La notion de fraction irréductible est introduite. L’utilisation d’un table
 @wims: Exercices 2
 @titre:Utiliser le calcul littéral : Expressions littérales
 @presentation:<strong>Connaissances : </strong>
-<ul class="tirets">
+<ul class="fleche">
 <li>notions d’inconnue, d’équation, d’indéterminée, d’identité ;</li>
 </ul>
 <strong>Compétences associées : </strong>
-<ul class="tirets">
+<ul class="fleche">
 <li>développer, factoriser, réduire des expressions algébriques dans des cas très simples ;</li>
 <li>utiliser le calcul littéral pour traduire une propriété générale (par exemple la distributivité simple), pour démontrer un résultat général (par exemple que la somme de trois entiers consécutifs est un multiple de trois), pour valider ou réfuter une conjecture, pour modéliser une situation ;</li>
 <li>mettre un problème en équation en vue de sa résolution ;</li>
@@ -192,7 +293,7 @@ Les élèves substituent une valeur numérique à une lettre pour calculer la va
 @wims: Exercices 3
 @titre:Utiliser le calcul littéral : Distributivité
 @presentation:<strong>Connaissances :</strong>
-<ul class="tirets">
+<ul class="fleche">
 <li>propriétés de distributivité (simple et double) ;</li>
 <li>factorisation de \(a^2-b^2\) .</li>
 </ul>
@@ -206,7 +307,7 @@ de distributivité simple est utilisée pour réduire une expression littérale 
 @wims:Exercices 4
 @titre:Utiliser le calcul littéral : Équations
 @presentation:<strong>Connaissances : </strong>
-<ul class="tirets">
+<ul class="fleche">
 <li>résoudre algébriquement des équations du premier degré ou s’y ramenant (équations produits), en
 particulier des équations du type \(x^2 = a \);</li>
 <li>annulation d’un produit (démonstration possible par disjonction de cas).</li>
@@ -224,19 +325,28 @@ particulier des équations du type \(x^2 = a \);</li>
 <p><em>Aucune virtuosité calculatoire n’est attendue dans les développements et les factorisations.</em>
 </p>
 @wims:Exercices 5
-@theme:Thème B - Organisation et gestion de données, fonctions
+@conclusion:<p>À l’issue d’activités rituelles de calcul et de verbalisation de procédures et la résolution de problèmes, menées tout au long du cycle, d’abord dans le cadre numérique, puis dans le cadre algébrique, les élèves doivent avoir mémorisé ou automatisé :
+<ul class="square">
+<li>les règles de calcul sur les nombres relatifs et les fractions, notamment la condition d’égalité de deux fractions (si \(a d = b c\), alors \(\frac{a}{b}=\frac{c}{d}\) et réciproquement) ;</li>
+<li>les conventions d’écritures du calcul littéral ;</li>
+<li>les formules de distributivité simple et double ;</li>
+<li>l’identité \(a^2-b^2 =(a-b)(a+b)\) ;</li>
+<li>les procédures de résolution d’équations du type \(a x = b\)  et \(a + x = b\).</li>
+</ul>
+</p>
+@theme:Organisation et gestion de données, fonctions
 @objectif:Certaines des notions travaillées dans ce thème ont déjà été abordées aux cycles précédents.Au cycle 4, les élèves sont confrontés à diverses situations de travail sur des données : les utiliser, les représenter, les interpréter de manière critique. Ils abordent les notions d’incertitude et de hasard, afin de ne pas « subir » le hasard, mais de construire une citoyenneté critique et rationnelle. Ils apprennent à choisir une méthode adaptée aux problèmes de proportionnalité auxquels ils sont confrontés.<br/>
 La notion de ratio vient enrichir le lexique de la proportionnalité pour traduire la proportionnalité de deux suites de nombres. Les élèves découvrent progressivement la notion de fonction, qui permet à la fois de revisiter sous l’aspect fonctionnel des situations déjà connues et d’accéder à de nouvelles catégories de problèmes.
 @histoire:
 @titre:Interpréter, représenter et traiter des données
 @presentation:<strong>Connaissances</strong>
-<ul class="tirets">
+<ul class="fleche">
 <li>effectifs, fréquences ;</li>
 <li>indicateurs de position : moyenne, médiane ;</li>
 <li>indicateur de dispersion : étendue.</li>
 </ul>
 <strong>Compétences associées</strong>
-<ul class="tirets">
+<ul class="fleche">
 <li>recueillir des données, les organiser ;</li>
 <li>lire et interpréter des données sous forme de données brutes, de tableau, de diagramme (diagramme
 en bâtons, diagramme circulaire, histogramme) ;</li>
@@ -253,13 +363,13 @@ diagramme ;</li>
 @wims:
 @titre:Comprendre et utiliser des notions élémentaires de probabilités
 @presentation:<strong>Connaissances</strong>
-<ul class="tirets">
+<ul class="fleche">
 <li>vocabulaire des probabilités ;</li>
 <li>notion de probabilité ; la probabilité d’un événement est comprise entre 0 et 1 ;</li>
 <li>probabilité d’événements certains, impossibles, contraires.</li>
 </ul>
 <strong>Compétences associées</strong>
-<ul class="tirets">
+<ul class="fleche">
 <li>aborder les questions relatives au hasard à partir de problèmes simples ;</li>
 <li>calculer des probabilités dans des cas simples (par exemple évaluation des chances de gain dans un jeu) ;</li>
 <li>exprimer des probabilités sous diverses formes (décimale, fractionnaire, pourcentage) ;</li>
@@ -276,18 +386,70 @@ Le constat de la stabilisation des fréquences s’appuie sur la simulation d’
 </p>
 @wims:
 @titre:Résoudre des problèmes de proportionnalité ;
-@presentation:
-@contenu:
-@capacite:
-@commentaire:
+@presentation:<strong>Connaissances :</strong>
+<ul class="fleche">
+<li>coefficient de proportionnalité ;</li>
+<li>taux d’évolution, coefficient multiplicateur ;</li>
+<li>notion de ratio.<br/>
+<em>On dit, par exemple,
+<ul class="square">
+<li>que deux nombres \(a\) et \(b\) sont dans le ratio \(2 : 3\) (notation standardisée) si \( \frac{a}{2} = \frac{b}{3}\).</li>
+<li>que trois nombres \(a\), \(b\) et \(c_) sont dans le ration \(2 : 3 : 7\) (notation standardisée) si \( \frac{a}{2} = \frac{b}{3} = \frac{c}{7}\).</em>
+</ul>
+</li>
+</ul>
+<strong>Compétences associées :</strong>
+<ul class="fleche">
+<li>reconnaître une situation de proportionnalité ou de non-proportionnalité ;</li>
+<li>calculer une quatrième proportionnelle ;</li>
+<li>partager une quantité (par exemple une somme d’argent) en deux ou trois parts selon un ratio donné ;</li>
+<li>utiliser une formule liant deux grandeurs dans une situation de proportionnalité (par exemple la longueur d’un cercle en fonction de son rayon, la loi d’Ohm exprimant la tension en fonction de l’intensité, la distance parcourue en fonction du temps à vitesse constante, etc.) ;</li>
+<li>résoudre des problèmes utilisant la proportionnalité (pourcentages, échelles, agrandissement réduction).</li>
+</ul>
+@contenu:<p>Les élèves sont confrontés à des situations relevant ou non de la proportionnalité. Des procédures variées (linéarité, passage par l’unité, coefficient de proportionnalité), déjà étudiées au cycle 3, permettent de résoudre des problèmes relevant de la proportionnalité.
+</p>
+@capacite:<p> Le calcul d’une quatrième proportionnelle est systématisé et les points de vue se diversifient avec l’utilisation de représentations graphiques, du calcul littéral et de problèmes de géométrie relevant de la proportionnalité (configuration de Thalès dans le cas des triangles emboîtés, agrandissement et réduction).
+</p>
+@commentaire:<p>Le lien est fait entre taux d’évolution et coefficient multiplicateur, ainsi qu’entre la proportionnalité et les fonctions linéaires. Le champ des problèmes de géométrie relevant de la proportionnalité est élargi (homothéties, triangles semblables, configurations de Thalès).
+</p>
 @wims:
 @titre:Comprendre et utiliser la notion de fonction.
-@presentation:
-@contenu:
-@capacite:
-@commentaire:
-@wims:
-@theme:Thème C - Grandeurs et mesures
+@presentation:<strong>Connaissances :</strong>
+<ul class="fleche">
+<li>vocabulaire : variable, fonction, antécédent, image ;</li>
+<li>différents modes de représentation d’une fonction (expression symbolique, tableau de valeurs, représentation graphique, programme de calcul) ;</li>
+<li>notations \(f(x)\) et \(x\longmapsto f(x)\) ;</li>
+<li>fonction linéaire, fonction affine.</li>
+</ul>
+<strong>Compétences associées :</strong>
+<ul class="fleche">
+<li>passer d’un mode de représentation d’une fonction à un autre ;</li>
+<li>déterminer, à partir d’un mode de représentation, l’image ou un antécédent d’un nombre par une fonction ;</li>
+<li>représenter graphiquement une fonction linéaire, une fonction affine ;</li>
+<li>modéliser un phénomène continu par une fonction ;</li>
+<li>modéliser une situation de proportionnalité à l’aide d’une fonction linéaire ;</li>
+<li>résoudre des problèmes modélisés par des fonctions.</li>
+</ul>
+@contenu:<p>La dépendance de deux grandeurs est traduite par un tableau de valeurs ou une formule.
+</p>
+@capacite:<p>
+La dépendance de deux grandeurs est traduite par un tableau de valeurs, une formule, un graphique. Les représentations graphiques permettent de déterminer des images et des antécédents, qui sont interprétés en fonction du contexte.
+<p><em>La notation et le vocabulaire fonctionnels ne sont pas formalisés en 4<sup>e</sup>.</em></p>
+</p>
+@commentaire:<p>Les notions de variable, de fonction, d’antécédent, d’image sont formalisées et les notations fonctionnelles sont utilisées. Un travail est mené sur le passage d’un mode de représentation d’une fonction (graphique, symbolique, tableau de valeurs) à un autre. Les fonctions affines et linéaires sont présentées par leurs expressions algébriques et leurs représentations graphiques. Les fonctions sont utilisées pour modéliser des phénomènes continus et résoudre des problèmes.
+</p>
+@wims:Exercices
+@conclusion:<p>
+À l’issue d’activités rituelles de calcul et de verbalisation des procédures et la résolution de problèmes,
+menées tout au long du cycle, les élèves doivent avoir mémorisé ou automatisé :
+<ul class="square">
+<li>différentes procédures de calcul d’une quatrième proportionnelle ;</li>
+<li>l’allure de la représentation graphique d’une fonction affine ou linéaire ;</li>
+<li>les procédures d’application et de calcul d’un pourcentage ou d’une échelle ;</li>
+<li>les procédures de recherche d’image et d’antécédent d’un nombre par une fonction.</li>
+</ul>
+</p>
+@theme:Grandeurs et mesures
 @objectif:<p>En continuité avec le travail engagé au cycle 3, ce thème se prête particulièrement à des connexions avec les autres thèmes du programme et offre de nombreux liens avec la physique-chimie, les sciences de la vie et de la Terre, la géographie, l’éducation physique et sportive.<br/>
 Les élèves doivent disposer de références concrètes (savoir, par exemple, que la circonférence de la Terre est environ 40 000 km) et être capables d’estimer l'ordre de grandeur d'une mesure.<br/>
 À travers les activités sur les longueurs, les aires et les volumes, les élèves se construisent et utilisent un premier répertoire de formules. Par ailleurs, ce travail autour des formules s'inscrit dans l'introduction du calcul littéral.
@@ -295,14 +457,14 @@ Les élèves doivent disposer de références concrètes (savoir, par exemple, q
 @histoire:
 @titre:Calculer avec des grandeurs mesurables - Exprimer les résultats dans les unités adaptées
 @presentation:<strong>Connaissances :</strong>
-<ul class ="tirets">
+<ul class ="fleche">
 <li>notion de grandeur produit et de grandeur quotient ;</li>
 <li>aire du parallélogramme (obtenue à partir de celle du rectangle par découpage et recollement) ;</li>
 <li>volume d’un prisme, d’une pyramide, d’un cylindre, d’un cône, d’une boule ;</li>
 <li>correspondance entre unités de volume et de contenance (1 L = 1 \(\mathrm{dm}^3 \) , 1 000 L = 1 \(\mathrm{m} ^3\)).</li>
 </ul>
 <strong>Compétences associées :</strong>
-<ul class ="tirets">
+<ul class ="fleche">
 <li>mener des calculs impliquant des grandeurs mesurables, notamment des grandeurs composées, exprimer les résultats dans les unités adaptées ;</li>
 <li>vérifier la cohérence des résultats du point de vue des unités ;</li>
 <li>effectuer des conversions d’unités.</li>
@@ -323,11 +485,11 @@ ou, à partir de :<br/>
 @wims:
 @titre:Comprendre l’effet de quelques transformations sur les figures géométriques.
 @presentation:<strong>Connaissances :</strong>
-<ul class="tirets">
+<ul class="fleche">
 <li>effet d’un déplacement, d'un agrandissement ou d'une réduction sur les longueurs, les angles, les aires et les volumes.</li>
 </ul>
 <strong>Compétences associées :</strong>
-<ul class="tirets">
+<ul class="fleche">
 <li>utiliser un rapport de réduction ou d'agrandissement (architecture, maquettes) pour calculer des longueurs, des aires, des volumes ;</li>
 <li>utiliser l’échelle d’une carte ;</li>
 <li>utiliser des transformations pour calculer des grandeurs géométriques ;</li>
@@ -339,19 +501,20 @@ ou, à partir de :<br/>
 @commentaire:<p>Les élèves connaissent et utilisent l’effet des transformations au programme (symétries, translations, rotations, homothéties) sur les longueurs, les angles, les aires et les volumes.<br/>
 Le lien est fait entre la proportionnalité et certaines configurations ou transformations géométriques (triangles semblables, homothéties).</p>
 @wims:
-@theme:Thème D - Espace et géométrie
+@conclusion:
+@theme:Espace et géométrie
 @objectif:<p>Au cycle 3, les élèves ont découvert différents objets géométriques, qui continuent à être rencontrés au cycle 4. Ils valident désormais par le raisonnement et la démonstration les propriétés qu'ils conjecturent. Les définitions et propriétés déjà vues au cycle 3 ainsi que les nouvelles propriétés introduites au cycle 4 (caractérisation angulaire du parallélisme, somme des angles d’un triangle, inégalité triangulaire, théorèmes de Thalès et de Pythagore) fournissent un éventail d'outils nourrissant la mise en œuvre de raisonnements et démonstrations. De nouvelles transformations (symétries centrales, translations, rotations, homothéties) font l'objet d'une première approche, basée sur l’observation de leur effet sur des configurations planes, essentiellement à partir de manipulations concrètes (papier calque, papier pointé, quadrillage, etc.) ou virtuelles (logiciel de géométrie dynamique). L’objectif est d’installer des images mentales qui faciliteront ultérieurement l’analyse de figures géométriques ainsi que la définition ponctuelle des transformations
 étudiées.
 </p>
 @histoire:
 @titre:Représenter l’espace
 @presentation:<strong>Connaissances :</strong>
-<ul class="tirets">
+<ul class="fleche">
 <li>abscisse, ordonnée, altitude ;</li>
 <li>latitude, longitude.</li>
 </ul>
 <strong>Compétences associées :</strong>
-<ul class="tirets">
+<ul class="fleche">
 <li>(se) repérer sur une droite graduée, dans le plan muni d'un repère orthogonal, dans un parallélépipède rectangle, sur une sphère ;</li>
 <li>reconnaître des solides (pavé droit, cube, prisme, cylindre, pyramide, cône, boule) ;</li>
 <li>construire et mettre en relation des représentations de ces solides (vues en perspective cavalière, de face, de dessus, sections planes, patrons, etc.) ;</li>
@@ -367,10 +530,10 @@ Le lien est fait entre la proportionnalité et certaines configurations ou trans
 @wims:
 @titre:Utiliser les notions de géométrie plane pour démontrer &#8212; Figures et configurations
 @presentation:<strong>Connaissances : </strong>
-<ul class ="tirets">
+<ul class ="fleche">
 <li>caractérisation angulaire du parallélisme: angles alternes internes, angles correspondants;</li>
 <li>triangle:
-    <ul class="tirets">
+    <ul class="square2">
         <li>somme des angles d’un triangle (démonstration possible en utilisant les angles correspondants) ;</li>
         <li>hauteurs et médiatrices ;</li>
         <li>inégalité triangulaire ; </li>
@@ -384,7 +547,7 @@ Le lien est fait entre la proportionnalité et certaines configurations ou trans
 <li>lignes trigonométriques dans le triangle rectangle : cosinus, sinus, tangente.</li>
 </ul>
 <strong>Compétences associées : </strong>
-<ul class="tirets">
+<ul class="fleche">
     <li>mettre en œuvre ou écrire un protocole de construction d’une figure géométrique ;</li>
     <li>faire le lien entre les cas d’égalité des triangles et la construction d’un triangle à partir de la donnée de longueurs des côtés et/ou de mesures d’angles ;</li>
 </ul>
@@ -408,7 +571,7 @@ Le lien est fait entre la proportionnalité et certaines configurations ou trans
 @wims:
 @titre:Utiliser les notions de géométrie plane pour démontrer &#8212; Transformations
 @presentation:<strong>Compétences associées : </strong>
-<ul class="tirets">
+<ul class="fleche">
 <li>comprendre l’effet d’une translation, d’une symétrie (axiale et centrale), d’une rotation, d’une homothétie sur une figure ;</li>
 <li>mobiliser les connaissances des figures, des configurations et des transformations au programme pour déterminer des grandeurs géométriques ;</li>
 <li>mener des raisonnements et s’initier à la démonstration en utilisant les propriétés des figures, des configurations et des transformations.</li>
@@ -425,20 +588,21 @@ Le lien est fait entre la proportionnalité et certaines configurations ou trans
 <p><em>Les définitions ponctuelles d’une translation, d’une rotation et d’une homothétie ne figurent pas au programme.</em></p>
 <p><em>Pour faire le lien entre les transformations et les configurations du programme, il est possible d’identifier (à la main ou à l’aide d’un logiciel de géométrie) l’effet, sur un triangle donné, de l’enchaînement d’une translation, d’une rotation et d’une homothétie, voire d’une symétrie axiale et réciproquement, pour deux triangles semblables donnés, chercher des transformations transformant l’un en l’autre.</em></p>
 @wims:
-@theme:Thème E - Algorithmique et programmation
+@conclusion:
+@theme:Algorithmique et programmation
 @objectif:<p>Au cycle 4, les élèves s’initient à la programmation, en développant dans une démarche de projet quelques programmes simples, sans viser une connaissance experte et exhaustive d’un langage ou d’un logiciel particulier. En créant un programme, ils développent des méthodes de programmation, revisitent les notions de variables et de fonctions sous une forme différente, et s’entraînent au raisonnement.<br/> Exemples d’activités possibles : jeux dans un labyrinthe, jeu de Pong, bataille navale, jeu de nim, tic tac toe, jeu du cadavre exquis.
 </p>
 @histoire:
 @titre:Écrire, mettre au point et exécuter un programme simple
 @presentation:<strong>Connaissances : </strong>
-<ul class="tirets"
+<ul class="fleche">
 <li>notions d’algorithme et de programme ;</li>
 <li>notion de variable informatique ;</li>
 <li>déclenchement d’une action par un événement ;</li>
 <li>séquences d’instructions, boucles, instructions conditionnelles.</li>
 </ul>
 <strong>Compétences associées : </strong>
-<ul class="tirets"
+<ul class="fleche">
 <li>écrire, mettre au point (tester, corriger) et exécuter un programme en réponse à un problème donné.</li>
 </ul>
 <p>Les repères qui suivent indiquent une progressivité dans le <strong>niveau de complexité des activités</strong> relevant de ce thème. Certains élèves sont capables de réaliser des activités de troisième niveau dès le début du cycle.</p>
@@ -452,4 +616,5 @@ Le lien est fait entre la proportionnalité et certaines configurations ou trans
 @commentaire:<p>À un troisième niveau, l’utilisation simultanée de boucles «répéter...fois», et «répéter jusqu’à...» et d’instructions conditionnelles permet de réaliser des figures, des calculs et des déplacements plus complexes. L’écriture de plusieurs scripts fonctionnant en parallèle permet de gérer les interactions et de créer des jeux.</p>
 <p>La décomposition d’un problème en sous-problèmes et la traduction d’un sous-problème par la création d’un bloc-utilisateur contribuent au développement des compétences visées.</p>
 @wims:
+@conclusion:
 @end:

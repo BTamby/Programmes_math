@@ -40,7 +40,7 @@ def begin_html():
 		index_2pt = lign.index(':')
 		info_lu = lign[index_2pt+1:-1]
 		#print("info_lu = ",info_lu)
-		info_gen[cle]=info_lu	
+		info_gen[cle]=info_lu
 	Fichier = path_base_program.split('/')[-1]
 	Fichier = Fichier.replace('.','_')
 	txt ='!set email=$responsable_'+Fichier+'\n<h2 class="wims_title">'+info_gen['titreniveau']+\
@@ -158,7 +158,7 @@ def creer_program(prog):
 	allhtml =''
 	#Création du début de la page phtml
 	begin_html()
-	ens_tag = ['objectif','histoire','titre','contenu','capacite','commentaire','presentation','wims']
+	ens_tag = ['objectif','histoire','titre','contenu','capacite','commentaire','presentation','wims','conclusion']
 	#Construction du dictionnaire avec le contenu de chaque thème
 	creer_les_themes()
 	#Mettre les différentes parties du contenu du fichier .phtml dans le dictionnaire
@@ -176,6 +176,7 @@ def creer_program(prog):
 	i = 0
 	#Pour chaque thème, création du bloc des colonnes (1,2 ou 3)
 	for cle,val in dico_all.items():
+		#print("Test conclusion : \nThème ",cle," Conclusion ",dico_all[cle]['conclusion'])
 		# Création d'un fichier d'exercices pour chaque thème
 		fichier_exo.write("Thème : "+cle+'\n\n')
 		#Début du code du bloc html du thème
@@ -284,8 +285,9 @@ def creer_program(prog):
 					fen_modal = """\t<a class="text_icon testexo float_left" data-open="""+data_open+""" ><span>"""+titre_lien_exo+"""</span></a>
 		<div class="large reveal" id="""+data_open+""" data-reveal> 
 	        <div class="euler_actu_content_modal">
+	        	<h2 class="wims_title">Exercices</h2>
 	            <div class="center euler_title_modal">
-	              	<h3 class="titre_colonne">"""+cle+"""</h3><span>Exercices du point de programme : """+dico_all[cle]['titre'][num]+"""</span>
+	              	<span>"""+cle+""" &#8212; """+dico_all[cle]['titre'][num]+"""</span>
 	            </div>
 	            <br class="spacer">
 	            <ul class="menu vertical">\n"""+les_exo+"""
@@ -299,6 +301,9 @@ def creer_program(prog):
 				allhtml = allhtml+'\n</div><!-- Fin exercices -->\n'
 			end_div_bloc ='</div><!-- Fin bloc -->\n'
 			allhtml = allhtml + end_div_bloc
+		print("Test : ",dico_all[cle]['conclusion'][0])
+		if dico_all[cle]['conclusion'][0] != '':
+			allhtml = allhtml +'<div class="small-12 cell program_colonne_cl"><!-- Conclusion -->\n'+dico_all[cle]['conclusion'][0]+'</div><!-- Fin conclusion -->\n'
 		#Fin du thème
 		end_div='\t</div><!--End thème '+cle+'-->\n'
 		allhtml = allhtml + end_div

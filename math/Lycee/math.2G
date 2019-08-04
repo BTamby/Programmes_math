@@ -206,6 +206,7 @@ de nombre pair, de nombre impair, de nombre premier.</li>
 </ul>
 @wims:
 H4/algebra/factorcom.fr,factorcom1,Factorisation,,,Factorisation par la mise en facteur commun
+@conclusion:
 @theme:Géométrie
 @objectif:
 <p>Les objectifs de cette partie sont les suivants :
@@ -318,6 +319,7 @@ Chasles.</li>
 <li>Représentation, sur des exemples, de parties du plan décrites par des inégalités sur les coordonnées.</li>
 </ul>
 @wims:
+@conclusion:
 @theme:Fonctions
 @objectif:<p>Au cycle 4, les élèves ont découvert progressivement la notion de fonction, manipulé différents modes de représentation: expression algébrique, tableau de valeurs, représentation graphique, programmes de calcul. Ils connaissent le vocabulaire de base:
 variable, fonction, antécédent, image et la notation \(f(x)\). Selon le mode de représentation choisi, ils déterminent une image ou des antécédents d‘un nombre par une fonction. Ils ont étudié les fonctions linéaires, les fonctions affines et leur représentation graphique.
@@ -405,6 +407,7 @@ modéliser des phénomènes discrets. La notation \(u(n)\) est alors utilisée.<
 <li>Relier les courbes représentatives de la fonction racine carrée et de la fonction carré sur \({\mathbb{R}}^{+}\).</li>
 </ul>
 @wims:
+@conclusion:
 @theme:Statistiques et probabilités
 @objectif:<p>En matière d‘information chiffrée, les élèves ont travaillé au cycle 4 effectifs, fréquences, proportions, pourcentages, coefficient de proportionnalité, taux d‘évolution, coefficient multiplicateur. L‘objectif est de consolider et de prolonger ce travail par l‘étude de situations multiplicatives : proportion de proportion, évolutions successives ou réciproques. Les élèves doivent distinguer si un pourcentage exprime une proportion ou une évolution.
 </p>
@@ -468,6 +471,7 @@ d‘expliciter; il peut aussi résulter d‘une application d‘une version vulg
 </ul>
 @commentaire:
 @wims:
+@conclusion:
 @theme:Algorithmique et programmation
 @objectif:<p>La démarche algorithmique est, depuis les origines, une composante essentielle de l‘activité mathématique. Au cycle 4, en mathématiques et en technologie, les élèves ont appris à écrire, mettre au point et exécuter un programme simple. Une consolidation des acquis du cycle 4 est proposée autour de deux idées essentielles :
 <ul class="tirets">
@@ -523,6 +527,7 @@ L‘algorithmique a une place naturelle dans tous les champs des mathématiques 
 </ul>
 @commentaire:
 @wims:
+@conclusion:
 @theme:Vocabulaire ensembliste et logique
 @objectif:
 @histoire:
@@ -546,4 +551,5 @@ Les élèves apprennent en situation à :
 @capacite:
 @commentaire:
 @wims:
+@conclusion:
 @end:
