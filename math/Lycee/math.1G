@@ -3,6 +3,8 @@
 @level:2
 @ressources:https://euler.ac-versailles.fr/rubrique177.html
 @intro:
+<h3>Préambule</h3>
+<div id="preambule">
 <h4 class="program_h4">Intentions majeures</h4>
 La classe de première générale est conçue pour préparer au baccalauréat général, et au-delà à une poursuite d’études réussie et à l’insertion professionnelle.
 L’enseignement de spécialité de mathématiques de la classe de première générale est conçu à partir des intentions suivantes :
@@ -136,7 +138,7 @@ historique, épistémologique ou culturel. L’histoire peut aussi être envisag
 source féconde de problèmes clarifiant le sens de certaines notions. Les items « Histoire des
 mathématiques » identifient quelques possibilités en ce sens. Pour les étayer, le professeur
 pourra, s’il le désire, s’appuyer sur l’étude de textes historiques.</p>
-<h3>Programme</h3>
+</div>
 @theme:Algèbre
 @objectif:En classe de première, les suites sont présentées d’un point de vue principalement algébrique. L’objectif est que l’élève soit confronté à des systèmes discrets pour lesquels les suites numériques apparaissent comme modélisation adaptée. C’est aussi l’occasion d’aborder le concept de définition par récurrence.
 L’élève rencontre différents modes de génération de suites :

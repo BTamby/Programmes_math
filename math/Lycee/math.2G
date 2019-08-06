@@ -3,6 +3,8 @@
 @level:2
 @ressources:https://euler.ac-versailles.fr/rubrique176.html
 @intro:
+<h3>Préambule</h3>
+<div id="preambule">
 <h4 class="program_h4">Intentions majeures</h4>
 <p>La classe de seconde est conçue pour permettre aux élèves de consolider leur maîtrise du
 socle commun de connaissances, de compétences et de culture afin de réussir la transition
@@ -88,6 +90,7 @@ mathématiques du programme.
 </p>
 <p>Il peut être judicieux d‘éclairer le cours par des éléments de contextualisation d‘ordre historique, épistémologique ou culturel. L‘histoire peut aussi être envisagée comme une source féconde de problémes clarifiant le sens de certaines notions. Les items « Histoire des mathématiques » identifient quelques possibilités en ce sens. Pour les étayer, le professeur peut s‘appuyer sur l‘étude de documents historiques.
 </p>
+</div>
 @theme:Nombres et calculs
 @objectif:
 <p>Cette partie prolonge le thème « Nombres et calculs » du cycle 4 avec pour objectifs de :
@@ -111,7 +114,7 @@ mettre en évidence leurs aspects algorithmiques.
 @titre:Manipuler les nombres réels
 @presentation:<p>Au cycle 4, les élèves ont étudié les inégalités pour comparer des valeurs numériques. La notion d‘intervalle, présentée comme ensemble de nombres vérifiant des inégalités, est nouvelle.
 </p>
-<p>La notation de la valeur absolue est introduite pour exprimer la distance entre deux nombres réels et caractériser les intervalles de centre donné. Toute autre utilisation est hors programme.
+<p><em>La notation de la valeur absolue est introduite pour exprimer la distance entre deux nombres réels et caractériser les intervalles de centre donné. Toute autre utilisation est hors programme.</em>
 </p>
 @contenu:<ul class="tirets">
 <li>Ensemble \(\mathbb{R}\) des nombres réels, droite numérique.</li>

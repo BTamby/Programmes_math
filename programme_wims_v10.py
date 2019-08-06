@@ -45,7 +45,7 @@ def begin_html():
 	Fichier = Fichier.replace('.','_')
 	txt ='!set email=$responsable_'+Fichier+'\n<h2 class="wims_title">'+info_gen['titreniveau']+\
 	'</h2>\n<div class="wims_msg info program_desc">\n\t'+info_gen['datewims']+'\n\
-	</div>\n<div id ="intro" class ="accordion">\n<h3>Préambule</h3>\n<div id="preambule">\n'
+	</div>\n<div id ="intro" class ="accordion"><!--Début accordéon préambule et compétences-->\n'
 	# Construire l'ntroduction du programme créé
 	tag ='@intro'
 	continuer = True
@@ -65,7 +65,7 @@ def begin_html():
 		else :
 			txt = txt + lign
 	f.close()
-	allhtml = txt+'\n</div><!-- Fin accordion -->\n</div><!-- Fin du préambule-->\n'
+	allhtml = txt+'\n</div><!--Fin accordéon préambule et compétences-->\n'
 
 def creer_elements(elt):
 	global dico_all
@@ -281,8 +281,8 @@ def creer_program(prog):
 					for e in liste_de_lien :
 						les_exo = les_exo+e+'\n'
 					data_open = 'modal_exo_'+str(i)+str(num)
-					titre_lien_exo = 'Exercices : '+dico_all[cle]['titre'][num]
-					fen_modal = """\t<a class="text_icon testexo float_left" data-open="""+data_open+""" ><span>"""+titre_lien_exo+"""</span></a>
+					titre_lien_exo = ' '+dico_all[cle]['titre'][num]
+					fen_modal = """<span class="text_icon testexo float_left exo_modal">Exercices :  &nbsp; </span>\t<a data-open="""+data_open+""" ><span>"""+titre_lien_exo+"""</span></a>
 		<div class="large reveal" id="""+data_open+""" data-reveal> 
 	        <div class="euler_actu_content_modal">
 	        	<h2 class="wims_title">Exercices</h2>
