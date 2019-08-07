@@ -1,21 +1,19 @@
 @titreniveau:Mathématiques Première générale
-@datewims:Dernière mise à jour le 02/08/2019 (Euler Versailles)<br/>Texte créé à partir du document :<br/>programmes d'enseignement &#8212; <a href = "https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/16/8/spe632_annexe_1063168.pdf" target="_blank">BO spécial n°1 du 22 janvier 2019</a>
+@datewims:Dernière mise à jour le 06/08/2019 (Euler Versailles)<br/>Texte créé à partir du document :<br/>programmes d'enseignement &#8212; <a href = "https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/16/8/spe632_annexe_1063168.pdf" target="_blank">BO spécial n°1 du 22 janvier 2019</a>
 @level:2
 @ressources:https://euler.ac-versailles.fr/rubrique177.html
 @intro:
-<h3>Préambule</h3>
-<div id="preambule">
-<h4 class="program_h4">Intentions majeures</h4>
-La classe de première générale est conçue pour préparer au baccalauréat général, et au-delà à une poursuite d’études réussie et à l’insertion professionnelle.
-L’enseignement de spécialité de mathématiques de la classe de première générale est conçu à partir des intentions suivantes :
+£Intentions majeures
+La classe de première générale est conçue pour préparer au baccalauréat général, et au-delà à une poursuite d’études réussie et à l’insertion professionnelle. L’enseignement de spécialité de mathématiques de la classe de première générale est conçu à partir des intentions suivantes :
 <ul class="tirets">
 <li>permettre à chaque élève de consolider les acquis de la seconde, de développer son goût des mathématiques, d’en apprécier les démarches et les objets afin qu’il puisse faire l’expérience personnelle de l’efficacité des concepts mathématiques et de la simplification et la généralisation que permet la maîtrise de l’abstraction ;</li>
 <li>développer des interactions avec d’autres enseignements de spécialité ;</li>
 <li>préparer au choix des enseignements de la classe de terminale : notamment choix de l’enseignement de spécialité de mathématiques, éventuellement accompagné de l’enseignement optionnel de mathématiques expertes, ou choix de l’enseignement optionnel de mathématiques complémentaires.</li>
 </ul>
 Le programme de mathématiques définit un ensemble de connaissances et de compétences, réaliste et ambitieux, qui s’appuie sur le programme de seconde dans un souci de cohérence, en réactivant les notions déjà étudiées et y ajoutant un nombre raisonnable de nouvelles notions, à étudier de manière suffisamment approfondie.
-<ul class="tirets">
+<ul class="bullets">
 <li>Compétences mathématiques</li>
+</ul>
 Dans le prolongement des cycles précédents, on travaille les six grandes compétences :
 <ul class="tirets">
 <li>chercher, expérimenter, en particulier à l’aide d’outils logiciels ;</li>
@@ -26,119 +24,57 @@ registre ;</li>
 <li>calculer, appliquer des techniques et mettre en œuvre des algorithmes ;</li>
 <li>communiquer un résultat par oral ou par écrit, expliquer une démarche.</li>
 </ul>
-<p>La résolution de problèmes est un cadre privilégié pour développer, mobiliser et combiner plusieurs de ces compétences. Cependant, pour prendre des initiatives, imaginer des pistes de solution et s’y engager sans s’égarer, l’élève doit disposer d’automatismes. Ceux-ci facilitent en effet le travail intellectuel en libérant l’esprit des soucis de mise en œuvre technique et élargissent le champ des démarches susceptibles d’être engagées. L’installation de ces réflexes est favorisée par la mise en place d’activités rituelles, notamment de calcul (mental ou réfléchi, numérique ou littéral). Elle est menée conjointement avec la résolution de problèmes motivants et substantiels, afin de stabiliser connaissances, méthodes et stratégies.</p>
+La résolution de problèmes est un cadre privilégié pour développer, mobiliser et combiner plusieurs de ces compétences. Cependant, pour prendre des initiatives, imaginer des pistes de solution et s’y engager sans s’égarer, l’élève doit disposer d’automatismes. Ceux-ci facilitent en effet le travail intellectuel en libérant l’esprit des soucis de mise en œuvre technique et élargissent le champ des démarches susceptibles d’être engagées. L’installation de ces réflexes est favorisée par la mise en place d’activités rituelles, notamment de calcul (mental ou réfléchi, numérique ou littéral). Elle est menée conjointement avec la résolution de problèmes motivants et substantiels, afin de stabiliser connaissances, méthodes et stratégies.
+<ul class="bullets">
 <li>Diversité de l’activité de l’élève</li>
-<p>
-La diversité des activités mathématiques proposées doit permettre aux élèves de prendre conscience de la richesse et de la variété de la démarche mathématique et de la situer au sein de l’activité scientifique. Cette prise de conscience est un élément essentiel dans la définition de leur orientation. Il importe donc que cette diversité se retrouve dans les travaux proposés à la classe. Parmi ceux-ci, les travaux écrits faits hors du temps scolaire permettent, à travers l’autonomie laissée à chacun, le développement des qualités d’initiative, tout en assurant la stabilisation des connaissances et des compétences. Ils doivent être conçus de façon à prendre en compte la diversité et l’hétérogénéité des élèves.
-<p>Le calcul est un outil essentiel pour la résolution de problèmes. Il importe de poursuivre l’entraînement des élèves dans ce domaine par la pratique régulière du calcul numérique et du calcul littéral, sous ses diverses formes : mentale, écrite, instrumentée.</p>
-</p>
+</ul>
+La diversité des activités mathématiques proposées doit permettre aux élèves de prendre conscience de la richesse et de la variété de la démarche mathématique et de la situer au sein de l’activité scientifique. Cette prise de conscience est un élément essentiel dans la définition de leur orientation. Il importe donc que cette diversité se retrouve dans les travaux proposés à la classe. Parmi ceux-ci, les travaux écrits faits hors du temps scolaire permettent, à travers l’autonomie laissée à chacun, le développement des qualités d’initiative, tout en assurant la stabilisation des connaissances et des compétences. Ils doivent être conçus de façon à prendre en compte la diversité et l’hétérogénéité des élèves.<br/>
+Le calcul est un outil essentiel pour la résolution de problèmes. Il importe de poursuivre l’entraînement des élèves dans ce domaine par la pratique régulière du calcul numérique et du calcul littéral, sous ses diverses formes : mentale, écrite, instrumentée.
+<ul class="bullets">
 <li>Utilisation de logiciels</li>
-<p>L’utilisation de logiciels (calculatrice ou ordinateur), d’outils de visualisation et de représentation, de calcul (numérique ou formel), de simulation, de programmation développe la possibilité d’expérimenter, favorise l’interaction entre l’observation et la démonstration et change profondément la nature de l’enseignement.
+</ul>
+L’utilisation de logiciels (calculatrice ou ordinateur), d’outils de visualisation et de représentation, de calcul (numérique ou formel), de simulation, de programmation développe la possibilité d’expérimenter, favorise l’interaction entre l’observation et la démonstration et change profondément la nature de l’enseignement.<br/>
 L’utilisation régulière de ces outils peut intervenir selon trois modalités :
 <ul class="tirets">
 <li>par le professeur, en classe, avec un dispositif de visualisation collective adapté ;</li>
-<li>par les élèves, sous forme de travaux pratiques de mathématiques en classe, à
-l’occasion de la résolution d’exercices ou de problèmes ;
-<li>dans le cadre du travail personnel des élèves hors du temps de classe (par exemple
-au CDI ou à un autre point d’accès au réseau local).</li>
+<li>par les élèves, sous forme de travaux pratiques de mathématiques en classe, à l’occasion de la résolution d’exercices ou de problèmes ;
+<li>dans le cadre du travail personnel des élèves hors du temps de classe (par exemple au CDI ou à un autre point d’accès au réseau local).</li>
 </ul>
-</p>
+<ul class="bullets">
 <li>Évaluation des élèves</li>
-<p>Les élèves sont évalués en fonction des capacités attendues et selon des modes variés :
-devoirs surveillés avec ou sans calculatrice, devoirs en temps libre, rédaction de travaux de
-recherche individuels ou collectifs, travaux pratiques pouvant s’appuyer sur des logiciels,
-exposé oral d’une solution.</p>
-<li>Place de l’oral</li>
-<p>
-Les étapes de verbalisation et de reformulation jouent un rôle majeur dans l’appropriation
-des notions mathématiques et la résolution des problèmes. Comme toutes les disciplines, les
-mathématiques contribuent au développement des compétences orales à travers notamment
-la pratique de l’argumentation. Celle-ci conduit à préciser sa pensée et à expliciter son
-raisonnement de manière à convaincre. Elle permet à chacun de faire évoluer sa pensée,
-jusqu’à la remettre en cause si nécessaire, pour accéder progressivement à la vérité par la
-preuve. Des situations variées se prêtent à la pratique de l’oral en mathématiques : la
-reformulation par l’élève d’un énoncé ou d’une démarche, les échanges interactifs lors de la
-construction du cours, les mises en commun après un temps de recherche, les corrections
-d’exercices, les travaux de groupe, les exposés individuels ou à plusieurs… L’oral
-mathématique mobilise à la fois le langage naturel et le langage symbolique dans ses
-différents registres (graphiques, formules, calcul).
-Si ces considérations sont valables pour tous les élèves, elles prennent un relief particulier
-pour ceux qui choisiront les mathématiques comme enseignement de spécialité en terminale
-et qui ont à préparer l’épreuve orale terminale du baccalauréat. Il convient que les travaux
-proposés aux élèves y contribuent dès la classe de première.
-</p>
-<li>Trace écrite</li>
-<p>
-Disposer d’une trace de cours claire, explicite et structurée est une aide essentielle à
-l’apprentissage des mathématiques. Faisant suite aux étapes importantes de recherche,
-d’appropriation individuelle ou collective, de présentation commentée, la trace écrite
-récapitule de façon organisée les connaissances, les méthodes et les stratégies étudiées en
-classe. Explicitant les liens entre les différentes notions ainsi que leurs objectifs,
-éventuellement enrichie par des exemples ou des schémas, elle constitue pour l’élève une
-véritable référence vers laquelle il peut se tourner autant que de besoin, tout au long du
-cycle terminal. Sa consultation régulière (notamment au moment de la recherche d’exercices et de problèmes, sous la conduite du professeur ou en autonomie) favorise à la fois la
-mémorisation et le développement de compétences. Le professeur doit avoir le souci de la
-bonne qualité (mathématique et rédactionnelle) des traces écrites figurant au tableau et dans
-les cahiers d’élèves. En particulier, il est essentiel de bien distinguer le statut des énoncés
-(conjecture, définition, propriété - admise ou démontrée -, démonstration, théorème).
-</p>
-<li>Travail personnel des élèves</li>
-<p>
-Si la classe est le lieu privilégié pour la mise en activité mathématique des élèves, les
-travaux hors du temps scolaire sont indispensables pour consolider les apprentissages.
-Fréquents, de longueur raisonnable et de nature variée, ces travaux sont essentiels à la
-formation des élèves. Individuels ou en groupe, évalués à l’écrit ou à l’oral, ces travaux sont
-conçus de façon à prendre en compte la diversité des élèves et permettent le
-développement des qualités d’initiative tout en assurant la stabilisation des connaissances et
-des compétences
-</p>
 </ul>
-<h4 class="program_h4">Quelques lignes directrices pour l’enseignement</h4>
-<p>
-Le professeur veille à créer dans la classe de mathématiques une atmosphère de travail
-favorable aux apprentissages, combinant bienveillance et exigence. Il faut développer chez
-chaque élève des attitudes positives à l’égard des mathématiques et sa capacité à résoudre
-des problèmes stimulants.
-L’élève doit être incité à s’engager dans une recherche mathématique, individuellement ou
-en équipe, et à développer sa confiance en lui. Il cherche, essaie des pistes, prend le risque
-de se tromper. Il ne doit pas craindre l’erreur, car il sait qu’il peut en tirer profit grâce au
-professeur, qui l’aide à l’identifier, à l’analyser et la comprendre. Ce travail sur l’erreur
-participe à la construction de ses apprentissages.
-Les problèmes proposés aux élèves peuvent être internes aux mathématiques, provenir de
-l’histoire des mathématiques, être issus des autres disciplines ou du monde réel, en prenant
-garde que la simple inclusion de références au monde réel ne suffit pas toujours à
-transformer un exercice de routine en un bon problème. Dans tous les cas, ils doivent être
-bien conçus et motivants, afin de développer les connaissances et compétences
-mathématiques du programme.
+Les élèves sont évalués en fonction des capacités attendues et selon des modes variés : devoirs surveillés avec ou sans calculatrice, devoirs en temps libre, rédaction de travaux de recherche individuels ou collectifs, travaux pratiques pouvant s’appuyer sur des logiciels, exposé oral d’une solution.
+<ul class="bullets">
+<li>Place de l’oral</li>
+</ul>
+Les étapes de verbalisation et de reformulation jouent un rôle majeur dans l’appropriation des notions mathématiques et la résolution des problèmes. Comme toutes les disciplines, les mathématiques contribuent au développement des compétences orales à travers notamment la pratique de l’argumentation. Celle-ci conduit à préciser sa pensée et à expliciter son raisonnement de manière à convaincre. Elle permet à chacun de faire évoluer sa pensée, jusqu’à la remettre en cause si nécessaire, pour accéder progressivement à la vérité par la preuve. Des situations variées se prêtent à la pratique de l’oral en mathématiques : la reformulation par l’élève d’un énoncé ou d’une démarche, les échanges interactifs lors de la construction du cours, les mises en commun après un temps de recherche, les corrections d’exercices, les travaux de groupe, les exposés individuels ou à plusieurs… L’oral mathématique mobilise à la fois le langage naturel et le langage symbolique dans ses différents registres (graphiques, formules, calcul).<br/>
+Si ces considérations sont valables pour tous les élèves, elles prennent un relief particulier pour ceux qui choisiront les mathématiques comme enseignement de spécialité en terminale et qui ont à préparer l’épreuve orale terminale du baccalauréat. Il convient que les travaux proposés aux élèves y contribuent dès la classe de première.
+<ul class="bullets">
+<li>Trace écrite</li>
+</ul>
+Disposer d’une trace de cours claire, explicite et structurée est une aide essentielle à l’apprentissage des mathématiques. Faisant suite aux étapes importantes de recherche, d’appropriation individuelle ou collective, de présentation commentée, la trace écrite récapitule de façon organisée les connaissances, les méthodes et les stratégies étudiées en classe. Explicitant les liens entre les différentes notions ainsi que leurs objectifs, éventuellement enrichie par des exemples ou des schémas, elle constitue pour l’élève une véritable référence vers laquelle il peut se tourner autant que de besoin, tout au long du cycle terminal. Sa consultation régulière (notamment au moment de la recherche d’exercices et de problèmes, sous la conduite du professeur ou en autonomie) favorise à la fois la mémorisation et le développement de compétences. Le professeur doit avoir le souci de la bonne qualité (mathématique et rédactionnelle) des traces écrites figurant au tableau et dans les cahiers d’élèves. En particulier, il est essentiel de bien distinguer le statut des énoncés (conjecture, définition, propriété - admise ou démontrée -, démonstration, théorème).
+<ul class="bullets">
+<li>Travail personnel des élèves</li>
+</ul>
+Si la classe est le lieu privilégié pour la mise en activité mathématique des élèves, les travaux hors du temps scolaire sont indispensables pour consolider les apprentissages. Fréquents, de longueur raisonnable et de nature variée, ces travaux sont essentiels à la formation des élèves. Individuels ou en groupe, évalués à l’écrit ou à l’oral, ces travaux sont conçus de façon à prendre en compte la diversité des élèves et permettent le développement des qualités d’initiative tout en assurant la stabilisation des connaissances et des compétences.
+£Quelques lignes directrices pour l’enseignement
+Le professeur veille à créer dans la classe de mathématiques une atmosphère de travail favorable aux apprentissages, combinant bienveillance et exigence. Il faut développer chez chaque élève des attitudes positives à l’égard des mathématiques et sa capacité à résoudre des problèmes stimulants.<br/>
+L’élève doit être incité à s’engager dans une recherche mathématique, individuellement ou en équipe, et à développer sa confiance en lui. Il cherche, essaie des pistes, prend le risque de se tromper. Il ne doit pas craindre l’erreur, car il sait qu’il peut en tirer profit grâce au professeur, qui l’aide à l’identifier, à l’analyser et la comprendre. Ce travail sur l’erreur participe à la construction de ses apprentissages. Les problèmes proposés aux élèves peuvent être internes aux mathématiques, provenir de l’histoire des mathématiques, être issus des autres disciplines ou du monde réel, en prenant garde que la simple inclusion de références au monde réel ne suffit pas toujours à transformer un exercice de routine en un bon problème. Dans tous les cas, ils doivent être bien conçus et motivants, afin de développer les connaissances et compétences mathématiques du programme.
 Le professeur doit veiller à établir un équilibre entre divers temps d’apprentissage :
 <ul class="tirets">
 <li>les temps de recherche, d’activité, de manipulation ;</li>
-<li>lles temps de dialogue et d’échange, de verbalisation ;</li>
-<li>les temps de cours, où le professeur expose avec précision, présente certaines
-démonstrations et permet aux élèves d’accéder à l’abstraction ;</li>
-<li>lles temps où sont présentés et discutés des exemples, pour vérifier la bonne
-compréhension de tous les élèves ;</li>
-<li>lles exercices et problèmes, allant progressivement de l’application la plus directe au
+<li>les temps de dialogue et d’échange, de verbalisation ;</li>
+<li>les temps de cours, où le professeur expose avec précision, présente certaines démonstrations et permet aux élèves d’accéder à l’abstraction ;</li>
+<li>les temps où sont présentés et discutés des exemples, pour vérifier la bonne compréhension de tous les élèves ;</li>
+<li>les exercices et problèmes, allant progressivement de l’application la plus directe au
 thème d’étude ;</li>
-<li>lles rituels, afin de consolider les connaissances et les méthodes.</li>
+<li>les rituels, afin de consolider les connaissances et les méthodes.</li>
 </ul>
-</p>
-<h4 class="program_h4">Organisation du programme</h4>
-<p>Le programme s’organise en cinq grandes parties : « Algèbre », « Analyse », « Géométrie »,
-« Probabilités et statistiques » et « Algorithmique et programmation ». Ce découpage n’est
-pas un plan de cours et il est essentiel d’exploiter les possibilités d’interaction entre ces
-parties.</p>
-<p>Démontrer est une composante fondamentale de l’activité mathématique. Le programme
-propose quelques démonstrations exemplaires, que les élèves découvrent selon des modalités variées : présentation par le professeur, élaboration par les élèves sous la
-direction du professeur, devoir à la maison...</p>
-<p>Le programme propose un certain nombre d’approfondissements possibles, mais en aucun
-cas obligatoires. Ils permettent une différentiation pédagogique.</p>
-<p>Il peut être judicieux d’éclairer le cours par des éléments de contextualisation d’ordre
-historique, épistémologique ou culturel. L’histoire peut aussi être envisagée comme une
-source féconde de problèmes clarifiant le sens de certaines notions. Les items « Histoire des
-mathématiques » identifient quelques possibilités en ce sens. Pour les étayer, le professeur
-pourra, s’il le désire, s’appuyer sur l’étude de textes historiques.</p>
-</div>
+£Organisation du programme
+Le programme s’organise en cinq grandes parties : « Algèbre », « Analyse », « Géométrie », « Probabilités et statistiques » et « Algorithmique et programmation ». Ce découpage n’est pas un plan de cours et il est essentiel d’exploiter les possibilités d’interaction entre ces parties.<br/>
+Démontrer est une composante fondamentale de l’activité mathématique. Le programme propose quelques démonstrations exemplaires, que les élèves découvrent selon des modalités variées : présentation par le professeur, élaboration par les élèves sous la direction du professeur, devoir à la maison..<br/>
+Le programme propose un certain nombre d’approfondissements possibles, mais en aucun cas obligatoires. Ils permettent une différentiation pédagogique.<br/>
+Il peut être judicieux d’éclairer le cours par des éléments de contextualisation d’ordre historique, épistémologique ou culturel. L’histoire peut aussi être envisagée comme une source féconde de problèmes clarifiant le sens de certaines notions. Les items « Histoire des mathématiques » identifient quelques possibilités en ce sens. Pour les étayer, le professeur pourra, s’il le désire, s’appuyer sur l’étude de textes historiques.
 @theme:Algèbre
 @objectif:En classe de première, les suites sont présentées d’un point de vue principalement algébrique. L’objectif est que l’élève soit confronté à des systèmes discrets pour lesquels les suites numériques apparaissent comme modélisation adaptée. C’est aussi l’occasion d’aborder le concept de définition par récurrence.
 L’élève rencontre différents modes de génération de suites :
