@@ -72,6 +72,7 @@ def begin_html():
 	Fichier = Fichier.replace('.','_')
 	txt ='!set email=$responsable_'+Fichier+'\n<h2 class="wims_title">'+info_gen['titreniveau']+\
 	'</h2>\n<div class="wims_msg info program_desc"><!--Début info-->\n\t'+info_gen['datewims']+'\n<br/>Ressources complémentaires : <a href ="'+info_gen['ressources']+'" target="_blank">Euler Versailles</a>\n</div><!--Fin info-->\n'
+	allhtml = allhtml +txt
 	# Construire l'ntroduction du programme créé
 	tag ='@intro'
 	continuer = True
@@ -217,23 +218,29 @@ def creer_program(prog):
 		begin_div = '\t<div id="theme_'+str(i)+'"><!--Début du thème '+cle+'-->\n\t\t<h3 class="program_theme">'+cle+'</h3>\n'
 		allhtml = allhtml+begin_div
 		if info_gen['level'] == '0' :
+			sommaire = 'Attendus de fin de cycle'
 			objectif = "Présentation"
 			titre_col1 = 'CM1'
 			titre_col2 = 'CM2'
 			titre_col3 = '6<sup>e</sup>'
-			sommaire = 'Attendus de fin de cycle'
 		elif info_gen['level'] == '1':
-			objectif = "Présentation"
-			titre_col1 = '5<sup>e</sup>'
-			titre_col2 = '4<sup>e</sup>'
-			titre_col3 = '3<sup>e</sup>'
 			sommaire = 'Attendus de fin de cycle'
+			objectif = "Présentation"
+			if i != 4 :
+				titre_col1 = '5<sup>e</sup>'
+				titre_col2 = '4<sup>e</sup>'
+				titre_col3 = '3<sup>e</sup>'
+			else :
+				titre_col1 = '1<sup>er</sup> niveau'
+				titre_col2 = '2<sup>e</sup> niveau'
+				titre_col3 = '3<sup>e</sup> niveau'
 		else :
+			sommaire = 'Sommaire'
 			objectif = "Objectifs"
 			titre_col1 = 'Contenus'
 			titre_col2 = 'Capacités atendues'
 			titre_col3 = 'Démonstrations-Algorithmes-Approfondissements'
-			sommaire = 'Sommaire'
+			
 		if val['objectif'] != ['']:
 			begin_div_objectif = '\t\t<div class="accordion"><!--Début accordéon objectifs-->\n\t\t\t<h4 class="program_h4">'+objectif+'</h4>\n\t\t\t<div><!--Début objectifs-->\n'
 			allhtml = allhtml+begin_div_objectif
@@ -247,13 +254,13 @@ def creer_program(prog):
 			allhtml = allhtml+val['histoire'][0]
 			end_div_histoire = '\n\t\t\t</div><!--Fin histoire des maths-->\n\t\t</div><!--Fin accordion histroire-->\n'
 			allhtml = allhtml + end_div_histoire
-		if dico_all[cle]['titre'] != ['']:
-			allhtml = allhtml +'\t\t<h4 class="program_h4">'+sommaire+'</h4><!-- Début sommaire du thème '+cle+'-->\n'
+		if dico_all[cle]['titre'] != []:
+			allhtml = allhtml +'\t\t<div class="program_sommaire">\n<h4 class="program_h4">'+sommaire+'</h4><!-- Début sommaire du thème '+cle+'-->\n'
 			allhtml = allhtml+'\t\t<ul class="program_submenu">\n\t\t'
 			for num,t in enumerate(dico_all[cle]['titre']):
 				if t != '':
 					allhtml = allhtml+'\t<li><a href="#pt_prog_'+str(i)+str(num)+'">'+t+'</a></li>\n\t\t'
-			allhtml = allhtml+'\n\t\t</ul><!-- Fin sommaire du thème '+cle+'-->\n'
+			allhtml = allhtml+'\n\t\t</ul>\n\t\t</div><!-- Fin sommaire du thème '+cle+'-->\n'
 		#Dans le cas où il y a 3 colonnes
 		"""if dico_all[cle]['contenu'] != [''] and dico_all[cle]['capacite'] != [''] and dico_all[cle]['commentaire'] != ['']:
 			class_col = '"small-4 medium-4 large-4 cell program_colonne"'"""
@@ -265,12 +272,12 @@ def creer_program(prog):
 			#Des compléments pour certains points de programme
 			if dico_all[cle]['presentation'][num] != '' :
 				#allhtml = allhtml+dico_all[cle]['presentation'][num]
-				test = dico_all[cle]['presentation'][num]
+				presentation = dico_all[cle]['presentation'][num]+'<br class="spacer">\n'
 			else :
-				test =''
+				presentation =''
 			# Début du bloc formé par les colonnes (3, 2 ou 1 ?)
 			begin_div_bloc = '\t\t<div id = "pt_prog_'+str(i)+str(num)+'" class="grid-x grid-margin-x small-margin-collapse"><!-- Début bloc des colonnes du id pt_prog_'+str(i)+str(num)+'-->\n'
-			allhtml = allhtml +begin_div_bloc+'\t\t\t<div class="small-12 cell"><!--Début présentation du pt de prog-->\n\t\t\t\t<h4 class="program_h4">'+dico_all[cle]['titre'][num]+'</h4>\n'+test+'\n\t\t\t</div><!--Fin présentation du pt de prog-->\n'
+			allhtml = allhtml +begin_div_bloc+'\t\t\t<div class="small-12 cell"><!--Début présentation du pt de prog-->\n\t\t\t\t<h4 class="program_h4">'+dico_all[cle]['titre'][num]+'</h4>\n'+presentation+'\n\t\t\t</div><!--Fin présentation du pt de prog-->\n'
 			#Création du bloc de colonnes
 			#Il y a les trois colonnes
 			if dico_all[cle]['contenu'][num] != [''] and dico_all[cle]['capacite'][num] != [''] and dico_all[cle]['commentaire'][num]!= '':
@@ -332,7 +339,7 @@ def creer_program(prog):
 	    \t\t</div><!--Fin du modal-->\n\t\t\t\t<script>\n\t\t\t\t\t$$("#"""+data_open+"""").draggable();\n\t\t\t\t</script>"""
 					allhtml=allhtml+fen_modal
 				allhtml = allhtml+'\n\t\t\t</div><!-- Fin exercices -->\n'
-			end_div_bloc ='\t\t</div><!--Fin bloc des colonnes du id pt_prog_'+str(i)+str(num)+'-->\n'
+			end_div_bloc ='\t\t</div><!--Fin bloc des colonnes du id pt_prog_'+str(i)+str(num)+'-->\n<br class="spacer">\n'
 			allhtml = allhtml + end_div_bloc
 		#print("Test : ",dico_all[cle]['conclusion'][0])
 		if dico_all[cle]['conclusion'][0] != '':
@@ -353,7 +360,7 @@ def creer_program(prog):
 
 ####################################
 work_directory = os.getcwd()
-dossier_niveau = [work_directory+'/math/College/',work_directory+'/math/Lycee/']
+dossier_niveau = [work_directory+'/math/Test/',work_directory+'/math/College/',work_directory+'/math/Lycee/']
 #dossier_niveau = [work_directory+'/math/Lycee/']
 #dossier_niveau = [work_directory+'/math/Test/']
 #Lecture du fichier de base du programme pour extraire le contenu

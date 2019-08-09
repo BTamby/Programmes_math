@@ -1,0 +1,525 @@
+@titreniveau:Mathématiques Cycle 3
+@datewims:Dernière mise à jour le 08/08/2019 (Euler Versailles).<br/>Texte créé à partir des documents : <br/r>programmes d'enseignement &#8212; <a href = "https://cache.media.education.gouv.fr/file/30/05/0/ensel169_annexe2V2_986050.pdf" target="_blank">B.O. n°30 du 26 juillet 2018</a><br/>repères annuels de progression pour le cycle 3 &#8212; <a href="https://cache.media.education.gouv.fr/file/20/35/3/ensel283_annexe23_1120353.pdf" target="_blank">B.O. n°22 du 29 mai 2019</a>.
+@level:0
+@ressources:https://euler.ac-versailles.fr/rubrique7.html
+@intro:
+£Préambule
+Dans la continuité des cycles précédents, le cycle 3 assure la poursuite du développement des six compétences majeures  des  mathématiques :  chercher,  modéliser,  représenter,  calculer,  raisonner  et  communiquer.  La  résolution de problèmes constitue le critère principal de la maîtrise des connaissances dans tous les domaines des mathématiques, mais elle est également le moyen d’en assurer une appropriation qui en garantit le sens. Si la modélisation algébrique relève avant tout du cycle 4 et du lycée, la résolution de problèmes permet déjà de montrer  comment  des  notions  mathématiques  peuvent  être  des  outils  pertinents  pour  résoudre  certaines  situations.<br/>
+Les  situations  sur  lesquelles  portent  les  problèmes  sont,  le  plus  souvent,  issues  de  la  vie  de  classe,  de  la  vie  courante ou d’autres enseignements, ce qui contribue à renforcer le lien entre les mathématiques et les autres disciplines.  Les  élèves  rencontrent  également  des  problèmes  issus  d’un  contexte  interne  aux  mathématiques.  La mise en perspective historique de certaines connaissances (numération de position, apparition des nombres décimaux,  du  système  métrique,  etc.)  contribue  à  enrichir  la  culture  scientifique  des  élèves.  On  veille  aussi  à  proposer aux élèves des problèmes pour apprendre à chercher qui ne soient pas directement reliés à la notion en  cours  d’étude,  qui  ne  comportent  pas  forcément  une  seule  solution,  qui  ne  se  résolvent  pas  uniquement  avec une ou plusieurs opérations mais par un raisonnement et des recherches par tâtonnements.<br/>
+Le cycle 3 vise à approfondir des notions mathématiques abordées au cycle 2, à en étendre le domaine d’étude, à   consolider   l’automatisation   des   techniques   écrites   de   calcul   introduites   précédemment   (addition, soustraction  et  multiplication)  ainsi  que  les  résultats  et  procédures  de  calcul  mental  du  cycle  2,  mais  aussi  à  construire  de  nouvelles  techniques  de  calcul  écrites  (division)  et  mentales,  enfin  à  introduire  des  notions  nouvelles comme les nombres décimaux, la proportionnalité ou l’étude de nouvelles grandeurs (aire, volume, angle notamment).<br/>
+Les activités géométriques pratiquées au cycle 3 s’inscrivent dans la continuité de celles fréquentées au cycle 2. Elles s’en distinguent par une part plus grande accordée au raisonnement et à l’argumentation qui complètent la   perception   et   l’usage   des   instruments.   Elles   sont   aussi   une   occasion   de   fréquenter   de   nouvelles   représentations de l’espace (patrons, perspectives, vues de face, de côté, de dessus, etc.).<br/>
+En complément de l’usage du papier, du crayon et de la manipulation d’objets concrets, les outils numériques sont progressivement introduits. Ainsi, l’usage de logiciels de calcul et de numération permet d’approfondir les connaissances  des  propriétés  des  nombres  et  des  opérations  comme  d’accroître  la  maîtrise  de  certaines  techniques  de  calculs.  De  même,  des  activités  géométriques  peuvent  être  l’occasion  d’amener  les  élèves  à  utiliser  différents  supports  de  travail :   papier   et   crayon,   mais   aussi   logiciels   de   géométrie   dynamique,   d’initiation à la programmation ou logiciels de visualisation de cartes, de plans, etc.Les  grandeurs  font  l’objet  d’un  enseignement  structuré  et  explicite,  une  bonne  connaissance  des  unités  du  système international de mesure étant visée. L’étude des préfixes des unités de mesure décimales, en lien avec les  unités  de  numération,  facilite  la  compréhension  et  l’apprentissage  des  unités  de  mesure  de  la  plupart  des  grandeurs relevant du cycle 3.<br/>
+Dans le prolongement du travail mené au cycle 2, l’institutionnalisation des savoirs dans un cahier de leçon est essentielle. L’introduction et l’utilisation des symboles mathématiques sont réalisées au fur et à mesure qu’ils prennent  sens  dans  des  situations  basées  sur  des  manipulations,  en  relation  avec  le  vocabulaire  utilisé,  assurant une entrée progressive dans l’abstraction qui sera poursuivie au cycle 4. La verbalisation reposant sur une  syntaxe  et  un  lexique  adaptés  est  encouragée  et  valorisée  en  toute  situation  et  accompagne  le  recours  à  l’écrit.
+£Compétences travaillées et domaine du socle
+<div id = "competence" class="grid-x grid-margin-x small-margin-collapse">
+        <div class="small-9 cell program_colonne ">
+            <h4 class="center">Compétences travaillées</h4>
+        </div>
+        <div class="small-3 cell program_colonne">
+            <h4 class="center">Domaines du socle</h4>
+        </div>
+        <div class="small-9 cell program_colonne">
+            <strong>Chercher</strong>
+            <ul>
+                <li>prélever et organiser les informations nécessaires à la résolution de problèmes à partir  de  supports  variés :  textes,  tableaux,  diagrammes,  graphiques,  dessins, schémas, etc ;</li>
+                <li>s’engager dans  une  démarche,  observer,  questionner,  manipuler,  expérimenter, émettre    des    hypothèses,    en    mobilisant    des    outils    ou    des    procédures    mathématiques  déjà  rencontrées,  en  élaborant  un  raisonnement  adapté  à  une  situation nouvelle ; </li>
+                <li>tester, essayer plusieurs pistes de résolution ;</li>
+            </ul>
+        </div>
+        <div class="small-3 cell program_colonne titre_colonne">
+            2,4
+        </div>
+        <div class="small-9 cell program_colonne">
+            <strong>Modéliser</strong>
+            <ul>
+                <li>utiliser les mathématiques pour résoudre quelques problèmes issus de situations de la vie quotidienne ;</li>
+                <li>reconnaître et   distinguer   des   problèmes   relevant   de   situations   additives,   multiplicatives, de proportionnalité ;</li>
+                <li>reconnaître des  situations  réelles  pouvant  être  modélisées  par  des  relations  géométriques (alignement, parallélisme, perpendicularité, symétrie) ;</li>
+                <li>utiliser des propriétés géométriques pour reconnaître des objets.</li>
+            </ul>
+        </div>
+        <div class="small-3 cell program_colonne titre_colonne">
+            1,2,4
+        </div>
+        <div class="small-9 cell program_colonne">
+            <strong>Représenter</strong>
+            <ul>
+                <li>utiliser des outils pour représenter un problème : dessins, schémas, diagrammes, graphiques, écritures avec parenthésages, etc. ; </li>
+                <li>produire et utiliser diverses représentations des fractions simples et des nombres décimaux ;</li>
+                <li>analyser une  figure  plane  sous  différents  aspects  (surface,  contour  de  celle-ci, lignes et points) ;</li>
+                <li>reconnaître et  utiliser  des  premiers  éléments  de  codages d’une  figure  plane  ou  d’un solide ; </li>
+                <li>utiliser et produire des représentations de solides et de situations spatiales.</li>
+            </ul>
+        </div>
+        <div class="small-3 cell program_colonne titre_colonne">
+            1,5
+        </div>
+        <div class="small-9 cell program_colonne">
+            <strong>Raisonner</strong>
+            <ul>
+                <li>résoudre des  problèmes  nécessitant  l’organisation  de  données  multiples  ou  la  construction d’une démarche qui combine des étapes de raisonnement ; </li>
+                <li>en géométrie, passer progressivement de la perception au contrôle par les instruments pour amorcer des raisonnements s’appuyant uniquement sur des propriétés des figures et sur des relations entre objets ;</li>
+                <li>progresser collectivement dans une investigation en sachant prendre en compte le point de vue d’autrui ;</li>
+                <li>justifier ses affirmations et rechercher la validité des informations dont on dispose.</li>
+            </ul>
+        </div>
+        <div class="small-3 cell program_colonne titre_colonne">
+            2,3,4
+        </div>
+        <div class="small-9 cell program_colonne">
+            <strong>Calculer</strong>
+            <ul>
+                <li>ccalculer avec des nombres décimaux et des fractions simples de manière exacte ou approchée, en utilisant des stratégies ou des techniques appropriées (mentalement, en ligne, ou en posant les opérations) ;</li>
+                <li>contrôler la vraisemblance de ses résultats ; </li>
+                <li>utiliser une calculatrice pour trouver ou vérifier un résultat.</li>
+            </ul>
+        </div>
+        <div class="small-3 cell program_colonne titre_colonne">
+            4
+        </div>
+        <div class="small-9 cell program_colonne">
+            <strong>Communiquer</strong>
+            <ul>
+                <li>utiliser progressivement un vocabulaire adéquat et/ou des notations adaptées pour décrire une situation, exposer une argumentation ;</li>
+                <li>expliquer sa démarche ou son raisonnement, comprendre les explications d’un autre et argumenter dans l’échange.</li>
+            </ul>
+        </div>
+        <div class="small-3 cell program_colonne titre_colonne">
+            1,3
+        </div>
+</div><!--Fin de compétences-->
+@theme:Nombres et calculs
+@objectif:Au  cycle  3,  l’étude  des  grands  nombres  permet  d’enrichir  la  compréhension  de  notre  système  de  numération  (numération orale et numération écrite) et de mobiliser ses propriétés lors de calculs.<br/>
+Les  fractions  puis  les  nombres  décimaux  apparaissent  comme  de  nouveaux  nombres  introduits  pour  pallier  l’insuffisance des nombres entiers, notamment pour mesurer des longueurs, des aires et repérer des points sur une  demi-droite  graduée.  Le  lien  à  établir  avec  les  connaissances  acquises  à  propos  des  entiers  est  essentiel.  Avoir  une  bonne  compréhension  des  relations  entre  les  différentes  unités  de  numération  des  entiers  (unités,  dizaines, centaines de chaque ordre) permet de les prolonger aux dixièmes, centièmes, etc. Les caractéristiques communes entre le système de numération et le système métrique sont mises en évidence. L’écriture à virgule est  présentée  comme  une  convention  d’écriture  d’une  fraction  décimale  ou  d’une  somme  de  fractions décimales.  Cela  permet  de  mettre  à  jour  la  nature  des  nombres  décimaux  et  de  justifier  les  règles  de  comparaison (qui se différencient de celles mises en œuvre pour les entiers) et de calcul.<br/>
+Le  calcul  mental  ou  en  ligne,  le  calcul  posé  et  le  calcul  instrumenté  sont  à  construire  en  interaction.  Ainsi,  le  calcul mental est mobilisé dans le calcul posé et il peut être utilisé pour fournir un ordre de grandeur avant un calcul instrumenté. Réciproquement, le calcul instrumenté peut permettre de vérifier un résultat obtenu par le calcul  mental  ou  par  le  calcul  posé.  Le  calcul,  dans  toutes  ses  modalités,  contribue  à  la  connaissance  des  nombres. Ainsi, même si le calcul mental permet de produire des résultats utiles dans différents contextes de la vie quotidienne, son enseignement vise néanmoins prioritairement l’exploration des nombres et des propriétés des opérations. Il s’agit d’amener les élèves à s’adapter en adoptant la procédure la plus efficace en fonction de leurs connaissances et des nombres en jeu. Pour cela, il est indispensable que les élèves puissent s’appuyer sur suffisamment  de  faits  numériques  mémorisés  et  sur  des  procédures  automatisées  de  calcul  élémentaires.  De  même,  si  la  maîtrise  des  techniques  opératoires  écrites  permet  à  l’élève  d’obtenir  un  résultat  de  calcul,  la  construction  de  ces  techniques  est  l’occasion  de  retravailler  les  propriétés  de  la  numération  et  de  rencontrer  des exemples d’algorithmes complexes.<br/>
+Les problèmes  arithmétiques  proposés  au  cycle  3  permettent  d’enrichir  le  sens  des  opérations  déjà  abordées  au  cycle  2  et  d’en  étudier  de  nouvelles.  Les  procédures  de  traitement  de  ces  problèmes,  adaptées  à  leur  structure,  peuvent  évoluer  en  fonction  des  nombres  en  jeu.  L’organisation  des  calculs  et  leur  réalisation  contribuant aussi à la représentation des problèmes, il s’agit de développer simultanément chez les élèves des aptitudes de calcul et des aptitudes de résolution de problèmes arithmétiques (le travail sur la technique et sur le sens devant se nourrir l’un l’autre).
+@histoire:
+@titre:Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux : Les nombres entiers
+@presentation:Connaître les unités de la numération décimale pour les nombres entiers (unités simples, dizaines,
+centaines, milliers, millions, milliards) et les relations qui les lient.
+Composer, décomposer les grands nombres entiers, en utilisant des regroupements par milliers.
+Comprendre et appliquer les règles de la numération décimale de position aux grands nombres entiers
+(jusqu’à 12 chiffres).<br/>
+Comparer, ranger, encadrer des grands nombres entiers, les repérer et les placer sur une demi-droite
+graduée adaptée.
+@contenu:<p>Les élèves apprennent à utiliser et à représenter les grands nombres entiers jusqu’au million. Il s'agit d'abord de consolider les connaissances (écritures, représentations...).</p>
+@capacite:<p>Le répertoire est étendu jusqu’au milliard.</p>
+@commentaire:<p>En <strong>période 1</strong>, dans un premier temps,les principes de la numération décimale de position sur les entiers sont repris jusqu’au million, puis au milliard comme en CM, et mobilisés sur les situations les plus variées possibles, notamment en relation avec d’autres disciplines.</p>
+@wims: Exercices 1
+@titre:Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux : Fractions
+@presentation:<p>Connaître diverses désignations des fractions : orales, écrites et décompositions additives et multiplicatives (ex : quatre tiers ; \(\frac{4}{3}\) ; \(\frac{1}{3}\) + \(\frac{1}{3}\) + \(\frac{1}{3}\) + \(\frac{1}{3}\) ; \(1 + \frac{1}{3}\) ; \(4 \times \frac{1}{3}\)).</p>
+<p>Connaître et utiliser quelques fractions simples comme opérateur de partage en faisant le lien entre les formulations en langage courant et leur écriture mathématique(ex: faire le lien entre «la moitié de» et multiplier par \(\frac{1}{2}\)).</p>
+<p>Utiliser des fractions pour rendre compte de partages de grandeurs ou de mesures de grandeurs.<br/>
+Repérer et placer des fractions sur une demi-droite graduée adaptée.<br/>
+Encadrer une fraction par deux nombres entiers consécutifs.<br/>
+Comparer deux fractions de même dénominateur.<br/>
+Ecrire une fraction sous forme de somme d’un entier et d’une fraction inférieure à 1.</p>
+<p>Connaître des égalités entre des fractions usuelles (exemples : \(\frac{5}{10} =\frac{1}{2}\) ; \(\frac{10}{100} =\frac{1}{10}\) ; \(\frac{2}{4} =\frac{1}{2}\)).</p>
+<p>Utiliser des fractions pour exprimer un quotient.</p>
+@contenu:<p>Dès la <strong>période 1</strong> les élèves utilisent d’abord les fractions simples(comme \(\frac{2}{3}\), \(\frac{1}{4}\), \(\frac{5}{2}\)) dans le cadre de partage de grandeurs. Ils travaillent des fractions inférieures et des fractions supérieures à 1.<br/>
+Dès <strong>la période 2</strong>, les fractions décimales sont régulièrement mobilisées: elles acquièrent le statut de nombre et sont positionnées sur une droite graduée. Les élèves comparent des fractions de même dénominateur. Ils ajoutent des fractions décimales de même dénominateur. Ils apprennent à écrire des fractions décimales sous forme de somme d’un nombre entier et d’une fraction décimale inférieure à 1.
+</p>
+@capacite:<p>Dès la <strong>période 1</strong>,dans la continuité du CM1, les élèves étendent le registre des fractions qu’ils manipulent (en particulier \(\frac{1}{1000}\)); ils apprennent à écrire des fractions sous forme de somme d’un nombre entieret d’une fraction inférieure à 1.
+</p>
+@commentaire:<p>En <strong>période 1</strong>, sont réactivées les fractions comme opérateurs de partage vues en CM, puis les fractions décimales en relation avec les nombres décimaux (par exemple à partir de mesures de longueurs); les élèves ajoutent des fractions décimales de même dénominateur.<br/>
+En <strong>période 2</strong> l’addition est étendue à des fractions de même dénominateur (inférieur ou égal à 5 et en privilégiant la vocalisation: deux cinquièmes plus un cinquième égale trois cinquièmes).<br/>
+<strong>En période 3</strong>, les élèves apprennent que \(\frac{a}{b}\) est le nombre qui, multiplié par \(b\), donne \(a\) (définition du quotient de \(a\) par \(b\)).
+</p>
+@wims:Exercices
+@titre:Utiliser et représenter les grands nombres entiers, des fractions simples, les nombres décimaux : Nombres décimaux
+@presentation:<p>Connaître les unités de la numération décimale (unités simples, dixièmes, centièmes, millièmes) et les relations qui les lient.<br/>
+Comprendre et appliquer aux nombres décimaux les règles de la numération décimale de position (valeurs des chiffres en fonction de leur rang).<br/>
+Connaître et utiliser diverses désignations orales et écrites d’un nombre décimal (fractions décimales, écritures à virgule, décompositions additives et multiplicatives).</p>
+<p>Utiliser les nombres décimaux pour rendre compte de mesures de grandeurs.<br/>
+Connaître le lien entre les unités de numération et les unités de mesure (par exemple : dixième \(\rightarrow \) dm/dg/dL, centième \(\rightarrow \) cm/cg/cL/centimes d’euro).</p>
+<p>Repérer et placer un nombre décimal sur une demi-droite graduée adaptée.<br/>
+Comparer, ranger des nombres décimaux.<br/>
+Encadrer un nombre décimal par deux nombres entiers, par deux nombres décimaux.</p>
+<p>Trouver des nombres décimaux à intercaler entre deux nombres donnés.
+</p>
+<hr/>
+<p>Tout au long du cycle, les désignations orale et écrite des nombres décimaux basées sur les unités de numération contribuent à l’acquisition du sens des nombres décimaux (par exemple pour 3,12: «trois unités et douze centièmes» ou «trois unités, un dixième et deux centièmes» ou «trois cent douze centièmes»).</p>
+@contenu:À partir de la <strong>période 2</strong>, les élèves apprennent à utiliser les nombres décimaux ayant au plus deux décimales en veillant à mettre en relation fractions décimales et écritures à virgule(ex: \(3,12= 3+\frac{12}{100}\).<br/>
+Ils connaissent des écritures décimales de fractions simples (\(\frac{1}{2}=0,5=\frac{5}{10}\); \(\frac{1}{4}=\frac{25}{100}=0,25\); la moitié d’un entier sur des petits nombres)
+@capacite:<p>Dès la <strong>période 1</strong>, les élèves rencontrent et utilisent des nombres décimaux ayant une, deux ou trois décimales.Ils connaissent des écritures décimales de fractions simples (\(\frac{1}{5}=0,2=\frac{2}{10}\); \(\frac{3}{4}=\frac{75}{100}=0,75\) ; la moitié d’un entier).</p>
+@commentaire:<p>Dès la <strong>période 1</strong>, dans le prolongement des acquis du CM, on travaille sur les décimaux jusqu’à trois décimales. La quatrième décimale sera introduite en <strong>période 2</strong> au travers des diverses activités.</p>
+@wims:Exercices
+@titre:Calculer avec des nombres entiers et des nombres décimaux
+@presentation:Mobiliser les faits numériques mémorisés au cycle 2, notamment les tables de multiplication jusqu’à 9.<br/>
+Connaître les multiples de 25 et de 50, les diviseurs de 100.<br/>
+<hr/>
+<strong>Calcul mental ou en ligne</strong><br/>
+Connaître des procédures élémentaires de calcul, notamment :
+<ul class="tirets">
+<li>multiplier ou diviser un nombre décimal par 10, par 100, par 1000 ;</li>
+<li>rechercher le complément à l’entier supérieur ;
+<li>multiplier par 5, par 25, par 50, par 0,1, par 0,5.
+</ul>
+Connaître des propriétés de l’addition, de la soustraction et de la multiplication, et notamment
+<ul class="tirets">
+<li>12 + 199 = 199 + 12</li>
+<li>5 x 21 = 21 x 5</li>
+<li>27,9 + 1,2 + 0,8 = 27,9 + 2 - 3,2 × 25 × 4 = 3,2 × 100 – 45 × 21 = 45 × 20 + 45</li>
+<li>6 × 18 = 6 × 20 – 6 × 2</li>
+<li>23 × 7 + 23 × 3 = 23 × 10.</li>
+</ul>
+Connaître les critères de divisibilité par 2, 3, 5, 9 et 10.<br/>
+Utiliser ces propriétés et procédures pour élaborer et mettre en œuvre des stratégies de calcul.<br/>
+Vérifier la vraisemblance d’un résultat, notamment en estimant un ordre de grandeur.<br/>
+<hr/>
+Dans un calcul en ligne, utiliser des parenthèses pour indiquer ou respecter une chronologie dans les calculs.<br/>
+<hr/>
+Tout au long du cycle, la pratique régulière du calcul confronte et consolide la mémorisation des tables de multiplications jusqu’à 9 dont la maîtrise est attendu en fin de cycle 2.
+@contenu:
+@capacite:
+@commentaire:
+@wims:
+@titre:Calculer avec des nombres entiers et des nombres décimaux : Calcul mental
+@presentation:
+@contenu:Dans la continuité du travail conduit au cycle 2, les élèves mémorisent les quatre premiers multiples de 25 et de 50.<br/>
+À partir de la <strong>période 3</strong>, ils apprennent à multiplier et à diviser par 10 des nombres décimaux; ils apprennent à rechercher le complément au nombre entier supérieur.<br/>
+Tout au long de l’année, ils stabilisent leur connaissance des propriétés des opérations (ex:12+199=199+12; 5×21=21×5; 45×21=45×20+45×1; 6×18=6×20-6×2).<br/>
+À partir de la <strong>période 3</strong>, ils apprennent les critères de divisibilité par 2, 5 et 10.<br/>
+En <strong>période 4 ou 5</strong>, ils apprennent à multiplier par 1000 un nombre décimal.
+@capacite:Dès le début de l’année, les élèves apprennent à diviser un nombre décimal (entier ou non) par 100.<br/>
+En <strong>période 3</strong> les élèves apprennent à multiplier un nombre décimal (entier ou non) par 5 et par 50.<br/>
+Au plus tard en <strong>période 4</strong>, ils apprennent les critères de divisibilité par 3 et par 9.<br/>
+Tout au long de l’année, ils étendent l’utilisation des principales propriétés des opérations à des calculs rendus plus complexes par la nature des nombres en jeu, leur taille ou leur nombre (exemples: 1,2+27,9+0,8=27,9+2; 3,2×25×4=3,2×100).<br/>
+Ils étendent l’utilisation des principales propriétés des opérations (notamment la commutativité de la multiplication) àdes calculs rendus plus complexes par la nature des nombres en jeu, leur taille, ou leur nombre (exemple: 1,2+27,9+0,8=27,9+2; 3,2×10=10×3,2; 3,2×25×4=3,2×100).
+@commentaire:Dès la <strong>période 1</strong>, dans le prolongement des acquis du CM, on réactive la multiplication et la division par 10, 100, 1000.<br/>
+À partir de la <strong>période 2</strong>, les élèves apprennent à multiplier un nombre entier puis décimal par 0,1 et par 0,5 (différentes stratégies sont envisagées selon les situations).<br/>
+Tout au long de l’année, ils stabilisent la connaissance des propriétés des opérations et les procédures déjà utilisées à l’école élémentaire, et utilisent la propriété de distributivité simple dans les deux sens (par exemple: 23×12=23×10+23×2 et 23×7+23×3=23×10).
+@wims:Exercices
+@titre:Calculer avec des nombres entiers et des nombres décimaux : Calcul en ligne
+@presentation:
+@contenu:Les connaissances et compétences mises en œuvre pour le calcul en ligne sont les mêmes que pour le calcul mental, le support de l’écrit permettant d’alléger la mémoire de travail et ainsi de traiter des calculs portant sur un registre numérique étendu.
+@capacite:Les connaissances et compétences mises en œuvre pour le calcul en ligne sont les mêmes que pour le calcul mental, le support de l’écrit permettant d’alléger la mémoire de travail et ainsi de traiter des calculs portant sur un registre numérique étendu.
+@commentaire:Dans des calculs simples, confrontés à des problématiques de priorités opératoires, par exemple en relation avec l’utilisation de calculatrices, les élèves utilisent des parenthèses
+@wims:Exercices
+@titre:Calculer avec des nombres entiers et des nombres décimaux : Calcul posé
+@presentation:Connaître et mettre en œuvre un algorithme de calcul posé pour effectuer :
+<ul class="tirets">
+<li>l’addition, la soustraction et la multiplication de nombres entiers ou décimaux ;</li>
+<li>la division euclidienne d’un entier par un entier ;</li>
+<li>la division d’un nombre décimal (entier ou non) par un nombre entier.</li>
+</ul>
+@contenu:Dès la <strong>période 1</strong>, les élèves renforcent leur maîtrise des algorithmes apprisau cycle 2 (addition, soustraction et multiplication de deux nombres entiers)<br/>
+En <strong>période 2</strong>, ils étendent aux nombres décimaux les algorithmes de l’addition et de la soustraction.<br/>
+En <strong>période 3</strong> ils apprennentl’algorithme de la division euclidienne de deuxnombres entiers.
+@capacite:Les élèves apprennent les algorithmes:
+<ul class="tirets">
+<li>de la multiplication d’un nombre décimal par un nombre entier (dès la <strong>période 1</strong>, en relation avec le calcul de l’aire du rectangle);</li>
+<li>de la division de deux nombres entiers (quotient décimal ou non: par exemple, 10:4 ou 10:3), dès la <strong>période 2</strong>;
+<li>de la division d’un nombre décimal par un nombre entier dès la <strong>période 3</strong></li>
+</ul>
+@commentaire:Tout au long de l’année, au travers de situations variées, les élèves entretiennent leurs acquis de CM sur les algorithmes opératoires.<br/>
+Au plus tard en <strong>période 3</strong>, ils apprennent l’algorithme de la multiplication de deux nombres décimaux.
+@wims: Exercices 2
+@titre:Calculer avec des nombres entiers et des nombres décimaux : Calcul instrumenté
+@presentation:Utiliser une calculatrice pour trouver ou vérifier un résultat.
+@contenu:
+@capacite:
+@commentaire:
+@wims:
+@titre:Résoudre des problèmes en utilisant des fractions simples, les nombres décimaux et le calcul.
+@presentation:Résoudre des problèmes mettant en jeu les quatre opérations :
+<ul class="fleche2">
+<li>sens des opérations ;</li>
+<li>problèmes à une ou plusieurs étapes relevant des structures additive et/ou multiplicative.</li>
+</ul>
+<hr/>
+Dès le début du cycle, les problèmes proposés relèvent des quatre opérations.<br/>
+La progressivité sur la résolution de problèmes combine notamment :
+<ul class ="tirets">
+<li>les nombres mis en jeu : entiers (tout au long du cycle) puis décimaux dès le CM1 sur des nombres très simples ;
+<li>le nombre d’étapes que l’élève doit mettre en œuvre pour leur résolution ;<li>
+<li>les supports proposés pour la prise d’informations : texte, tableau, représentations graphiques.<li>
+</ul>
+La communication de la démarche prend différentes formes : langage naturel, schémas, opérations.
+@contenu:
+@capacite:
+@commentaire:
+@wims:Exercices
+@titre:Résoudre des problèmes en utilisant des fractions simples, les nombres décimaux et le calcul : Organisation et gestion de données
+@presentation:Prélever des données numériques à partir de supports variés. Produire des tableaux, diagrammes et graphiques organisant des données numériques.<br/>
+Exploiter et communiquer des résultats de mesures.<br/>
+Lire ou construire des représentations de données :
+<ul class="tirets">
+<li>tableaux (en deux ou plusieurs colonnes, à double entrée) ;</li>
+<li>diagrammes en bâtons, circulaires ou semi-circulaires ;</li>
+<li>graphiques cartésiens.<li>
+</ul>
+Organiser des données issues d’autres enseignements (sciences et technologie, histoire et géographie, éducation physique et sportive, etc.) en vue de les traiter.
+@contenu:
+@capacite:
+@commentaire:
+@wims:Exercices
+@titre:Résoudre des problèmes en utilisant des fractions simples, les nombres décimaux et le calcul : Problèmes relevant de la proportionnalité
+@presentation:Reconnaître et résoudre des problèmes relevant de la proportionnalité en utilisant une procédure adaptée : propriétés de linéarité (additive et multiplicative), passage à l’unité, coefficient de proportionnalité. Appliquer un pourcentage.
+@contenu:Le recours aux propriétés de linéarité (multiplicative et additive) est privilégié. Ces propriétés doivent être explicitées; elles peuvent être institutionnalisées de façon non formelle à l’aide d’exemples verbalisés («Si j’ai deux fois, trois fois... plus d’invités, il me faudra deux fois, trois fois... plus d’ingrédients»; «Je dispose de briques de masses identiques. Si je connais la masse de 7 briques et celle de 3 briques alors je peux connaître la masse de 10briques en faisant la somme des deux masses»). Dès la <strong>période 1</strong>, des situations de proportionnalité peuvent être proposées (recettes...). L'institutionnalisation des propriétés se fait progressivement à partir de la <strong>période 2</strong>.
+@capacite:Dès la <strong>période 1</strong>, le passage par l’unité vient enrichir la palette des procédures utilisées lorsque cela s’avère pertinent.<br/>
+À partir de la <strong>période 3</strong>, le symbole % est introduit dans des cas simples, en lien avec les fractions d’une quantité (50 % pour la moitié; 25 % pour le quart; 75% pour les trois quarts; 10 % pour le dixième).
+@commentaire:Tout au long de l’année, les procédures déjà étudiées en CM sont remobilisées et enrichies par l’utilisation explicite du coefficient de proportionnalité lorsque cela s’avère pertinent.<br/>
+Dès la <strong>période 2</strong>, en relation avec le travail effectué en CM, les élèves appliquent un pourcentage simple (en relation avec les fractions simples de quantité: 10%, 25%, 50%, 75%).<br/>
+Dès la <strong>période 3</strong>, ils apprennent à appliquer un pourcentage dans des registres variés.
+@wims:Exercices
+@conclusion:
+@theme:Grandeurs et mesures
+@objectif:Certaines des notions travaillées dans ce thème ont déjà été abordées aux cycles précédents.Au cycle 4, les élèves sont confrontés à diverses situations de travail sur des données : les utiliser, les représenter, les interpréter de manière critique. Ils abordent les notions d’incertitude et de hasard, afin de ne pas « subir » le hasard, mais de construire une citoyenneté critique et rationnelle. Ils apprennent à choisir une méthode adaptée aux problèmes de proportionnalité auxquels ils sont confrontés.<br/>
+La notion de ratio vient enrichir le lexique de la proportionnalité pour traduire la proportionnalité de deux suites de nombres. Les élèves découvrent progressivement la notion de fonction, qui permet à la fois de revisiter sous l’aspect fonctionnel des situations déjà connues et d’accéder à de nouvelles catégories de problèmes.
+@histoire:
+@titre:Interpréter, représenter et traiter des données
+@presentation:<strong>Connaissances</strong>
+<ul class="fleche">
+<li>effectifs, fréquences ;</li>
+<li>indicateurs de position : moyenne, médiane ;</li>
+<li>indicateur de dispersion : étendue.</li>
+</ul>
+<strong>Compétences associées</strong>
+<ul class="fleche">
+<li>recueillir des données, les organiser ;</li>
+<li>lire et interpréter des données sous forme de données brutes, de tableau, de diagramme (diagramme
+en bâtons, diagramme circulaire, histogramme) ;</li>
+<li>utiliser un tableur-grapheur pour présenter des données sous la forme d’un tableau ou d’un
+diagramme ;</li>
+<li>calculer des effectifs, des fréquences ;</li>
+<li>calculer et interpréter des indicateurs de position ou de dispersion d'une série statistique.</li>
+</ul>
+@contenu:<p>Le traitement de données statistiques se prête à des calculs d’effectifs, de fréquences et de moyennes. Selon les situations, la représentation de données statistiques sous forme de tableaux, de diagrammes ou de graphiques est réalisée à la main ou à l’aide d’un tableur-grapheur. Les calculs et les représentations donnent lieu à des interprétations.</p>
+@capacite:<p>Un nouvel indicateur de position est introduit : la médiane.<br/>
+Le travail sur les représentations graphiques, le calcul, en particulier celui des effectifs et des fréquences, et l’interprétation des indicateurs de position est poursuivi.
+</p>
+@commentaire:<p>Un indicateur de dispersion est introduit : l’étendue.<br/>
+Le travail sur les représentations graphiques, le calcul, en particulier celui des effectifs et des fréquences, et l’interprétation des indicateurs de position est consolidé. Un nouveau type de diagramme est introduit : les histogrammes pour des classes de même amplitude.
+</p>
+@wims:
+@titre:Comprendre et utiliser des notions élémentaires de probabilités
+@presentation:<strong>Connaissances</strong>
+<ul class="fleche">
+<li>vocabulaire des probabilités ;</li>
+<li>notion de probabilité ; la probabilité d’un événement est comprise entre 0 et 1 ;</li>
+<li>probabilité d’événements certains, impossibles, contraires.</li>
+</ul>
+<strong>Compétences associées</strong>
+<ul class="fleche">
+<li>aborder les questions relatives au hasard à partir de problèmes simples ;</li>
+<li>calculer des probabilités dans des cas simples (par exemple évaluation des chances de gain dans un jeu) ;</li>
+<li>exprimer des probabilités sous diverses formes (décimale, fractionnaire, pourcentage) ;</li>
+<li>faire le lien entre fréquence et probabilité.</li>
+</ul>
+@contenu:<p>Les élèves appréhendent le hasard à travers des expériences concrètes : pile ou face, dé, roue de loterie,
+urne...
+Le vocabulaire relatif aux probabilités (expérience aléatoire, issue, événement, probabilité) est utilisé. Le placement d’un événement sur une échelle de probabilités et la détermination de probabilités dans des situations très simples d’équiprobabilité contribuent à une familiarisation avec la modélisation mathématique du hasard. Pour exprimer une probabilité, on accepte des formulations du type « 2 chances sur 5 ».
+</p>
+@capacite:<p>Les calculs de probabilités concernent des situations simples, mais ne relevant pas nécessairement du modèle équiprobable. Le lien est fait entre les probabilités de deux événements contraires.
+</p>
+@commentaire:<p>
+Le constat de la stabilisation des fréquences s’appuie sur la simulation d’expériences aléatoires à une épreuve à l’aide d’un tableur ou d’un logiciel de programmation. Les calculs de probabilités, à partir de dénombrements, s’appliquent à des contextes simples faisant prioritairement intervenir une seule épreuve. Dans des cas très simples, il est cependant possible d’introduire des expériences à deux épreuves. Les dénombrements s’appuient alors uniquement sur des tableaux à double entrée, la notion d’arbre ne figurant pas au programme. Les élèves simulent une expérience aléatoire à l’aide d’un tableur ou d’un logiciel de programmation.
+</p>
+@wims:
+@titre:Résoudre des problèmes de proportionnalité ;
+@presentation:<strong>Connaissances :</strong>
+<ul class="fleche">
+<li>coefficient de proportionnalité ;</li>
+<li>taux d’évolution, coefficient multiplicateur ;</li>
+<li>notion de ratio.<br/>
+<em>On dit, par exemple,
+<ul class="square2">
+<li>que deux nombres \(a\) et \(b\) sont dans le ratio \(2 : 3\) (notation standardisée) si \( \frac{a}{2} = \frac{b}{3}\).</li>
+<li>que trois nombres \(a\), \(b\) et \(c_) sont dans le ration \(2 : 3 : 7\) (notation standardisée) si \( \frac{a}{2} = \frac{b}{3} = \frac{c}{7}\).</em>
+</ul>
+</li>
+</ul>
+<strong>Compétences associées :</strong>
+<ul class="fleche">
+<li>reconnaître une situation de proportionnalité ou de non-proportionnalité ;</li>
+<li>calculer une quatrième proportionnelle ;</li>
+<li>partager une quantité (par exemple une somme d’argent) en deux ou trois parts selon un ratio donné ;</li>
+<li>utiliser une formule liant deux grandeurs dans une situation de proportionnalité (par exemple la longueur d’un cercle en fonction de son rayon, la loi d’Ohm exprimant la tension en fonction de l’intensité, la distance parcourue en fonction du temps à vitesse constante, etc.) ;</li>
+<li>résoudre des problèmes utilisant la proportionnalité (pourcentages, échelles, agrandissement réduction).</li>
+</ul>
+@contenu:<p>Les élèves sont confrontés à des situations relevant ou non de la proportionnalité. Des procédures variées (linéarité, passage par l’unité, coefficient de proportionnalité), déjà étudiées au cycle 3, permettent de résoudre des problèmes relevant de la proportionnalité.
+</p>
+@capacite:<p> Le calcul d’une quatrième proportionnelle est systématisé et les points de vue se diversifient avec l’utilisation de représentations graphiques, du calcul littéral et de problèmes de géométrie relevant de la proportionnalité (configuration de Thalès dans le cas des triangles emboîtés, agrandissement et réduction).
+</p>
+@commentaire:<p>Le lien est fait entre taux d’évolution et coefficient multiplicateur, ainsi qu’entre la proportionnalité et les fonctions linéaires. Le champ des problèmes de géométrie relevant de la proportionnalité est élargi (homothéties, triangles semblables, configurations de Thalès).
+</p>
+@wims:
+@titre:Comprendre et utiliser la notion de fonction.
+@presentation:<strong>Connaissances :</strong>
+<ul class="fleche">
+<li>vocabulaire : variable, fonction, antécédent, image ;</li>
+<li>différents modes de représentation d’une fonction (expression symbolique, tableau de valeurs, représentation graphique, programme de calcul) ;</li>
+<li>notations \(f(x)\) et \(x\longmapsto f(x)\) ;</li>
+<li>fonction linéaire, fonction affine.</li>
+</ul>
+<strong>Compétences associées :</strong>
+<ul class="fleche">
+<li>passer d’un mode de représentation d’une fonction à un autre ;</li>
+<li>déterminer, à partir d’un mode de représentation, l’image ou un antécédent d’un nombre par une fonction ;</li>
+<li>représenter graphiquement une fonction linéaire, une fonction affine ;</li>
+<li>modéliser un phénomène continu par une fonction ;</li>
+<li>modéliser une situation de proportionnalité à l’aide d’une fonction linéaire ;</li>
+<li>résoudre des problèmes modélisés par des fonctions.</li>
+</ul>
+@contenu:<p>La dépendance de deux grandeurs est traduite par un tableau de valeurs ou une formule.
+</p>
+@capacite:<p>La dépendance de deux grandeurs est traduite par un tableau de valeurs, une formule, un graphique. Les représentations graphiques permettent de déterminer des images et des antécédents, qui sont interprétés en fonction du contexte.</p>
+<p><em>La notation et le vocabulaire fonctionnels ne sont pas formalisés en 4<sup>e</sup>.</em></p>
+@commentaire:<p>Les notions de variable, de fonction, d’antécédent, d’image sont formalisées et les notations fonctionnelles sont utilisées. Un travail est mené sur le passage d’un mode de représentation d’une fonction (graphique, symbolique, tableau de valeurs) à un autre. Les fonctions affines et linéaires sont présentées par leurs expressions algébriques et leurs représentations graphiques. Les fonctions sont utilisées pour modéliser des phénomènes continus et résoudre des problèmes.
+</p>
+@wims:Exercices
+@conclusion:<p>À l’issue d’activités rituelles de calcul et de verbalisation des procédures et la résolution de problèmes,
+menées tout au long du cycle, les élèves doivent avoir mémorisé ou automatisé :</p>
+<ul class="square">
+<li>différentes procédures de calcul d’une quatrième proportionnelle ;</li>
+<li>l’allure de la représentation graphique d’une fonction affine ou linéaire ;</li>
+<li>les procédures d’application et de calcul d’un pourcentage ou d’une échelle ;</li>
+<li>les procédures de recherche d’image et d’antécédent d’un nombre par une fonction.</li>
+</ul>
+@theme:Grandeurs et mesures
+@objectif:<p>En continuité avec le travail engagé au cycle 3, ce thème se prête particulièrement à des connexions avec les autres thèmes du programme et offre de nombreux liens avec la physique-chimie, les sciences de la vie et de la Terre, la géographie, l’éducation physique et sportive.<br/>
+Les élèves doivent disposer de références concrètes (savoir, par exemple, que la circonférence de la Terre est environ 40 000 km) et être capables d’estimer l'ordre de grandeur d'une mesure.<br/>
+À travers les activités sur les longueurs, les aires et les volumes, les élèves se construisent et utilisent un premier répertoire de formules. Par ailleurs, ce travail autour des formules s'inscrit dans l'introduction du calcul littéral.
+</p>
+@histoire:
+@titre:Calculer avec des grandeurs mesurables - Exprimer les résultats dans les unités adaptées
+@presentation:<strong>Connaissances :</strong>
+<ul class ="fleche">
+<li>notion de grandeur produit et de grandeur quotient ;</li>
+<li>aire du parallélogramme (obtenue à partir de celle du rectangle par découpage et recollement) ;</li>
+<li>volume d’un prisme, d’une pyramide, d’un cylindre, d’un cône, d’une boule ;</li>
+<li>correspondance entre unités de volume et de contenance (1 L = 1 \(\mathrm{dm}^3 \) , 1 000 L = 1 \(\mathrm{m} ^3\)).</li>
+</ul>
+<strong>Compétences associées :</strong>
+<ul class ="fleche">
+<li>mener des calculs impliquant des grandeurs mesurables, notamment des grandeurs composées, exprimer les résultats dans les unités adaptées ;</li>
+<li>vérifier la cohérence des résultats du point de vue des unités ;</li>
+<li>effectuer des conversions d’unités.</li>
+</ul>
+@contenu:<p>La connaissance des formules donnant les aires du rectangle, du triangle et du disque, ainsi que le volume du pavé droit est entretenue à travers la résolution de problèmes. Elle est enrichie par celles de l’aire du parallélogramme, du volume du prisme et du cylindre. La correspondance entre unités de volume et de contenance est faite. Les calculs portent aussi sur des durées et des horaires, en prenant appui sur des contextes issus d’autres disciplines ou de la vie quotidienne.<br/>
+Les élèves sont sensibilisés au contrôle de la cohérence des résultats du point de vue des unités.
+</p>
+@capacite:<p>Le lexique des formules s’étend au volume des pyramides et du cône. Le lien est fait entre le volume d’une pyramide (respectivement d’un cône) et celui du prisme droit (respectivement du cylindre) construit sur sa base et ayant même hauteur. Des grandeurs produits (par exemple trafic, énergie) et des grandeurs quotients (par exemple vitesse, débit, concentration, masse volumique) sont introduites à travers la résolution de problèmes. Les conversions d’unités sont travaillées.<br/>
+Les élèves sont sensibilisés au contrôle de la cohérence des résultats du point de vue des unités des grandeurs composées.
+</p>
+@commentaire:<p>La formule donnant le volume d’une boule est utilisée. Le travail sur les grandeurs mesurables et les unités est poursuivi. Il est possible de réinvestir le calcul avec les puissances de 10 pour les conversions d’unités.<br/>
+Par exemple, à partir de :<br/>
+\(1\ \mathrm{m}=10^2\ \mathrm{cm}\), il vient<br/>\(1\ \mathrm{m}^3\)=\((1\ \mathrm{m})^3\)=\((10^2\ \mathrm{cm})^3\)=\(10^6\ \mathrm{cm}^3\)<br/>
+ou, à partir de :<br/>
+\(1\ \mathrm{dm}=10^{-1}\ \mathrm{m}\), il vient<br/>
+\(1\ \mathrm{dm}^3\)=\((10^{-1}\ \mathrm{m})^3\)=\(10^{-3}\ \mathrm{m}^3\).
+</p>
+@wims:
+@titre:Comprendre l’effet de quelques transformations sur les figures géométriques.
+@presentation:<strong>Connaissances :</strong>
+<ul class="fleche">
+<li>effet d’un déplacement, d'un agrandissement ou d'une réduction sur les longueurs, les angles, les aires et les volumes.</li>
+</ul>
+<strong>Compétences associées :</strong>
+<ul class="fleche">
+<li>utiliser un rapport de réduction ou d'agrandissement (architecture, maquettes) pour calculer des longueurs, des aires, des volumes ;</li>
+<li>utiliser l’échelle d’une carte ;</li>
+<li>utiliser des transformations pour calculer des grandeurs géométriques ;</li>
+<li>faire le lien entre la proportionnalité et certaines configurations ou transformations géométriques (agrandissement réduction, triangles semblables, homothéties).</li>
+</ul>
+@contenu:<p>Les élèves connaissent et utilisent l’effet des symétries axiale et centrale sur les longueurs, les aires, les angles.</p>
+@capacite:<p>Les élèves connaissent et utilisent l’effet d’un agrandissement ou d’une réduction sur les longueurs, les aires et les volumes. Ils le travaillent en lien avec la proportionnalité.
+</p>
+@commentaire:<p>Les élèves connaissent et utilisent l’effet des transformations au programme (symétries, translations, rotations, homothéties) sur les longueurs, les angles, les aires et les volumes.<br/>
+Le lien est fait entre la proportionnalité et certaines configurations ou transformations géométriques (triangles semblables, homothéties).</p>
+@wims:
+@conclusion:<p>À l’issue d’activités rituelles de calcul et de verbalisation de procédures et la résolution de problèmes, effectuées tout au long du cycle, les élèves doivent avoir mémorisé et automatisé les formules donnant les longueurs, aires, volumes des figures et solides figurant au programme, ainsi que les procédures de conversion d’unités.</p>
+@theme:Espace et géométrie
+@objectif:<p>Au cycle 3, les élèves ont découvert différents objets géométriques, qui continuent à être rencontrés au cycle 4. Ils valident désormais par le raisonnement et la démonstration les propriétés qu'ils conjecturent. Les définitions et propriétés déjà vues au cycle 3 ainsi que les nouvelles propriétés introduites au cycle 4 (caractérisation angulaire du parallélisme, somme des angles d’un triangle, inégalité triangulaire, théorèmes de Thalès et de Pythagore) fournissent un éventail d'outils nourrissant la mise en œuvre de raisonnements et démonstrations. De nouvelles transformations (symétries centrales, translations, rotations, homothéties) font l'objet d'une première approche, basée sur l’observation de leur effet sur des configurations planes, essentiellement à partir de manipulations concrètes (papier calque, papier pointé, quadrillage, etc.) ou virtuelles (logiciel de géométrie dynamique). L’objectif est d’installer des images mentales qui faciliteront ultérieurement l’analyse de figures géométriques ainsi que la définition ponctuelle des transformations
+étudiées.
+</p>
+@histoire:
+@titre:Représenter l’espace
+@presentation:<strong>Connaissances :</strong>
+<ul class="fleche">
+<li>abscisse, ordonnée, altitude ;</li>
+<li>latitude, longitude.</li>
+</ul>
+<strong>Compétences associées :</strong>
+<ul class="fleche">
+<li>(se) repérer sur une droite graduée, dans le plan muni d'un repère orthogonal, dans un parallélépipède rectangle, sur une sphère ;</li>
+<li>reconnaître des solides (pavé droit, cube, prisme, cylindre, pyramide, cône, boule) ;</li>
+<li>construire et mettre en relation des représentations de ces solides (vues en perspective cavalière, de face, de dessus, sections planes, patrons, etc.) ;</li>
+<li>utiliser un logiciel de géométrie dynamique pour représenter des solides.</li>
+</ul>
+@contenu:<p>Le repérage se fait sur une droite graduée ou dans le plan muni d’un repère orthogonal.</p>
+<p>Dans la continuité de ce qui a été travaillé au cycle 3, la reconnaissance de solides (pavé droit, cube, cylindre, pyramide, cône, boule) s’effectue à partir d’un objet réel, d’une image, d’une représentation en perspective cavalière ou sur un logiciel de géométrie dynamique.
+</p>
+<p>Les élèves construisent et mettent en relation une représentation en perspective cavalière et un patron d’un pavé droit ou d’un cylindre.
+</p>
+@capacite:<p>Le repérage se fait dans un pavé droit (abscisse, ordonnée, altitude). Les élèves produisent et mettent en relation une représentation en perspective cavalière et un patron d’une pyramide ou d’un cône.</p>
+@commentaire:<p>Le repérage s’étend à la sphère (latitude, longitude). Un logiciel de géométrie est utilisé pour visualiser des solides et leurs sections planes. Les élèves produisent et mettent en relation différentes représentations des solides étudiés (patrons, représentation en perspective cavalière, vues de face, de dessus, en coupe).</p>
+@wims:
+@titre:Utiliser les notions de géométrie plane pour démontrer &#8212; Figures et configurations
+@presentation:<strong>Connaissances : </strong>
+<ul class ="fleche">
+<li>caractérisation angulaire du parallélisme: angles alternes internes, angles correspondants;</li>
+<li>triangle:
+    <ul class="square2">
+        <li>somme des angles d’un triangle (démonstration possible en utilisant les angles correspondants) ;</li>
+        <li>hauteurs et médiatrices ;</li>
+        <li>inégalité triangulaire ; </li>
+        <li>cas d’égalité des triangles ;</li>
+        <li>triangles semblables (une définition et une propriété caractéristique).</li>
+    </ul>
+</li>
+<li>parallélogramme (une définition et une propriété caractéristique) ;</li>
+<li>le théorème de Thalès et sa réciproque (configurations des triangles emboîtés et du papillon) ;</li>
+<li>le théorème de Pythagore et sa réciproque ;</li>
+<li>lignes trigonométriques dans le triangle rectangle : cosinus, sinus, tangente.</li>
+</ul>
+<strong>Compétences associées : </strong>
+<ul class="fleche">
+    <li>mettre en œuvre ou écrire un protocole de construction d’une figure géométrique ;</li>
+    <li>faire le lien entre les cas d’égalité des triangles et la construction d’un triangle à partir de la donnée de longueurs des côtés et/ou de mesures d’angles ;</li>
+</ul>
+@contenu:<p>La caractérisation angulaire du parallélisme (angles alternes-internes et angles correspondants) est énoncée. La valeur de la somme des angles d’un triangle peut être démontrée et est utilisée. L’inégalité triangulaire est énoncée. Le lien est fait entre l’inégalité triangulaire et la construction d’un triangle à partir de la donnée de trois longueurs. Des constructions de triangles à partir de la mesure d’une longueur et de deux angles ou d’un angle et de deux longueurs sont proposées.
+</p>
+<p>Le parallélogramme est défini à partir de l’une de ses propriétés:parallélisme des couples de côtésopposés ou intersection des diagonales. L’autre propriété est démontrée et devient une propriété caractéristique. Il est alors montré que les côtés opposés d’un parallélogramme sont deux à deux de même longueur grâce aux propriétés de la symétrie.
+</p>
+<p>Les propriétés relatives aux côtés et aux diagonales d’un parallélogramme sont mises en œuvre pour effectuer des constructions et mener des raisonnements.
+</p>
+<p>Les élèves consolident le travail sur les codages de figures:interprétation d’une figure codée ou réalisation d’un codage.
+</p>
+<p>Les élèves découvrent de nouvelles droites remarquables du triangle :les hauteurs. Ils poursuivent le travail engagé au cycle 3 sur la médiatrice dans le cadre de résolution de problèmes. Ils peuvent par exemple être amenés à démontrer que les médiatrices d’un triangle sont concourantes.
+</p>
+@capacite:<p>Les cas d’égalité des triangles sont présentés et utilisés pour résoudre des problèmes. Le lien est fait avec la construction d’un triangle de mesures données (trois longueurs, une longueur et deux angles, deux longueurs et un angle). Le théorème de Thalès et sa réciproque dans la configuration des triangles emboîtés sont énoncés et utilisés, ainsi que le théorème de Pythagore (plusieurs démonstrations possibles) et sa réciproque. La définition du cosinus d’un angle d’un triangle rectangle découle, grâce au théorème de Thalès, de l’indépendance du rapport des longueurs le définissant.</p>
+<p><em>Une progressivité dans l’apprentissage de la recherche de preuve est aménagée, de manière à encourager les élèves dans l’exercice de la démonstration. Aucun formalisme excessif n’est exigé dans la rédaction.</em></p>
+@commentaire:<p>Une définition et une caractérisation des triangles semblables sont données. Le théorème de Thalès et sa réciproque dans la configuration du papillon sont énoncés et utilisés (démonstration possible, utilisant une symétrie centrale pour se ramener à la configuration étudiée en quatrième). Les lignes trigonométriques (cosinus, sinus, tangente) dans le triangle rectangle sont utilisées pour calculer des longueurs ou des angles.
+</p>
+<p>Deux triangles semblables peuvent être définis par la proportionnalité des mesures de leurs côtés. Une caractérisation angulaire de cette définition peut être donnée et démontrée à partir d’un cas d’égalité des triangles et d’une caractérisation angulaire du parallélisme.
+</p>
+@wims:
+@titre:Utiliser les notions de géométrie plane pour démontrer &#8212; Transformations
+@presentation:<strong>Compétences associées : </strong>
+<ul class="fleche">
+<li>comprendre l’effet d’une translation, d’une symétrie (axiale et centrale), d’une rotation, d’une homothétie sur une figure ;</li>
+<li>mobiliser les connaissances des figures, des configurations et des transformations au programme pour déterminer des grandeurs géométriques ;</li>
+<li>mener des raisonnements et s’initier à la démonstration en utilisant les propriétés des figures, des configurations et des transformations.</li>
+</ul>
+<p><em>Les définitions ponctuelles d’une rotation, d’une translation, d’une homothétie ne figurent pas au programme.</em></p>
+@contenu:<p>Les élèves transforment (à la main ou à l’aide d’un logiciel) une figure par symétrie centrale. Cela permet de découvrir les propriétés de la symétrie centrale (conservation de l’alignement, du parallélisme, des longueurs, des angles) qui sont ensuite admises et utilisées. Le lien est fait entre la symétrie centrale et le parallélogramme. Les élèves identifient des symétries axiales ou centrales dans des frises, des pavages, des rosaces.
+</p>
+@capacite:<p>Les élèves sont amenés à transformer (à la main ou à l’aide d’un logiciel) une figure par translation. Ils identifient des translations dans des frises ou des pavages;le lien est alors fait entre translation et parallélogramme.
+</p>
+<p><em>La définition ponctuelle d’une translation ne figure pas au programme.Toutefois, par commodité, la translation transformant le point \(A\) en le point \(B\) pourra être nommée «translation de vecteur \(\overrightarrow{AB}\)», mais aucune connaissance n’est attendue sur l’objet «vecteur».</em>
+</p>
+@commentaire:<p>Les élèves transforment (à la main ou à l’aide d’un logiciel) une figure par rotation et par homothétie (de rapport positif ou négatif). Le lien est fait entre angle et rotation, entre le théorème de Thalès et les homothéties.
+</p>
+<p>Les élèves identifient des transformations dans des frises, des pavages, des rosaces.</p>
+<p><em>Les définitions ponctuelles d’une translation, d’une rotation et d’une homothétie ne figurent pas au programme.</em></p>
+<p><em>Pour faire le lien entre les transformations et les configurations du programme, il est possible d’identifier (à la main ou à l’aide d’un logiciel de géométrie) l’effet, sur un triangle donné, de l’enchaînement d’une translation, d’une rotation et d’une homothétie, voire d’une symétrie axiale et réciproquement, pour deux triangles semblables donnés, chercher des transformations transformant l’un en l’autre.</em></p>
+@wims:
+@conclusion:
+@theme:Croisements entre enseignements
+@objectif:
+@histoire:
+@conclusion:<p>L’utilisation  des  grands  nombres  entiers  et  des  nombres  décimaux  permet  d’appréhender  et  d’estimer  des  mesures  de  grandeur :  approche  de  la  mesure  non  entière  de  grandeurs  continues,  estimation  de  grandes  distances,   de   populations,   de   durées,   de   périodes   de   l’histoire,   de   superficies,   de   prix,   de   mémoire   informatique, etc. Les élèves apprennent progressivement à résoudre des problèmes portant sur des contextes et  des  données  issus  des  autres  disciplines.  En  effet,  les  supports  de  prises  d’informations  variés  (textes,  tableaux, graphiques, plans) permettent de travailler avec des données réelles issues de différentes disciplines (histoire  et  géographie,  sciences  et  technologie,  éducation  physique  et  sportive,  arts  plastiques).  De  plus,  la  lecture  des  données,  les  échanges  oraux  pour  expliquer  les  démarches,  et  la  production  de  réponses  sous  forme  textuelle  contribuent  à  travailler  plusieurs  composantes  de  la  maîtrise  de  la  langue  dans  le  cadre  des  mathématiques.  Enfin,  les  contextes  des  situations  de  proportionnalité  à  explorer  au  cours  du  cycle  peuvent  être illustrés ou réinvestis dans d’autres disciplines : problèmes d’échelle, de vitesse, de pourcentage (histoire et  géographie,  éducation  physique  et  sportive,  sciences  et  technologie),  problèmes  d’agrandissement  et  de  réduction (arts plastiques, sciences).<br/>
+Les activités de repérage ou de déplacement sur un plan ou sur une carte prennent sens à travers des activités physiques (course d’orientation), mais aussi dans le cadre des enseignements de géographie (lecture de cartes) ou  de  technologie  (réalisation  d’un  objet  simple ;  préparation  d’un  déplacement  à  l’aide  de  systèmes d’information  géographiques).  Les  activités  de  reconnaissance  et  de  construction  de  figures  et  d’objets  géométriques    peuvent    s’appuyer    sur    des    réalisations    artistiques    (peinture,    sculpture,    architecture,    photographie, etc.).</p>
+@end:

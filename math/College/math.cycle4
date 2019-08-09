@@ -1,5 +1,5 @@
 @titreniveau:Mathématiques Cycle 4
-@datewims:Dernière mise à jour le 06/08/2019 (Euler Versailles).<br/>Texte créé à partir des documents : <br/r>programmes d'enseignement &#8212; <a href = "https://cache.media.education.gouv.fr/file/30/62/8/ensel169_annexe3_985628.pdf" target="_blank">B.O. n°30 du 26 juillet 2018</a><br/>repères annuels de progression pour le cycle 4 &#8212; <a href="https://cache.media.education.gouv.fr/file/20/36/2/ensel283_annexe26_1120362.pdf" target="_blank">B.O. n°22 du 29 mai 2019</a>.
+@datewims:Dernière mise à jour le 07/08/2019 (Euler Versailles).<br/>Texte créé à partir des documents : <br/r>programmes d'enseignement &#8212; <a href = "https://cache.media.education.gouv.fr/file/30/62/8/ensel169_annexe3_985628.pdf" target="_blank">B.O. n°30 du 26 juillet 2018</a><br/>repères annuels de progression pour le cycle 4 &#8212; <a href="https://cache.media.education.gouv.fr/file/20/36/2/ensel283_annexe26_1120362.pdf" target="_blank">B.O. n°22 du 29 mai 2019</a>.
 @level:1
 @ressources:https://euler.ac-versailles.fr/rubrique176.html
 @intro:
@@ -57,7 +57,7 @@ Les mises en lien avec les autres disciplines contribuent à donner du sens et d
                 <li>choisir et mettre en relation des cadres (numérique, algébrique, géométrique)
         adaptés pour traiter un problème ou pour étudier un objet mathématique ;</li>
         <li>produire et utiliser plusieurs représentations des nombres ;</li>
-        <li>eprésenter des données sous forme d’une série statistique ;</li>
+        <li>représenter des données sous forme d’une série statistique ;</li>
         <li>utiliser, produire et mettre en relation des représentations de solides (par exemple
         perspective ou vue de dessus/de dessous) et de situations spatiales (schémas,
         croquis, maquettes, patrons, figures géométriques, photographies, plans, cartes,
@@ -90,7 +90,7 @@ Les mises en lien avec les autres disciplines contribuent à donner du sens et d
                 <li>calculer avec des nombres rationnels, de manière exacte ou approchée, en
         combinant de façon appropriée le calcul mental, le calcul posé et le calcul
         instrumenté (calculatrice ou logiciel) ;</li>
-        <li>ontrôler la vraisemblance de ses résultats, notamment en estimant des ordres de
+        <li>contrôler la vraisemblance de ses résultats, notamment en estimant des ordres de
         grandeur ou en utilisant des encadrements ;</li>
         <li>calculer en utilisant le langage algébrique (lettres, symboles, etc.).</li>
             </ul>
@@ -132,7 +132,7 @@ degré. Les élèves sont progressivement familiarisés aux différents statuts 
 <li>utiliser diverses représentations d’un même nombre (écriture décimale ou fractionnaire, notation scientifique, repérage sur une droite graduée) ;</li>
 <li>passer d’une représentation d’un nombre à une autre.</li>
 </ul>
-@contenu:<p>Le travail mené au cycle 3 sur l’enchaînement des opérations, les comparaisons et le repérage sur une droite graduée de nombres décimaux positifs est poursuivi. Les nombres relatifs (d’abord entiers, puis décimaux) sont construits pour rendre possibles toutes les soustractions. La notion d’opposé est introduite, l’addition et la soustraction sont étendues aux nombres décimaux (positifs ou négatifs). Il est possible de mettre en évidence que soustraire un nombre revient à additionner son opposé, en s’appuyant sur des exemples à valeur générique du type : \(3,1 - (-2) = 3,1 + 0 - (-2) = 3,1 + 2 + (-2)-(-2)\), donc \(3,1 - (-2) = 3,1 + 2 + 0 = 3,1 + 2 = 5,1\).</p>
+@contenu:<p>Le travail mené au cycle 3 sur l’enchaînement des opérations, les comparaisons et le repérage sur une droite graduée de nombres décimaux positifs est poursuivi. Les nombres relatifs (d’abord entiers, puis décimaux) sont construits pour rendre possibles toutes les soustractions. La notion d’opposé est introduite, l’addition et la soustraction sont étendues aux nombres décimaux (positifs ou négatifs). Il est possible de mettre en évidence que soustraire un nombre revient à additionner son opposé, en s’appuyant sur des exemples à valeur générique du type : \(3,1 - (-2)\)=\(3,1 + 0 - (-2)\)=\(3,1 + 2 + (-2)-(-2)\), donc \(3,1 - (-2)\)=\(3,1 + 2 + 0 \)=\(3,1 + 2 = 5,1\).</p>
 @capacite:<p>Le produit et le quotient de décimaux relatifs sont abordés.</p>
 @commentaire:<p>Le travail est consolidé notamment lors des résolutions de problèmes.</p>
 @wims: Exercices 1
@@ -315,7 +315,7 @@ Les élèves substituent une valeur numérique à une lettre pour calculer la va
 <li>factorisation de \(a^2-b^2\) .</li>
 </ul>
 @contenu:<p>Tôt dans l’année, sans attendre la maîtrise des opérations sur des nombres relatifs, la propriété
-de distributivité simple est utilisée pour réduire une expression littérale de la forme \(a x + bx\), où \(a\) et \(b\) sont des nombres décimaux. Le lien est fait avec des procédures de calcul numérique déjà rencontrées au cycle 3 (calculs du type \(12 \times 50\) ; \(37 \times 99\) ; \(3 \times 23 + 7 \times 23\)).
+de distributivité simple est utilisée pour réduire une expression littérale de la forme \(a x + b x\), où \(a\) et \(b\) sont des nombres décimaux. Le lien est fait avec des procédures de calcul numérique déjà rencontrées au cycle 3 (calculs du type \(12 \times 50\) ; \(37 \times 99\) ; \(3 \times 23 + 7 \times 23\)).
 </p>
 @capacite:<p>La structure d’une expression littérale (somme ou produit) est étudiée. La propriété de distributivité simple est formalisée et est utilisée pour développer un produit, factoriser une somme, réduire une expression littérale.
 </p>
@@ -373,9 +373,11 @@ diagramme ;</li>
 <li>calculer et interpréter des indicateurs de position ou de dispersion d'une série statistique.</li>
 </ul>
 @contenu:<p>Le traitement de données statistiques se prête à des calculs d’effectifs, de fréquences et de moyennes. Selon les situations, la représentation de données statistiques sous forme de tableaux, de diagrammes ou de graphiques est réalisée à la main ou à l’aide d’un tableur-grapheur. Les calculs et les représentations donnent lieu à des interprétations.</p>
-@capacite:<p>Un nouvel indicateur de position est introduit : la médiane. Le travail sur les représentations graphiques, le calcul, en particulier celui des effectifs et des fréquences, et l’interprétation des indicateurs de position est poursuivi.
+@capacite:<p>Un nouvel indicateur de position est introduit : la médiane.<br/>
+Le travail sur les représentations graphiques, le calcul, en particulier celui des effectifs et des fréquences, et l’interprétation des indicateurs de position est poursuivi.
 </p>
-@commentaire:<p>Un indicateur de dispersion est introduit : l’étendue. Le travail sur les représentations graphiques, le calcul, en particulier celui des effectifs et des fréquences, et l’interprétation des indicateurs de position est consolidé. Un nouveau type de diagramme est introduit : les histogrammes pour des classes de même amplitude.
+@commentaire:<p>Un indicateur de dispersion est introduit : l’étendue.<br/>
+Le travail sur les représentations graphiques, le calcul, en particulier celui des effectifs et des fréquences, et l’interprétation des indicateurs de position est consolidé. Un nouveau type de diagramme est introduit : les histogrammes pour des classes de même amplitude.
 </p>
 @wims:
 @titre:Comprendre et utiliser des notions élémentaires de probabilités
@@ -454,8 +456,7 @@ Le constat de la stabilisation des fréquences s’appuie sur la simulation d’
 @commentaire:<p>Les notions de variable, de fonction, d’antécédent, d’image sont formalisées et les notations fonctionnelles sont utilisées. Un travail est mené sur le passage d’un mode de représentation d’une fonction (graphique, symbolique, tableau de valeurs) à un autre. Les fonctions affines et linéaires sont présentées par leurs expressions algébriques et leurs représentations graphiques. Les fonctions sont utilisées pour modéliser des phénomènes continus et résoudre des problèmes.
 </p>
 @wims:Exercices
-@conclusion:<p>
-À l’issue d’activités rituelles de calcul et de verbalisation des procédures et la résolution de problèmes,
+@conclusion:<p>À l’issue d’activités rituelles de calcul et de verbalisation des procédures et la résolution de problèmes,
 menées tout au long du cycle, les élèves doivent avoir mémorisé ou automatisé :</p>
 <ul class="square">
 <li>différentes procédures de calcul d’une quatrième proportionnelle ;</li>
@@ -463,7 +464,6 @@ menées tout au long du cycle, les élèves doivent avoir mémorisé ou automati
 <li>les procédures d’application et de calcul d’un pourcentage ou d’une échelle ;</li>
 <li>les procédures de recherche d’image et d’antécédent d’un nombre par une fonction.</li>
 </ul>
-
 @theme:Grandeurs et mesures
 @objectif:<p>En continuité avec le travail engagé au cycle 3, ce thème se prête particulièrement à des connexions avec les autres thèmes du programme et offre de nombreux liens avec la physique-chimie, les sciences de la vie et de la Terre, la géographie, l’éducation physique et sportive.<br/>
 Les élèves doivent disposer de références concrètes (savoir, par exemple, que la circonférence de la Terre est environ 40 000 km) et être capables d’estimer l'ordre de grandeur d'une mesure.<br/>
@@ -516,7 +516,7 @@ ou, à partir de :<br/>
 @commentaire:<p>Les élèves connaissent et utilisent l’effet des transformations au programme (symétries, translations, rotations, homothéties) sur les longueurs, les angles, les aires et les volumes.<br/>
 Le lien est fait entre la proportionnalité et certaines configurations ou transformations géométriques (triangles semblables, homothéties).</p>
 @wims:
-@conclusion:
+@conclusion:<p>À l’issue d’activités rituelles de calcul et de verbalisation de procédures et la résolution de problèmes, effectuées tout au long du cycle, les élèves doivent avoir mémorisé et automatisé les formules donnant les longueurs, aires, volumes des figures et solides figurant au programme, ainsi que les procédures de conversion d’unités.</p>
 @theme:Espace et géométrie
 @objectif:<p>Au cycle 3, les élèves ont découvert différents objets géométriques, qui continuent à être rencontrés au cycle 4. Ils valident désormais par le raisonnement et la démonstration les propriétés qu'ils conjecturent. Les définitions et propriétés déjà vues au cycle 3 ainsi que les nouvelles propriétés introduites au cycle 4 (caractérisation angulaire du parallélisme, somme des angles d’un triangle, inégalité triangulaire, théorèmes de Thalès et de Pythagore) fournissent un éventail d'outils nourrissant la mise en œuvre de raisonnements et démonstrations. De nouvelles transformations (symétries centrales, translations, rotations, homothéties) font l'objet d'une première approche, basée sur l’observation de leur effet sur des configurations planes, essentiellement à partir de manipulations concrètes (papier calque, papier pointé, quadrillage, etc.) ou virtuelles (logiciel de géométrie dynamique). L’objectif est d’installer des images mentales qui faciliteront ultérieurement l’analyse de figures géométriques ainsi que la définition ponctuelle des transformations
 étudiées.
@@ -590,7 +590,7 @@ Le lien est fait entre la proportionnalité et certaines configurations ou trans
 <li>mobiliser les connaissances des figures, des configurations et des transformations au programme pour déterminer des grandeurs géométriques ;</li>
 <li>mener des raisonnements et s’initier à la démonstration en utilisant les propriétés des figures, des configurations et des transformations.</li>
 </ul>
-<em>Les définitions ponctuelles d’une rotation, d’une translation, d’une homothétie ne figurent pas au programme.</em>
+<p><em>Les définitions ponctuelles d’une rotation, d’une translation, d’une homothétie ne figurent pas au programme.</em></p>
 @contenu:<p>Les élèves transforment (à la main ou à l’aide d’un logiciel) une figure par symétrie centrale. Cela permet de découvrir les propriétés de la symétrie centrale (conservation de l’alignement, du parallélisme, des longueurs, des angles) qui sont ensuite admises et utilisées. Le lien est fait entre la symétrie centrale et le parallélogramme. Les élèves identifient des symétries axiales ou centrales dans des frises, des pavages, des rosaces.
 </p>
 @capacite:<p>Les élèves sont amenés à transformer (à la main ou à l’aide d’un logiciel) une figure par translation. Ils identifient des translations dans des frises ou des pavages;le lien est alors fait entre translation et parallélogramme.
@@ -603,7 +603,7 @@ Le lien est fait entre la proportionnalité et certaines configurations ou trans
 <p><em>Les définitions ponctuelles d’une translation, d’une rotation et d’une homothétie ne figurent pas au programme.</em></p>
 <p><em>Pour faire le lien entre les transformations et les configurations du programme, il est possible d’identifier (à la main ou à l’aide d’un logiciel de géométrie) l’effet, sur un triangle donné, de l’enchaînement d’une translation, d’une rotation et d’une homothétie, voire d’une symétrie axiale et réciproquement, pour deux triangles semblables donnés, chercher des transformations transformant l’un en l’autre.</em></p>
 @wims:
-@conclusion:
+@conclusion:<p>À l’issue d’activités rituelles de construction et de verbalisation des procédures et la résolution de problèmes, effectuées tout au long du cycle, les élèves doivent avoir mémorisé des images mentales (configurations de Pythagore et de Thalès, lignes trigonométriques dans un triangle rectangle) et automatisé les procédures de repérage et de constructions géométriques liées aux figures et aux transformations du programme.<p>
 @theme:Algorithmique et programmation
 @objectif:<p>Au cycle 4, les élèves s’initient à la programmation, en développant dans une démarche de projet quelques programmes simples, sans viser une connaissance experte et exhaustive d’un langage ou d’un logiciel particulier. En créant un programme, ils développent des méthodes de programmation, revisitent les notions de variables et de fonctions sous une forme différente, et s’entraînent au raisonnement.<br/> Exemples d’activités possibles : jeux dans un labyrinthe, jeu de Pong, bataille navale, jeu de nim, tic tac toe, jeu du cadavre exquis.
 </p>
@@ -631,5 +631,6 @@ Le lien est fait entre la proportionnalité et certaines configurations ou trans
 @commentaire:<p>À un troisième niveau, l’utilisation simultanée de boucles «répéter...fois», et «répéter jusqu’à...» et d’instructions conditionnelles permet de réaliser des figures, des calculs et des déplacements plus complexes. L’écriture de plusieurs scripts fonctionnant en parallèle permet de gérer les interactions et de créer des jeux.</p>
 <p>La décomposition d’un problème en sous-problèmes et la traduction d’un sous-problème par la création d’un bloc-utilisateur contribuent au développement des compétences visées.</p>
 @wims:
-@conclusion:
+@conclusion:<strong>Croisements entre enseignements</strong>
+<p>Si les mathématiques sont une science à part entière avec son propre langage et une démarche spécifique de preuve  basée,  non  pas  sur  la  confrontation  au  réel,  mais  sur  la  démonstration,  elles  sont  également  intimement  liées  aux  autres  disciplines.  Elles  fournissent  en  effet  des  outils  de  calcul  et  de  représentation  et  des  modèles  qui  permettent  de  traiter  des  situations  issues  de  toutes  les  autres  disciplines  enseignées  au  cycle 4.  De  ce  fait,  les  mathématiques  ont  également  toute  leur  place  dans  les  enseignements  pratiques interdisciplinaires qui contribuent à faire percevoir aux élèves leur dimension créative, inductive et esthétique et à éprouver le plaisir de les pratiquer.</p>
 @end:
