@@ -1,4 +1,4 @@
-@titreniveau:Mathématiques Cycle 4
+@titreniveau:Mathématiques Cycle 4 (En cours de création)
 @datewims:Dernière mise à jour le 07/08/2019 (Euler Versailles).<br/>Texte créé à partir des documents : <br/r>programmes d'enseignement &#8212; <a href = "https://cache.media.education.gouv.fr/file/30/62/8/ensel169_annexe3_985628.pdf" target="_blank">B.O. n°30 du 26 juillet 2018</a><br/>repères annuels de progression pour le cycle 4 &#8212; <a href="https://cache.media.education.gouv.fr/file/20/36/2/ensel283_annexe26_1120362.pdf" target="_blank">B.O. n°22 du 29 mai 2019</a>.
 @level:1
 @ressources:https://euler.ac-versailles.fr/rubrique176.html
@@ -352,7 +352,7 @@ particulier des équations du type \(x^2 = a \);</li>
 </ul>
 
 @theme:Organisation et gestion de données, fonctions
-@objectif:Certaines des notions travaillées dans ce thème ont déjà été abordées aux cycles précédents.Au cycle 4, les élèves sont confrontés à diverses situations de travail sur des données : les utiliser, les représenter, les interpréter de manière critique. Ils abordent les notions d’incertitude et de hasard, afin de ne pas « subir » le hasard, mais de construire une citoyenneté critique et rationnelle. Ils apprennent à choisir une méthode adaptée aux problèmes de proportionnalité auxquels ils sont confrontés.<br/>
+@objectif:Certaines des notions travaillées dans ce thème ont déjà été abordées aux cycles précédents. Au cycle 4, les élèves sont confrontés à diverses situations de travail sur des données : les utiliser, les représenter, les interpréter de manière critique. Ils abordent les notions d’incertitude et de hasard, afin de ne pas « subir » le hasard, mais de construire une citoyenneté critique et rationnelle. Ils apprennent à choisir une méthode adaptée aux problèmes de proportionnalité auxquels ils sont confrontés.<br/>
 La notion de ratio vient enrichir le lexique de la proportionnalité pour traduire la proportionnalité de deux suites de nombres. Les élèves découvrent progressivement la notion de fonction, qui permet à la fois de revisiter sous l’aspect fonctionnel des situations déjà connues et d’accéder à de nouvelles catégories de problèmes.
 @histoire:
 @titre:Interpréter, représenter et traiter des données
@@ -631,6 +631,9 @@ Le lien est fait entre la proportionnalité et certaines configurations ou trans
 @commentaire:<p>À un troisième niveau, l’utilisation simultanée de boucles «répéter...fois», et «répéter jusqu’à...» et d’instructions conditionnelles permet de réaliser des figures, des calculs et des déplacements plus complexes. L’écriture de plusieurs scripts fonctionnant en parallèle permet de gérer les interactions et de créer des jeux.</p>
 <p>La décomposition d’un problème en sous-problèmes et la traduction d’un sous-problème par la création d’un bloc-utilisateur contribuent au développement des compétences visées.</p>
 @wims:
-@conclusion:<strong>Croisements entre enseignements</strong>
-<p>Si les mathématiques sont une science à part entière avec son propre langage et une démarche spécifique de preuve  basée,  non  pas  sur  la  confrontation  au  réel,  mais  sur  la  démonstration,  elles  sont  également  intimement  liées  aux  autres  disciplines.  Elles  fournissent  en  effet  des  outils  de  calcul  et  de  représentation  et  des  modèles  qui  permettent  de  traiter  des  situations  issues  de  toutes  les  autres  disciplines  enseignées  au  cycle 4.  De  ce  fait,  les  mathématiques  ont  également  toute  leur  place  dans  les  enseignements  pratiques interdisciplinaires qui contribuent à faire percevoir aux élèves leur dimension créative, inductive et esthétique et à éprouver le plaisir de les pratiquer.</p>
+@conclusion:
+@theme:Croisements entre enseignements
+@objectif:
+@histoire:
+@conclusion:<p>Si les mathématiques sont une science à part entière avec son propre langage et une démarche spécifique de preuve  basée,  non  pas  sur  la  confrontation  au  réel,  mais  sur  la  démonstration,  elles  sont  également  intimement  liées  aux  autres  disciplines.  Elles  fournissent  en  effet  des  outils  de  calcul  et  de  représentation  et  des  modèles  qui  permettent  de  traiter  des  situations  issues  de  toutes  les  autres  disciplines  enseignées  au  cycle 4.  De  ce  fait,  les  mathématiques  ont  également  toute  leur  place  dans  les  enseignements  pratiques interdisciplinaires qui contribuent à faire percevoir aux élèves leur dimension créative, inductive et esthétique et à éprouver le plaisir de les pratiquer.</p>
 @end:

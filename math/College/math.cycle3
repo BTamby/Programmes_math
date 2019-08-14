@@ -1,4 +1,4 @@
-@titreniveau:Mathématiques Cycle 3
+@titreniveau:Mathématiques Cycle 3 (En cours de création)
 @datewims:Dernière mise à jour le 08/08/2019 (Euler Versailles).<br/>Texte créé à partir des documents : <br/r>programmes d'enseignement &#8212; <a href = "https://cache.media.education.gouv.fr/file/30/05/0/ensel169_annexe2V2_986050.pdf" target="_blank">B.O. n°30 du 26 juillet 2018</a><br/>repères annuels de progression pour le cycle 3 &#8212; <a href="https://cache.media.education.gouv.fr/file/20/35/3/ensel283_annexe23_1120353.pdf" target="_blank">B.O. n°22 du 29 mai 2019</a>.
 @level:0
 @ressources:https://euler.ac-versailles.fr/rubrique7.html
@@ -265,56 +265,53 @@ Dès la <strong>période 3</strong>, ils apprennent à appliquer un pourcentage 
 @wims:Exercices
 @conclusion:
 @theme:Grandeurs et mesures
-@objectif:Certaines des notions travaillées dans ce thème ont déjà été abordées aux cycles précédents.Au cycle 4, les élèves sont confrontés à diverses situations de travail sur des données : les utiliser, les représenter, les interpréter de manière critique. Ils abordent les notions d’incertitude et de hasard, afin de ne pas « subir » le hasard, mais de construire une citoyenneté critique et rationnelle. Ils apprennent à choisir une méthode adaptée aux problèmes de proportionnalité auxquels ils sont confrontés.<br/>
-La notion de ratio vient enrichir le lexique de la proportionnalité pour traduire la proportionnalité de deux suites de nombres. Les élèves découvrent progressivement la notion de fonction, qui permet à la fois de revisiter sous l’aspect fonctionnel des situations déjà connues et d’accéder à de nouvelles catégories de problèmes.
+@objectif:Au cycle 3, les connaissances des grandeurs déjà rencontrées au cycle 2 (longueur, masse, contenance, durée, prix)  sont  complétées  et  structurées,  en  particulier  à  travers  la  maîtrise  des  unités  légales  du  Système  International  d’unités  (numération  décimale  ou  sexagésimale,  pour  les  durées)  et  de  leurs  relations.  Un  des  enjeux  est  d’enrichir  le  concept  de  grandeur  notamment  en  abordant  la  notion  d’aire  d’une  surface  ainsi  que  celle  de  périmètre,  en  les  distinguant  clairement.  Les  élèves  approchent  la  notion  d’angle.  Ils  se  familiarisent  avec la notion de volume, en lien avec celle de contenance.<br/>
+Mesurer   une   grandeur   consiste   à   déterminer,   après   avoir   choisi   une   unité,   combien   d’unités   ou   de   fractionnements  de  cette  unité  sont  contenus  dans  cette  grandeur,  pour  lui  associer  un  nombre  (entier  ou  non).  Les  opérations  sur  les  grandeurs  permettent  de  donner  du  sens  aux  opérations  sur  leurs  mesures (par exemple,  la  somme  30 cm + 15 cm  peut  être  mise  en  relation  avec  la  longueur  de  deux  bâtons  de  30 cm  et  15 cm, mis bout à bout). Les notions de grandeur et de mesure de la grandeur se construisent dialectiquement, en  résolvant  des  problèmes  faisant  appel  à  différents  types  de  tâches  (comparer,  estimer,  mesurer).  Dans  le  cadre  des  grandeurs,  la  proportionnalité  sera  mise  en  évidence  et  convoquée  pour  résoudre  des  problèmes  dans différents contextes.<br/>
+Dans  la  continuité  du  cycle  2,  le  travail  sur  l’estimation  participe  à  la  validation  de  résultats  et  permet  de  donner un sens concret aux grandeurs étudiées et à leur mesure (estimer en prenant appui sur des références déjà construites : longueurs et aire d’un terrain de basket, aire d’un timbre-poste, masse d’un trombone, masse et volume d’une bouteille de lait, etc.).
 @histoire:
-@titre:Interpréter, représenter et traiter des données
-@presentation:<strong>Connaissances</strong>
-<ul class="fleche">
-<li>effectifs, fréquences ;</li>
-<li>indicateurs de position : moyenne, médiane ;</li>
-<li>indicateur de dispersion : étendue.</li>
-</ul>
-<strong>Compétences associées</strong>
-<ul class="fleche">
-<li>recueillir des données, les organiser ;</li>
-<li>lire et interpréter des données sous forme de données brutes, de tableau, de diagramme (diagramme
-en bâtons, diagramme circulaire, histogramme) ;</li>
-<li>utiliser un tableur-grapheur pour présenter des données sous la forme d’un tableau ou d’un
-diagramme ;</li>
-<li>calculer des effectifs, des fréquences ;</li>
-<li>calculer et interpréter des indicateurs de position ou de dispersion d'une série statistique.</li>
-</ul>
-@contenu:<p>Le traitement de données statistiques se prête à des calculs d’effectifs, de fréquences et de moyennes. Selon les situations, la représentation de données statistiques sous forme de tableaux, de diagrammes ou de graphiques est réalisée à la main ou à l’aide d’un tableur-grapheur. Les calculs et les représentations donnent lieu à des interprétations.</p>
-@capacite:<p>Un nouvel indicateur de position est introduit : la médiane.<br/>
-Le travail sur les représentations graphiques, le calcul, en particulier celui des effectifs et des fréquences, et l’interprétation des indicateurs de position est poursuivi.
+@titre:Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres
+décimaux : Les longueurs et les périmètres
+@presentation:<p>L’étude d’une grandeur nécessite des activités ayant pour but de définir la grandeur (comparaison directe ou indirecte, ou recours à la mesure), d’explorer les unités du système international d’unités correspondant, de faire usage des instruments de mesurede cette grandeur, de calculer des mesures avec ou sans formule. Toutefois, selon la grandeur ou selon la fréquentation de celle-ci au cours du cycle précédent, les comparaisons directes ou indirectes de grandeurs (longueur, masse et durée) ne seront pas reprises systématiquement. Tout au long du cycle et en relation avec l’apprentissage des nombres décimaux, les élèves font le lien entre les unités de numération et les unités de mesure (par exemple: dixième \(\longrightarrow\) dm, dg, dL;centième \(\longrightarrow\) cm, cg, cL, centimes d’euros)
 </p>
-@commentaire:<p>Un indicateur de dispersion est introduit : l’étendue.<br/>
-Le travail sur les représentations graphiques, le calcul, en particulier celui des effectifs et des fréquences, et l’interprétation des indicateurs de position est consolidé. Un nouveau type de diagramme est introduit : les histogrammes pour des classes de même amplitude.
+Comparer des périmètres avec ou sans recours à la mesure (par exemple en utilisant une ficelle, ou en
+reportant les longueurs des côtés d’un polygone sur un segment de droite avec un compas) :
+<ul class="fleche">
+<li>notion de longueur : cas particulier du périmètre ;</li>
+<li>unités relatives aux longueurs : relations entre les unités de longueur et les unités de numération.
+</ul>
+Calculer le périmètre d’un polygone en ajoutant les longueurs de ses côtés.<br/>
+Calculer le périmètre d’un carré et d’un rectangle, la longueur d’un cercle, en utilisant une formule :
+<ul class="fleche">
+<li>formule du périmètre d’un carré, d’un rectangle ;
+<li>formule de la longueur d’un cercle.
+</ul>
+@contenu:<p>Les élèves comparent des périmètres sans avoir recours à la mesure, mesurent des périmètres par report d’unités et de fractions d’unités ou par report des longueurs des côtés sur un segment de droite avec le compas; ils calculent le périmètre d’un polygone en ajoutant les longueurs de ses côtés (avec des entiers et fractions puis avec des décimaux à deux décimales.
+</p>
+@capacite:<p>Ils établissent les formules du périmètre du carré et du rectangle. Ils les utilisent tout en continuant à calculer des périmètres de polygones variés en ajoutant les longueurs de leurs côtés.</p>
+@commentaire:<p>Selon l’avancement du thème «nombres et calcul», les élèves réinvestissent leurs acquis de CM pour calculer des périmètres simples ou complexes.Ils apprennent la formule de la longueur d’un cercle et l’utilisent après consolidation du produit d’un entier par un décimal, dans un premier temps, puis du produit de deux décimaux.
 </p>
 @wims:
-@titre:Comprendre et utiliser des notions élémentaires de probabilités
-@presentation:<strong>Connaissances</strong>
-<ul class="fleche">
-<li>vocabulaire des probabilités ;</li>
-<li>notion de probabilité ; la probabilité d’un événement est comprise entre 0 et 1 ;</li>
-<li>probabilité d’événements certains, impossibles, contraires.</li>
-</ul>
-<strong>Compétences associées</strong>
-<ul class="fleche">
-<li>aborder les questions relatives au hasard à partir de problèmes simples ;</li>
-<li>calculer des probabilités dans des cas simples (par exemple évaluation des chances de gain dans un jeu) ;</li>
-<li>exprimer des probabilités sous diverses formes (décimale, fractionnaire, pourcentage) ;</li>
-<li>faire le lien entre fréquence et probabilité.</li>
-</ul>
-@contenu:<p>Les élèves appréhendent le hasard à travers des expériences concrètes : pile ou face, dé, roue de loterie,
-urne...
-Le vocabulaire relatif aux probabilités (expérience aléatoire, issue, événement, probabilité) est utilisé. Le placement d’un événement sur une échelle de probabilités et la détermination de probabilités dans des situations très simples d’équiprobabilité contribuent à une familiarisation avec la modélisation mathématique du hasard. Pour exprimer une probabilité, on accepte des formulations du type « 2 chances sur 5 ».
+@titre:Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres
+décimaux : Les aires
+@presentation:<p>L’étude d’une grandeur nécessite des activités ayant pour but de définir la grandeur (comparaison directe ou indirecte, ou recours à la mesure), d’explorer les unités du système international d’unités correspondant, de faire usage des instruments de mesurede cette grandeur, de calculer des mesures avec ou sans formule. Toutefois, selon la grandeur ou selon la fréquentation de celle-ci au cours du cycle précédent, les comparaisons directes ou indirectes de grandeurs (longueur, masse et durée) ne seront pas reprises systématiquement. Tout au long du cycle et en relation avec l’apprentissage des nombres décimaux, les élèves font le lien entre les unités de numération et les unités de mesure (par exemple: dixième \(\longrightarrow\) dm, dg, dL;centième \(\longrightarrow\) cm, cg, cL, centimes d’euros)
 </p>
-@capacite:<p>Les calculs de probabilités concernent des situations simples, mais ne relevant pas nécessairement du modèle équiprobable. Le lien est fait entre les probabilités de deux événements contraires.
+Comparer des surfaces selon leurs aires sans avoir recours à la mesure, par superposition ou par découpage et recollement.<br/>
+Différencier périmètre et aire d’une figure.<br/>
+Estimer la mesure d’une aire et l’exprimer dans une unité adaptée.<br/>
+Déterminer la mesure de l’aire d’une surface à partir d’un pavage simple ou en utilisant une formule :
+<ul class="fleche">
+<li>unités usuelles d’aire et leurs relations : multiples et sous-multiples du \(\mathrm{m}^2\) ;</lu>
+<li>formules de l’aire d’un carré, d’un rectangle, d’un triangle, d’un disque.</li>
+</ul>
+@contenu:<p>Les élèves comparent des surfaces selon leur airepar estimation visuelle,par superposition ou découpage et recollement. Ils estiment des aires, ou les déterminent,en faisant appel à une aire de référence.<br/>
+Le lien est fait chaque fois que possible avec le travail sur les fractions.
+</p>
+@capacite:<p>L’utilisation d’une unité de référence est systématique. Cette unité peut être une maille d’unréseau quadrillé adapté, le \(\mathrm{cm}^2\), le \(\mathrm{dm}^2\) ou le \(\mathrm{m}^2\).<br/>
+Les élèves apprennent à utiliser les formules d’aire du carré, du rectangle et du triangle rectangle.
 </p>
 @commentaire:<p>
-Le constat de la stabilisation des fréquences s’appuie sur la simulation d’expériences aléatoires à une épreuve à l’aide d’un tableur ou d’un logiciel de programmation. Les calculs de probabilités, à partir de dénombrements, s’appliquent à des contextes simples faisant prioritairement intervenir une seule épreuve. Dans des cas très simples, il est cependant possible d’introduire des expériences à deux épreuves. Les dénombrements s’appuient alors uniquement sur des tableaux à double entrée, la notion d’arbre ne figurant pas au programme. Les élèves simulent une expérience aléatoire à l’aide d’un tableur ou d’un logiciel de programmation.
+En relation avec le travail sur la quatrième décimale, les élèves utilisent les multiples et sous-multiples du m2et les relations qui les lient. Ils utilisent la formule pour calculer l’aire d’un triangle quelconque lorsque les données sont exprimées avec des nombres entiers.<br/>
+Après avoir consolidé le produit de décimaux,ils utilisent les formules pour calculer l’aire d’un triangle quelconque et celle d’un disque.
 </p>
 @wims:
 @titre:Résoudre des problèmes de proportionnalité ;
