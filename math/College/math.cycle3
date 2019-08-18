@@ -256,7 +256,7 @@ Organiser des données issues d’autres enseignements (sciences et technologie,
 @wims:Exercices
 @titre:Résoudre des problèmes en utilisant des fractions simples, les nombres décimaux et le calcul : Problèmes relevant de la proportionnalité
 @presentation:Reconnaître et résoudre des problèmes relevant de la proportionnalité en utilisant une procédure adaptée : propriétés de linéarité (additive et multiplicative), passage à l’unité, coefficient de proportionnalité. Appliquer un pourcentage.
-@contenu:Le recours aux propriétés de linéarité (multiplicative et additive) est privilégié. Ces propriétés doivent être explicitées; elles peuvent être institutionnalisées de façon non formelle à l’aide d’exemples verbalisés («Si j’ai deux fois, trois fois... plus d’invités, il me faudra deux fois, trois fois... plus d’ingrédients»; «Je dispose de briques de masses identiques. Si je connais la masse de 7 briques et celle de 3 briques alors je peux connaître la masse de 10briques en faisant la somme des deux masses»). Dès la <strong>période 1</strong>, des situations de proportionnalité peuvent être proposées (recettes...). L'institutionnalisation des propriétés se fait progressivement à partir de la <strong>période 2</strong>.
+@contenu:Le recours aux propriétés de linéarité (multiplicative et additive) est privilégié. Ces propriétés doivent être explicitées; elles peuvent être institutionnalisées de façon non formelle à l’aide d’exemples verbalisés («Si j’ai deux fois, trois fois... plus d’invités, il me faudra deux fois, trois fois... plus d’ingrédients»; «Je dispose de briques de masses identiques. Si je connais la masse de 7 briques et celle de 3 briques alors je peux connaître la masse de 10 briques en faisant la somme des deux masses»). Dès la <strong>période 1</strong>, des situations de proportionnalité peuvent être proposées (recettes...). L'institutionnalisation des propriétés se fait progressivement à partir de la <strong>période 2</strong>.
 @capacite:Dès la <strong>période 1</strong>, le passage par l’unité vient enrichir la palette des procédures utilisées lorsque cela s’avère pertinent.<br/>
 À partir de la <strong>période 3</strong>, le symbole % est introduit dans des cas simples, en lien avec les fractions d’une quantité (50 % pour la moitié; 25 % pour le quart; 75% pour les trois quarts; 10 % pour le dixième).
 @commentaire:Tout au long de l’année, les procédures déjà étudiées en CM sont remobilisées et enrichies par l’utilisation explicite du coefficient de proportionnalité lorsque cela s’avère pertinent.<br/>
@@ -310,36 +310,27 @@ Le lien est fait chaque fois que possible avec le travail sur les fractions.
 Les élèves apprennent à utiliser les formules d’aire du carré, du rectangle et du triangle rectangle.
 </p>
 @commentaire:<p>
-En relation avec le travail sur la quatrième décimale, les élèves utilisent les multiples et sous-multiples du m2et les relations qui les lient. Ils utilisent la formule pour calculer l’aire d’un triangle quelconque lorsque les données sont exprimées avec des nombres entiers.<br/>
+En relation avec le travail sur la quatrième décimale, les élèves utilisent les multiples et sous-multiples du \(\mathrm{m}^2\) et les relations qui les lient. Ils utilisent la formule pour calculer l’aire d’un triangle quelconque lorsque les données sont exprimées avec des nombres entiers.<br/>
 Après avoir consolidé le produit de décimaux,ils utilisent les formules pour calculer l’aire d’un triangle quelconque et celle d’un disque.
 </p>
 @wims:
-@titre:Résoudre des problèmes de proportionnalité ;
-@presentation:<strong>Connaissances :</strong>
+@titre:Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres
+décimaux : Les contenances et les volumes
+@presentation:Relier les unités de volume et de contenance.<br/>
+Estimer la mesure d’un volume ou d’une contenance par différentes procédures (transvasements, appréciation de l’ordre de grandeur) et l’exprimer dans une unité adaptée.<br/>
+Déterminer le volume d’un pavé droit en se rapportant à un dénombrement d’unités (cubes de taille adaptée) ou en utilisant une formule : 
 <ul class="fleche">
-<li>coefficient de proportionnalité ;</li>
-<li>taux d’évolution, coefficient multiplicateur ;</li>
-<li>notion de ratio.<br/>
-<em>On dit, par exemple,
-<ul class="square2">
-<li>que deux nombres \(a\) et \(b\) sont dans le ratio \(2 : 3\) (notation standardisée) si \( \frac{a}{2} = \frac{b}{3}\).</li>
-<li>que trois nombres \(a\), \(b\) et \(c_) sont dans le ration \(2 : 3 : 7\) (notation standardisée) si \( \frac{a}{2} = \frac{b}{3} = \frac{c}{7}\).</em>
+<li>unités usuelles de contenance (multiples et sous multiples du litre) ; </li>
+<li>unités usuelles de volume (\(\mathrm{cm}^3\), \(\mathrm{dm}^3\), \(\mathrm{m}^3\)), relations entre ces unités ;  </li>
+<li>formules du volume d’un cube, d’un pavé droit.<br/>
 </ul>
-</li>
-</ul>
-<strong>Compétences associées :</strong>
-<ul class="fleche">
-<li>reconnaître une situation de proportionnalité ou de non-proportionnalité ;</li>
-<li>calculer une quatrième proportionnelle ;</li>
-<li>partager une quantité (par exemple une somme d’argent) en deux ou trois parts selon un ratio donné ;</li>
-<li>utiliser une formule liant deux grandeurs dans une situation de proportionnalité (par exemple la longueur d’un cercle en fonction de son rayon, la loi d’Ohm exprimant la tension en fonction de l’intensité, la distance parcourue en fonction du temps à vitesse constante, etc.) ;</li>
-<li>résoudre des problèmes utilisant la proportionnalité (pourcentages, échelles, agrandissement réduction).</li>
-</ul>
-@contenu:<p>Les élèves sont confrontés à des situations relevant ou non de la proportionnalité. Des procédures variées (linéarité, passage par l’unité, coefficient de proportionnalité), déjà étudiées au cycle 3, permettent de résoudre des problèmes relevant de la proportionnalité.
+
+@contenu:<p>Les élèves comparent des contenances sans les mesurer, puis en les mesurant. Ils découvrent et apprennent qu’un litre est la contenance d’un cube de 10 cm d’arête. Ils font des analogies avec les autres unités de mesure à l’appui des préfixes.
 </p>
-@capacite:<p> Le calcul d’une quatrième proportionnelle est systématisé et les points de vue se diversifient avec l’utilisation de représentations graphiques, du calcul littéral et de problèmes de géométrie relevant de la proportionnalité (configuration de Thalès dans le cas des triangles emboîtés, agrandissement et réduction).
+@capacite:<p>Ils poursuivent ce travail en utilisant de nouvelles unités de contenance: dL, cL et mL
 </p>
-@commentaire:<p>Le lien est fait entre taux d’évolution et coefficient multiplicateur, ainsi qu’entre la proportionnalité et les fonctions linéaires. Le champ des problèmes de géométrie relevant de la proportionnalité est élargi (homothéties, triangles semblables, configurations de Thalès).
+@commentaire:<p>Ilsrelient les unités de volume et de contenance (1 L=1 \(\mathrm{dm}^3\); 1000 L=1 \(\mathrm{m}^3\)). Ils utilisent les unités de volume: \(\mathrm{cm}^3\), \(\mathrm{dm}^3\), \(\mathrm{c}^3\) et leurs relations.<br/>
+Ils calculent le volume d’un cube ou d’un pavé droit en utilisant une formule.
 </p>
 @wims:
 @titre:Comprendre et utiliser la notion de fonction.
