@@ -269,8 +269,7 @@ Dès la <strong>période 3</strong>, ils apprennent à appliquer un pourcentage 
 Mesurer   une   grandeur   consiste   à   déterminer,   après   avoir   choisi   une   unité,   combien   d’unités   ou   de   fractionnements  de  cette  unité  sont  contenus  dans  cette  grandeur,  pour  lui  associer  un  nombre  (entier  ou  non).  Les  opérations  sur  les  grandeurs  permettent  de  donner  du  sens  aux  opérations  sur  leurs  mesures (par exemple,  la  somme  30 cm + 15 cm  peut  être  mise  en  relation  avec  la  longueur  de  deux  bâtons  de  30 cm  et  15 cm, mis bout à bout). Les notions de grandeur et de mesure de la grandeur se construisent dialectiquement, en  résolvant  des  problèmes  faisant  appel  à  différents  types  de  tâches  (comparer,  estimer,  mesurer).  Dans  le  cadre  des  grandeurs,  la  proportionnalité  sera  mise  en  évidence  et  convoquée  pour  résoudre  des  problèmes  dans différents contextes.<br/>
 Dans  la  continuité  du  cycle  2,  le  travail  sur  l’estimation  participe  à  la  validation  de  résultats  et  permet  de  donner un sens concret aux grandeurs étudiées et à leur mesure (estimer en prenant appui sur des références déjà construites : longueurs et aire d’un terrain de basket, aire d’un timbre-poste, masse d’un trombone, masse et volume d’une bouteille de lait, etc.).
 @histoire:
-@titre:Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres
-décimaux : Les longueurs et les périmètres
+@titre:Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : Les longueurs et les périmètres
 @presentation:<p>L’étude d’une grandeur nécessite des activités ayant pour but de définir la grandeur (comparaison directe ou indirecte, ou recours à la mesure), d’explorer les unités du système international d’unités correspondant, de faire usage des instruments de mesurede cette grandeur, de calculer des mesures avec ou sans formule. Toutefois, selon la grandeur ou selon la fréquentation de celle-ci au cours du cycle précédent, les comparaisons directes ou indirectes de grandeurs (longueur, masse et durée) ne seront pas reprises systématiquement. Tout au long du cycle et en relation avec l’apprentissage des nombres décimaux, les élèves font le lien entre les unités de numération et les unités de mesure (par exemple: dixième \(\longrightarrow\) dm, dg, dL;centième \(\longrightarrow\) cm, cg, cL, centimes d’euros)
 </p>
 Comparer des périmètres avec ou sans recours à la mesure (par exemple en utilisant une ficelle, ou en
@@ -291,8 +290,7 @@ Calculer le périmètre d’un carré et d’un rectangle, la longueur d’un ce
 @commentaire:<p>Selon l’avancement du thème «nombres et calcul», les élèves réinvestissent leurs acquis de CM pour calculer des périmètres simples ou complexes.Ils apprennent la formule de la longueur d’un cercle et l’utilisent après consolidation du produit d’un entier par un décimal, dans un premier temps, puis du produit de deux décimaux.
 </p>
 @wims:
-@titre:Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres
-décimaux : Les aires
+@titre:Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : Les aires
 @presentation:<p>L’étude d’une grandeur nécessite des activités ayant pour but de définir la grandeur (comparaison directe ou indirecte, ou recours à la mesure), d’explorer les unités du système international d’unités correspondant, de faire usage des instruments de mesurede cette grandeur, de calculer des mesures avec ou sans formule. Toutefois, selon la grandeur ou selon la fréquentation de celle-ci au cours du cycle précédent, les comparaisons directes ou indirectes de grandeurs (longueur, masse et durée) ne seront pas reprises systématiquement. Tout au long du cycle et en relation avec l’apprentissage des nombres décimaux, les élèves font le lien entre les unités de numération et les unités de mesure (par exemple: dixième \(\longrightarrow\) dm, dg, dL;centième \(\longrightarrow\) cm, cg, cL, centimes d’euros)
 </p>
 Comparer des surfaces selon leurs aires sans avoir recours à la mesure, par superposition ou par découpage et recollement.<br/>
@@ -314,8 +312,7 @@ En relation avec le travail sur la quatrième décimale, les élèves utilisent 
 Après avoir consolidé le produit de décimaux,ils utilisent les formules pour calculer l’aire d’un triangle quelconque et celle d’un disque.
 </p>
 @wims:
-@titre:Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres
-décimaux : Les contenances et les volumes
+@titre:Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : Les contenances et les volumes
 @presentation:Relier les unités de volume et de contenance.<br/>
 Estimer la mesure d’un volume ou d’une contenance par différentes procédures (transvasements, appréciation de l’ordre de grandeur) et l’exprimer dans une unité adaptée.<br/>
 Déterminer le volume d’un pavé droit en se rapportant à un dénombrement d’unités (cubes de taille adaptée) ou en utilisant une formule : 
@@ -324,186 +321,261 @@ Déterminer le volume d’un pavé droit en se rapportant à un dénombrement d�
 <li>unités usuelles de volume (\(\mathrm{cm}^3\), \(\mathrm{dm}^3\), \(\mathrm{m}^3\)), relations entre ces unités ;  </li>
 <li>formules du volume d’un cube, d’un pavé droit.<br/>
 </ul>
-
 @contenu:<p>Les élèves comparent des contenances sans les mesurer, puis en les mesurant. Ils découvrent et apprennent qu’un litre est la contenance d’un cube de 10 cm d’arête. Ils font des analogies avec les autres unités de mesure à l’appui des préfixes.
 </p>
 @capacite:<p>Ils poursuivent ce travail en utilisant de nouvelles unités de contenance: dL, cL et mL
 </p>
-@commentaire:<p>Ilsrelient les unités de volume et de contenance (1 L=1 \(\mathrm{dm}^3\); 1000 L=1 \(\mathrm{m}^3\)). Ils utilisent les unités de volume: \(\mathrm{cm}^3\), \(\mathrm{dm}^3\), \(\mathrm{c}^3\) et leurs relations.<br/>
+@commentaire:<p>Ils relient les unités de volume et de contenance (1 L=1 \(\mathrm{dm}^3\); 1000 L=1 \(\mathrm{m}^3\)). Ils utilisent les unités de volume: \(\mathrm{cm}^3\), \(\mathrm{dm}^3\), \(\mathrm{m}^3\) et leurs relations.<br/>
 Ils calculent le volume d’un cube ou d’un pavé droit en utilisant une formule.
 </p>
 @wims:
-@titre:Comprendre et utiliser la notion de fonction.
-@presentation:<strong>Connaissances :</strong>
-<ul class="fleche">
-<li>vocabulaire : variable, fonction, antécédent, image ;</li>
-<li>différents modes de représentation d’une fonction (expression symbolique, tableau de valeurs, représentation graphique, programme de calcul) ;</li>
-<li>notations \(f(x)\) et \(x\longmapsto f(x)\) ;</li>
-<li>fonction linéaire, fonction affine.</li>
+@titre:Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux : Les angles
+@presentation:Identifier des angles dans une figure géométrique.<br/>
+Comparer des angles, en ayant ou non recours à leur mesure (par superposition, avec un calque).<br/>
+Reproduire un angle donné en utilisant un gabarit.<br/>
+Estimer qu’un angle est droit, aigu ou obtus.<br/>
+Utiliser l’équerre pour vérifier qu’un angle est droit, aigu ou obtus, ou pour construire un angle droit.<br/>
+Utiliser le rapporteur pour :
+<ul class="tirets">
+<li>déterminer la mesure en degré d’un angle ;</li>
+<li>construire un angle de mesure donnée en degrés.</li>
 </ul>
-<strong>Compétences associées :</strong>
+<br class="spacer">
 <ul class="fleche">
-<li>passer d’un mode de représentation d’une fonction à un autre ;</li>
-<li>déterminer, à partir d’un mode de représentation, l’image ou un antécédent d’un nombre par une fonction ;</li>
-<li>représenter graphiquement une fonction linéaire, une fonction affine ;</li>
-<li>modéliser un phénomène continu par une fonction ;</li>
-<li>modéliser une situation de proportionnalité à l’aide d’une fonction linéaire ;</li>
-<li>résoudre des problèmes modélisés par des fonctions.</li>
+<li>Notion d’angle.</li>
+<li>Lexique associé aux angles : angle droit, aigu, obtus.</li>
+<li>Mesure en degré d’un angle.</li>
 </ul>
-@contenu:<p>La dépendance de deux grandeurs est traduite par un tableau de valeurs ou une formule.
+@contenu:<p>Dès le CM1, les élèves apprennent à repérer les angles d’une figure plane, puis à comparer ces angles par superposition (utilisation du papier calque) ou en utilisant un gabarit. Ils estiment, puis vérifient en utilisant l’équerre, qu’un angle est droit, aigu ou obtus.
 </p>
-@capacite:<p>La dépendance de deux grandeurs est traduite par un tableau de valeurs, une formule, un graphique. Les représentations graphiques permettent de déterminer des images et des antécédents, qui sont interprétés en fonction du contexte.</p>
-<p><em>La notation et le vocabulaire fonctionnels ne sont pas formalisés en 4<sup>e</sup>.</em></p>
-@commentaire:<p>Les notions de variable, de fonction, d’antécédent, d’image sont formalisées et les notations fonctionnelles sont utilisées. Un travail est mené sur le passage d’un mode de représentation d’une fonction (graphique, symbolique, tableau de valeurs) à un autre. Les fonctions affines et linéaires sont présentées par leurs expressions algébriques et leurs représentations graphiques. Les fonctions sont utilisées pour modéliser des phénomènes continus et résoudre des problèmes.
-</p>
+@capacite:<p>Dès le CM1, les élèves apprennent à repérer les angles d’une figure plane, puis à comparer ces angles par superposition (utilisation du papier calque) ou en utilisant un gabarit. Ils estiment, puis vérifient en utilisant l’équerre, qu’un angle est droit, aigu ou obtus.</p>
+@commentaire:<p>Avant d’utiliser le rapporteur, les élèves poursuivent le travail entrepris au CM en attribuant des mesures en degrés à des multiples ou sous-multiples de l’angle droit de mesure 90° (par exemple, on pourra considérer que la diagonale d’un carré partage l’angle droit en deux angles égaux de 45°).Les élèves apprennent à utiliser un rapporteur pour mesurer un angle en degrés ou construire un angle de mesure donnée en degrés.</p>
 @wims:Exercices
-@conclusion:<p>À l’issue d’activités rituelles de calcul et de verbalisation des procédures et la résolution de problèmes,
-menées tout au long du cycle, les élèves doivent avoir mémorisé ou automatisé :</p>
-<ul class="square">
-<li>différentes procédures de calcul d’une quatrième proportionnelle ;</li>
-<li>l’allure de la représentation graphique d’une fonction affine ou linéaire ;</li>
-<li>les procédures d’application et de calcul d’un pourcentage ou d’une échelle ;</li>
-<li>les procédures de recherche d’image et d’antécédent d’un nombre par une fonction.</li>
-</ul>
-@theme:Grandeurs et mesures
-@objectif:<p>En continuité avec le travail engagé au cycle 3, ce thème se prête particulièrement à des connexions avec les autres thèmes du programme et offre de nombreux liens avec la physique-chimie, les sciences de la vie et de la Terre, la géographie, l’éducation physique et sportive.<br/>
-Les élèves doivent disposer de références concrètes (savoir, par exemple, que la circonférence de la Terre est environ 40 000 km) et être capables d’estimer l'ordre de grandeur d'une mesure.<br/>
-À travers les activités sur les longueurs, les aires et les volumes, les élèves se construisent et utilisent un premier répertoire de formules. Par ailleurs, ce travail autour des formules s'inscrit dans l'introduction du calcul littéral.
-</p>
-@histoire:
-@titre:Calculer avec des grandeurs mesurables - Exprimer les résultats dans les unités adaptées
-@presentation:<strong>Connaissances :</strong>
-<ul class ="fleche">
-<li>notion de grandeur produit et de grandeur quotient ;</li>
-<li>aire du parallélogramme (obtenue à partir de celle du rectangle par découpage et recollement) ;</li>
-<li>volume d’un prisme, d’une pyramide, d’un cylindre, d’un cône, d’une boule ;</li>
-<li>correspondance entre unités de volume et de contenance (1 L = 1 \(\mathrm{dm}^3 \) , 1 000 L = 1 \(\mathrm{m} ^3\)).</li>
-</ul>
-<strong>Compétences associées :</strong>
-<ul class ="fleche">
-<li>mener des calculs impliquant des grandeurs mesurables, notamment des grandeurs composées, exprimer les résultats dans les unités adaptées ;</li>
-<li>vérifier la cohérence des résultats du point de vue des unités ;</li>
-<li>effectuer des conversions d’unités.</li>
-</ul>
-@contenu:<p>La connaissance des formules donnant les aires du rectangle, du triangle et du disque, ainsi que le volume du pavé droit est entretenue à travers la résolution de problèmes. Elle est enrichie par celles de l’aire du parallélogramme, du volume du prisme et du cylindre. La correspondance entre unités de volume et de contenance est faite. Les calculs portent aussi sur des durées et des horaires, en prenant appui sur des contextes issus d’autres disciplines ou de la vie quotidienne.<br/>
-Les élèves sont sensibilisés au contrôle de la cohérence des résultats du point de vue des unités.
-</p>
-@capacite:<p>Le lexique des formules s’étend au volume des pyramides et du cône. Le lien est fait entre le volume d’une pyramide (respectivement d’un cône) et celui du prisme droit (respectivement du cylindre) construit sur sa base et ayant même hauteur. Des grandeurs produits (par exemple trafic, énergie) et des grandeurs quotients (par exemple vitesse, débit, concentration, masse volumique) sont introduites à travers la résolution de problèmes. Les conversions d’unités sont travaillées.<br/>
-Les élèves sont sensibilisés au contrôle de la cohérence des résultats du point de vue des unités des grandeurs composées.
-</p>
-@commentaire:<p>La formule donnant le volume d’une boule est utilisée. Le travail sur les grandeurs mesurables et les unités est poursuivi. Il est possible de réinvestir le calcul avec les puissances de 10 pour les conversions d’unités.<br/>
-Par exemple, à partir de :<br/>
-\(1\ \mathrm{m}=10^2\ \mathrm{cm}\), il vient<br/>\(1\ \mathrm{m}^3\)=\((1\ \mathrm{m})^3\)=\((10^2\ \mathrm{cm})^3\)=\(10^6\ \mathrm{cm}^3\)<br/>
-ou, à partir de :<br/>
-\(1\ \mathrm{dm}=10^{-1}\ \mathrm{m}\), il vient<br/>
-\(1\ \mathrm{dm}^3\)=\((10^{-1}\ \mathrm{m})^3\)=\(10^{-3}\ \mathrm{m}^3\).
-</p>
-@wims:
-@titre:Comprendre l’effet de quelques transformations sur les figures géométriques.
-@presentation:<strong>Connaissances :</strong>
+@titre:Résoudre des problèmes impliquant des grandeurs (géométriques, physiques, économiques) en utilisant des nombres entiers et des nombres décimaux
+@presentation:Résoudre des problèmes de comparaison avec et sans recours à la mesure.<br/>
+Résoudre des problèmes dont la résolution mobilise simultanément des unités différentes de mesure
+et/ou des conversions.
+<hr/>
+Calculer des périmètres, des aires ou des volumes, en mobilisant ou non, selon les cas, des formules.
 <ul class="fleche">
-<li>effet d’un déplacement, d'un agrandissement ou d'une réduction sur les longueurs, les angles, les aires et les volumes.</li>
+<li>Formules donnant :
+<ul class="tirets2">
+<li>le périmètre d’un carré, d’un rectangle, la longueur d’un cercle ;</li>
+<li>l’aire d’un carré, d’un rectangle, d’un triangle, d’un disque ;</li>
+<li>le volume d’un cube, d’un pavé droit.</li>
 </ul>
-<strong>Compétences associées :</strong>
-<ul class="fleche">
-<li>utiliser un rapport de réduction ou d'agrandissement (architecture, maquettes) pour calculer des longueurs, des aires, des volumes ;</li>
-<li>utiliser l’échelle d’une carte ;</li>
-<li>utiliser des transformations pour calculer des grandeurs géométriques ;</li>
-<li>faire le lien entre la proportionnalité et certaines configurations ou transformations géométriques (agrandissement réduction, triangles semblables, homothéties).</li>
+</li>
 </ul>
-@contenu:<p>Les élèves connaissent et utilisent l’effet des symétries axiale et centrale sur les longueurs, les aires, les angles.</p>
-@capacite:<p>Les élèves connaissent et utilisent l’effet d’un agrandissement ou d’une réduction sur les longueurs, les aires et les volumes. Ils le travaillent en lien avec la proportionnalité.
-</p>
-@commentaire:<p>Les élèves connaissent et utilisent l’effet des transformations au programme (symétries, translations, rotations, homothéties) sur les longueurs, les angles, les aires et les volumes.<br/>
-Le lien est fait entre la proportionnalité et certaines configurations ou transformations géométriques (triangles semblables, homothéties).</p>
+@contenu:
+@capacite:
+@commentaire:
 @wims:
-@conclusion:<p>À l’issue d’activités rituelles de calcul et de verbalisation de procédures et la résolution de problèmes, effectuées tout au long du cycle, les élèves doivent avoir mémorisé et automatisé les formules donnant les longueurs, aires, volumes des figures et solides figurant au programme, ainsi que les procédures de conversion d’unités.</p>
+@titre:Résoudre des problèmes impliquant des grandeurs (géométriques, physiques, économiques) en utilisant des nombres entiers et des nombres décimaux : Les durées
+@presentation:Calculer la durée écoulée entre deux instants donnés.<br/>
+Déterminer un instant à partir de la connaissance d’un instant et d’une durée.<br/>
+Connaître et utiliser les unités de mesure des durées et leurs relations :
+<ul class="fleche">
+<li>unités de mesures usuelles : jour, semaine, heure, minute, seconde, dixième de seconde, mois, année, siècle, millénaire.</li>
+</ul>
+Résoudre des problèmes en exploitant des ressources variées (horaires de transport, horaires de marées, programmes de cinéma ou de télévision, etc.).
+@contenu:<p>Tout au long de l’année, les élèves consolident la lecture de l’heure et l’utilisation des unités de mesure des durées et de leurs relations; des conversions peuvent être nécessaires (siècle/années; semaine/jours; heure/minutes; minute/secondes).<br/>
+Ils les réinvestissent dans la résolution de problèmes de deux types: calcul d’une durée connaissant deux instants et calcul d’un instant connaissant un instant et une durée.</p>
+@capacite:<p>Tout au long de l’année, les élèves poursuivent le travail d’appropriation des relations entre les unités de mesure des durées.<br/>
+Des conversions nécessitant l’interprétation d’un reste peuvent être demandées (transformer des heures en jours, avec un reste en heures ou des secondes en minutes, avec un reste en secondes).</p>
+@commentaire:<p>Selon les situations, les élèves utilisent leurs acquis de CM sur les durées.<br/>
+Des conversions nécessitant deux étapes de traitement peuvent être demandées (transformer des heures en semaines, jours et heures; transformer des secondes en heures, minutesetsecondes)</p>
+@wims:
+@titre:Résoudre des problèmes impliquant des grandeurs (géométriques, physiques, économiques) en utilisant des nombres entiers et des nombres décimaux : Proportionnalité
+@presentation:Identifier une situation de proportionnalité entre deux grandeurs à partir du sens de la situation. Résoudre un problème de proportionnalité impliquant des grandeurs.
+@contenu:<p>Les élèves commencent à identifier et à résoudre des problèmes de proportionnalité portant sur des grandeurs.</p>
+@capacite:<p>Des situations très simples impliquant des échelles et des vitesses constantes peuvent être rencontrées.</p>
+@commentaire:<p>Sur des situations très simples en relation avec l’utilisation d’un rapporteur, les élèvesconstruisent des représentations de données sous la forme de diagrammes circulaires ou semi-circulaires.</p>
+@wims:
+@conclusion:
 @theme:Espace et géométrie
-@objectif:<p>Au cycle 3, les élèves ont découvert différents objets géométriques, qui continuent à être rencontrés au cycle 4. Ils valident désormais par le raisonnement et la démonstration les propriétés qu'ils conjecturent. Les définitions et propriétés déjà vues au cycle 3 ainsi que les nouvelles propriétés introduites au cycle 4 (caractérisation angulaire du parallélisme, somme des angles d’un triangle, inégalité triangulaire, théorèmes de Thalès et de Pythagore) fournissent un éventail d'outils nourrissant la mise en œuvre de raisonnements et démonstrations. De nouvelles transformations (symétries centrales, translations, rotations, homothéties) font l'objet d'une première approche, basée sur l’observation de leur effet sur des configurations planes, essentiellement à partir de manipulations concrètes (papier calque, papier pointé, quadrillage, etc.) ou virtuelles (logiciel de géométrie dynamique). L’objectif est d’installer des images mentales qui faciliteront ultérieurement l’analyse de figures géométriques ainsi que la définition ponctuelle des transformations
-étudiées.
+@objectif:<p>À l’articulation de l’école primaire et du collège, le cycle 3 constitue une étape importante dans l’approche des concepts géométriques. Prolongeant le travail amorcé au cycle 2, les activités permettent aux élèves de passer progressivement  d'une  géométrie  où  les  objets  (le  carré,  la  droite,  le  cube,  etc.)  et  leurs  propriétés  sont  essentiellement  contrôlés  par  la  perception  à  une  géométrie  où  le  recours  à  des  instruments  devient  déterminant,  pour  aller  ensuite  vers  une  géométrie  dont  la  validation  s’appuie  sur  le  raisonnement  et l’argumentation.   Différentes   caractérisations   d’un   même   objet   ou   d’une   même   notion   s’enrichissant   mutuellement permettent aux élèves de passer du regard ordinaire porté sur un dessin au regard géométrique porté sur une figure.<br/>
+Les  situations  faisant  appel  à  différents  types  de  tâches  (reconnaître,  nommer,  comparer,  vérifier,  décrire,  reproduire,  représenter,  construire)  portant  sur  des  objets  géométriques,  sont  privilégiées  afin  de  faire  émerger des concepts géométriques (caractérisations et propriétés des objets, relations entre les objets) et de les enrichir. Un jeu sur les contraintes de la situation, sur les supports et les instruments mis à disposition des élèves,   permet   une   évolution   des   procédures   de   traitement   des   problèmes   et   un   enrichissement   des connaissances.<br/>
+Les professeurs veillent à utiliser un langage précis et adapté pour décrire les actions et les gestes réalisés par les  élèves  (pliages,  tracés  à  main  levée  ou  avec  utilisation  de  gabarits  et  d’instruments  usuels  ou  lors  de  l’utilisation de logiciels). Ceux-ci sont progressivement encouragés à utiliser ce langage.<br/>
+Les  activités  spatiales  et  géométriques  sont  à  mettre  en  lien  avec  les  deux  autres  thèmes  :  résoudre  dans  un  autre  cadre  des  problèmes  relevant  de  la  proportionnalité ;  utiliser  en  situation  les  grandeurs  (géométriques) et  leur  mesure.  Par  ailleurs,  elles  constituent  des  moments  privilégiés  pour  une  première  initiation  à  la  programmation notamment à travers la programmation de déplacements ou de construction de figures.
 </p>
+<p><em>Il est possible,lors de la résolution de problèmes,d’aller avec certains élèves ou toute la classe au-de là des repères de progression identifiés pour chaque niveau.</em></p>
 @histoire:
-@titre:Représenter l’espace
-@presentation:<strong>Connaissances :</strong>
+@titre:(Se) repérer et (se) déplacer dans l’espace en utilisant ou en élaborant des représentations
+@presentation:Se repérer, décrire ou exécuter des déplacements, sur un plan ou sur une carte (école, quartier, ville, village)<br/>
+Accomplir, décrire, coder des déplacements dans des espaces familiers.<br/>
+Programmer les déplacements d’un robot ou ceux d’un personnage sur un écran en utilisant un logiciel de programmation.
 <ul class="fleche">
-<li>abscisse, ordonnée, altitude ;</li>
-<li>latitude, longitude.</li>
+<li>vocabulaire permettant de définir des positions et des déplacements (tourner à gauche, à droite ; faire demi-tour, effectuer un quart de tour à droite, à gauche) ;</li>
+<li>divers modes de représentation de l’espace : maquettes, plans, schémas.</li>
 </ul>
-<strong>Compétences associées :</strong>
-<ul class="fleche">
-<li>(se) repérer sur une droite graduée, dans le plan muni d'un repère orthogonal, dans un parallélépipède rectangle, sur une sphère ;</li>
-<li>reconnaître des solides (pavé droit, cube, prisme, cylindre, pyramide, cône, boule) ;</li>
-<li>construire et mettre en relation des représentations de ces solides (vues en perspective cavalière, de face, de dessus, sections planes, patrons, etc.) ;</li>
-<li>utiliser un logiciel de géométrie dynamique pour représenter des solides.</li>
-</ul>
-@contenu:<p>Le repérage se fait sur une droite graduée ou dans le plan muni d’un repère orthogonal.</p>
-<p>Dans la continuité de ce qui a été travaillé au cycle 3, la reconnaissance de solides (pavé droit, cube, cylindre, pyramide, cône, boule) s’effectue à partir d’un objet réel, d’une image, d’une représentation en perspective cavalière ou sur un logiciel de géométrie dynamique.
-</p>
-<p>Les élèves construisent et mettent en relation une représentation en perspective cavalière et un patron d’un pavé droit ou d’un cylindre.
-</p>
-@capacite:<p>Le repérage se fait dans un pavé droit (abscisse, ordonnée, altitude). Les élèves produisent et mettent en relation une représentation en perspective cavalière et un patron d’une pyramide ou d’un cône.</p>
-@commentaire:<p>Le repérage s’étend à la sphère (latitude, longitude). Un logiciel de géométrie est utilisé pour visualiser des solides et leurs sections planes. Les élèves produisent et mettent en relation différentes représentations des solides étudiés (patrons, représentation en perspective cavalière, vues de face, de dessus, en coupe).</p>
+@contenu:
+@capacite:
+@commentaire:
 @wims:
-@titre:Utiliser les notions de géométrie plane pour démontrer &#8212; Figures et configurations
-@presentation:<strong>Connaissances : </strong>
-<ul class ="fleche">
-<li>caractérisation angulaire du parallélisme: angles alternes internes, angles correspondants;</li>
-<li>triangle:
-    <ul class="square2">
-        <li>somme des angles d’un triangle (démonstration possible en utilisant les angles correspondants) ;</li>
-        <li>hauteurs et médiatrices ;</li>
-        <li>inégalité triangulaire ; </li>
-        <li>cas d’égalité des triangles ;</li>
-        <li>triangles semblables (une définition et une propriété caractéristique).</li>
+@titre:(Se) repérer et (se) déplacer dans l’espace en utilisant ou en élaborant des représentations : Les apprentissages spatiaux
+@presentation:Dans la continuité du cycle 2 et tout au long du cycle, les apprentissages spatiaux, en une, deux ou trois dimensions, se réalisent à partir de problèmes de repérage de déplacement d’objets, d’élaboration de représentation dans des espaces réels, matérialisés (plans, cartes...) ou numériques.
+@contenu:
+@capacite:
+@commentaire:
+@wims:Exercices
+@titre:(Se) repérer et (se) déplacer dans l’espace en utilisant ou en élaborant des représentations : Initiation à la programmation
+@presentation:
+@contenu:Au CM1 puis au CM2, les élèves apprennent à programmer le déplacement d’un personnage sur un écran.<br/>
+Ils commencent par compléter de tels programmes, puis ils apprennent à corriger un programme erroné. Enfin, ils créent eux-mêmes des programmes permettant d’obtenir des déplacements d’objets ou de personnages.<br/>
+Les instructions correspondent à des déplacements absolus (liés à l’environnement: «aller vers l’ouest», «aller vers la fenêtre») ou relatifs (liés au personnage: «tourner d’un quart de tour à gauche»).
+@capacite:Au CM1 puis au CM2, les élèves apprennent à programmer le déplacement d’un personnage sur un écran.<br/>
+Ils commencent par compléter de tels programmes, puis ils apprennent à corriger un programme erroné. Enfin, ils créent eux-mêmes des programmes permettant d’obtenir des déplacements d’objets ou de personnages.<br/>
+Les instructions correspondent à des déplacements absolus (liés à l’environnement: «aller vers l’ouest», «aller vers la fenêtre») ou relatifs (liés au personnage: «tourner d’un quart de tour à gauche»).
+@commentaire:La construction de figures géométriques de simples à plus complexes, permet d’amener les élèves vers larépétition d’instructions.<br/>
+Ils peuvent commencer à programmer, seuls ou en équipe, des saynètes impliquant un ou plusieurs personnages interagissant ou se déplaçant simultanément ou successivement.
+@wims:
+@titre:Reconnaître, nommer, décrire, reproduire, représenter, construire quelques solides et figures géométriques
+@presentation:Reconnaître, nommer, décrire des figures simples ou complexes (assemblages de figures simples) :
+<ul class="tirets">
+<li>triangles, dont les triangles particuliers (triangle rectangle, triangle isocèle, triangle équilatéral) ;</li>
+<li>quadrilatères, dont les quadrilatères particuliers (carré, rectangle, losange, première approche du parallélogramme) ;</li>
+<li>cercle (comme ensemble des points situés à une distance donnée d’un point donné), disque.</li>
+ </ul>
+ <p>Reconnaître, nommer, décrire des solides simples ou des assemblages de solides simples : cube, pavé droit, prisme droit, pyramide, cylindre, cône, boule</p>
+ <ul class="fleche">
+<li>vocabulaire associé à ces objets et à leurs propriétés : côté, sommet, angle, diagonale, polygone, centre, rayon, diamètre, milieu, hauteur solide, face, arête.</li>
+</ul>
+Reproduire, représenter, construire : 
+<ul class="tirets">
+<li>des figures simples ou complexes (assemblages de figures simples) ;</li>
+<li>des solides simples ou des assemblages de solides simples sous forme de maquettes ou de dessins ou à partir d’un patron (donné, dans le cas d’un prisme ou d’une pyramide, ou à construire dans le cas d’un pavé droit).</li>
+</ul>
+Réaliser, compléter et rédiger un programme de construction d’une figure plane.<br/>
+Réaliser une figure plane simple ou une figure composée de figures simples à l’aide d’un logiciel de géométrie dynamique.
+@contenu:
+@capacite:
+@commentaire:
+@wims:Exercices
+@titre:Reconnaître, nommer, décrier, reproduire, représenter, construire quelques solides et figures géométriques : Les apprentissages géométriques
+@presentation:
+@contenu:<p>Les élèves tracent avecl’équerre la droite perpendiculaire à une droite donnée en un point donné de cette droite.<br/>
+Ils tracent un carré ou un rectangle de dimensions données.<br/>
+Ils tracent un cercle de centre et de rayon donnés, un triangle rectangle de dimensions données.<br/>
+Ils apprennent à reconnaître et à nommer une boule, un cylindre, un cône, un cube, un pavé droit, un prisme droit,une pyramide.<br/>
+Ils apprennent à construire un patron d’un cube de dimension donnée.</p>
+@capacite:<p>Les élèves apprennent à reconnaître et nommer un triangle isocèle, un triangle équilatéral, un losange,ainsi qu’à les décrire à partir des propriétés de leurs côtés.<br/>
+Ils tracent avec l’équerre la droite perpendiculaire à une droite donnée passant par un point donné qui peut être extérieur à la droite.<br/>
+Ils tracent la droite parallèle à une droite donnée passant par un point donné.<br/>
+Ils apprennent à construire, pour un cube de dimension donnée, des patrons différents.<br/>
+Ils apprennent à reconnaître, parmi un ensemble de patrons et de faux patrons donnés, ceux qui correspondent à un solide donné: cube, pavé droit, pyramide</p>
+@commentaire:<p>Les élèves sont confrontés à la nécessité de représenter une figure à main levée avant d’en faire un tracé instrumenté. C’est l’occasion d’instaurer le codage de la figure à main levée (au fur et à mesure, égalités de longueurs, perpendicularité, égalité d’angles).<br/>Les figures étudiées sont de plus en plus complexes et les élèves les construisent à partir d’un programme de construction. Ils utilisent selon les cas les figures à main levée, les constructions aux instruments et l’utilisation d’un logiciel de géométrie dynamique.<br/>
+Ils définissent et différencient le cercle et le disque.<br/>
+Ils réalisent des patrons de pavés droits. Ils travaillent sur des assemblages de solides simples.</p>
+@wims:
+@titre:Reconnaître, nommer, décrier, reproduire, représenter, construire quelques solides et figures géométriques : Le raisonnement
+@presentation:La dimension perceptive, l’usage des instruments et les propriétés élémentaires des figures sont articulés tout au long du cycle.
+@contenu:
+Le raisonnement peut prendre appui sur différents types de codage :
+<ul class="tirets">
+<li>signe ajouté aux traits constituant la figure (signe de l’angle droit, mesure, coloriage...) ;</li>
+<li>qualité particulière du trait lui-même (couleur, épaisseur, pointillés, trait à main levée...) ;</li>
+<li>élément de la figure qui traduit une propriété implicite (appartenance ou non appartenance, égalité...) ;</li>
+<li>nature du support de la figure (quadrillage, papier à réseau pointé, papier millimétré).</li>
+</ul>
+<p>Un vocabulaire spécifique est employé dès le début du cycle pour désigner des objets, des relations et des propriétés.</p>
+@capacite:Le raisonnement peut prendre appui sur différents types de codage :
+<ul class="tirets">
+<li>signe ajouté aux traits constituant la figure (signe de l’angle droit, mesure, coloriage...) ;</li>
+<li>qualité particulière du trait lui-même (couleur, épaisseur, pointillés, trait à main levée...) ;</li>
+<li>élément de la figure qui traduit une propriété implicite (appartenance ou non appartenance, égalité...) ;</li>
+<li>nature du support de la figure (quadrillage, papier à réseau pointé, papier millimétré).</li>
+</ul>
+<p>On amène progressivement les élèves à dépasser la dimension perceptive et instrumentée des propriétés des figures planes pour tendre vers le raisonnement hypothético-déductif.<br/>
+Il s'agit de conduire sans formalisme des raisonnements simples utilisant les propriétés des figures usuelles ou de la symétrie axiale.</p>
+@commentaire:<p>Tout le long de l’année se poursuit le travail entrepris au CM2 visant à faire évoluer la perception qu’ont les élèves des activités géométriques (passer de l’observation et du mesurage au codage et au raisonnement).<br/>
+On s’appuie sur l’utilisation des codages.<br/>
+Les élèves utilisent les propriétés relatives aux droites parallèles ou perpendiculaires pour valider la méthode de construction d’une parallèle à la règle et à l’équerre, et établir des relations de perpendicularité ou de parallélisme entre deux droites.<br/>
+Ils complètent leurs acquis sur les propriétés des côtés des figures par celles sur les diagonales et les angles.<br/>
+Dès que l’étude dela symétrie est suffisamment avancée, ils utilisent les propriétés de conservation de longueur, d’angle, d’aire et de parallélisme pour justifier une procédure de la construction de la figure symétrique ou pour répondre à des problèmes de longueur, d’angle, d’aire ou de parallélisme sans recours à une vérification instrumentée.</p>
+@wims:Exercices
+@titre:Reconnaître et utiliser quelques relations géométriques
+@presentation:<strong>Relations de perpendicularité et de parallélisme</strong>
+<ul class="tirets">
+<li>tracer avec l’équerre la droite perpendiculaire à une droite donnée passant par un point donné ;</li>
+<li>tracer avec la règle et l’équerre la droite parallèle à une droite donnée passant par un point donné ;</li>
+<li>déterminer le plus court chemin entre un point et une droite.</li>
+</ul>
+<ul class="fleche">
+<li>Alignement, appartenance.</li>
+<li>Perpendicularité, parallélisme.</li>
+<li>Segment de droite.</li>
+<li>Distance entre deux points, entre un point et une droite.</li>
+</ul>
+@contenu:
+@capacite:
+@commentaire:
+@wims:
+@titre:Reconnaître et utiliser quelques relations géométriques : Le vocabulaire et les notations
+@presentation:Tout au long du cycle, les notations \(\left(AB\right)\), \(\lbrack AB)), \(\lbrack AB\rbrack\), \(AB\), sont toujours précédées du nom de l’objet qu’elles désignent : droite \(\left(AB\right)\), demi-droite \( \lbrack AB)), segment \(\lbrack AB\rbrack\), longueur \(AB\). Les élèves apprennent à utiliser le symbole d’appartenance (\({}\in{}\)) d’un point à une droite, une demi-droite ou un segment.<br/>
+Le vocabulaire et les notations nouvelles  (\({}\in{}\), \(\left(AB\right)\), \(\lbrack AB)), \(\lbrack AB\rbrack\), \(AB\), \(\widehat{AOB}\)) sont introduits au fur et à  mesure de leur utilité, et non au départ d’un apprentissage.
+@contenu:<p>Le vocabulaire utilisé est le même qu’en fin de cycle 2: côté, sommet, angle, angle droit, face, arête, milieu, droite, segment.<br/>
+Les élèves commencent à rencontrer la notation «segment [AB]» pour désigner le segment d’extrémités A et B mais cette notation n’est pas exigible ; pour les droites, on parle de la droite «qui passe par les points A et B», ou de «la droite d».</p>
+@capacite:<p>Les élèves commencent à rencontrer la notation «droite \((AB)\)», et nomment les angles par leur sommet: par exemple,«l’angle \(\hat{A}\)»</p>
+@commentaire:<p>es élèves utilisent la notation \(AB\) pour désigner la longueur d’un segment qu’ils différencient de la notation du segment \([AB]\).<br/>
+Dès que l’on utilise les objets concernés, les élèves utilisent aussi la notation «angle \(\widehat{ABC}\)», ainsi que la notation courante pour les demi-droites.<br/>
+Les élèves apprennent à rédiger un programme de construction en utilisant le vocabulaire et les notations appropriés pour des figures simples au départ puis pour des figures plus complexes au fil des périodes suivantes.</p>
+@wims:Exercices
+@titre:Reconnaître et utiliser quelques relations géométriques : Les instruments
+@presentation:
+@contenu:<p>Tout au long de l’année, les élèves utilisent la règle graduée ou non graduée ainsi que des bandes de papier à bord droit pour reporter des longueurs.<br/>Ils utilisent l’équerre pour repérer ou construire un angle droit.<br/>Ils utilisent aussi d’autres gabarits d’angle ainsi que du papier calque.<br/>Ils utilisent le compas pour tracer un cercle, connaissant son centre et un point du cercle ou son centre et la longueur d’un rayon, ou bien pour reporter une longueur.</p>
+@capacite:<p>Le travail sur les angles se poursuit, notamment sur des fractions simples de l’angle droit (ex: un «demi angle droit», «un tiers d’angle droit», «l’angle plat comme la somme de deux anglesdroits»).<br/>
+Les élèves doivent comprendre que la mesure d’un angle («l’ouverture» formée par les deux demi-droites) ne change pas lorsque l’on prolonge ces demi-droites.</p>
+@commentaire:<p>Les élèves se servent des instruments (règle, équerre, compas) pour reproduire des figures simples, notamment un triangle de dimensions données. Cette utilisation est souvent combinée à des tracés préalables codés à main levée.<br/>
+Ils utilisent le rapporteur pour mesurer et construire des angles.<br/>
+Dès que le cercle a été défini, puis que la propriété caractéristique de la médiatrice d’un segment est connue, les élèves peuvent enrichir leurs procédures de construction à la règle et au compas.</p>
+@wims:Exercices
+@titre:Reconnaître et utiliser quelques relations géométriques : La symétrie axiale
+@presentation:Compléter une figure par symétrie axiale.<br/>
+Construire le symétrique d’un point, d’un segment, d’une droite par rapport à un axe donné. Construire la figure symétrique d'une figure donnée par rapport à un axe donné :
+<ul class="fleche">
+<li>figure symétrique, axe de symétrie d’une figure, figures symétriques par rapport à un axe ;</li>
+<li>propriétés de conservation de la symétrie axiale ;</li>
+<li>médiatrice d’un segment :
+    <ul class="tirets2">
+    <li>définition : droite perpendiculaire au segment en son milieu ;</li>
+    <li>caractérisation : ensemble des points équidistants des extrémités du segment.</li>
     </ul>
 </li>
-<li>parallélogramme (une définition et une propriété caractéristique) ;</li>
-<li>le théorème de Thalès et sa réciproque (configurations des triangles emboîtés et du papillon) ;</li>
-<li>le théorème de Pythagore et sa réciproque ;</li>
-<li>lignes trigonométriques dans le triangle rectangle : cosinus, sinus, tangente.</li>
 </ul>
-<strong>Compétences associées : </strong>
+<hr/>
+Reconnaître si une figure présente un axe de symétrie: on conjecture visuellement l’axe à trouver et on valide cette conjecture en utilisant du papier calque, des découpages, des pliages.<br/>
+Compléter une figure pour qu'elle devienne symétrique par rapport à un axe donné.
+<ul class="tirets">
+<li>Symétrie axiale.</li>
+<li>Figure symétrique, axe de symétrie d’une figure, figures symétriques par rapport à un axe.</li>
+<li>Propriétés conservées par symétrie axiale.</li>
+</ul>
+@contenu:<p>Les élèves reconnaissent qu’une figure admet un (ou plusieurs) axe de symétrie, visuellement et/ou par pliage ou en utilisant du papier calque. Ils complètent une figure par symétrie ou construisent le symétrique d’une figure donnée par rapport à un axe donné, par pliage et piquage ou en utilisant du papier calque.</p>
+@capacite:<p>Ils observent que deux points sont symétriques par rapport à une droite donnée lorsque le segment qui les joint coupe cette droite perpendiculairement en son milieu.<br/>
+Ils construisent, à l’équerre et à la règle graduée, le symétrique d’un point, d’un segment, d’une figure par rapport à une droite.</p>
+@commentaire:<p>Les élèves consolident leurs acquis du CM sur la symétrie axiale et font émerger l’image mentale de la médiatrice d’une part etcertaines conservations par symétrie d’autre part.<br/>
+Ils donnent du sens aux procédures utilisées en CM2 pour la construction de symétriques à la règle et à l’équerre.</p>
+À cette occasion:
+<ul class="tirets">
+<li>la médiatrice d’un segment est définie et les élèves apprennent à la construire à la règle et à l’équerre ;</li>
+<li>ils étudient les propriétés de conservation de la symétrie axiale.</li>
+</ul>
+En lien avec les propriétés de la symétrie axiale, ils connaissent la propriété caractéristique de la médiatrice d’un segment et l’utilisent à la fois pour tracer à la règle non graduée et au compas :
+<ul class="tirets">
+<li>la médiatrice d’un segment donné ;</li>
+<li>la figure symétrique d’une figure donnée par rapport à une droite donnée.</li>
+</ul>
+
+@wims:Exercices
+@titre:Reconnaître et utiliser quelques relations géométriques : La proportionnalité
+@presentation:Reproduire une figure en respectant une échelle donnée :
 <ul class="fleche">
-    <li>mettre en œuvre ou écrire un protocole de construction d’une figure géométrique ;</li>
-    <li>faire le lien entre les cas d’égalité des triangles et la construction d’un triangle à partir de la donnée de longueurs des côtés et/ou de mesures d’angles ;</li>
+<li>agrandissement ou réduction d’une figure.</li>
 </ul>
-@contenu:<p>La caractérisation angulaire du parallélisme (angles alternes-internes et angles correspondants) est énoncée. La valeur de la somme des angles d’un triangle peut être démontrée et est utilisée. L’inégalité triangulaire est énoncée. Le lien est fait entre l’inégalité triangulaire et la construction d’un triangle à partir de la donnée de trois longueurs. Des constructions de triangles à partir de la mesure d’une longueur et de deux angles ou d’un angle et de deux longueurs sont proposées.
-</p>
-<p>Le parallélogramme est défini à partir de l’une de ses propriétés:parallélisme des couples de côtésopposés ou intersection des diagonales. L’autre propriété est démontrée et devient une propriété caractéristique. Il est alors montré que les côtés opposés d’un parallélogramme sont deux à deux de même longueur grâce aux propriétés de la symétrie.
-</p>
-<p>Les propriétés relatives aux côtés et aux diagonales d’un parallélogramme sont mises en œuvre pour effectuer des constructions et mener des raisonnements.
-</p>
-<p>Les élèves consolident le travail sur les codages de figures:interprétation d’une figure codée ou réalisation d’un codage.
-</p>
-<p>Les élèves découvrent de nouvelles droites remarquables du triangle :les hauteurs. Ils poursuivent le travail engagé au cycle 3 sur la médiatrice dans le cadre de résolution de problèmes. Ils peuvent par exemple être amenés à démontrer que les médiatrices d’un triangle sont concourantes.
-</p>
-@capacite:<p>Les cas d’égalité des triangles sont présentés et utilisés pour résoudre des problèmes. Le lien est fait avec la construction d’un triangle de mesures données (trois longueurs, une longueur et deux angles, deux longueurs et un angle). Le théorème de Thalès et sa réciproque dans la configuration des triangles emboîtés sont énoncés et utilisés, ainsi que le théorème de Pythagore (plusieurs démonstrations possibles) et sa réciproque. La définition du cosinus d’un angle d’un triangle rectangle découle, grâce au théorème de Thalès, de l’indépendance du rapport des longueurs le définissant.</p>
-<p><em>Une progressivité dans l’apprentissage de la recherche de preuve est aménagée, de manière à encourager les élèves dans l’exercice de la démonstration. Aucun formalisme excessif n’est exigé dans la rédaction.</em></p>
-@commentaire:<p>Une définition et une caractérisation des triangles semblables sont données. Le théorème de Thalès et sa réciproque dans la configuration du papillon sont énoncés et utilisés (démonstration possible, utilisant une symétrie centrale pour se ramener à la configuration étudiée en quatrième). Les lignes trigonométriques (cosinus, sinus, tangente) dans le triangle rectangle sont utilisées pour calculer des longueurs ou des angles.
-</p>
-<p>Deux triangles semblables peuvent être définis par la proportionnalité des mesures de leurs côtés. Une caractérisation angulaire de cette définition peut être donnée et démontrée à partir d’un cas d’égalité des triangles et d’une caractérisation angulaire du parallélisme.
-</p>
-@wims:
-@titre:Utiliser les notions de géométrie plane pour démontrer &#8212; Transformations
-@presentation:<strong>Compétences associées : </strong>
-<ul class="fleche">
-<li>comprendre l’effet d’une translation, d’une symétrie (axiale et centrale), d’une rotation, d’une homothétie sur une figure ;</li>
-<li>mobiliser les connaissances des figures, des configurations et des transformations au programme pour déterminer des grandeurs géométriques ;</li>
-<li>mener des raisonnements et s’initier à la démonstration en utilisant les propriétés des figures, des configurations et des transformations.</li>
-</ul>
-<p><em>Les définitions ponctuelles d’une rotation, d’une translation, d’une homothétie ne figurent pas au programme.</em></p>
-@contenu:<p>Les élèves transforment (à la main ou à l’aide d’un logiciel) une figure par symétrie centrale. Cela permet de découvrir les propriétés de la symétrie centrale (conservation de l’alignement, du parallélisme, des longueurs, des angles) qui sont ensuite admises et utilisées. Le lien est fait entre la symétrie centrale et le parallélogramme. Les élèves identifient des symétries axiales ou centrales dans des frises, des pavages, des rosaces.
-</p>
-@capacite:<p>Les élèves sont amenés à transformer (à la main ou à l’aide d’un logiciel) une figure par translation. Ils identifient des translations dans des frises ou des pavages;le lien est alors fait entre translation et parallélogramme.
-</p>
-<p><em>La définition ponctuelle d’une translation ne figure pas au programme.Toutefois, par commodité, la translation transformant le point \(A\) en le point \(B\) pourra être nommée «translation de vecteur \(\overrightarrow{AB}\)», mais aucune connaissance n’est attendue sur l’objet «vecteur».</em>
-</p>
-@commentaire:<p>Les élèves transforment (à la main ou à l’aide d’un logiciel) une figure par rotation et par homothétie (de rapport positif ou négatif). Le lien est fait entre angle et rotation, entre le théorème de Thalès et les homothéties.
-</p>
-<p>Les élèves identifient des transformations dans des frises, des pavages, des rosaces.</p>
-<p><em>Les définitions ponctuelles d’une translation, d’une rotation et d’une homothétie ne figurent pas au programme.</em></p>
-<p><em>Pour faire le lien entre les transformations et les configurations du programme, il est possible d’identifier (à la main ou à l’aide d’un logiciel de géométrie) l’effet, sur un triangle donné, de l’enchaînement d’une translation, d’une rotation et d’une homothétie, voire d’une symétrie axiale et réciproquement, pour deux triangles semblables donnés, chercher des transformations transformant l’un en l’autre.</em></p>
-@wims:
+@contenu:<p></p>
+@capacite:<p>Les élèves agrandissent ou réduisent une figure dans un rapport simple donné (par exemple \(\times \frac{1}{2}\) ,\({}\times {2}\) , \({}\times {3}\) ).</p>
+@commentaire:<p>Les élèves agrandissent ou réduisent une figure dans un rapport plus complexe qu’au CM2 (par exemple \(\frac{3}{2}\) ou \(\frac{3}{4}\)) ; ils reproduisent une figure à une échelle donnée et complètent un agrandissement ou une réduction d’une figure donnée à partir de la connaissance d’une des mesures agrandie ou réduite.</p>
+@wims:Exercices
 @conclusion:
 @theme:Croisements entre enseignements
 @objectif:
