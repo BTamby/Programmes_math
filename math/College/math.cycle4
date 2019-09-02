@@ -1,5 +1,5 @@
 @titreniveau:Mathématiques Cycle 4 (En cours de création)
-@datewims:Dernière mise à jour le 07/08/2019 (Euler Versailles).<br/>Texte créé à partir des documents : <br/r>programmes d'enseignement &#8212; <a href = "https://cache.media.education.gouv.fr/file/30/62/8/ensel169_annexe3_985628.pdf" target="_blank">B.O. n°30 du 26 juillet 2018</a><br/>repères annuels de progression pour le cycle 4 &#8212; <a href="https://cache.media.education.gouv.fr/file/20/36/2/ensel283_annexe26_1120362.pdf" target="_blank">B.O. n°22 du 29 mai 2019</a>.
+@datewims:Dernière mise à jour le 02/09/2019 (Euler Versailles).<br/>Texte créé à partir des documents : <br/r>programmes d'enseignement &#8212; <a href = "https://cache.media.education.gouv.fr/file/30/62/8/ensel169_annexe3_985628.pdf" target="_blank">B.O. n°30 du 26 juillet 2018</a><br/>repères annuels de progression pour le cycle 4 &#8212; <a href="https://cache.media.education.gouv.fr/file/20/36/2/ensel283_annexe26_1120362.pdf" target="_blank">B.O. n°22 du 29 mai 2019</a>.
 @level:1
 @ressources:https://euler.ac-versailles.fr/rubrique176.html
 @intro:
@@ -9,10 +9,10 @@ Une place importante doit être accordée à la <strong>résolution de problème
 La formation au <strong>raisonnement</strong> et l’initiation à la <strong>démonstration</strong> sont des objectifs essentiels du cycle 4. Le raisonnement, au cœur de l'activité mathématique, doit prendre appui sur des situations variées (par exemple problèmes de nature arithmétique ou géométrique, mais également mise au point d’un programme qui doit tourner sur un ordinateur ou pratique de jeux pour lesquels il faut développer une stratégie gagnante, individuelle ou collective, ou maximiser ses chances).<br/>
 Le programme du cycle 4 permet d’initier l’élève à différents types de raisonnement, le raisonnement déductif, mais aussi le raisonnement par disjonction de cas ou par l’absurde. La démonstration, forme d’argumentation propre aux mathématiques, vient compléter celles développées dans d’autres disciplines et contribue fortement à la formation de la personne et du citoyen (domaine 3 du socle). L’apprentissage de la démonstration doit se faire de manière progressive, à travers la pratique (individuelle, collective, ou par groupes), mais aussi par l’exemple. C’est pourquoi il est important que le cours de mathématiques ne se limite pas à l’application de recettes et de règles, mais permette de mettre en place quelques démonstrations accessibles aux élèves. De nombreux résultats figurant dans ce programme peuvent être démontrés en classe, selon des modalités variées : certaines démonstrations peuvent être élaborées et mises au point par les élèves eux-mêmes (de manière individuelle ou collective), sous la conduite plus ou moins forte du professeur ; d’autres, inaccessibles à la recherche des élèves, tireront leur profit des explications et des commentaires apportés par le professeur. Certaines démonstrations possibles (aussi bien sur les nombres et le calcul qu’en géométrie) sont identifiées dans le programme. Les enseignants ont la liberté de choisir ceux des résultats qu’ils souhaitent démontrer ou faire démontrer, en fonction du niveau et des besoins de leurs élèves. Enfin, il vaut mieux déclarer « admise » une propriété non démontrée dans le cours (qui pourra d’ailleurs l’être ultérieurement), plutôt que de la présenter comme une « règle ». Une propriété admise gagne à être explicitée, commentée, illustrée.<br/>
 En complément, dans le cadre du travail personnel soumis aux élèves, beaucoup d’exercices et de problèmes peuvent servir de support à la démonstration. De manière à encourager les élèves dans l’exercice de la démonstration, il est important de ménager une progressivité dans l’apprentissage de la recherche de preuve et de ne pas avoir trop d’exigences concernant le formalisme.<br/>
-L’apprentissage des mathématiques est facilité si la présentation des notions est faite sous <strong>différents angles</strong>, correspondant parfois à des niveaux de généralité et d’abstraction différents. À titre d’exemples, les nombres négatifs peuvent être reliés à des contextes familiers des élèves (températures, gains et pertes, altitudes et profondeurs), puis être représentés sur la droite graduée avant d’être interprétés comme de nouveaux nombres rendant possibles toutes les soustractions. Les égalités à trous \(a+...=b\) et \(a \times ...=b\) facilitent la compréhension de la différence et du quotient de deux nombres, tout comme les programmes de calcul constituent le versant procédural des expressions algébriques. La diversité des registres de représentation (symbolique, graphique, numérique) et le passage des uns aux autres sont particulièrement efficaces pour l’apprentissage de la notion de fonction. Mais la compréhension des mathématiques ne se limite pas à celle de chacune des notions qui les constituent. Elle doit être globale. Cela s’opère à la fois par la mise en liens des notions nouvelles avec les notions antérieurement étudiées et la mise en relief de points communs entre des notions apparemment éloignées, voire étrangères les unes aux autres. Le programmementionne un certain nombre de ces <strong>liens</strong>.
+L’apprentissage des mathématiques est facilité si la présentation des notions est faite sous <strong>différents angles</strong>, correspondant parfois à des niveaux de généralité et d’abstraction différents. À titre d’exemples, les nombres négatifs peuvent être reliés à des contextes familiers des élèves (températures, gains et pertes, altitudes et profondeurs), puis être représentés sur la droite graduée avant d’être interprétés comme de nouveaux nombres rendant possibles toutes les soustractions. Les égalités à trous \(a+...=b\) et \(a \times ...=b\) facilitent la compréhension de la différence et du quotient de deux nombres, tout comme les programmes de calcul constituent le versant procédural des expressions algébriques. La diversité des registres de représentation (symbolique, graphique, numérique) et le passage des uns aux autres sont particulièrement efficaces pour l’apprentissage de la notion de fonction. Mais la compréhension des mathématiques ne se limite pas à celle de chacune des notions qui les constituent. Elle doit être globale. Cela s’opère à la fois par la mise en liens des notions nouvelles avec les notions antérieurement étudiées et la mise en relief de points communs entre des notions apparemment éloignées, voire étrangères les unes aux autres. Le programme mentionne un certain nombre de ces <strong>liens</strong>.
 <br/>Pour certains élèves, l’accès à l’abstraction ne peut se faire que s’il est précédé par deux phases intermédiaires : celle de la <strong>manipulation</strong> puis celle de la <strong>verbalisation</strong> (mise en mots) ou de la <strong>représentation</strong> (mise en images). De nombreux objets réels (carreaux de mosaïque, morceaux de ficelle, balances et autres instruments de mesure, solides, etc.) permettent d’approcher certaines notions abstraites (numération, fractions, équations, aires et volumes, etc.) de manière tactile, sensorielle. Il ne faut pas se priver d’y recourir lorsque cela s’avère nécessaire, même au collège.<br/>
-La mise en mots (par oral ou par écrit) dans le langage courant, véritable moyen de développer sa pensée, aide à la compréhension, à la mémorisation et à la routinisation de connaissances et de procédures. En parallèle et en complément, la constitution d’un répertoire d’images mentales est un autre atout pour la mémorisation.<br/>
-<strong>Une trace de cours</strong> claire, explicite et structurée aide l’élève dans l’apprentissage des mathématiques. Faisant suite aux étapes importantes de recherche, de découverte, d’appropriation individuelle ou collective, de présentation commentée, de débats, de mise au point, la trace écrite récapitule de façon organisée les connaissances, les procédures et les stratégies étudiées. Ne se limitant pas à un catalogue de recettes, mais explicitant les objectifs et les liens, elle constitue pour l’élève une véritable référence vers laquelle il pourra se tourner autant que de besoin et tout au long du cycle. Sa consultation régulière (notamment au moment de la recherche d’exercices et de problèmes, sous la conduite du professeur ou en autonomie) favorise à la fois la mise en mémoire et le développement de compétences. Le professeur doit avoir le souci de la bonne qualité(mathématique, rédactionnelle) des traces figurant au tableau ou dans les cahiers d’élèves. En particulier, il est essentiel de distinguer le statut des énoncés (définition, propriété - admise ou démontrée -, conjecture, démonstration, théorème) et de respecter les enchaînements logiques. Pour être accessible au plus grand nombre, y compris les familles et les accompagnateurs du périscolaire, la mise en mots de certains énoncés mathématiques gagne à être reformulée dans le langage courant.<br/>
+La mise en mots (par oral ou par écrit) dans le langage courant, véritable moyen de développer sa pensée, aide à la compréhension, à la mémorisation et à la routinisation de connaissances et de procédures. En parallèle et en complément, la constitution d’un répertoire d’images mentales est un autre atout pour la mémorisation.
+<strong>Une trace de cours</strong> claire, explicite et structurée aide l’élève dans l’apprentissage des mathématiques. Faisant suite aux étapes importantes de recherche, de découverte, d’appropriation individuelle ou collective, de présentation commentée, de débats, de mise au point, la trace écrite récapitule de façon organisée les connaissances, les procédures et les stratégies étudiées. Ne se limitant pas à un catalogue de recettes, mais explicitant les objectifs et les liens, elle constitue pour l’élève une véritable référence vers laquelle il pourra se tourner autant que de besoin et tout au long du cycle. Sa consultation régulière (notamment au moment de la recherche d’exercices et de problèmes, sous la conduite du professeur ou en autonomie) favorise à la fois la mise en mémoire et le développement de compétences. Le professeur doit avoir le souci de la bonne qualité (mathématique, rédactionnelle) des traces figurant au tableau ou dans les cahiers d’élèves. En particulier, il est essentiel de distinguer le statut des énoncés (définition, propriété - admise ou démontrée -, conjecture, démonstration, théorème) et de respecter les enchaînements logiques. Pour être accessible au plus grand nombre, y compris les familles et les accompagnateurs du périscolaire, la mise en mots de certains énoncés mathématiques gagne à être reformulée dans le langage courant.<br/>
 La mise en oeuvre du programme doit permettre de faire acquérir aux élèves des connaissances, des méthodes et des démarches spécifiques. En lien avec le cours, elles sont mobilisées et articulées les unes aux autres dans la résolution d’exercices et de problèmes riches et variés, à travers des allers-retours entre le sens et la technique, chacun venant éclairer et consolider l’autre. La diversité des activités concerne aussi bien les contextes (internes aux mathématiques ou liés à des situations issues de la vie quotidienne ou d’autres disciplines) que les types de tâches proposées : « questions flash» pour favoriser l’acquisition d’automatismes, exercices d’application et d’entraînement pour stabiliser et consolider les connaissances, exercices et problèmes ouverts favorisant la prise d’initiatives, débats et mises au point collectives d’une démonstration, production d’écrits individuels formalisant une démarche ou un raisonnement, etc. L'élève consolide sa compréhension de notions mathématiques au programme comme les ordres de grandeur, la proportionnalité, le calcul littéral, les systèmes de coordonnées, le repérage ou les statistiques en les mobilisant dans des situations issues de la physique, la chimie, les sciences de la vie et de la Terre, la technologie, ou la géographie. L'utilisation d’outils comme le tableur, la calculatrice, un logiciel de géométrie dynamique ou de programmation permet de gérer des données réelles ou expérimentales, de faire des représentations et des simulations, de programmer des objets techniques et d'inscrire l'activité mathématique dans les domaines 4 et 5 du socle.<br/>
 Les mises en lien avec les autres disciplines contribuent à donner du sens et de la cohérence à l’ensemble des apprentissages. La pratique régulière et équilibrée de ces différentes activités en classe et en dehors de la classe permet de développer six compétences spécifiques, qui sont les composantes majeures de l'activité mathématique : chercher, modéliser, représenter, raisonner, calculer, communiquer. Elles sont décrites dans le tableau ci-dessous :</p>
 £Compétences travaillées et domaine du socle
@@ -122,7 +122,7 @@ Les mises en lien avec les autres disciplines contribuent à donner du sens et d
 degré. Les élèves sont progressivement familiarisés aux différents statuts de la lettre (indéterminée, variable, inconnue, paramètre) et du signe égal (pour fournir le résultat d’une opération, pour traduire l’égalité de deux représentations d’un même nombre, dans une équation, dans une identité). À l’occasion d’activités de recherche, ils peuvent rencontrer des nombres irrationnels, par exemple dans l’utilisation du théorème de Pythagore ou la résolution d’équations de la forme \(x^2=a\).
 </p>
 @histoire:
-@titre:Utiliser les nombres pour comparer, calculer et résoudre des problèmes : Nombres décimaux relatifs
+@titre:Utiliser les nombres pour comparer, calculer et résoudre des problèmes - Nombres décimaux relatifs
 @presentation:<strong>Connaissances : </strong>
 <ul class="fleche">
 <li>nombres décimaux (positifs et négatifs), notion d’opposé</li>
@@ -136,7 +136,7 @@ degré. Les élèves sont progressivement familiarisés aux différents statuts 
 @capacite:<p>Le produit et le quotient de décimaux relatifs sont abordés.</p>
 @commentaire:<p>Le travail est consolidé notamment lors des résolutions de problèmes.</p>
 @wims: Exercices 1
-@titre:Utiliser les nombres pour comparer, calculer et résoudre des problèmes : Fractions, nombres rationnels
+@titre:Utiliser les nombres pour comparer, calculer et résoudre des problèmes - Fractions, nombres rationnels
 @presentation:<strong>Connaissances : </strong>
 <ul class="fleche">
 <li>fractions, nombres rationnels (positifs et négatifs), notion d’inverse.</li>
@@ -160,7 +160,7 @@ littéral vient compléter pour tout ou partie des élèves l’utilisation d’
 @commentaire:<p>La notion de fraction irréductible est abordée, en lien avec celles de multiple et de diviseur qui sont travaillées tout au long du cycle.
 </p>
 @wims:Exercices
-@titre:Utiliser les nombres pour comparer, calculer et résoudre des problèmes : Racine carrée
+@titre:Utiliser les nombres pour comparer, calculer et résoudre des problèmes - Racine carrée
 @presentation:<strong>Connaissances : </strong>
 <ul class="fleche">
 <li>les carrés parfaits de 1 à 144 ;</li>
@@ -178,7 +178,7 @@ littéral vient compléter pour tout ou partie des élèves l’utilisation d’
 <p><em>Aucune connaissance n’est attendue sur les propriétés algébriques des racines carrées.</em>
 </p>
 @wims:Exercices
-@titre:Utiliser les nombres pour comparer, calculer et résoudre des problèmes : Puissance
+@titre:Utiliser les nombres pour comparer, calculer et résoudre des problèmes - Puissance
 @presentation:<strong>Connaissances : </strong>
 <ul class="fleche">
 <li>les préfixes de nano à giga.</li>
@@ -200,7 +200,7 @@ Celle-ci est utilisée pour comparer des nombres et déterminer des ordres de gr
 </p>
 <p><em>La connaissance des formules générales sur les produits ou quotients de puissances n’est pas un attendu du programme : la mise en œuvre des calculs sur les puissances découle de leur définition.</em></p>
 @wims:Exercices
-@titre:Utiliser les nombres pour comparer, calculer et résoudre des problèmes : Comparaison de nombres
+@titre:Utiliser les nombres pour comparer, calculer et résoudre des problèmes - Comparaison de nombres
 @presentation:<strong>Connaissances : </strong>
 <ul class="fleche">
 <li>égalité de fractions (démonstration possible à partir de la définition du quotient) ;</li>
@@ -209,8 +209,8 @@ Celle-ci est utilisée pour comparer des nombres et déterminer des ordres de gr
 <strong>Compétences associées : </strong>
 <ul class="fleche">
 <li>comparer, ranger, encadrer des nombres rationnels en écriture décimale, fractionnaire ou scientifique ; </li>
-<li>crepérer et placer un nombre rationnel sur une droite graduée ;</li>
-<li>cassocier à des objets des ordres de grandeur (par exemple taille d’un atome, d’une bactérie, d’une alvéole pulmonaire, longueur de l’intestin, capacité de stockage d’un disque dur, vitesses du son et de la lumière, populations française et mondiale, distance Terre-Lune, distance du Soleil à l’étoile la plus proche, etc.).</li>
+<li>repérer et placer un nombre rationnel sur une droite graduée ;</li>
+<li>associer à des objets des ordres de grandeur (par exemple taille d’un atome, d’une bactérie, d’une alvéole pulmonaire, longueur de l’intestin, capacité de stockage d’un disque dur, vitesses du son et de la lumière, populations française et mondiale, distance Terre-Lune, distance du Soleil à l’étoile la plus proche, etc.).</li>
 </ul>
 @contenu:<p>Les élèves sont amenés à reconnaître et à produire des fractions égales (sans privilégier de méthode en particulier), à comparer, additionner et soustraire des fractions dont les dénominateurs sont égaux ou multiples l’un de l’autre.</p>
 <p>Au moins une des propriétés suivantes est démontrée, à partir de la définition d’un quotient :
@@ -224,14 +224,14 @@ Celle-ci est utilisée pour comparer des nombres et déterminer des ordres de gr
 <p>Il est possible, à ce niveau, de se limiter à des exemples à valeur générique. Cependant, le professeur veille à spécifier que la vérification d’une propriété, même sur plusieurs exemples, n’en constitue pas une démonstration.<br/> Exemple de calcul fractionnaire permettant de démontrer que \(\frac{2}{3}=\frac{10}{15} \).<br/>
 On commence par calculer \( \frac{2}{3} \times 15\) :<br/>
 \(\frac{2}{3}\times 15 = \frac{2}{3} \times 3\times 5\).<br/>
-La définition du quotient permet , de simplifier par \(3\), puisque \(\frac{2}{3}\) est le nombre qui, multiplié par \(3\), donne \(2\).<br/>
+La définition du quotient permet de simplifier par \(3\), puisque \(\frac{2}{3}\) est le nombre qui, multiplié par \(3\), donne \(2\).<br/>
 Donc \(\frac{2}{3} \times 15 = 2\times 5 = 10\).<br/>
 Par définition du quotient, il vient donc \(\frac{2}{3}=\frac{10}{15} \) puisque \(\frac{2}{3}\) multiplié par \(15\) donne \(10\).</p>
 @capacite:<p>La notation scientifique est utilisée pour comparer des nombres et déterminer des ordres de grandeurs, en lien avec d’autres disciplines.
 </p>
 @commentaire:<p></p>
 @wims:Exercices
-@titre:Utiliser les nombres pour comparer, calculer et résoudre des problèmes : Pratiquer le calcul exact ou approché, mental, à la main ou instrumenté
+@titre:Utiliser les nombres pour comparer, calculer et résoudre des problèmes - Pratiquer le calcul exact ou approché, mental, à la main ou instrumenté
 @presentation:<strong>Connaissances :</strong>
 <ul class="fleche">
 <li>somme, différence, produit, quotient de nombres décimaux, de deux nombres rationnels ;</li>
@@ -283,7 +283,7 @@ Les élèves déterminent la liste des nombres premiers inférieurs ou égaux à
 La notion de fraction irréductible est introduite. L’utilisation d’un tableur, d’un logiciel de programmation ou d’une calculatrice permet d’étendre la procédure de décomposition en facteurs premiers.
 </p>
 @wims: Exercices 2
-@titre:Utiliser le calcul littéral : Expressions littérales
+@titre:Utiliser le calcul littéral - Expressions littérales
 @presentation:<strong>Connaissances : </strong>
 <ul class="fleche">
 <li>notions d’inconnue, d’équation, d’indéterminée, d’identité ;</li>
@@ -308,7 +308,7 @@ Les élèves substituent une valeur numérique à une lettre pour calculer la va
 @commentaire:<p>Le travail sur les expressions littérales est consolidé avec des transformations d’expressions, des programmes de calcul, des mises en équations, des fonctions...
 </p>
 @wims: Exercices 3
-@titre:Utiliser le calcul littéral : Distributivité
+@titre:Utiliser le calcul littéral - Distributivité
 @presentation:<strong>Connaissances :</strong>
 <ul class="fleche">
 <li>propriétés de distributivité (simple et double) ;</li>
@@ -322,7 +322,7 @@ de distributivité simple est utilisée pour réduire une expression littérale 
 @commentaire:<p>La double distributivité est abordée. Le lien est fait avec la simple distributivité. Il est possible de démontrer l’identité \((a + b)(c + d) = a c + a d + b c + b d\) en posant \(k = a + b\) et en utilisant la simple distributivité.
 </p>
 @wims:Exercices 4
-@titre:Utiliser le calcul littéral : Équations
+@titre:Utiliser le calcul littéral - Équations
 @presentation:<strong>Connaissances : </strong>
 <ul class="fleche">
 <li>résoudre algébriquement des équations du premier degré ou s’y ramenant (équations produits), en
@@ -404,7 +404,7 @@ Le vocabulaire relatif aux probabilités (expérience aléatoire, issue, événe
 Le constat de la stabilisation des fréquences s’appuie sur la simulation d’expériences aléatoires à une épreuve à l’aide d’un tableur ou d’un logiciel de programmation. Les calculs de probabilités, à partir de dénombrements, s’appliquent à des contextes simples faisant prioritairement intervenir une seule épreuve. Dans des cas très simples, il est cependant possible d’introduire des expériences à deux épreuves. Les dénombrements s’appuient alors uniquement sur des tableaux à double entrée, la notion d’arbre ne figurant pas au programme. Les élèves simulent une expérience aléatoire à l’aide d’un tableur ou d’un logiciel de programmation.
 </p>
 @wims:
-@titre:Résoudre des problèmes de proportionnalité ;
+@titre:Résoudre des problèmes de proportionnalité
 @presentation:<strong>Connaissances :</strong>
 <ul class="fleche">
 <li>coefficient de proportionnalité ;</li>
@@ -432,7 +432,7 @@ Le constat de la stabilisation des fréquences s’appuie sur la simulation d’
 @commentaire:<p>Le lien est fait entre taux d’évolution et coefficient multiplicateur, ainsi qu’entre la proportionnalité et les fonctions linéaires. Le champ des problèmes de géométrie relevant de la proportionnalité est élargi (homothéties, triangles semblables, configurations de Thalès).
 </p>
 @wims:
-@titre:Comprendre et utiliser la notion de fonction.
+@titre:Comprendre et utiliser la notion de fonction
 @presentation:<strong>Connaissances :</strong>
 <ul class="fleche">
 <li>vocabulaire : variable, fonction, antécédent, image ;</li>
@@ -498,7 +498,7 @@ ou, à partir de :<br/>
 \(1\ \mathrm{dm}^3\)=\((10^{-1}\ \mathrm{m})^3\)=\(10^{-3}\ \mathrm{m}^3\).
 </p>
 @wims:
-@titre:Comprendre l’effet de quelques transformations sur les figures géométriques.
+@titre:Comprendre l’effet de quelques transformations sur les figures géométriques
 @presentation:<strong>Connaissances :</strong>
 <ul class="fleche">
 <li>effet d’un déplacement, d'un agrandissement ou d'une réduction sur les longueurs, les angles, les aires et les volumes.</li>
@@ -518,8 +518,7 @@ Le lien est fait entre la proportionnalité et certaines configurations ou trans
 @wims:
 @conclusion:<p>À l’issue d’activités rituelles de calcul et de verbalisation de procédures et la résolution de problèmes, effectuées tout au long du cycle, les élèves doivent avoir mémorisé et automatisé les formules donnant les longueurs, aires, volumes des figures et solides figurant au programme, ainsi que les procédures de conversion d’unités.</p>
 @theme:Espace et géométrie
-@objectif:<p>Au cycle 3, les élèves ont découvert différents objets géométriques, qui continuent à être rencontrés au cycle 4. Ils valident désormais par le raisonnement et la démonstration les propriétés qu'ils conjecturent. Les définitions et propriétés déjà vues au cycle 3 ainsi que les nouvelles propriétés introduites au cycle 4 (caractérisation angulaire du parallélisme, somme des angles d’un triangle, inégalité triangulaire, théorèmes de Thalès et de Pythagore) fournissent un éventail d'outils nourrissant la mise en œuvre de raisonnements et démonstrations. De nouvelles transformations (symétries centrales, translations, rotations, homothéties) font l'objet d'une première approche, basée sur l’observation de leur effet sur des configurations planes, essentiellement à partir de manipulations concrètes (papier calque, papier pointé, quadrillage, etc.) ou virtuelles (logiciel de géométrie dynamique). L’objectif est d’installer des images mentales qui faciliteront ultérieurement l’analyse de figures géométriques ainsi que la définition ponctuelle des transformations
-étudiées.
+@objectif:<p>Au cycle 3, les élèves ont découvert différents objets géométriques, qui continuent à être rencontrés au cycle 4. Ils valident désormais par le raisonnement et la démonstration les propriétés qu'ils conjecturent. Les définitions et propriétés déjà vues au cycle 3 ainsi que les nouvelles propriétés introduites au cycle 4 (caractérisation angulaire du parallélisme, somme des angles d’un triangle, inégalité triangulaire, théorèmes de Thalès et de Pythagore) fournissent un éventail d'outils nourrissant la mise en œuvre de raisonnements et démonstrations. De nouvelles transformations (symétries centrales, translations, rotations, homothéties) font l'objet d'une première approche, basée sur l’observation de leur effet sur des configurations planes, essentiellement à partir de manipulations concrètes (papier calque, papier pointé, quadrillage, etc.) ou virtuelles (logiciel de géométrie dynamique). L’objectif est d’installer des images mentales qui faciliteront ultérieurement l’analyse de figures géométriques ainsi que la définition ponctuelle des transformations étudiées.
 </p>
 @histoire:
 @titre:Représenter l’espace
@@ -543,7 +542,7 @@ Le lien est fait entre la proportionnalité et certaines configurations ou trans
 @capacite:<p>Le repérage se fait dans un pavé droit (abscisse, ordonnée, altitude). Les élèves produisent et mettent en relation une représentation en perspective cavalière et un patron d’une pyramide ou d’un cône.</p>
 @commentaire:<p>Le repérage s’étend à la sphère (latitude, longitude). Un logiciel de géométrie est utilisé pour visualiser des solides et leurs sections planes. Les élèves produisent et mettent en relation différentes représentations des solides étudiés (patrons, représentation en perspective cavalière, vues de face, de dessus, en coupe).</p>
 @wims:
-@titre:Utiliser les notions de géométrie plane pour démontrer &#8212; Figures et configurations
+@titre:Utiliser les notions de géométrie plane pour démontrer - Figures et configurations
 @presentation:<strong>Connaissances : </strong>
 <ul class ="fleche">
 <li>caractérisation angulaire du parallélisme: angles alternes internes, angles correspondants;</li>
@@ -568,13 +567,13 @@ Le lien est fait entre la proportionnalité et certaines configurations ou trans
 </ul>
 @contenu:<p>La caractérisation angulaire du parallélisme (angles alternes-internes et angles correspondants) est énoncée. La valeur de la somme des angles d’un triangle peut être démontrée et est utilisée. L’inégalité triangulaire est énoncée. Le lien est fait entre l’inégalité triangulaire et la construction d’un triangle à partir de la donnée de trois longueurs. Des constructions de triangles à partir de la mesure d’une longueur et de deux angles ou d’un angle et de deux longueurs sont proposées.
 </p>
-<p>Le parallélogramme est défini à partir de l’une de ses propriétés:parallélisme des couples de côtésopposés ou intersection des diagonales. L’autre propriété est démontrée et devient une propriété caractéristique. Il est alors montré que les côtés opposés d’un parallélogramme sont deux à deux de même longueur grâce aux propriétés de la symétrie.
+<p>Le parallélogramme est défini à partir de l’une de ses propriétés:parallélisme des couples de côtés opposés ou intersection des diagonales. L’autre propriété est démontrée et devient une propriété caractéristique. Il est alors montré que les côtés opposés d’un parallélogramme sont deux à deux de même longueur grâce aux propriétés de la symétrie.
 </p>
 <p>Les propriétés relatives aux côtés et aux diagonales d’un parallélogramme sont mises en œuvre pour effectuer des constructions et mener des raisonnements.
 </p>
-<p>Les élèves consolident le travail sur les codages de figures:interprétation d’une figure codée ou réalisation d’un codage.
+<p>Les élèves consolident le travail sur les codages de figures : interprétation d’une figure codée ou réalisation d’un codage.
 </p>
-<p>Les élèves découvrent de nouvelles droites remarquables du triangle :les hauteurs. Ils poursuivent le travail engagé au cycle 3 sur la médiatrice dans le cadre de résolution de problèmes. Ils peuvent par exemple être amenés à démontrer que les médiatrices d’un triangle sont concourantes.
+<p>Les élèves découvrent de nouvelles droites remarquables du triangle : les hauteurs. Ils poursuivent le travail engagé au cycle 3 sur la médiatrice dans le cadre de résolution de problèmes. Ils peuvent par exemple être amenés à démontrer que les médiatrices d’un triangle sont concourantes.
 </p>
 @capacite:<p>Les cas d’égalité des triangles sont présentés et utilisés pour résoudre des problèmes. Le lien est fait avec la construction d’un triangle de mesures données (trois longueurs, une longueur et deux angles, deux longueurs et un angle). Le théorème de Thalès et sa réciproque dans la configuration des triangles emboîtés sont énoncés et utilisés, ainsi que le théorème de Pythagore (plusieurs démonstrations possibles) et sa réciproque. La définition du cosinus d’un angle d’un triangle rectangle découle, grâce au théorème de Thalès, de l’indépendance du rapport des longueurs le définissant.</p>
 <p><em>Une progressivité dans l’apprentissage de la recherche de preuve est aménagée, de manière à encourager les élèves dans l’exercice de la démonstration. Aucun formalisme excessif n’est exigé dans la rédaction.</em></p>
@@ -583,7 +582,7 @@ Le lien est fait entre la proportionnalité et certaines configurations ou trans
 <p>Deux triangles semblables peuvent être définis par la proportionnalité des mesures de leurs côtés. Une caractérisation angulaire de cette définition peut être donnée et démontrée à partir d’un cas d’égalité des triangles et d’une caractérisation angulaire du parallélisme.
 </p>
 @wims:
-@titre:Utiliser les notions de géométrie plane pour démontrer &#8212; Transformations
+@titre:Utiliser les notions de géométrie plane pour démontrer - Transformations
 @presentation:<strong>Compétences associées : </strong>
 <ul class="fleche">
 <li>comprendre l’effet d’une translation, d’une symétrie (axiale et centrale), d’une rotation, d’une homothétie sur une figure ;</li>
@@ -595,7 +594,7 @@ Le lien est fait entre la proportionnalité et certaines configurations ou trans
 </p>
 @capacite:<p>Les élèves sont amenés à transformer (à la main ou à l’aide d’un logiciel) une figure par translation. Ils identifient des translations dans des frises ou des pavages;le lien est alors fait entre translation et parallélogramme.
 </p>
-<p><em>La définition ponctuelle d’une translation ne figure pas au programme.Toutefois, par commodité, la translation transformant le point \(A\) en le point \(B\) pourra être nommée «translation de vecteur \(\overrightarrow{AB}\)», mais aucune connaissance n’est attendue sur l’objet «vecteur».</em>
+<p><em>La définition ponctuelle d’une translation ne figure pas au programme. Toutefois, par commodité, la translation transformant le point \(A\) en le point \(B\) pourra être nommée «translation de vecteur \(\overrightarrow{AB}\)», mais aucune connaissance n’est attendue sur l’objet «vecteur».</em>
 </p>
 @commentaire:<p>Les élèves transforment (à la main ou à l’aide d’un logiciel) une figure par rotation et par homothétie (de rapport positif ou négatif). Le lien est fait entre angle et rotation, entre le théorème de Thalès et les homothéties.
 </p>
@@ -621,7 +620,7 @@ Le lien est fait entre la proportionnalité et certaines configurations ou trans
 <li>écrire, mettre au point (tester, corriger) et exécuter un programme en réponse à un problème donné.</li>
 </ul>
 <p>Les repères qui suivent indiquent une progressivité dans le <strong>niveau de complexité des activités</strong> relevant de ce thème. Certains élèves sont capables de réaliser des activités de troisième niveau dès le début du cycle.</p>
-@contenu:<p>À un premier niveau, les élèves mettent en ordre et/ou complètent des blocs Scratch fournis par le professeur pour construire un programme simple. L’utilisation progressive des instructions conditionnelles et/ou de la boucle «répéter...fois») permet d’écrire des scripts de déplacement, de construction géométrique ou de programme de calcul.</p>
+@contenu:<p>À un premier niveau, les élèves mettent en ordre et/ou complètent des blocs Scratch fournis par le professeur pour construire un programme simple. L’utilisation progressive des instructions conditionnelles et/ou de la boucle «répéter...fois» permet d’écrire des scripts de déplacement, de construction géométrique ou de programme de calcul.</p>
 @capacite:<p>À un deuxième niveau, les connaissances et les compétences en algorithmique et en programmation s’élargissent par:
 <ul class="tirets">
 <li>l’écriture d’une séquence d’instructions (condition «si...alors» et boucle «répéter...fois»);</li>
@@ -635,5 +634,6 @@ Le lien est fait entre la proportionnalité et certaines configurations ou trans
 @theme:Croisements entre enseignements
 @objectif:
 @histoire:
-@conclusion:<p>Si les mathématiques sont une science à part entière avec son propre langage et une démarche spécifique de preuve  basée,  non  pas  sur  la  confrontation  au  réel,  mais  sur  la  démonstration,  elles  sont  également  intimement  liées  aux  autres  disciplines.  Elles  fournissent  en  effet  des  outils  de  calcul  et  de  représentation  et  des  modèles  qui  permettent  de  traiter  des  situations  issues  de  toutes  les  autres  disciplines  enseignées  au  cycle 4.  De  ce  fait,  les  mathématiques  ont  également  toute  leur  place  dans  les  enseignements  pratiques interdisciplinaires qui contribuent à faire percevoir aux élèves leur dimension créative, inductive et esthétique et à éprouver le plaisir de les pratiquer.</p>
+@conclusion:<p>Si les mathématiques sont une science à part entière avec son propre langage et une démarche spécifique de preuve  basée,  non  pas  sur  la  confrontation  au  réel,  mais  sur  la  démonstration,  elles  sont  également  intimement  liées  aux  autres  disciplines.  Elles  fournissent  en  effet  des  outils  de  calcul  et  de  représentation  et  des  modèles  qui  permettent  de  traiter  des  situations  issues  de  toutes  les  autres  disciplines  enseignées  au  cycle 4.  De  ce  fait, les  mathématiques  ont  également  toute  leur  place  dans  les  enseignements  pratiques interdisciplinaires qui contribuent à faire percevoir aux élèves leur dimension créative, inductive et esthétique et à éprouver le plaisir de les pratiquer.<br/>
+</p>
 @end:
