@@ -118,11 +118,11 @@ Ecrire une fraction sous forme de somme d’un entier et d’une fraction infér
 <p>Connaître des égalités entre des fractions usuelles (exemples : \(\frac{5}{10} =\frac{1}{2}\) ; \(\frac{10}{100} =\frac{1}{10}\) ; \(\frac{2}{4} =\frac{1}{2}\)).</p>
 <p>Utiliser des fractions pour exprimer un quotient.</p>
 @contenu:<p>Dès la <strong>période 1</strong> les élèves utilisent d’abord les fractions simples(comme \(\frac{2}{3}\), \(\frac{1}{4}\), \(\frac{5}{2}\)) dans le cadre de partage de grandeurs. Ils travaillent des fractions inférieures et des fractions supérieures à 1.<br/>
-Dès <strong>la période 2</strong>, les fractions décimales sont régulièrement mobilisées: elles acquièrent le statut de nombre et sont positionnées sur une droite graduée. Les élèves comparent des fractions de même dénominateur. Ils ajoutent des fractions décimales de même dénominateur. Ils apprennent à écrire des fractions décimales sous forme de somme d’un nombre entier et d’une fraction décimale inférieure à 1.
+Dès <strong>la période 2</strong>, les fractions décimales sont régulièrement mobilisées : elles acquièrent le statut de nombre et sont positionnées sur une droite graduée. Les élèves comparent des fractions de même dénominateur. Ils ajoutent des fractions décimales de même dénominateur. Ils apprennent à écrire des fractions décimales sous forme de somme d’un nombre entier et d’une fraction décimale inférieure à 1.
 </p>
-@capacite:<p>Dès la <strong>période 1</strong>,dans la continuité du CM1, les élèves étendent le registre des fractions qu’ils manipulent (en particulier \(\frac{1}{1000}\)); ils apprennent à écrire des fractions sous forme de somme d’un nombre entieret d’une fraction inférieure à 1.
+@capacite:<p>Dès la <strong>période 1</strong>,dans la continuité du CM1, les élèves étendent le registre des fractions qu’ils manipulent (en particulier \(\frac{1}{1000}\)) ; ils apprennent à écrire des fractions sous forme de somme d’un nombre entieret d’une fraction inférieure à 1.
 </p>
-@commentaire:<p>En <strong>période 1</strong>, sont réactivées les fractions comme opérateurs de partage vues en CM, puis les fractions décimales en relation avec les nombres décimaux (par exemple à partir de mesures de longueurs); les élèves ajoutent des fractions décimales de même dénominateur.<br/>
+@commentaire:<p>En <strong>période 1</strong>, sont réactivées les fractions comme opérateurs de partage vues en CM, puis les fractions décimales en relation avec les nombres décimaux (par exemple à partir de mesures de longueurs) ; les élèves ajoutent des fractions décimales de même dénominateur.<br/>
 En <strong>période 2</strong> l’addition est étendue à des fractions de même dénominateur (inférieur ou égal à 5 et en privilégiant la vocalisation: deux cinquièmes plus un cinquième égale trois cinquièmes).<br/>
 <strong>En période 3</strong>, les élèves apprennent que \(\frac{a}{b}\) est le nombre qui, multiplié par \(b\), donne \(a\) (définition du quotient de \(a\) par \(b\)).
 </p>
@@ -141,8 +141,8 @@ Encadrer un nombre décimal par deux nombres entiers, par deux nombres décimaux
 <hr/>
 <p>Tout au long du cycle, les désignations orale et écrite des nombres décimaux basées sur les unités de numération contribuent à l’acquisition du sens des nombres décimaux (par exemple pour 3,12: «trois unités et douze centièmes» ou «trois unités, un dixième et deux centièmes» ou «trois cent douze centièmes»).</p>
 @contenu:À partir de la <strong>période 2</strong>, les élèves apprennent à utiliser les nombres décimaux ayant au plus deux décimales en veillant à mettre en relation fractions décimales et écritures à virgule(ex: \(3,12= 3+\frac{12}{100}\).<br/>
-Ils connaissent des écritures décimales de fractions simples (\(\frac{1}{2}=0,5=\frac{5}{10}\); \(\frac{1}{4}=\frac{25}{100}=0,25\); la moitié d’un entier sur des petits nombres)
-@capacite:<p>Dès la <strong>période 1</strong>, les élèves rencontrent et utilisent des nombres décimaux ayant une, deux ou trois décimales.Ils connaissent des écritures décimales de fractions simples (\(\frac{1}{5}=0,2=\frac{2}{10}\); \(\frac{3}{4}=\frac{75}{100}=0,75\) ; la moitié d’un entier).</p>
+Ils connaissent des écritures décimales de fractions simples (\(\frac{1}{2}=0,5=\frac{5}{10}\) ; \(\frac{1}{4}=\frac{25}{100}=0,25\) ; la moitié d’un entier sur des petits nombres)
+@capacite:<p>Dès la <strong>période 1</strong>, les élèves rencontrent et utilisent des nombres décimaux ayant une, deux ou trois décimales.Ils connaissent des écritures décimales de fractions simples (\(\frac{1}{5}=0,2=\frac{2}{10}\) ; \(\frac{3}{4}=\frac{75}{100}=0,75\) ; la moitié d’un entier).</p>
 @commentaire:<p>Dès la <strong>période 1</strong>, dans le prolongement des acquis du CM, on travaille sur les décimaux jusqu’à trois décimales. La quatrième décimale sera introduite en <strong>période 2</strong> au travers des diverses activités.</p>
 @wims:Exercices
 @titre:Calculer avec des nombres entiers et des nombres décimaux - Introduction
@@ -178,15 +178,15 @@ Tout au long du cycle, la pratique régulière du calcul confronte et consolide 
 @titre:Calculer avec des nombres entiers et des nombres décimaux - Calcul mental
 @presentation:
 @contenu:Dans la continuité du travail conduit au cycle 2, les élèves mémorisent les quatre premiers multiples de 25 et de 50.<br/>
-À partir de la <strong>période 3</strong>, ils apprennent à multiplier et à diviser par 10 des nombres décimaux; ils apprennent à rechercher le complément au nombre entier supérieur.<br/>
-Tout au long de l’année, ils stabilisent leur connaissance des propriétés des opérations (ex:12+199=199+12; 5×21=21×5; 45×21=45×20+45×1; 6×18=6×20-6×2).<br/>
+À partir de la <strong>période 3</strong>, ils apprennent à multiplier et à diviser par 10 des nombres décimaux ; ils apprennent à rechercher le complément au nombre entier supérieur.<br/>
+Tout au long de l’année, ils stabilisent leur connaissance des propriétés des opérations (ex:12+199=199+12; 5×21=21×5 ; 45×21=45×20+45×1 ; 6×18=6×20-6×2).<br/>
 À partir de la <strong>période 3</strong>, ils apprennent les critères de divisibilité par 2, 5 et 10.<br/>
 En <strong>période 4 ou 5</strong>, ils apprennent à multiplier par 1000 un nombre décimal.
 @capacite:Dès le début de l’année, les élèves apprennent à diviser un nombre décimal (entier ou non) par 100.<br/>
 En <strong>période 3</strong> les élèves apprennent à multiplier un nombre décimal (entier ou non) par 5 et par 50.<br/>
 Au plus tard en <strong>période 4</strong>, ils apprennent les critères de divisibilité par 3 et par 9.<br/>
-Tout au long de l’année, ils étendent l’utilisation des principales propriétés des opérations à des calculs rendus plus complexes par la nature des nombres en jeu, leur taille ou leur nombre (exemples: 1,2+27,9+0,8=27,9+2; 3,2×25×4=3,2×100).<br/>
-Ils étendent l’utilisation des principales propriétés des opérations (notamment la commutativité de la multiplication) àdes calculs rendus plus complexes par la nature des nombres en jeu, leur taille, ou leur nombre (exemple: 1,2+27,9+0,8=27,9+2; 3,2×10=10×3,2; 3,2×25×4=3,2×100).
+Tout au long de l’année, ils étendent l’utilisation des principales propriétés des opérations à des calculs rendus plus complexes par la nature des nombres en jeu, leur taille ou leur nombre (exemples: 1,2+27,9+0,8=27,9+2 ; 3,2×25×4=3,2×100).<br/>
+Ils étendent l’utilisation des principales propriétés des opérations (notamment la commutativité de la multiplication) àdes calculs rendus plus complexes par la nature des nombres en jeu, leur taille, ou leur nombre (exemple: 1,2+27,9+0,8=27,9+2 ; 3,2×10=10×3,2 ; 3,2×25×4=3,2×100).
 @commentaire:Dès la <strong>période 1</strong>, dans le prolongement des acquis du CM, on réactive la multiplication et la division par 10, 100, 1000.<br/>
 À partir de la <strong>période 2</strong>, les élèves apprennent à multiplier un nombre entier puis décimal par 0,1 et par 0,5 (différentes stratégies sont envisagées selon les situations).<br/>
 Tout au long de l’année, ils stabilisent la connaissance des propriétés des opérations et les procédures déjà utilisées à l’école élémentaire, et utilisent la propriété de distributivité simple dans les deux sens (par exemple: 23×12=23×10+23×2 et 23×7+23×3=23×10).
@@ -209,8 +209,8 @@ En <strong>période 2</strong>, ils étendent aux nombres décimaux les algorith
 En <strong>période 3</strong> ils apprennentl’algorithme de la division euclidienne de deuxnombres entiers.
 @capacite:Les élèves apprennent les algorithmes:
 <ul class="tirets">
-<li>de la multiplication d’un nombre décimal par un nombre entier (dès la <strong>période 1</strong>, en relation avec le calcul de l’aire du rectangle);</li>
-<li>de la division de deux nombres entiers (quotient décimal ou non: par exemple, 10:4 ou 10:3), dès la <strong>période 2</strong>;
+<li>de la multiplication d’un nombre décimal par un nombre entier (dès la <strong>période 1</strong>, en relation avec le calcul de l’aire du rectangle) ;</li>
+<li>de la division de deux nombres entiers (quotient décimal ou non: par exemple, 10:4 ou 10:3), dès la <strong>période 2</strong> ;
 <li>de la division d’un nombre décimal par un nombre entier dès la <strong>période 3</strong></li>
 </ul>
 @commentaire:Tout au long de l’année, au travers de situations variées, les élèves entretiennent leurs acquis de CM sur les algorithmes opératoires.<br/>
@@ -257,9 +257,9 @@ Organiser des données issues d’autres enseignements (sciences et technologie,
 @wims:Exercices
 @titre:Résoudre des problèmes en utilisant des fractions simples, les nombres décimaux et le calcul - Problèmes relevant de la proportionnalité
 @presentation:Reconnaître et résoudre des problèmes relevant de la proportionnalité en utilisant une procédure adaptée : propriétés de linéarité (additive et multiplicative), passage à l’unité, coefficient de proportionnalité. Appliquer un pourcentage.
-@contenu:Le recours aux propriétés de linéarité (multiplicative et additive) est privilégié. Ces propriétés doivent être explicitées; elles peuvent être institutionnalisées de façon non formelle à l’aide d’exemples verbalisés («Si j’ai deux fois, trois fois... plus d’invités, il me faudra deux fois, trois fois... plus d’ingrédients»; «Je dispose de briques de masses identiques. Si je connais la masse de 7 briques et celle de 3 briques alors je peux connaître la masse de 10 briques en faisant la somme des deux masses»). Dès la <strong>période 1</strong>, des situations de proportionnalité peuvent être proposées (recettes...). L'institutionnalisation des propriétés se fait progressivement à partir de la <strong>période 2</strong>.
+@contenu:Le recours aux propriétés de linéarité (multiplicative et additive) est privilégié. Ces propriétés doivent être explicitées ; elles peuvent être institutionnalisées de façon non formelle à l’aide d’exemples verbalisés («Si j’ai deux fois, trois fois... plus d’invités, il me faudra deux fois, trois fois... plus d’ingrédients» ; «Je dispose de briques de masses identiques. Si je connais la masse de 7 briques et celle de 3 briques alors je peux connaître la masse de 10 briques en faisant la somme des deux masses»). Dès la <strong>période 1</strong>, des situations de proportionnalité peuvent être proposées (recettes...). L'institutionnalisation des propriétés se fait progressivement à partir de la <strong>période 2</strong>.
 @capacite:Dès la <strong>période 1</strong>, le passage par l’unité vient enrichir la palette des procédures utilisées lorsque cela s’avère pertinent.<br/>
-À partir de la <strong>période 3</strong>, le symbole % est introduit dans des cas simples, en lien avec les fractions d’une quantité (50 % pour la moitié; 25 % pour le quart; 75% pour les trois quarts; 10 % pour le dixième).
+À partir de la <strong>période 3</strong>, le symbole % est introduit dans des cas simples, en lien avec les fractions d’une quantité (50 % pour la moitié ; 25 % pour le quart; 75% pour les trois quarts ; 10 % pour le dixième).
 @commentaire:Tout au long de l’année, les procédures déjà étudiées en CM sont remobilisées et enrichies par l’utilisation explicite du coefficient de proportionnalité lorsque cela s’avère pertinent.<br/>
 Dès la <strong>période 2</strong>, en relation avec le travail effectué en CM, les élèves appliquent un pourcentage simple (en relation avec les fractions simples de quantité: 10%, 25%, 50%, 75%).<br/>
 Dès la <strong>période 3</strong>, ils apprennent à appliquer un pourcentage dans des registres variés.
@@ -282,7 +282,7 @@ L’étude d’une grandeur nécessite des activités ayant pour but de définir
 @presentation:
 <p>
 Comparer des périmètres avec ou sans recours à la mesure (par exemple en utilisant une ficelle, ou en
-reportant les longueurs des côtés d’un polygone sur un segment de droite avec un compas) :
+reportant les longueurs des côtés d’un polygone sur un segment de droite avec un compas) :</p>
 <ul class="fleche">
 <li>notion de longueur : cas particulier du périmètre ;</li>
 <li>unités relatives aux longueurs : relations entre les unités de longueur et les unités de numération.
@@ -293,8 +293,7 @@ Calculer le périmètre d’un carré et d’un rectangle, la longueur d’un ce
 <li>formule du périmètre d’un carré, d’un rectangle ;
 <li>formule de la longueur d’un cercle.
 </ul>
-</p>
-@contenu:<p>Les élèves comparent des périmètres sans avoir recours à la mesure, mesurent des périmètres par report d’unités et de fractions d’unités ou par report des longueurs des côtés sur un segment de droite avec le compas; ils calculent le périmètre d’un polygone en ajoutant les longueurs de ses côtés (avec des entiers et fractions puis avec des décimaux à deux décimales).
+@contenu:<p>Les élèves comparent des périmètres sans avoir recours à la mesure, mesurent des périmètres par report d’unités et de fractions d’unités ou par report des longueurs des côtés sur un segment de droite avec le compas ; ils calculent le périmètre d’un polygone en ajoutant les longueurs de ses côtés (avec des entiers et fractions puis avec des décimaux à deux décimales).
 </p>
 @capacite:<p>Ils établissent les formules du périmètre du carré et du rectangle. Ils les utilisent tout en continuant à calculer des périmètres de polygones variés en ajoutant les longueurs de leurs côtés.</p>
 @commentaire:<p>Selon l’avancement du thème «nombres et calcul», les élèves réinvestissent leurs acquis de CM pour calculer des périmètres simples ou complexes. Ils apprennent la formule de la longueur d’un cercle et l’utilisent après consolidation du produit d’un entier par un décimal, dans un premier temps, puis du produit de deux décimaux.
@@ -326,7 +325,7 @@ Après avoir consolidé le produit de décimaux, ils utilisent les formules pour
 @titre:Comparer, estimer, mesurer des grandeurs géométriques avec des nombres entiers et des nombres décimaux - Les contenances et les volumes
 @presentation:Relier les unités de volume et de contenance.<br/>
 Estimer la mesure d’un volume ou d’une contenance par différentes procédures (transvasements, appréciation de l’ordre de grandeur) et l’exprimer dans une unité adaptée.<br/>
-Déterminer le volume d’un pavé droit en se rapportant à un dénombrement d’unités (cubes de taille adaptée) ou en utilisant une formule : 
+Déterminer le volume d’un pavé droit en se rapportant à un dénombrement d’unités (cubes de taille adaptée) ou en utilisant une formule :
 <ul class="fleche">
 <li>unités usuelles de contenance (multiples et sous multiples du litre) ; </li>
 <li>unités usuelles de volume (\(\mathrm{cm}^3\), \(\mathrm{dm}^3\), \(\mathrm{m}^3\)), relations entre ces unités ;  </li>
@@ -334,9 +333,9 @@ Déterminer le volume d’un pavé droit en se rapportant à un dénombrement d�
 </ul>
 @contenu:<p>Les élèves comparent des contenances sans les mesurer, puis en les mesurant. Ils découvrent et apprennent qu’un litre est la contenance d’un cube de 10 cm d’arête. Ils font des analogies avec les autres unités de mesure à l’appui des préfixes.
 </p>
-@capacite:<p>Ils poursuivent ce travail en utilisant de nouvelles unités de contenance: dL, cL et mL.
+@capacite:<p>Ils poursuivent ce travail en utilisant de nouvelles unités de contenance : dL, cL et mL.
 </p>
-@commentaire:<p>Ils relient les unités de volume et de contenance (1 L=1 \(\mathrm{dm}^3\); 1 000 L=1 \(\mathrm{m}^3\)). Ils utilisent les unités de volume: \(\mathrm{cm}^3\), \(\mathrm{dm}^3\), \(\mathrm{m}^3\) et leurs relations.<br/>
+@commentaire:<p>Ils relient les unités de volume et de contenance (1 L=1 \(\mathrm{dm}^3\) ; 1 000 L=1 \(\mathrm{m}^3\)). Ils utilisent les unités de volume : \(\mathrm{cm}^3\), \(\mathrm{dm}^3\), \(\mathrm{m}^3\) et leurs relations.<br/>
 Ils calculent le volume d’un cube ou d’un pavé droit en utilisant une formule.
 </p>
 @wims:
@@ -433,10 +432,10 @@ Programmer les déplacements d’un robot ou ceux d’un personnage sur un écra
 @presentation:
 @contenu:Au CM1 puis au CM2, les élèves apprennent à programmer le déplacement d’un personnage sur un écran.<br/>
 Ils commencent par compléter de tels programmes, puis ils apprennent à corriger un programme erroné. Enfin, ils créent eux-mêmes des programmes permettant d’obtenir des déplacements d’objets ou de personnages.<br/>
-Les instructions correspondent à des déplacements absolus (liés à l’environnement: «aller vers l’ouest», «aller vers la fenêtre») ou relatifs (liés au personnage: «tourner d’un quart de tour à gauche»).
+Les instructions correspondent à des déplacements absolus (liés à l’environnement : «aller vers l’ouest», «aller vers la fenêtre») ou relatifs (liés au personnage : «tourner d’un quart de tour à gauche»).
 @capacite:Au CM1 puis au CM2, les élèves apprennent à programmer le déplacement d’un personnage sur un écran.<br/>
 Ils commencent par compléter de tels programmes, puis ils apprennent à corriger un programme erroné. Enfin, ils créent eux-mêmes des programmes permettant d’obtenir des déplacements d’objets ou de personnages.<br/>
-Les instructions correspondent à des déplacements absolus (liés à l’environnement: «aller vers l’ouest», «aller vers la fenêtre») ou relatifs (liés au personnage: «tourner d’un quart de tour à gauche»).
+Les instructions correspondent à des déplacements absolus (liés à l’environnement : «aller vers l’ouest», «aller vers la fenêtre») ou relatifs (liés au personnage : «tourner d’un quart de tour à gauche»).
 @commentaire:La construction de figures géométriques de simples à plus complexes, permet d’amener les élèves vers la répétition d’instructions.<br/>
 Ils peuvent commencer à programmer, seuls ou en équipe, des saynètes impliquant un ou plusieurs personnages interagissant ou se déplaçant simultanément ou successivement.
 @wims:
@@ -524,7 +523,7 @@ Dès que l’étude de la symétrie est suffisamment avancée, ils utilisent les
 @titre:Reconnaître et utiliser quelques relations géométriques - Le vocabulaire et les notations
 @presentation:Tout au long du cycle, les notations \(\left(AB\right)\), \(\lbrack AB)), \(\lbrack AB\rbrack\), \(AB\), sont toujours précédées du nom de l’objet qu’elles désignent : droite \(\left(AB\right)\), demi-droite \( \lbrack AB)), segment \(\lbrack AB\rbrack\), longueur \(AB\). Les élèves apprennent à utiliser le symbole d’appartenance (\({}\in{}\)) d’un point à une droite, une demi-droite ou un segment.<br/>
 Le vocabulaire et les notations nouvelles  (\({}\in{}\), \(\left(AB\right)\), \(\lbrack AB)), \(\lbrack AB\rbrack\), \(AB\), \(\widehat{AOB}\)) sont introduits au fur et à  mesure de leur utilité, et non au départ d’un apprentissage.
-@contenu:<p>Le vocabulaire utilisé est le même qu’en fin de cycle 2: côté, sommet, angle, angle droit, face, arête, milieu, droite, segment.<br/>
+@contenu:<p>Le vocabulaire utilisé est le même qu’en fin de cycle 2 : côté, sommet, angle, angle droit, face, arête, milieu, droite, segment.<br/>
 Les élèves commencent à rencontrer la notation «segment [AB]» pour désigner le segment d’extrémités A et B mais cette notation n’est pas exigible ; pour les droites, on parle de la droite «qui passe par les points A et B», ou de «la droite d».</p>
 @capacite:<p>Les élèves commencent à rencontrer la notation «droite \((AB)\)», et nomment les angles par leur sommet: par exemple,«l’angle \(\hat{A}\)»</p>
 @commentaire:<p>es élèves utilisent la notation \(AB\) pour désigner la longueur d’un segment qu’ils différencient de la notation du segment \([AB]\).<br/>
@@ -534,7 +533,7 @@ Les élèves apprennent à rédiger un programme de construction en utilisant le
 @titre:Reconnaître et utiliser quelques relations géométriques - Les instruments
 @presentation:
 @contenu:<p>Tout au long de l’année, les élèves utilisent la règle graduée ou non graduée ainsi que des bandes de papier à bord droit pour reporter des longueurs.<br/>Ils utilisent l’équerre pour repérer ou construire un angle droit.<br/>Ils utilisent aussi d’autres gabarits d’angle ainsi que du papier calque.<br/>Ils utilisent le compas pour tracer un cercle, connaissant son centre et un point du cercle ou son centre et la longueur d’un rayon, ou bien pour reporter une longueur.</p>
-@capacite:<p>Le travail sur les angles se poursuit, notamment sur des fractions simples de l’angle droit (ex: un «demi angle droit», «un tiers d’angle droit», «l’angle plat comme la somme de deux angles droits»).<br/>
+@capacite:<p>Le travail sur les angles se poursuit, notamment sur des fractions simples de l’angle droit (ex : un «demi angle droit», «un tiers d’angle droit», «l’angle plat comme la somme de deux angles droits»).<br/>
 Les élèves doivent comprendre que la mesure d’un angle («l’ouverture» formée par les deux demi-droites) ne change pas lorsque l’on prolonge ces demi-droites.</p>
 @commentaire:<p>Les élèves se servent des instruments (règle, équerre, compas) pour reproduire des figures simples, notamment un triangle de dimensions données. Cette utilisation est souvent combinée à des tracés préalables codés à main levée.<br/>
 Ils utilisent le rapporteur pour mesurer et construire des angles.<br/>
@@ -555,7 +554,7 @@ Construire la figure symétrique d'une figure donnée par rapport à un axe donn
 </li>
 </ul>
 <hr/>
-Reconnaître si une figure présente un axe de symétrie: on conjecture visuellement l’axe à trouver et on valide cette conjecture en utilisant du papier calque, des découpages, des pliages.<br/>
+Reconnaître si une figure présente un axe de symétrie : on conjecture visuellement l’axe à trouver et on valide cette conjecture en utilisant du papier calque, des découpages, des pliages.<br/>
 Compléter une figure pour qu'elle devienne symétrique par rapport à un axe donné.
 <ul class="tirets">
 <li>Symétrie axiale.</li>
@@ -592,6 +591,6 @@ En lien avec les propriétés de la symétrie axiale, ils connaissent la propri�
 @theme:Croisements entre enseignements
 @objectif:
 @histoire:
-@conclusion:<p>L’utilisation  des  grands  nombres  entiers  et  des  nombres  décimaux  permet  d’appréhender  et  d’estimer  des  mesures  de  grandeur :  approche  de  la  mesure  non  entière  de  grandeurs  continues,  estimation  de  grandes  distances,   de   populations,   de   durées,   de   périodes   de   l’histoire,   de   superficies,   de   prix,   de   mémoire   informatique, etc. Les élèves apprennent progressivement à résoudre des problèmes portant sur des contextes et  des  données  issus  des  autres  disciplines.  En  effet,  les  supports  de  prises  d’informations  variés  (textes,  tableaux, graphiques, plans) permettent de travailler avec des données réelles issues de différentes disciplines (histoire  et  géographie,  sciences  et  technologie,  éducation  physique  et  sportive,  arts  plastiques).  De  plus,  la  lecture  des  données,  les  échanges  oraux  pour  expliquer  les  démarches,  et  la  production  de  réponses  sous  forme  textuelle  contribuent  à  travailler  plusieurs  composantes  de  la  maîtrise  de  la  langue  dans  le  cadre  des  mathématiques.  Enfin,  les  contextes  des  situations  de  proportionnalité  à  explorer  au  cours  du  cycle  peuvent  être illustrés ou réinvestis dans d’autres disciplines : problèmes d’échelle, de vitesse, de pourcentage (histoire et  géographie,  éducation  physique  et  sportive,  sciences  et  technologie),  problèmes  d’agrandissement  et  de  réduction (arts plastiques, sciences).<br/>
-Les activités de repérage ou de déplacement sur un plan ou sur une carte prennent sens à travers des activités physiques (course d’orientation), mais aussi dans le cadre des enseignements de géographie (lecture de cartes) ou  de  technologie  (réalisation  d’un  objet  simple ;  préparation  d’un  déplacement  à  l’aide  de  systèmes d’information  géographiques).  Les  activités  de  reconnaissance  et  de  construction  de  figures  et  d’objets  géométriques    peuvent    s’appuyer    sur    des    réalisations    artistiques    (peinture,    sculpture,    architecture,    photographie, etc.).</p>
+@conclusion:L’utilisation  des  grands  nombres  entiers  et  des  nombres  décimaux  permet  d’appréhender  et  d’estimer  des  mesures  de  grandeur :  approche  de  la  mesure  non  entière  de  grandeurs  continues,  estimation  de  grandes  distances,   de   populations,   de   durées,   de   périodes   de   l’histoire,   de   superficies,   de   prix,   de   mémoire   informatique, etc. Les élèves apprennent progressivement à résoudre des problèmes portant sur des contextes et  des  données  issus  des  autres  disciplines.  En  effet,  les  supports  de  prises  d’informations  variés  (textes,  tableaux, graphiques, plans) permettent de travailler avec des données réelles issues de différentes disciplines (histoire  et  géographie,  sciences  et  technologie,  éducation  physique  et  sportive,  arts  plastiques).  De  plus,  la  lecture  des  données,  les  échanges  oraux  pour  expliquer  les  démarches,  et  la  production  de  réponses  sous  forme  textuelle  contribuent  à  travailler  plusieurs  composantes  de  la  maîtrise  de  la  langue  dans  le  cadre  des  mathématiques.  Enfin,  les  contextes  des  situations  de  proportionnalité  à  explorer  au  cours  du  cycle  peuvent  être illustrés ou réinvestis dans d’autres disciplines : problèmes d’échelle, de vitesse, de pourcentage (histoire et  géographie,  éducation  physique  et  sportive,  sciences  et  technologie),  problèmes  d’agrandissement  et  de  réduction (arts plastiques, sciences).<br/>
+Les activités de repérage ou de déplacement sur un plan ou sur une carte prennent sens à travers des activités physiques (course d’orientation), mais aussi dans le cadre des enseignements de géographie (lecture de cartes) ou  de  technologie  (réalisation  d’un  objet  simple ;  préparation  d’un  déplacement  à  l’aide  de  systèmes d’information  géographiques).  Les  activités  de  reconnaissance  et  de  construction  de  figures  et  d’objets  géométriques    peuvent    s’appuyer    sur    des    réalisations    artistiques    (peinture,    sculpture,    architecture,    photographie, etc.).
 @end:

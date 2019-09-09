@@ -1,5 +1,5 @@
-@titreniveau:Mathématiques Première générale
-@datewims:Dernière mise à jour le 06/08/2019 (Euler Versailles)<br/>Texte créé à partir du document :<br/>programmes d'enseignement &#8212; <a href = "https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/16/8/spe632_annexe_1063168.pdf" target="_blank">BO spécial n°1 du 22 janvier 2019</a>
+@titreniveau:Mathématiques Première générale (En cours de création)
+@datewims:Dernière mise à jour le 21/08/2019 (Euler Versailles)<br/>Texte créé à partir du document :<br/>programmes d'enseignement &#8212; <a href = "https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/16/8/spe632_annexe_1063168.pdf" target="_blank">BO spécial n°1 du 22 janvier 2019</a>
 @level:2
 @ressources:https://euler.ac-versailles.fr/rubrique177.html
 @intro:
@@ -71,10 +71,10 @@ thème d’étude ;</li>
 <li>les rituels, afin de consolider les connaissances et les méthodes.</li>
 </ul>
 £Organisation du programme
-Le programme s’organise en cinq grandes parties : « Algèbre », « Analyse », « Géométrie », « Probabilités et statistiques » et « Algorithmique et programmation ». Ce découpage n’est pas un plan de cours et il est essentiel d’exploiter les possibilités d’interaction entre ces parties.<br/>
+Le programme s’organise en cinq grandes parties : «&nbsp;Algèbre&nbsp;», «&nbsp;Analyse&nbsp;», «&nbsp;Géométrie&nbsp;», «&nbsp;Probabilités et statistiques&nbsp;» et «&nbsp;Algorithmique et programmation&nbsp;». Ce découpage n’est pas un plan de cours et il est essentiel d’exploiter les possibilités d’interaction entre ces parties.<br/>
 Démontrer est une composante fondamentale de l’activité mathématique. Le programme propose quelques démonstrations exemplaires, que les élèves découvrent selon des modalités variées : présentation par le professeur, élaboration par les élèves sous la direction du professeur, devoir à la maison..<br/>
 Le programme propose un certain nombre d’approfondissements possibles, mais en aucun cas obligatoires. Ils permettent une différentiation pédagogique.<br/>
-Il peut être judicieux d’éclairer le cours par des éléments de contextualisation d’ordre historique, épistémologique ou culturel. L’histoire peut aussi être envisagée comme une source féconde de problèmes clarifiant le sens de certaines notions. Les items « Histoire des mathématiques » identifient quelques possibilités en ce sens. Pour les étayer, le professeur pourra, s’il le désire, s’appuyer sur l’étude de textes historiques.
+Il peut être judicieux d’éclairer le cours par des éléments de contextualisation d’ordre historique, épistémologique ou culturel. L’histoire peut aussi être envisagée comme une source féconde de problèmes clarifiant le sens de certaines notions. Les items «&nbsp;Histoire des mathématiques&nbsp;» identifient quelques possibilités en ce sens. Pour les étayer, le professeur pourra, s’il le désire, s’appuyer sur l’étude de textes historiques.
 @theme:Algèbre
 @objectif:En classe de première, les suites sont présentées d’un point de vue principalement algébrique. L’objectif est que l’élève soit confronté à des systèmes discrets pour lesquels les suites numériques apparaissent comme modélisation adaptée. C’est aussi l’occasion d’aborder le concept de définition par récurrence.
 L’élève rencontre différents modes de génération de suites :
@@ -101,15 +101,20 @@ Les élèves sont entraînés à reconnaître et pratiquer la factorisation dire
 @contenu:<ul class="tirets">
 <li>Exemples de modes de génération d’une suite :<br/>explicite \(u_n = f(n)\), par une relation de récurrence \(u_{n+1} = f(u_n)\), par un algorithme, par des motifs géométriques.
 Notations : \(u(n)\), \(u_n\), \((u(n))\), \((u_n)\).</li>
-<li>Suites arithmétiques : exemples, définition, calcul du terme général. Lien avec l’étude
-d’évolutions successives à accroissements constants. Lien avec les fonctions affines.
-Calcul de \(1 + 2 +...+ n\).</li>
-<li>Suites géométriques : exemples, définition, calcul du terme général. Lien avec l’étude
+<li>
+!href target=wims_gloss module=adm/tool/glossary&+special_parm=mathematics/analysis/fr/arithmetic_seq&+cmd=new Suites arithmétiques
+ &#58; exemples, définition, calcul du terme général. Lien avec l’étude
+d’évolutions successives à accroissements constants. Lien avec les 
+!href target=wims_gloss module=adm/tool/glossary&+special_parm=mathematics/analysis/fr/affine_function&+cmd=new fonctions affines.
+ Calcul de \(1 + 2 +...+ n\).</li>
+<li>
+!href target=wims_gloss module=adm/tool/glossary&+special_parm=mathematics/analysis/fr/geometric_seq&+cmd=new Suites géométriques
+ &#58; exemples, définition, calcul du terme général. Lien avec l’étude
 d’évolutions successives à taux constant. Lien avec la fonction exponentielle. Calcul
 de \(1 + q +...+ q^n\).</li>
-<li>Sens de variation d’une suite</li>
+<li>Sens de variation d’une suite.</li>
 <li>Sur des exemples, introduction intuitive de la notion de limite, finie ou infinie, d’une
-suite</li>
+suite.</li>
 </ul>
 @capacite:<ul class="tirets">
 <li>Dans le cadre de l’étude d’une suite, utiliser le registre de la langue naturelle, le registre algébrique, le registre graphique, et passer de l’un à l’autre.</li>
@@ -121,7 +126,9 @@ suite</li>
 </ul>
 @commentaire:<strong>Démonstrations</strong>
 <ul class="tirets">
-<li>Calcul du terme général d’une suite arithmétique, d’une suite géométrique.</li>
+<li>Calcul du terme général d’une 
+!href target=wims_gloss module=adm/tool/glossary&+special_parm=mathematics/analysis/fr/arithmetic_seq&+cmd=new suite arithmétique
+, d’une suite géométrique.</li>
 <li>Calcul de \(1 + 2 +...+ n\).</li>
 <li>Calcul de \(1 + q +...+ q^n\).</li>
 </ul>
@@ -139,14 +146,19 @@ suite</li>
 </li>
 </ul>
 @wims:
-H4/algebra/oefsuites1S.fr,calcultermeA,Calcul des termes d'une suite,,,Le tooltip
-H2/algebra/oefrationnel.fr,n2s1e06,Ranger des fractions,,quizz,Comparer 5 nombres rationnels donnés
+H4/algebra/oefsuites1S.fr,calcultermeA,Calculs sur les suites,,,Questions diverses sur les suites
 @titre:Équations, fonctions polynômes du second degré
 @presentation:
 @contenu:<ul class="tirets">
-<li>Fonction polynôme du second degré donnée sous forme factorisée. Racines, signe,
+<li>
+!href target=wims_gloss module=adm/tool/glossary&+special_parm=mathematics/algebra/fr/trinomial&+cmd=new Fonction polynôme du second degré
+ donnée sous forme factorisée. Racines, signe,
 expression de la somme et du produit des racines.</li>
-<li>Forme canonique d’une fonction polynôme du second degré. Discriminant.
+<li>
+!href target=wims_gloss module=adm/tool/glossary&+special_parm=mathematics/algebra/fr/canonical_form&+cmd=new Forme canonique 
+d’une 
+!href target=wims_gloss module=adm/tool/glossary&+special_parm=mathematics/algebra/fr/trinomial&+cmd=new fonction polynôme du second degré
+. Discriminant.
 Factorisation éventuelle. Résolution d’une équation du second degré. Signe.</li>
 </ul>
 @capacite:<ul class="tirets"
@@ -175,8 +187,6 @@ racines de la fonction polynôme \(x\longmapsto x^2-s x+p\).
 </li>
 </ul>
 @wims:
-H4/algebra/oefsuites1S.fr,calcultermeA,Calcul des termes d'une suite,,,Le tooltip
-H2/algebra/oefrationnel.fr,n2s1e06,Ranger des fractions,,quizz,Comparer 5 nombres rationnels donnés
 @conclusion:
 @theme:Analyse
 @objectif:<p>
@@ -253,7 +263,7 @@ d’abscisse \(a\) est la droite d’équation \(y = f(a) + f'(a)(x - a)\).</li>
 <li>Fonction dérivable sur un intervalle. Fonction dérivée.</li>
 <li>Fonction dérivée des fonctions carré, cube, inverse, racine carrée.</li>
 <li>Opérations sur les fonctions dérivables : somme, produit, inverse, quotient, fonction
-dérivée de \(x \longmapsto g(ax + b)\)</li>
+dérivée de \(x \longmapsto g(a x + b)\)</li>
 <li>Pour \(n\) dans \(\mathbb{Z}\), fonction dérivée de la fonction \(x\longmapsto x^n\).</li>
 <li>Fonction valeur absolue : courbe représentative, étude de la dérivabilité en \(0\).
 </ul>
@@ -282,13 +292,12 @@ opérations sur les fonctions dérivables.</li>
 <li>Écrire la liste des coefficients directeurs des sécantes pour un pas donné.</li>
 </ul>
 @wims:
-niveau/domaine/oef.fr,exo,Titre explicite,,,Le tooltip
 @titre:Variations et courbes représentatives des fonctions
 @presentation:
 @contenu:<ul class="tirets">
 <li>Lien entre le sens de variation d’une fonction dérivable sur un intervalle et signe de
 sa fonction dérivée ; caractérisation des fonctions constantes.</li>
-<li>Nombre dérivé en un extremum, tangente à la courbe représentative</li>
+<li>Nombre dérivé en un extremum, tangente à la courbe représentative.</li>
 </ul>
 @capacite:<ul class="tirets">
 <li>Étudier les variations d’une fonction. Déterminer les extremums.</li>
@@ -303,7 +312,6 @@ variations, extremum, allure selon le signe du coefficient de \(x^2\).</li>
 <li>Méthode de Newton, en se limitant à des cas favorables.</li>
 </ul>
 @wims:
-niveau/domaine/oef.fr,exo,Titre explicite,,,Le tooltip
 @titre:Fonction exponentielle
 @presentation:
 @contenu:<ul class="tirets">
@@ -333,7 +341,6 @@ approchée de \(\mathrm{e}\) à l’aide de la suite \(\left(\left(1+\frac{1}{n}
 <li>La fonction exponentielle est strictement positive et croissante.</li>
 </ul>
 @wims:
-niveau/domaine/oef.fr,exo,Titre explicite,,,Le tooltip
 @titre:Fonctions trigonométriques
 @presentation:
 @contenu:<ul class="tirets">
@@ -360,7 +367,6 @@ de \(x\), les cosinus et sinus d’angles associés à \(x\).</li>
 <li>Approximation de \({\pi} \) par la méthode d’Archimède.</li>
 </ul>
 @wims:
-niveau/domaine/oef.fr,exo,Titre explicite,,,Le tooltip
 @conclusion:
 @theme:Géométrie
 @objectif:<p>L’étude de la géométrie plane menée au collège et en seconde a familiarisé les élèves à la
@@ -417,7 +423,6 @@ des coordonnées, à l’aide des normes et d’un angle, à l’aide de normes)
 <li>Les médianes d’un triangle concourent au centre de gravité.</li>
 </ul>
 @wims:
-niveau/domaine/oef.fr,exo,Titre explicite,,,Le tooltip
 @titre:Géométrie repérée
 @presentation:<em>Dans un repère orthonormé</em>
 @contenu:<ul class="tirets">
@@ -444,7 +449,6 @@ donné.</li>
 avec une droite parallèle à un axe.</li>
 </ul>
 @wims:
-niveau/domaine/oef.fr,exo,Titre explicite,,,Le tooltip
 @conclusion:
 @theme:Probabilités et statistiques
 @objectif:L’enseignement dispensé en classe de seconde a abordé le modèle probabiliste, dans le cas
@@ -496,11 +500,7 @@ La notion de variable aléatoire, présente sans définition précise depuis l'o
 </ul>
 @wims:
 @titre:Variables aléatoires réelles
-@presentation:<p>Le programme ne considère que des univers finis et des variables aléatoires réelles.
-L’objectif est simultanément de développer une intuition autour de l’idée de nombre
-dépendant du hasard et de formaliser la notion mathématique de variable aléatoire comme
-fonction numérique définie sur un univers, permettant d’affecter des probabilités aux valeurs
-possibles de la variable.</p>
+@presentation:<p>Le programme ne considère que des univers finis et des variables aléatoires réelles. L’objectif est simultanément de développer une intuition autour de l’idée de nombre dépendant du hasard et de formaliser la notion mathématique de variable aléatoire comme fonction numérique définie sur un univers, permettant d’affecter des probabilités aux valeurs possibles de la variable.</p>
 @contenu:<ul class="tirets">
 <li>Variable aléatoire réelle : modélisation du résultat numérique d’une expérience aléatoire ; formalisation comme fonction définie sur l’univers et à valeurs réelles.</li>
 <li>Loi d’une variable aléatoire.</li>
@@ -520,12 +520,11 @@ possibles de la variable.</p>
 </ul>
 <strong>Approfondissements possibles</strong>
 <ul class="tirets">
-<li>ormule de König-Huygens.</li>
-<li>Pour X variable aléatoire, étude de la fonction du second degré \(x \longmapsto \mathrm{E}\left((X - x)^2\right)\).</li>
+<li>Formule de König-Huygens.</li>
+<li>Pour \(X\) variable aléatoire, étude de la fonction du second degré \(x \longmapsto \mathrm{E}\left((X - x)^2\right)\).</li>
 </ul>
 <strong>Expérimentations</strong>
-<p>Le travail expérimental de simulation d’échantillons prolonge celui entrepris en seconde.
-L’objectif est de faire percevoir le principe de l’estimation de l’espérance d’une variable aléatoire, ou de la moyenne d’une variable statistique dans une population, par une moyenne observée sur un échantillon.</p>
+<p>Le travail expérimental de simulation d’échantillons prolonge celui entrepris en seconde. L’objectif est de faire percevoir le principe de l’estimation de l’espérance d’une variable aléatoire, ou de la moyenne d’une variable statistique dans une population, par une moyenne observée sur un échantillon.</p>
 <ul class="tirets">
 <li>Simuler une variable aléatoire avec Python.</li>
 <li>Lire, comprendre et écrire une fonction Python renvoyant la moyenne d’un échantillon
@@ -539,12 +538,11 @@ proportion des cas où l’écart entre \(m\) et \({\mu}\) est inférieur ou ég
 @wims:
 @conclusion:
 @theme:Algorithmique et programmation
-@objectif:<p>La démarche algorithmique est, depuis les origines, une composante essentielle de l’activité mathématique. Au collège, en mathématiques et en technologie, les élèves ont appris à écrire, mettre au point et exécuter un programme simple. La classe de seconde a permis de consolider les acquis du cycle 4 autour de deux idées essentielles :
+@objectif:<p>La démarche algorithmique est, depuis les origines, une composante essentielle de l’activité mathématique. Au collège, en mathématiques et en technologie, les élèves ont appris à écrire, mettre au point et exécuter un programme simple. La classe de seconde a permis de consolider les acquis du cycle 4 autour de deux idées essentielles :</p>
 <ul class="tirets">
 <li>la notion de fonction ;</li>
 <li>la programmation comme production d’un texte dans un langage informatique.</li>
 </ul>
-</p>
 <p>L’enseignement de spécialité de mathématiques de classe de première vise la consolidation
 des notions de variable, d’instruction conditionnelle et de boucle ainsi que l’utilisation des
 fonctions. La seule notion nouvelle est celle de liste qui trouve naturellement sa place dans

@@ -75,7 +75,7 @@ Les mises en lien avec les autres disciplines contribuent à donner du sens et d
         exploiter ses erreurs, mettre à l’essai plusieurs solutions ;</li>
         <li>mener collectivement une investigation en sachant prendre en compte le point de
         vue d’autrui ;</li>
-        <li>démontrer: utiliser un raisonnement logique et des règles établies (propriétés,
+        <li>démontrer : utiliser un raisonnement logique et des règles établies (propriétés,
         théorèmes, formules) pour parvenir à une conclusion ;</li>
         <li>fonder et défendre ses jugements en s’appuyant sur des résultats établis et sur sa
         maîtrise de l’argumentation.</li>
@@ -189,9 +189,9 @@ littéral vient compléter pour tout ou partie des élèves l’utilisation d’
 <li>passer d’une représentation d’un nombre à une autre.</li>
 </ul>
 @contenu:<p></p>
-@capacite:<p>Les puissances de 10 sont d’abord introduites avec des exposants positifs, puis négatifs, afin de définir les préfixes de nano à giga et
+@capacite:<p>Les puissances de 10 sont d’abord introduites avec des exposants positifs, puis négatifs, afin de définir les préfixes de nano à giga et la
 
-!href target=wims_gloss module=adm/tool/glossary&+special_parm=mathematics/analysis/fr/scientific_notation&+cmd=new la notation scientifique.
+!href target=wims_gloss module=adm/tool/glossary&+special_parm=mathematics/analysis/fr/scientific_notation&+cmd=new notation scientifique. 
 Celle-ci est utilisée pour comparer des nombres et déterminer des ordres de grandeurs, en lien avec d’autres disciplines. Les puissances de base quelconque d’exposants positifs sont introduites pour simplifier l’écriture de produits.
 </p>
 <p><em>La connaissance des formules générales sur les produits ou quotients de puissances de 10 n’est pas un attendu du programme : la mise en œuvre des calculs sur les puissances découle de leur définition.
@@ -545,7 +545,7 @@ Le lien est fait entre la proportionnalité et certaines configurations ou trans
 @titre:Utiliser les notions de géométrie plane pour démontrer - Figures et configurations
 @presentation:<strong>Connaissances : </strong>
 <ul class ="fleche">
-<li>caractérisation angulaire du parallélisme: angles alternes internes, angles correspondants;</li>
+<li>caractérisation angulaire du parallélisme : angles alternes internes, angles correspondants;</li>
 <li>triangle:
     <ul class="square2">
         <li>somme des angles d’un triangle (démonstration possible en utilisant les angles correspondants) ;</li>
@@ -567,7 +567,7 @@ Le lien est fait entre la proportionnalité et certaines configurations ou trans
 </ul>
 @contenu:<p>La caractérisation angulaire du parallélisme (angles alternes-internes et angles correspondants) est énoncée. La valeur de la somme des angles d’un triangle peut être démontrée et est utilisée. L’inégalité triangulaire est énoncée. Le lien est fait entre l’inégalité triangulaire et la construction d’un triangle à partir de la donnée de trois longueurs. Des constructions de triangles à partir de la mesure d’une longueur et de deux angles ou d’un angle et de deux longueurs sont proposées.
 </p>
-<p>Le parallélogramme est défini à partir de l’une de ses propriétés:parallélisme des couples de côtés opposés ou intersection des diagonales. L’autre propriété est démontrée et devient une propriété caractéristique. Il est alors montré que les côtés opposés d’un parallélogramme sont deux à deux de même longueur grâce aux propriétés de la symétrie.
+<p>Le parallélogramme est défini à partir de l’une de ses propriétés : parallélisme des couples de côtés opposés ou intersection des diagonales. L’autre propriété est démontrée et devient une propriété caractéristique. Il est alors montré que les côtés opposés d’un parallélogramme sont deux à deux de même longueur grâce aux propriétés de la symétrie.
 </p>
 <p>Les propriétés relatives aux côtés et aux diagonales d’un parallélogramme sont mises en œuvre pour effectuer des constructions et mener des raisonnements.
 </p>
@@ -621,7 +621,7 @@ Le lien est fait entre la proportionnalité et certaines configurations ou trans
 </ul>
 <p>Les repères qui suivent indiquent une progressivité dans le <strong>niveau de complexité des activités</strong> relevant de ce thème. Certains élèves sont capables de réaliser des activités de troisième niveau dès le début du cycle.</p>
 @contenu:<p>À un premier niveau, les élèves mettent en ordre et/ou complètent des blocs Scratch fournis par le professeur pour construire un programme simple. L’utilisation progressive des instructions conditionnelles et/ou de la boucle «répéter...fois» permet d’écrire des scripts de déplacement, de construction géométrique ou de programme de calcul.</p>
-@capacite:<p>À un deuxième niveau, les connaissances et les compétences en algorithmique et en programmation s’élargissent par:
+@capacite:<p>À un deuxième niveau, les connaissances et les compétences en algorithmique et en programmation s’élargissent par :
 <ul class="tirets">
 <li>l’écriture d’une séquence d’instructions (condition «si...alors» et boucle «répéter...fois»);</li>
 <li>l’écriture de programmes déclenchés par des événements extérieurs;</li>
@@ -634,6 +634,6 @@ Le lien est fait entre la proportionnalité et certaines configurations ou trans
 @theme:Croisements entre enseignements
 @objectif:
 @histoire:
-@conclusion:<p>Si les mathématiques sont une science à part entière avec son propre langage et une démarche spécifique de preuve  basée,  non  pas  sur  la  confrontation  au  réel,  mais  sur  la  démonstration,  elles  sont  également  intimement  liées  aux  autres  disciplines.  Elles  fournissent  en  effet  des  outils  de  calcul  et  de  représentation  et  des  modèles  qui  permettent  de  traiter  des  situations  issues  de  toutes  les  autres  disciplines  enseignées  au  cycle 4.  De  ce  fait, les  mathématiques  ont  également  toute  leur  place  dans  les  enseignements  pratiques interdisciplinaires qui contribuent à faire percevoir aux élèves leur dimension créative, inductive et esthétique et à éprouver le plaisir de les pratiquer.<br/>
+@conclusion:<p>Si les mathématiques sont une science à part entière avec son propre langage et une démarche spécifique de preuve  basée,  non  pas  sur  la  confrontation  au  réel,  mais  sur  la  démonstration,  elles  sont  également  intimement  liées  aux  autres  disciplines.  Elles  fournissent  en  effet  des  outils  de  calcul  et  de  représentation  et  des  modèles  qui  permettent  de  traiter  des  situations  issues  de  toutes  les  autres  disciplines  enseignées  au  cycle 4.  De  ce  fait, les  mathématiques  ont  également  toute  leur  place  dans  les  enseignements  pratiques interdisciplinaires qui contribuent à faire percevoir aux élèves leur dimension créative, inductive et esthétique et à éprouver le plaisir de les pratiquer.
 </p>
 @end:
