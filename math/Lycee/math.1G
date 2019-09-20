@@ -1,5 +1,5 @@
 @titreniveau:Mathématiques Première générale (En cours de création)
-@datewims:Dernière mise à jour le 21/08/2019 (Euler Versailles)<br/>Texte créé à partir du document :<br/>programmes d'enseignement &#8212; <a href = "https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/16/8/spe632_annexe_1063168.pdf" target="_blank">BO spécial n°1 du 22 janvier 2019</a>
+@datewims:Dernière mise à jour le 11/09/2019 (Euler Versailles)<br/>Texte créé à partir du document :<br/>programmes d'enseignement &#8212; <a href = "https://cache.media.education.gouv.fr/file/SP1-MEN-22-1-2019/16/8/spe632_annexe_1063168.pdf" target="_blank">BO spécial n°1 du 22 janvier 2019</a>
 @level:2
 @ressources:https://euler.ac-versailles.fr/rubrique177.html
 @intro:
@@ -156,10 +156,12 @@ H4/algebra/oefsuites1S.fr,calcultermeA,Calculs sur les suites,,,Questions divers
 expression de la somme et du produit des racines.</li>
 <li>
 !href target=wims_gloss module=adm/tool/glossary&+special_parm=mathematics/algebra/fr/canonical_form&+cmd=new Forme canonique 
-d’une 
-!href target=wims_gloss module=adm/tool/glossary&+special_parm=mathematics/algebra/fr/trinomial&+cmd=new fonction polynôme du second degré
-. Discriminant.
-Factorisation éventuelle. Résolution d’une équation du second degré. Signe.</li>
+d’une fonction polynôme du second degré.
+!href target=wims_gloss module=adm/tool/glossary&+special_parm=mathematics/algebra/fr/discriminant&+cmd=new Discriminant
+.
+Factorisation éventuelle. 
+!href target=wims_gloss module=adm/tool/glossary&+special_parm=mathematics/algebra/fr/eq_2nddegre&+cmd=new Résolution d’une équation du second degré
+. Signe.</li>
 </ul>
 @capacite:<ul class="tirets"
 <li>Étudier le signe d’une fonction polynôme du second degré donnée sous forme
