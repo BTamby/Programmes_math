@@ -23,7 +23,6 @@ def creer_intro(texte):
 	Le titre de chaque partie doit être précédé du caractère £.""" 
 	t = texte.split('\n')
 	t.remove(t[-1])
-	# print(t)
 	nb_partie = 0
 	titre_partie = []
 	dico_intro ={}
@@ -42,7 +41,7 @@ def creer_intro(texte):
 ################################################################################
 def begin_html():
 	global allhtml, info_gen
-	# Enregistrer les infos générales dans un dictionnaire
+	# Enregistrement des informations générales dans un dictionnaire
 	info_gen={'titreniveau':'','datewims':'','level':'','ressources':''}
 	for cle in info_gen:
 		tag = tag='@'+cle
@@ -59,6 +58,8 @@ def begin_html():
 		info_gen[cle]=info_lu
 	Fichier = path_base_program.split('/')[-1]
 	Fichier = Fichier.replace('.','_')
+	print('Ficj=hier = ',Fichier)
+	#Ajout du responsable du programme créé
 	txt ='!set email=$responsable_'+Fichier+'\n<h2 class="wims_title">'+info_gen['titreniveau']+\
 	'</h2>\n<div class="wims_msg info program_desc"><!--Début info-->\n\t'+info_gen['datewims']+'\n<br/>Ressources complémentaires : <a href ="'+info_gen['ressources']+'" target="_blank">Euler Versailles</a>\n</div><!--Fin info-->\n'
 	allhtml = allhtml +txt
@@ -139,24 +140,27 @@ def creer_les_themes():
 def creer_lien_exo(ex):
 	lien = ''
 	split_ex = ex.split(',')
-	#S'il y a des execices...
+	print("Test split_ex = ",split_ex)
+	#S'il y a des exercices...
 	if len(split_ex) > 1:
 		mod=split_ex[0]
 		exo=split_ex[1]
-		titre_mod=split_ex[2]
+		titre_modifie=split_ex[2]
 		extra0=split_ex[3]
 		if exo != '':
 			extra = extra0+"&+cmd=new"
-			nom = mod+"&exo"
 		else :
-			extra =extr0+"&+cmd=intro"
+			extra ="&+cmd=intro"
+		if titre_modifie =='':
+			titre_modifie = exo
 		picto=split_ex[4]
 		if picto != '':
 			picto = "\n\t\t\t\t\t!set wims_ref_class=text_icon icon_"+picto
 		desc=split_ex[5]
 		if desc != '':
 			desc = "\n\t\t\t\t\t!set wims_ref_title="+desc
-		lien = "\t\t\t\t<li>"+picto+desc+"\n\t\t\t\t\t!href target=wims_exo module="+mod+"&exo="+exo+extra+" "+titre_mod+"\n\t\t\t\t</li>\n"
+		lien = "\t\t\t\t<li>"+picto+desc+"\n\t\t\t\t\t!href target=wims_exo module="+mod+"&exo="+exo+extra+" "+titre_modifie+"\n\t\t\t\t</li>\n"
+		print('Le lien : ',lien)
 	return lien
 ################################################################################
 def creer_liste_exo(them,pt_de_prog,ex):
@@ -252,7 +256,7 @@ def creer_program(prog):
 			sommaire = 'Sommaire'
 			objectif = "Objectifs"
 			titre_col1 = 'Contenus'
-			titre_col2 = 'Capacités atendues'
+			titre_col2 = 'Capacités attendues'
 			titre_col3 = 'Démonstrations-Algorithmes-Approfondissements'
 		if val['objectif'] != ['']:
 			begin_div_objectif = '\t\t<div class="accordion"><!--Début accordéon objectifs-->\n\t\t\t<h4 class="program_h4">'+objectif+'</h4>\n\t\t\t<div><!--Début objectifs-->\n'
@@ -342,15 +346,16 @@ def creer_program(prog):
 	        		</div>
 	    \t\t</div><!--Fin du modal-->\n\t\t\t\t<script>\n\t\t\t\t\t$$("#"""+data_open+"""").draggable();\n\t\t\t\t</script>"""
 					pas_fen_modal = """<div class="accordion">
-					\t<h2 class="">Exercices :  &nbsp; """+titre_lien_exo+"""</h2>
+					\t<h2><span class="exo_modal">Exercices </span>: &nbsp; """+titre_lien_exo+"""</h2>
 					\t\t<div>
 					\t\t\t<ul class="menu vertical">\n"""+les_exo+"""
 		            \t\t\t</ul>
 		            \t\t</div>
 					</div>"""
-
-					test_theme = "!if $wims_theme==Euler\n"+fen_modal+"\n!else\n"+pas_fen_modal+"\n!endif"
-					allhtml = allhtml + test_theme
+					#Pas de fenêtre modale du tout, accordéon pour tout thème
+					#test_theme = "!if $wims_theme==Euler\n"+fen_modal+"\n!else\n"+pas_fen_modal+"\n!endif"
+					#allhtml = allhtml + test_theme
+					allhtml = allhtml + pas_fen_modal
 				allhtml = allhtml+'\n\t\t\t</div><!-- Fin exercices -->\n'
 			end_div_bloc ='\t\t</div><!--Fin bloc des colonnes du id pt_prog_'+str(i)+str(num)+'-->\n<br class="spacer">\n'
 			allhtml = allhtml + end_div_bloc
@@ -374,6 +379,7 @@ def creer_program(prog):
 ################################################################################
 work_directory = os.getcwd()
 dossier_niveau = [work_directory+'/math/College/',work_directory+'/math/Lycee/']
+#dossier_niveau = [work_directory+'/math/Test/']
 #Lecture du fichier de base du programme pour extraire le contenu
 for niveau in dossier_niveau :
 	for base_programm in os.listdir(niveau):
