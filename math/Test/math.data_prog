@@ -1,0 +1,103 @@
+@titreniveau:Le niveau du programme
+@datewims:Date de création du programme et informations diverses. Test du 07/08/19 à 23h35.
+@level:2
+@ressources:https://euler.ac-versailles.fr/rubrique176.html
+@intro:
+£Introduction partie 1
+<p>Un paragraphe</p>
+Des listes : 
+		<ul class="tirets">
+		<li>item 1;</li>
+		<li>item 2;</li>
+		<li>item 3.</li>
+		</ul>
+<p>Un autre paragraphe</p>
+		<ul class="bullets">
+		<li>item 1
+		</ul>
+Une liste 
+		<ul class="tirets">
+		<li>item 1;</li>
+		<li>item 2;</li>
+		</ul>
+£Introduction partie 2
+<p>Un paragraphe</p>
+Des listes : 
+		<ul class="tirets">
+		<li>item 1;</li>
+		<li>item 2;</li>
+		<li>item 3.</li>
+		</ul>
+<p>Un autre paragraphe</p>
+@theme:Thème 1
+@objectif:Blabla objectif
+@histoire:Blabla histoire
+@titre:Titre 1
+@presentation:Blabla présentation
+@contenu:
+<div class="accordion">
+<h2>Point1</h2>
+
+<ul class="menu vertical">
+				<li>
+					!set wims_ref_class=text_icon icon_vraifaux
+					!set wims_ref_title=Un vrai-faux sur la nature des nombres
+					!href target=wims_exo module=H4/number/OEFevalwimsnumber.fr&exo=nature1&+cmd=new Nature de nombres-1
+				</li>
+
+				<li>
+					!set wims_ref_class=text_icon icon_vraifaux
+					!set wims_ref_title=Un vrai-faux sur la nature des nombres
+					!href target=wims_exo module=H4/number/OEFevalwimsnumber.fr&exo=nature2&+cmd=new Nature de nombres-2
+				</li>
+
+				<li>
+					!set wims_ref_class=text_icon icon_vraifaux
+					!set wims_ref_title=Un vrai-faux sur la nature des nombres définis par des racines carrées
+					!href target=wims_exo module=H4/number/OEFevalwimsnumber.fr&exo=nature3&+cmd=new Nature de nombres et racines carrées
+				</li>
+
+				<li>
+					!set wims_ref_class=text_icon icon_vraifaux
+					!set wims_ref_title=Un vrai-faux sur la nature des nombres définis par des fractions et des puissances
+					!href target=wims_exo module=H4/number/OEFevalwimsnumber.fr&exo=nature4&+cmd=new Nature de nombres&#44; fractions et puissances
+				</li>
+
+				<li>
+					!set wims_ref_title=Déterminier différents ensembles auxquels appartient un nombre
+					!href target=wims_exo module=H4/algebra/oefnombres.fr&exo=nature&+cmd=new Ensemble de nombres
+				</li>
+
+				<li>
+					!set wims_ref_class=text_icon icon_quizz
+					!set wims_ref_title=Un quizz sur la nature de nombres
+					!href target=wims_exo module=H3/arithmetic/oefarith.fr&exo=quizznbre&+cmd=new Quizz sur les nombres-1
+				</li>
+
+				<li>
+					!set wims_ref_class=text_icon icon_quizz
+					!set wims_ref_title=Un quizz sur la nature de nombres
+					!href target=wims_exo module=H3/arithmetic/oefarith.fr&exo=quizznbre2&+cmd=new Quizz sur les nombres-2
+				</li>
+
+				<li>
+					!set wims_ref_title=Calculs sur les puissances sans utiliser la calculatrice
+					!href target=wims_exo module=H4/number/OEFevalwimsnumber.fr&exo=nature&+cmd=new Calculer avec des puissances
+				</li>
+</ul>
+</div>
+Point2
+Point3
+@capacite:Blabla 2
+@commentaire:Blabla 3
+@wims:
+H4/number/OEFevalwimsnumber.fr,nature1,Nature de nombres-1,,vraifaux,Un vrai-faux sur la nature des nombres
+H4/number/OEFevalwimsnumber.fr,nature2,Nature de nombres-2,,vraifaux,Un vrai-faux sur la nature des nombres
+H4/number/OEFevalwimsnumber.fr,nature3,Nature de nombres et racines carrées,,vraifaux,Un vrai-faux sur la nature des nombres définis par des racines carrées
+H4/number/OEFevalwimsnumber.fr,nature4,Nature de nombres&#44; fractions et puissances,,vraifaux,Un vrai-faux sur la nature des nombres définis par des fractions et des puissances
+H4/algebra/oefnombres.fr,nature,Ensemble de nombres,,,Déterminier différents ensembles auxquels appartient un nombre
+H3/arithmetic/oefarith.fr,quizznbre,Quizz sur les nombres-1,,quizz,Un quizz sur la nature de nombres
+H3/arithmetic/oefarith.fr,quizznbre2,Quizz sur les nombres-2,,quizz,Un quizz sur la nature de nombres
+H4/number/OEFevalwimsnumber.fr,nature,Calculer avec des puissances,,,Calculs sur les puissances sans utiliser la calculatrice
+@conclusion:Blabla conclusion
+@end:
